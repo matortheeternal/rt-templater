@@ -1,0 +1,9 @@
+{
+  "name": "rt-templater",
+  "description": "Extracts and templates reminder text from MTG card data.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

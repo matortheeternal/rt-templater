@@ -1,0 +1,4726 @@
+{
+  "A Food token is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "food": "133.33%",
+      "token": "133.33%"
+    },
+    "bestKeywords": {
+      "food": "100.00%"
+    }
+  },
+  "A copy of a permanent spell becomes a token.": {
+    "count": 17,
+    "bestBeforeTokens": {
+      "copy": "200.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A creature with decayed can't block. When it attacks, sacrifice it at end of combat.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "decayed": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A creature with hexproof can't be the target of spells or abilities your opponents control.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "hexproof": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "intimidate": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A creature with menace can't be blocked except by two or more creatures.": {
+    "count": 16,
+    "bestBeforeTokens": {
+      "menace": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A creature with reach can block creatures with flying.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "reach": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A creature with shadow can block or be blocked by only creatures with shadow.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "shadow": "133.33%",
+      "counter": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A creature with shroud can't be the target of spells or abilities.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "shroud": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "trample": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A player with ten or more poison counters loses the game.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "poison": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "A suspected creature has menace and can't block.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "suspect": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Activate each exhaust ability only once.": {
+    "count": 29,
+    "bestBeforeTokens": {
+      "exhaust": "100.00%"
+    },
+    "bestKeywords": {
+      "exhaust": "100.00%"
+    }
+  },
+  "Activate only during your upkeep and only once each turn.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "forecast": "100.00%"
+    },
+    "bestKeywords": {
+      "forecast": "100.00%"
+    }
+  },
+  "Activate only if this creature attacked this turn and only once each turn.": {
+    "count": 17,
+    "bestBeforeTokens": {
+      "boast": "100.00%"
+    },
+    "bestKeywords": {
+      "boast": "100.00%"
+    }
+  },
+  "An exerted creature won't untap during your next untap step.": {
+    "count": 28,
+    "bestBeforeTokens": {
+      "exert": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Another player can pay up to {3} of this spell's cost.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "assist": "100.00%"
+    },
+    "bestKeywords": {
+      "assist": "100.00%"
+    }
+  },
+  "Another player can pay up to {5} of this spell's cost.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "assist": "100.00%"
+    },
+    "bestKeywords": {
+      "assist": "100.00%"
+    }
+  },
+  "Another player can pay up to {6} of this spell's cost.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "assist": "100.00%"
+    },
+    "bestKeywords": {
+      "assist": "100.00%"
+    }
+  },
+  "Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "deathtouch": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Any amount of damage it deals to a creature is enough to destroy it.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "deathtouch": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Any amount of damage it deals to a creature is enough to destroy that creature.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "deathtouch": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Any amount of damage they deal to a creature is enough to destroy it.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "deathtouch": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Any amount of damage this deals to a creature is enough to destroy it.": {
+    "count": 52,
+    "bestBeforeTokens": {
+      "deathtouch": "100.00%"
+    },
+    "bestKeywords": {
+      "deathtouch": "98.08%"
+    }
+  },
+  "Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding a player controls are blocking or being blocked by a creature, that player divides that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "banding": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.": {
+    "count": 31,
+    "bestBeforeTokens": {
+      "banding": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Any legendary creatures can attack in a band as long as at least one has \"bands with other legendary creatures.\" Bands are blocked as a group. If at least two legendary creatures you control, one of which has \"bands with other legendary creatures,\" are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "bands": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery are card types.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "type": "150.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Artifacts, legendaries, and Sagas are historic.": {
+    "count": 48,
+    "bestBeforeTokens": {
+      "historic": "104.17%"
+    },
+    "bestKeywords": {}
+  },
+  "As an additional cost to cast this spell, you may pay {2} any number of times. When this creature enters, create that many tokens that are copies of it.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "squad": "100.00%"
+    },
+    "bestKeywords": {
+      "squad": "100.00%"
+    }
+  },
+  "As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.": {
+    "count": 23,
+    "bestBeforeTokens": {
+      "split": "100.00%",
+      "second": "100.00%"
+    },
+    "bestKeywords": {
+      "split second": "95.65%"
+    }
+  },
+  "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "enlist": "100.00%"
+    },
+    "bestKeywords": {
+      "enlist": "100.00%"
+    }
+  },
+  "As this creature enters, an opponent of your choice may put three +1/+1 counters on it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "tribute": "100.00%"
+    },
+    "bestKeywords": {
+      "tribute": "100.00%"
+    }
+  },
+  "As this creature enters, an opponent of your choice may put two +1/+1 counters on it.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "tribute": "100.00%"
+    },
+    "bestKeywords": {
+      "tribute": "100.00%"
+    }
+  },
+  "As this creature enters, put a +1/+1 counter on it for each Zombie card you reveal in your hand.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "amplify": "100.00%"
+    },
+    "bestKeywords": {
+      "amplify": "100.00%"
+    }
+  },
+  "As this creature enters, you may sacrifice any number of creatures. It enters with that many +1/+1 counters on it.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "devour": "100.00%"
+    },
+    "bestKeywords": {
+      "devour": "100.00%"
+    }
+  },
+  "As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "devour": "100.00%"
+    },
+    "bestKeywords": {
+      "devour": "100.00%"
+    }
+  },
+  "As this creature enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "devour": "100.00%"
+    },
+    "bestKeywords": {
+      "devour": "100.00%"
+    }
+  },
+  "As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.": {
+    "count": 27,
+    "bestBeforeTokens": {
+      "splice": "100.00%"
+    },
+    "bestKeywords": {
+      "splice": "100.00%"
+    }
+  },
+  "As you cast an instant or sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "splice": "100.00%"
+    },
+    "bestKeywords": {
+      "splice": "100.00%"
+    }
+  },
+  "As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "casualty": "100.00%"
+    },
+    "bestKeywords": {
+      "casualty": "100.00%"
+    }
+  },
+  "As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "casualty": "100.00%"
+    },
+    "bestKeywords": {
+      "casualty": "100.00%"
+    }
+  },
+  "As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "casualty": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "conspire": "100.00%"
+    },
+    "bestKeywords": {
+      "conspire": "100.00%"
+    }
+  },
+  "At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "cumulative": "100.00%",
+      "upkeep": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it's a creature, it has haste.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "time": "100.00%",
+      "counters": "100.00%",
+      "suspend": "200.00%"
+    },
+    "bestKeywords": {}
+  },
+  "At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.": {
+    "count": 52,
+    "bestBeforeTokens": {
+      "echo": "100.00%"
+    },
+    "bestKeywords": {
+      "echo": "98.08%"
+    }
+  },
+  "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.": {
+    "count": 77,
+    "bestBeforeTokens": {
+      "cumulative": "100.00%",
+      "upkeep": "100.00%"
+    },
+    "bestKeywords": {
+      "cumulative upkeep": "100.00%"
+    }
+  },
+  "Attacking doesn't cause it to tap.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "vigilance": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Attacking doesn't cause them to tap.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "vigilance": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Attacking doesn't cause this creature to tap.": {
+    "count": 53,
+    "bestBeforeTokens": {
+      "vigilance": "100.00%"
+    },
+    "bestKeywords": {
+      "vigilance": "98.11%"
+    }
+  },
+  "Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "read": "100.00%",
+      "ahead": "100.00%"
+    },
+    "bestKeywords": {
+      "read ahead": "100.00%"
+    }
+  },
+  "Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "bolster": "100.00%"
+    },
+    "bestKeywords": {
+      "bolster": "100.00%"
+    }
+  },
+  "Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "bolster": "100.00%"
+    },
+    "bestKeywords": {
+      "bolster": "100.00%"
+    }
+  },
+  "Choose any number of permanents and/or players, then give each another counter of each kind already there.": {
+    "count": 73,
+    "bestBeforeTokens": {
+      "proliferate": "100.00%"
+    },
+    "bestKeywords": {
+      "proliferate": "100.00%"
+    }
+  },
+  "Choose both if you pay the entwine cost.": {
+    "count": 31,
+    "bestBeforeTokens": {
+      "entwine": "100.00%"
+    },
+    "bestKeywords": {
+      "entwine": "100.00%"
+    }
+  },
+  "Choose one additional cost.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "tiered": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Choose one or more additional costs.": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "spree": "100.00%"
+    },
+    "bestKeywords": {
+      "spree": "100.00%"
+    }
+  },
+  "Control of the Equipment doesn't change.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "attach": "100.00%",
+      "equipment": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"": {
+    "count": 84,
+    "bestBeforeTokens": {
+      "investigate": "100.00%"
+    },
+    "bestKeywords": {
+      "investigate": "100.00%"
+    }
+  },
+  "Create a token that's a copy of a creature token you control.": {
+    "count": 20,
+    "bestBeforeTokens": {
+      "populate": "100.00%"
+    },
+    "bestKeywords": {
+      "populate": "100.00%"
+    }
+  },
+  "Create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "incubate": "100.00%"
+    },
+    "bestKeywords": {
+      "incubate": "100.00%",
+      "transform": "100.00%"
+    }
+  },
+  "Create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "incubate": "100.00%"
+    },
+    "bestKeywords": {
+      "incubate": "100.00%",
+      "transform": "100.00%"
+    }
+  },
+  "Create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "incubate": "100.00%"
+    },
+    "bestKeywords": {
+      "incubate": "100.00%",
+      "transform": "100.00%"
+    }
+  },
+  "Damage and effects that say \"destroy\" don't destroy it.": {
+    "count": 48,
+    "bestBeforeTokens": {
+      "indestructible": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "indestructible": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Damage and effects that say \"destroy\" don't destroy them.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "indestructible": "109.09%"
+    },
+    "bestKeywords": {}
+  },
+  "Damage and effects that say \"destroy\" don't destroy this creature.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "indestructible": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Damage and effects that say \"destroy\" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "indestructible": "100.00%"
+    },
+    "bestKeywords": {
+      "indestructible": "100.00%"
+    }
+  },
+  "Damage causes loss of life.": {
+    "count": 19,
+    "bestBeforeTokens": {
+      "life": "142.11%"
+    },
+    "bestKeywords": {}
+  },
+  "Damage dealt by a creature with lifelink also causes its controller to gain that much life.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "lifelink": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Damage dealt by the creature also causes its controller to gain that much life.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "lifelink": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Damage dealt by this creature also causes you to gain that much life.": {
+    "count": 65,
+    "bestBeforeTokens": {
+      "lifelink": "100.00%"
+    },
+    "bestKeywords": {
+      "lifelink": "87.69%"
+    }
+  },
+  "Do this before you draw.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "cycle": "100.00%",
+      "shuffle": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "connives": "100.00%"
+    },
+    "bestKeywords": {
+      "connive": "100.00%"
+    }
+  },
+  "Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "connives": "100.00%"
+    },
+    "bestKeywords": {
+      "connive": "100.00%"
+    }
+  },
+  "Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.": {
+    "count": 16,
+    "bestBeforeTokens": {
+      "connives": "100.00%"
+    },
+    "bestKeywords": {
+      "connive": "100.00%"
+    }
+  },
+  "During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "foretell": "300.00%"
+    },
+    "bestKeywords": {}
+  },
+  "During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.": {
+    "count": 48,
+    "bestBeforeTokens": {
+      "foretell": "100.00%"
+    },
+    "bestKeywords": {
+      "foretell": "100.00%"
+    }
+  },
+  "Each card you exile from your graveyard while casting this spell pays for {1}.": {
+    "count": 28,
+    "bestBeforeTokens": {
+      "delve": "100.00%"
+    },
+    "bestKeywords": {
+      "delve": "100.00%"
+    }
+  },
+  "Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.": {
+    "count": 28,
+    "bestBeforeTokens": {
+      "clash": "100.00%"
+    },
+    "bestKeywords": {
+      "clash": "100.00%"
+    }
+  },
+  "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "trample": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Each {B} in the mana costs of permanents you control counts toward your devotion to black.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "devotion": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Each {G} in the mana costs of permanents you control counts toward your devotion to green.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "devotion": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Each {R} in the mana costs of permanents you control counts toward your devotion to red.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "devotion": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Each {U} in the mana costs of permanents you control counts toward your devotion to blue.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "devotion": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Each {W} in the mana costs of permanents you control counts toward your devotion to white.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "devotion": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Effects that say \"destroy\" don't destroy this artifact.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "indestructible": "100.00%"
+    },
+    "bestKeywords": {
+      "indestructible": "100.00%"
+    }
+  },
+  "Enter the first room or advance to the next room.": {
+    "count": 38,
+    "bestBeforeTokens": {
+      "venture": "100.00%",
+      "into": "100.00%",
+      "dungeon": "100.00%"
+    },
+    "bestKeywords": {
+      "venture into the dungeon": "100.00%"
+    }
+  },
+  "Equipment, Auras you control, and counters are modifications.": {
+    "count": 41,
+    "bestBeforeTokens": {
+      "modified": "102.44%"
+    },
+    "bestKeywords": {}
+  },
+  "Exile a creature card from your graveyard and pay its mana cost: Put a number of +1/+1 counters equal to that card's power on target creature. Scavenge only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "scavenge": "200.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Exile cards from the top of your library until you exile a nonland card with mana value 3 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "discover": "100.00%"
+    },
+    "bestKeywords": {
+      "discover": "100.00%"
+    }
+  },
+  "Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "discover": "100.00%"
+    },
+    "bestKeywords": {
+      "discover": "100.00%"
+    }
+  },
+  "Exile cards from the top of your library until you exile a nonland card with that mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "discover": "100.00%"
+    },
+    "bestKeywords": {
+      "discover": "100.00%"
+    }
+  },
+  "Exile cards with total mana value 6 or greater from your graveyard.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "collect": "100.00%",
+      "evidence": "100.00%"
+    },
+    "bestKeywords": {
+      "collect evidence": "100.00%"
+    }
+  },
+  "Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "airbend": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "For each suspended card you own and each permanent you control with a time counter on it, you may add or remove a time counter.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "time": "100.00%",
+      "travel": "100.00%"
+    },
+    "bestKeywords": {
+      "time travel": "100.00%"
+    }
+  },
+  "For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "epic": "100.00%"
+    },
+    "bestKeywords": {
+      "epic": "100.00%"
+    }
+  },
+  "If a creature with a finality counter on it would die, exile it instead.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "finality": "100.00%",
+      "counter": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "If a permanent with a stun counter would become untapped, remove one from it instead.": {
+    "count": 48,
+    "bestBeforeTokens": {
+      "stun": "104.17%",
+      "counter": "81.25%"
+    },
+    "bestKeywords": {}
+  },
+  "If an opponent was dealt damage this turn, this creature enters with a +1/+1 counter on it.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "bloodthirst": "100.00%"
+    },
+    "bestKeywords": {
+      "bloodthirst": "100.00%"
+    }
+  },
+  "If an opponent was dealt damage this turn, this creature enters with three +1/+1 counters on it.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "bloodthirst": "100.00%"
+    },
+    "bestKeywords": {
+      "bloodthirst": "100.00%"
+    }
+  },
+  "If an opponent was dealt damage this turn, this creature enters with two +1/+1 counters on it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "bloodthirst": "100.00%"
+    },
+    "bestKeywords": {
+      "bloodthirst": "100.00%"
+    }
+  },
+  "If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.": {
+    "count": 17,
+    "bestBeforeTokens": {
+      "umbra": "100.00%",
+      "armor": "100.00%"
+    },
+    "bestKeywords": {
+      "umbra armor": "94.12%",
+      "enchant": "100.00%"
+    }
+  },
+  "If it would be dealt damage or destroyed, remove a shield counter from it instead.": {
+    "count": 20,
+    "bestBeforeTokens": {
+      "shield": "110.00%",
+      "counter": "125.00%"
+    },
+    "bestKeywords": {}
+  },
+  "If it would become untapped, remove a stun counter from it instead.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "stun": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "companion": "100.00%"
+    },
+    "bestKeywords": {
+      "companion": "100.00%"
+    }
+  },
+  "If this creature has no +1/+1 counters on it, put a +1/+1 counter on it.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "adapt": "100.00%"
+    },
+    "bestKeywords": {
+      "adapt": "100.00%"
+    }
+  },
+  "If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "adapt": "100.00%"
+    },
+    "bestKeywords": {
+      "adapt": "100.00%"
+    }
+  },
+  "If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "adapt": "100.00%"
+    },
+    "bestKeywords": {
+      "adapt": "100.00%"
+    }
+  },
+  "If this creature has no +1/+1 counters on it, put two +1/+1 counters on it.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "adapt": "100.00%"
+    },
+    "bestKeywords": {
+      "adapt": "100.00%"
+    }
+  },
+  "If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "monstrosity": "100.00%"
+    },
+    "bestKeywords": {
+      "monstrosity": "100.00%"
+    }
+  },
+  "If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "monstrosity": "100.00%"
+    },
+    "bestKeywords": {
+      "monstrosity": "100.00%"
+    }
+  },
+  "If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "monstrosity": "100.00%"
+    },
+    "bestKeywords": {
+      "monstrosity": "100.00%"
+    }
+  },
+  "If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.": {
+    "count": 17,
+    "bestBeforeTokens": {
+      "monstrosity": "100.00%"
+    },
+    "bestKeywords": {
+      "monstrosity": "100.00%"
+    }
+  },
+  "If unsolved, solve at the beginning of your end step.": {
+    "count": 13,
+    "bestBeforeTokens": {
+      "solve": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.": {
+    "count": 35,
+    "bestBeforeTokens": {
+      "bestow": "100.00%"
+    },
+    "bestKeywords": {
+      "bestow": "100.00%"
+    }
+  },
+  "If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "bestow": "100.00%"
+    },
+    "bestKeywords": {
+      "bestow": "100.00%"
+    }
+  },
+  "If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.": {
+    "count": 18,
+    "bestBeforeTokens": {
+      "blitz": "100.00%"
+    },
+    "bestKeywords": {
+      "blitz": "100.00%"
+    }
+  },
+  "If you cast this spell for its impending cost, it enters with four time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "impending": "100.00%"
+    },
+    "bestKeywords": {
+      "impending": "100.00%"
+    }
+  },
+  "If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.": {
+    "count": 34,
+    "bestBeforeTokens": {
+      "mutate": "100.00%"
+    },
+    "bestKeywords": {
+      "mutate": "100.00%"
+    }
+  },
+  "If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.": {
+    "count": 31,
+    "bestBeforeTokens": {
+      "rebound": "100.00%"
+    },
+    "bestKeywords": {
+      "rebound": "100.00%"
+    }
+  },
+  "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, scry 1.\"": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "sorcerer": "100.00%",
+      "role": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "role token": "100.00%",
+      "scry": "100.00%"
+    }
+  },
+  "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "monster": "100.00%",
+      "role": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "role token": "100.00%"
+    }
+  },
+  "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has ward {1}.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "royal": "100.00%",
+      "role": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "role token": "100.00%"
+    }
+  },
+  "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "wicked": "100.00%",
+      "role": "100.00%",
+      "token": "120.00%"
+    },
+    "bestKeywords": {
+      "role token": "100.00%"
+    }
+  },
+  "If you control another Role on it, put that one into the graveyard. Enchanted creature has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\"": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "young": "100.00%",
+      "hero": "100.00%",
+      "role": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "role token": "100.00%"
+    }
+  },
+  "If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "cursed": "100.00%",
+      "role": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "role token": "100.00%"
+    }
+  },
+  "If you control ten or more permanents, you get the city's blessing for the rest of the game.": {
+    "count": 30,
+    "bestBeforeTokens": {
+      "ascend": "100.00%"
+    },
+    "bestKeywords": {
+      "ascend": "100.00%"
+    }
+  },
+  "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.": {
+    "count": 59,
+    "bestBeforeTokens": {
+      "madness": "100.00%"
+    },
+    "bestKeywords": {
+      "madness": "100.00%"
+    }
+  },
+  "If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.": {
+    "count": 38,
+    "bestBeforeTokens": {
+      "start": "100.00%",
+      "engines!": "100.00%"
+    },
+    "bestKeywords": {
+      "start your engines!": "97.37%",
+      "max speed": "81.58%"
+    }
+  },
+  "If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "dredge": "100.00%"
+    },
+    "bestKeywords": {
+      "dredge": "100.00%",
+      "mill": "100.00%"
+    }
+  },
+  "If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "dredge": "100.00%"
+    },
+    "bestKeywords": {
+      "dredge": "100.00%",
+      "mill": "100.00%"
+    }
+  },
+  "It attacks each combat if able and attacks a player other than you if able.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "goaded": "100.00%"
+    },
+    "bestKeywords": {
+      "goad": "100.00%"
+    }
+  },
+  "It can attack and {T} as soon as it comes under your control.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "haste": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can attack and {T} no matter when it came under your control.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "haste": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can attack and {T} this turn.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "haste": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can block creatures with flying.": {
+    "count": 19,
+    "bestBeforeTokens": {
+      "reach": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can block or be blocked by only creatures with shadow.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "shadow": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can deal excess combat damage to the player or planeswalker it's attacking.": {
+    "count": 28,
+    "bestBeforeTokens": {
+      "trample": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't attack its controller or their permanents.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "declare": "100.00%",
+      "attackers": "100.00%",
+      "step": "100.00%",
+      "reselect": "100.00%",
+      "which": "100.00%",
+      "permanent": "100.00%",
+      "attacking": "200.00%"
+    },
+    "bestKeywords": {
+      "flash": "100.00%"
+    }
+  },
+  "It can't be blocked as long as defending player controls a Forest.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "forestwalk": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked as long as defending player controls a Mountain.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "mountainwalk": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked as long as defending player controls a Swamp.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "swampwalk": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked as long as defending player controls a land of that type.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "type": "175.00%",
+      "landwalk": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked as long as defending player controls an Island.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "islandwalk": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked by creatures with greater power.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "skulk": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked except by artifact creatures and/or black creatures.": {
+    "count": 24,
+    "bestBeforeTokens": {
+      "fear": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked except by artifact creatures and/or creatures that share a color with it.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "intimidate": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked except by creatures with flying or reach.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "flying": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be blocked except by two or more creatures.": {
+    "count": 42,
+    "bestBeforeTokens": {
+      "menace": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be the target of spells or abilities your opponents control.": {
+    "count": 30,
+    "bestBeforeTokens": {
+      "hexproof": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't be the target of spells or abilities.": {
+    "count": 43,
+    "bestBeforeTokens": {
+      "shroud": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It can't block. When it attacks, sacrifice it at end of combat.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "token": "100.00%",
+      "decayed": "116.67%"
+    },
+    "bestKeywords": {}
+  },
+  "It deals both first-strike and regular combat damage.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "double": "100.00%",
+      "strike": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It deals combat damage before creatures without first strike.": {
+    "count": 20,
+    "bestBeforeTokens": {
+      "first": "100.00%",
+      "strike": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "infect": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It deals damage to creatures in the form of -1/-1 counters.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "wither": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It doesn't need to have gone on the adventure first.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "adventure": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It has menace and can't block.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "suspect": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It is every creature type.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "shapeshifter": "100.00%",
+      "token": "100.00%",
+      "changeling": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It must survive the damage to get the counter.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "dealt": "100.00%",
+      "damage": "100.00%",
+      "counter": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It phases in or out before its controller untaps during each of their untap steps. While it's phased out, it's treated as though it doesn't exist.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "phasing": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It won't untap during your next untap step.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "exert": "100.00%"
+    },
+    "bestKeywords": {
+      "exert": "100.00%"
+    }
+  },
+  "It's an artifact with \"Sacrifice this token: Add one mana of any color.\"": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "gold": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\"": {
+    "count": 25,
+    "bestBeforeTokens": {
+      "blood": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It's an artifact with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\"": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "map": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "explore": "100.00%"
+    }
+  },
+  "It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\"": {
+    "count": 18,
+    "bestBeforeTokens": {
+      "lander": "100.00%",
+      "token": "105.56%"
+    },
+    "bestKeywords": {}
+  },
+  "It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"": {
+    "count": 67,
+    "bestBeforeTokens": {
+      "food": "101.49%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "food": "98.51%"
+    }
+  },
+  "It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\"": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "treasure": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "treasure": "100.00%"
+    }
+  },
+  "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"": {
+    "count": 105,
+    "bestBeforeTokens": {
+      "treasure": "101.90%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {
+      "treasure": "100.00%"
+    }
+  },
+  "It's an artifact with \"{T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.\"": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "junk": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\"": {
+    "count": 26,
+    "bestBeforeTokens": {
+      "powerstone": "100.00%",
+      "token": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "It's not a creature.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "battlefield": "87.50%"
+    },
+    "bestKeywords": {}
+  },
+  "Look at the top card of your library. You may put it into your graveyard.": {
+    "count": 60,
+    "bestBeforeTokens": {
+      "surveil": "100.00%"
+    },
+    "bestKeywords": {
+      "surveil": "100.00%"
+    }
+  },
+  "Look at the top card of your library. You may put that card into your graveyard.": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "surveil": "100.00%"
+    },
+    "bestKeywords": {
+      "surveil": "100.00%"
+    }
+  },
+  "Look at the top card of your library. You may put that card on the bottom.": {
+    "count": 84,
+    "bestBeforeTokens": {
+      "scry": "100.00%"
+    },
+    "bestKeywords": {
+      "scry": "100.00%"
+    }
+  },
+  "Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "surveil": "100.00%"
+    },
+    "bestKeywords": {
+      "surveil": "100.00%"
+    }
+  },
+  "Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "scry": "100.00%"
+    },
+    "bestKeywords": {
+      "scry": "100.00%"
+    }
+  },
+  "Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.": {
+    "count": 34,
+    "bestBeforeTokens": {
+      "surveil": "100.00%"
+    },
+    "bestKeywords": {
+      "surveil": "100.00%"
+    }
+  },
+  "Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.": {
+    "count": 34,
+    "bestBeforeTokens": {
+      "scry": "100.00%"
+    },
+    "bestKeywords": {
+      "scry": "100.00%"
+    }
+  },
+  "Look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.": {
+    "count": 20,
+    "bestBeforeTokens": {
+      "manifest": "100.00%",
+      "dread": "100.00%"
+    },
+    "bestKeywords": {
+      "manifest": "100.00%",
+      "manifest dread": "100.00%"
+    }
+  },
+  "Mana abilities can't be targeted.": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "activated": "119.05%",
+      "ability": "123.81%"
+    },
+    "bestKeywords": {}
+  },
+  "Mana symbols on that permanent remain unchanged.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "permanent": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Pay this cost for each mode chosen beyond the first.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "escalate": "100.00%"
+    },
+    "bestKeywords": {
+      "escalate": "100.00%"
+    }
+  },
+  "Piles can be empty.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "into": "216.67%",
+      "piles": "183.33%",
+      "pile": "116.67%"
+    },
+    "bestKeywords": {}
+  },
+  "Players dealt combat damage by it also get a poison counter.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "token": "150.00%",
+      "toxic": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Players dealt combat damage by them also get a poison counter.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "phyrexian": "100.00%",
+      "tokens": "100.00%",
+      "toxic": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Players dealt combat damage by this creature also get a poison counter.": {
+    "count": 25,
+    "bestBeforeTokens": {
+      "toxic": "100.00%"
+    },
+    "bestKeywords": {
+      "toxic": "96.00%"
+    }
+  },
+  "Players dealt combat damage by this creature also get three poison counters.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "toxic": "100.00%"
+    },
+    "bestKeywords": {
+      "toxic": "100.00%"
+    }
+  },
+  "Players dealt combat damage by this creature also get two poison counters.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "toxic": "100.00%"
+    },
+    "bestKeywords": {
+      "toxic": "100.00%"
+    }
+  },
+  "Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "amass": "100.00%",
+      "orcs": "100.00%"
+    },
+    "bestKeywords": {
+      "amass": "100.00%"
+    }
+  },
+  "Put a +1/+1 counter on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "amass": "100.00%",
+      "zombies": "100.00%"
+    },
+    "bestKeywords": {
+      "amass": "100.00%"
+    }
+  },
+  "Put a +1/+1 counter on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "amass": "100.00%",
+      "orcs": "100.00%"
+    },
+    "bestKeywords": {
+      "amass": "100.00%"
+    }
+  },
+  "Put a +1/+1 counter on each of up to two other target creatures.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "support": "100.00%"
+    },
+    "bestKeywords": {
+      "support": "100.00%"
+    }
+  },
+  "Put a +1/+1 counter on each of up to two target creatures.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "support": "100.00%"
+    },
+    "bestKeywords": {
+      "support": "100.00%"
+    }
+  },
+  "Put a +1/+1 counter on it or create a 1/1 white Spirit creature token.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "endures": "100.00%"
+    },
+    "bestKeywords": {
+      "endure": "100.00%"
+    }
+  },
+  "Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "manifest": "100.00%"
+    },
+    "bestKeywords": {
+      "manifest": "100.00%"
+    }
+  },
+  "Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "manifest": "100.00%"
+    },
+    "bestKeywords": {
+      "manifest": "100.00%"
+    }
+  },
+  "Put the top card of your Attraction deck onto the battlefield.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "open": "100.00%",
+      "attraction": "100.00%"
+    },
+    "bestKeywords": {
+      "open an attraction": "100.00%"
+    }
+  },
+  "Put the top card of your Contraption deck face up onto one of your sprockets.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "contraption": "106.67%"
+    },
+    "bestKeywords": {
+      "assemble": "100.00%"
+    }
+  },
+  "Put the top card of your library into your graveyard.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "mill": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "Put the top three cards of your library into your graveyard.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "mill": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "Put the top two cards of your library into your graveyard.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "mill": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "Put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "amass": "100.00%",
+      "zombies": "100.00%"
+    },
+    "bestKeywords": {
+      "amass": "100.00%"
+    }
+  },
+  "Put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "amass": "100.00%",
+      "orcs": "100.00%"
+    },
+    "bestKeywords": {
+      "amass": "100.00%"
+    }
+  },
+  "Put two +1/+1 counters on it or create a 2/2 white Spirit creature token.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "endures": "100.00%"
+    },
+    "bestKeywords": {
+      "endure": "100.00%"
+    }
+  },
+  "Return it only if it's on the battlefield.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "return": "100.00%",
+      "owner's": "91.67%"
+    },
+    "bestKeywords": {}
+  },
+  "Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "explores": "100.00%"
+    },
+    "bestKeywords": {
+      "explore": "100.00%"
+    }
+  },
+  "Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "explores": "100.00%"
+    },
+    "bestKeywords": {
+      "explore": "100.00%"
+    }
+  },
+  "Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.": {
+    "count": 22,
+    "bestBeforeTokens": {
+      "explores": "100.00%"
+    },
+    "bestKeywords": {
+      "explore": "100.00%"
+    }
+  },
+  "Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "hidden": "100.00%",
+      "agenda": "100.00%"
+    },
+    "bestKeywords": {
+      "hidden agenda": "100.00%"
+    }
+  },
+  "Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "station": "100.00%"
+    },
+    "bestKeywords": {
+      "station": "100.00%"
+    }
+  },
+  "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "station": "100.00%"
+    },
+    "bestKeywords": {
+      "flying": "100.00%",
+      "station": "100.00%"
+    }
+  },
+  "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "station": "100.00%"
+    },
+    "bestKeywords": {
+      "flying": "100.00%",
+      "station": "100.00%"
+    }
+  },
+  "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "station": "100.00%"
+    },
+    "bestKeywords": {
+      "flying": "100.00%",
+      "station": "100.00%"
+    }
+  },
+  "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "station": "100.00%"
+    },
+    "bestKeywords": {
+      "flying": "100.00%",
+      "station": "100.00%"
+    }
+  },
+  "Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.": {
+    "count": 29,
+    "bestBeforeTokens": {
+      "crew": "100.00%"
+    },
+    "bestKeywords": {
+      "crew": "100.00%"
+    }
+  },
+  "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.": {
+    "count": 29,
+    "bestBeforeTokens": {
+      "crew": "100.00%"
+    },
+    "bestKeywords": {
+      "crew": "100.00%"
+    }
+  },
+  "Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "crew": "100.00%"
+    },
+    "bestKeywords": {
+      "crew": "100.00%"
+    }
+  },
+  "Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "crew": "100.00%"
+    },
+    "bestKeywords": {
+      "crew": "100.00%"
+    }
+  },
+  "Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "saddle": "100.00%"
+    },
+    "bestKeywords": {
+      "saddle": "100.00%"
+    }
+  },
+  "Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "saddle": "100.00%"
+    },
+    "bestKeywords": {
+      "saddle": "100.00%"
+    }
+  },
+  "Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "saddle": "100.00%"
+    },
+    "bestKeywords": {
+      "saddle": "100.00%"
+    }
+  },
+  "Target a creature as you cast this. This card enters attached to that creature.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "enchant": "100.00%"
+    },
+    "bestKeywords": {
+      "enchant": "100.00%"
+    }
+  },
+  "Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "earthbend": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Targeting opponents, anything they control, and/or cards in their graveyards is a crime.": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "crime": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "That creature returns under its owner's control.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "leaves": "100.00%",
+      "battlefield": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "The copy becomes a token.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "copy": "127.27%"
+    },
+    "bestKeywords": {}
+  },
+  "The next time it would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "regenerate": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "regenerate": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "The next time the creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "regenerate": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "regenerate": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "The tokens are artifacts with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\"": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "powerstone": "100.00%",
+      "tokens": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "The votes can be for different choices or for the same choice.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "voting": "100.00%",
+      "vote": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "The vowels are A, E, I, O, U, and Y.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "name": "100.00%",
+      "sticker": "166.67%",
+      "unique": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Then Planeswalk away from this phenomenon.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "booster": "100.00%",
+      "enchantment": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Then planeswalk away from this phenomenon.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "encounter": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "cipher": "100.00%"
+    },
+    "bestKeywords": {
+      "cipher": "100.00%"
+    }
+  },
+  "They attack each combat if able and attack a player other than you if able.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "goaded": "100.00%"
+    },
+    "bestKeywords": {
+      "goad": "100.00%"
+    }
+  },
+  "They can attack and {T} as soon as they come under your control.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "haste": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They can block creatures with flying.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "reach": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They can't be blocked as long as defending player controls a Forest.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "forestwalk": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They can't be blocked as long as defending player controls an Island.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "islandwalk": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They can't be blocked except by artifact creatures and/or black creatures.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "fear": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They can't be blocked except by creatures with horsemanship.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "horsemanship": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They can't be blocked except by two or more creatures.": {
+    "count": 13,
+    "bestBeforeTokens": {
+      "menace": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They can't be the targets of spells or abilities your opponents control.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "hexproof": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They can't be the targets of spells or abilities.": {
+    "count": 16,
+    "bestBeforeTokens": {
+      "shroud": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They cost {1} less to cast for each artifact you control.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "affinity": "100.00%",
+      "for": "100.00%",
+      "artifacts": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They deal both first-strike and regular combat damage.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "double": "100.00%",
+      "strike": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They deal combat damage before creatures without first strike.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "first": "100.00%",
+      "strike": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They deal damage to creatures in the form of -1/-1 counters.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "wither": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They put the top card of their library into their graveyard.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "mills": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "They put the top three cards of their library into their graveyard.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "mills": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "They put the top two cards of their library into their graveyard.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "mills": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "They're artifacts with \"{1}, {T}, Discard a card, Sacrifice this token: Draw a card.\"": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "blood": "100.00%",
+      "tokens": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "They're artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "food": "111.11%",
+      "tokens": "111.11%"
+    },
+    "bestKeywords": {
+      "food": "100.00%"
+    }
+  },
+  "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"": {
+    "count": 18,
+    "bestBeforeTokens": {
+      "treasure": "105.56%",
+      "tokens": "94.44%"
+    },
+    "bestKeywords": {
+      "treasure": "100.00%"
+    }
+  },
+  "This ability triggers after the clash ends.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "clash": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "This aura enchants a commander creature, and remains attached to the creature as it moves between any face-up zones. You can cast it on a Commander in your command zone.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "commander": "100.00%",
+      "enchantment": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "This card can be your commander. In Limited, it can partner like other monocolored legends.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "commander": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "This card has no color.": {
+    "count": 133,
+    "bestBeforeTokens": {
+      "devoid": "100.00%"
+    },
+    "bestKeywords": {
+      "devoid": "100.00%"
+    }
+  },
+  "This card is every creature type.": {
+    "count": 50,
+    "bestBeforeTokens": {
+      "changeling": "100.00%"
+    },
+    "bestKeywords": {
+      "changeling": "100.00%"
+    }
+  },
+  "This cost is paid as attackers are declared.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "can't": "100.00%",
+      "attack": "100.00%",
+      "unless": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "This creature can attack and {T} as soon as it comes under your control.": {
+    "count": 38,
+    "bestBeforeTokens": {
+      "haste": "100.00%"
+    },
+    "bestKeywords": {
+      "haste": "100.00%"
+    }
+  },
+  "This creature can block creatures with flying.": {
+    "count": 95,
+    "bestBeforeTokens": {
+      "reach": "100.00%"
+    },
+    "bestKeywords": {
+      "reach": "100.00%"
+    }
+  },
+  "This creature can block or be blocked by only creatures with shadow.": {
+    "count": 36,
+    "bestBeforeTokens": {
+      "shadow": "100.00%"
+    },
+    "bestKeywords": {
+      "shadow": "100.00%"
+    }
+  },
+  "This creature can deal excess combat damage to the player it's attacking.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "trample": "100.00%"
+    },
+    "bestKeywords": {
+      "trample": "100.00%"
+    }
+  },
+  "This creature can deal excess combat damage to the player or planeswalker it's attacking.": {
+    "count": 52,
+    "bestBeforeTokens": {
+      "trample": "100.00%"
+    },
+    "bestKeywords": {
+      "trample": "100.00%"
+    }
+  },
+  "This creature can't attack.": {
+    "count": 116,
+    "bestBeforeTokens": {
+      "defender": "100.00%"
+    },
+    "bestKeywords": {
+      "defender": "100.00%"
+    }
+  },
+  "This creature can't be blocked as long as defending player controls a Forest.": {
+    "count": 26,
+    "bestBeforeTokens": {
+      "forestwalk": "100.00%"
+    },
+    "bestKeywords": {
+      "landwalk": "100.00%",
+      "forestwalk": "100.00%"
+    }
+  },
+  "This creature can't be blocked as long as defending player controls a Mountain.": {
+    "count": 17,
+    "bestBeforeTokens": {
+      "mountainwalk": "100.00%"
+    },
+    "bestKeywords": {
+      "landwalk": "100.00%",
+      "mountainwalk": "100.00%"
+    }
+  },
+  "This creature can't be blocked as long as defending player controls a Plains.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "plainswalk": "100.00%"
+    },
+    "bestKeywords": {
+      "landwalk": "100.00%",
+      "plainswalk": "100.00%"
+    }
+  },
+  "This creature can't be blocked as long as defending player controls a Swamp.": {
+    "count": 39,
+    "bestBeforeTokens": {
+      "swampwalk": "100.00%"
+    },
+    "bestKeywords": {
+      "landwalk": "100.00%",
+      "swampwalk": "100.00%"
+    }
+  },
+  "This creature can't be blocked as long as defending player controls an Island.": {
+    "count": 34,
+    "bestBeforeTokens": {
+      "islandwalk": "100.00%"
+    },
+    "bestKeywords": {
+      "landwalk": "100.00%",
+      "islandwalk": "100.00%"
+    }
+  },
+  "This creature can't be blocked by creatures with greater power.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "skulk": "100.00%"
+    },
+    "bestKeywords": {
+      "skulk": "100.00%"
+    }
+  },
+  "This creature can't be blocked except by artifact creatures and/or black creatures.": {
+    "count": 40,
+    "bestBeforeTokens": {
+      "fear": "100.00%"
+    },
+    "bestKeywords": {
+      "fear": "100.00%"
+    }
+  },
+  "This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.": {
+    "count": 22,
+    "bestBeforeTokens": {
+      "intimidate": "100.00%"
+    },
+    "bestKeywords": {
+      "intimidate": "95.45%"
+    }
+  },
+  "This creature can't be blocked except by creatures with flying or reach.": {
+    "count": 61,
+    "bestBeforeTokens": {
+      "flying": "100.00%"
+    },
+    "bestKeywords": {
+      "flying": "100.00%"
+    }
+  },
+  "This creature can't be blocked except by creatures with horsemanship.": {
+    "count": 29,
+    "bestBeforeTokens": {
+      "horsemanship": "100.00%"
+    },
+    "bestKeywords": {
+      "horsemanship": "100.00%"
+    }
+  },
+  "This creature can't be blocked except by two or more creatures.": {
+    "count": 120,
+    "bestBeforeTokens": {
+      "menace": "100.00%"
+    },
+    "bestKeywords": {
+      "menace": "100.00%"
+    }
+  },
+  "This creature can't be the target of spells or abilities your opponents control.": {
+    "count": 44,
+    "bestBeforeTokens": {
+      "hexproof": "100.00%"
+    },
+    "bestKeywords": {
+      "hexproof": "100.00%"
+    }
+  },
+  "This creature can't be the target of spells or abilities.": {
+    "count": 37,
+    "bestBeforeTokens": {
+      "shroud": "100.00%"
+    },
+    "bestKeywords": {
+      "shroud": "100.00%"
+    }
+  },
+  "This creature deals both first-strike and regular combat damage.": {
+    "count": 17,
+    "bestBeforeTokens": {
+      "double": "100.00%",
+      "strike": "100.00%"
+    },
+    "bestKeywords": {
+      "double strike": "100.00%"
+    }
+  },
+  "This creature deals combat damage before creatures without first strike.": {
+    "count": 34,
+    "bestBeforeTokens": {
+      "first": "100.00%",
+      "strike": "100.00%"
+    },
+    "bestKeywords": {
+      "first strike": "100.00%"
+    }
+  },
+  "This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.": {
+    "count": 46,
+    "bestBeforeTokens": {
+      "infect": "100.00%"
+    },
+    "bestKeywords": {
+      "infect": "100.00%"
+    }
+  },
+  "This creature enters with X +1/+1 counters on it. If X is 5 or more, draw a card when it enters.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "ravenous": "100.00%"
+    },
+    "bestKeywords": {
+      "ravenous": "100.00%"
+    }
+  },
+  "This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "modular": "100.00%"
+    },
+    "bestKeywords": {
+      "modular": "100.00%"
+    }
+  },
+  "This creature enters with three +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "modular": "100.00%"
+    },
+    "bestKeywords": {
+      "modular": "100.00%"
+    }
+  },
+  "This creature enters with three +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "graft": "100.00%"
+    },
+    "bestKeywords": {
+      "graft": "100.00%"
+    }
+  },
+  "This creature enters with three fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "fading": "100.00%"
+    },
+    "bestKeywords": {
+      "fading": "100.00%"
+    }
+  },
+  "This creature enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "vanishing": "100.00%"
+    },
+    "bestKeywords": {
+      "vanishing": "100.00%"
+    }
+  },
+  "This creature enters with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "modular": "100.00%"
+    },
+    "bestKeywords": {
+      "modular": "100.00%"
+    }
+  },
+  "This creature enters with two +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "graft": "100.00%"
+    },
+    "bestKeywords": {
+      "graft": "100.00%"
+    }
+  },
+  "This creature enters with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "vanishing": "100.00%"
+    },
+    "bestKeywords": {
+      "vanishing": "100.00%"
+    }
+  },
+  "This creature enters with your choice of a +1/+1 counter or haste.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "riot": "100.00%"
+    },
+    "bestKeywords": {
+      "riot": "100.00%"
+    }
+  },
+  "This deals damage to creatures in the form of -1/-1 counters.": {
+    "count": 24,
+    "bestBeforeTokens": {
+      "wither": "100.00%"
+    },
+    "bestKeywords": {
+      "wither": "100.00%"
+    }
+  },
+  "This enchantment enters with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "fading": "100.00%"
+    },
+    "bestKeywords": {
+      "fading": "100.00%"
+    }
+  },
+  "This enters with a +1/+1 counter on it for each color of mana spent to cast it.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "sunburst": "100.00%"
+    },
+    "bestKeywords": {
+      "sunburst": "100.00%"
+    }
+  },
+  "This enters with a charge counter on it for each color of mana spent to cast it.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "sunburst": "100.00%"
+    },
+    "bestKeywords": {
+      "sunburst": "100.00%"
+    }
+  },
+  "This includes by the ward ability.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "can't": "100.00%",
+      "be": "100.00%",
+      "countered": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "This phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "phasing": "100.00%"
+    },
+    "bestKeywords": {
+      "phasing": "100.00%"
+    }
+  },
+  "This spell costs {1} less to cast for each Equipment you control.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "affinity": "100.00%",
+      "for": "100.00%",
+      "equipment": "100.00%"
+    },
+    "bestKeywords": {
+      "affinity": "100.00%"
+    }
+  },
+  "This spell costs {1} less to cast for each artifact you control.": {
+    "count": 34,
+    "bestBeforeTokens": {
+      "affinity": "100.00%",
+      "for": "100.00%",
+      "artifacts": "100.00%"
+    },
+    "bestKeywords": {
+      "affinity": "100.00%"
+    }
+  },
+  "This spell costs {1} less to cast for each opponent.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "undaunted": "100.00%"
+    },
+    "bestKeywords": {
+      "undaunted": "100.00%"
+    }
+  },
+  "This spell works on creatures that can't be blocked.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "attacking": "100.00%",
+      "blocked": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "This token is every creature type.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "changeling": "100.00%"
+    },
+    "bestKeywords": {
+      "changeling": "100.00%"
+    }
+  },
+  "To behold a Dragon, choose a Dragon you control or reveal a Dragon card from your hand.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "behold": "100.00%",
+      "dragon": "100.00%"
+    },
+    "bestKeywords": {
+      "behold": "100.00%"
+    }
+  },
+  "To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "collect": "100.00%",
+      "evidence": "100.00%"
+    },
+    "bestKeywords": {
+      "collect evidence": "100.00%"
+    }
+  },
+  "To forage, exile three cards from your graveyard or sacrifice a Food.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "forage": "100.00%"
+    },
+    "bestKeywords": {
+      "forage": "100.00%"
+    }
+  },
+  "To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "connives": "166.67%"
+    },
+    "bestKeywords": {
+      "connive": "100.00%"
+    }
+  },
+  "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"": {
+    "count": 13,
+    "bestBeforeTokens": {
+      "investigate": "92.31%"
+    },
+    "bestKeywords": {
+      "investigate": "100.00%"
+    }
+  },
+  "To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "manifest": "100.00%"
+    },
+    "bestKeywords": {
+      "manifest": "100.00%"
+    }
+  },
+  "To mill a card, a player puts the top card of their library into their graveyard.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "mills": "91.67%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "To mill a card, put the top card of your library into your graveyard.": {
+    "count": 22,
+    "bestBeforeTokens": {
+      "mill": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "To mill four cards, put the top four cards of your library into your graveyard.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "mill": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "To mill three cards, put the top three cards of your library into your graveyard.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "mill": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "To mill two cards, a player puts the top two cards of their library into their graveyard.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "mills": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "To mill two cards, put the top two cards of your library into your graveyard.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "mill": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "To populate, create a token that's a copy of a creature token you control.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "populate": "100.00%"
+    },
+    "bestKeywords": {
+      "populate": "100.00%"
+    }
+  },
+  "To scry 1, look at the top card of your library, then you may put that card on the bottom.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "scry": "100.00%"
+    },
+    "bestKeywords": {
+      "scry": "100.00%"
+    }
+  },
+  "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "scry": "100.00%"
+    },
+    "bestKeywords": {
+      "scry": "100.00%"
+    }
+  },
+  "To seek a card, put one at random from your library into your hand.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "seek": "100.00%"
+    },
+    "bestKeywords": {
+      "seek": "100.00%"
+    }
+  },
+  "To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "surveil": "100.00%",
+      "then": "100.00%"
+    },
+    "bestKeywords": {
+      "surveil": "100.00%"
+    }
+  },
+  "Treat it and anything attached to it as though they don't exist until its controller's next turn.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "phases": "100.00%",
+      "out": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Treat it and anything attached to it as though they don't exist until your next turn.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "phases": "100.00%",
+      "out": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "goad": "100.00%"
+    },
+    "bestKeywords": {
+      "goad": "100.00%"
+    }
+  },
+  "Until your next turn, that creature can't attack or block and its activated abilities can't be activated.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "detain": "100.00%"
+    },
+    "bestKeywords": {
+      "detain": "100.00%"
+    }
+  },
+  "Until your next turn, that permanent can't attack or block and its activated abilities can't be activated.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "detain": "100.00%"
+    },
+    "bestKeywords": {
+      "detain": "100.00%"
+    }
+  },
+  "Until your next turn, those creatures attack each combat if able and attack a player other than you if able.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "goad": "100.00%"
+    },
+    "bestKeywords": {
+      "goad": "100.00%"
+    }
+  },
+  "When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "persist": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this to it.": {
+    "count": 18,
+    "bestBeforeTokens": {
+      "living": "100.00%",
+      "weapon": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%",
+      "living weapon": "100.00%"
+    }
+  },
+  "When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "job": "100.00%",
+      "select": "100.00%"
+    },
+    "bestKeywords": {
+      "job select": "100.00%",
+      "equip": "100.00%"
+    }
+  },
+  "When this Equipment enters, create a 2/2 red Rebel creature token, then attach this to it.": {
+    "count": 13,
+    "bestBeforeTokens": {
+      "for": "100.00%",
+      "mirrodin!": "100.00%"
+    },
+    "bestKeywords": {
+      "for mirrodin!": "100.00%",
+      "equip": "100.00%"
+    }
+  },
+  "When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "double": "100.00%",
+      "team": "100.00%"
+    },
+    "bestKeywords": {
+      "double team": "100.00%",
+      "conjure": "100.00%"
+    }
+  },
+  "When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "renown": "100.00%"
+    },
+    "bestKeywords": {
+      "renown": "100.00%"
+    }
+  },
+  "When this creature deals combat damage to a player, if it isn't renowned, put two +1/+1 counters on it and it becomes renowned.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "renown": "100.00%"
+    },
+    "bestKeywords": {
+      "renown": "100.00%"
+    }
+  },
+  "When this creature dies, create a 1/1 white and black Spirit creature token with flying.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "afterlife": "100.00%"
+    },
+    "bestKeywords": {
+      "afterlife": "100.00%"
+    }
+  },
+  "When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "afterlife": "100.00%"
+    },
+    "bestKeywords": {
+      "afterlife": "100.00%"
+    }
+  },
+  "When this creature dies, exile it haunting target creature.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "haunt": "100.00%"
+    },
+    "bestKeywords": {
+      "haunt": "100.00%"
+    }
+  },
+  "When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.": {
+    "count": 25,
+    "bestBeforeTokens": {
+      "undying": "100.00%"
+    },
+    "bestKeywords": {
+      "undying": "96.00%"
+    }
+  },
+  "When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.": {
+    "count": 26,
+    "bestBeforeTokens": {
+      "persist": "100.00%"
+    },
+    "bestKeywords": {
+      "persist": "92.31%"
+    }
+  },
+  "When this creature dies, you may return target Spirit card with mana value 3 or less from your graveyard to your hand.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "soulshift": "100.00%"
+    },
+    "bestKeywords": {
+      "soulshift": "100.00%"
+    }
+  },
+  "When this creature dies, you may return target Spirit card with mana value 4 or less from your graveyard to your hand.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "soulshift": "100.00%"
+    },
+    "bestKeywords": {
+      "soulshift": "100.00%"
+    }
+  },
+  "When this creature dies, you may return target Spirit card with mana value 5 or less from your graveyard to your hand.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "soulshift": "100.00%"
+    },
+    "bestKeywords": {
+      "soulshift": "100.00%"
+    }
+  },
+  "When this creature dies, you may return target Spirit card with mana value 6 or less from your graveyard to your hand.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "soulshift": "100.00%"
+    },
+    "bestKeywords": {
+      "soulshift": "100.00%"
+    }
+  },
+  "When this creature enters, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "fabricate": "100.00%"
+    },
+    "bestKeywords": {
+      "fabricate": "100.00%"
+    }
+  },
+  "When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following abilities until end of turn.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "backup": "100.00%"
+    },
+    "bestKeywords": {
+      "backup": "100.00%"
+    }
+  },
+  "When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following ability until end of turn.": {
+    "count": 16,
+    "bestBeforeTokens": {
+      "backup": "100.00%"
+    },
+    "bestKeywords": {
+      "backup": "100.00%"
+    }
+  },
+  "When this creature enters, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "fabricate": "100.00%"
+    },
+    "bestKeywords": {
+      "fabricate": "100.00%"
+    }
+  },
+  "When this creature enters, put two +1/+1 counters on target creature. If that's another creature, it gains the following ability until end of turn.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "backup": "100.00%"
+    },
+    "bestKeywords": {
+      "backup": "100.00%"
+    }
+  },
+  "When this creature enters, you may sacrifice a creature.": {
+    "count": 24,
+    "bestBeforeTokens": {
+      "exploit": "100.00%"
+    },
+    "bestKeywords": {
+      "exploit": "100.00%"
+    }
+  },
+  "When this enchantment enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "hideaway": "100.00%"
+    },
+    "bestKeywords": {
+      "hideaway": "100.00%"
+    }
+  },
+  "When this enters, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "champion": "100.00%"
+    },
+    "bestKeywords": {
+      "champion": "100.00%",
+      "changeling": "100.00%"
+    }
+  },
+  "When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "hideaway": "100.00%"
+    },
+    "bestKeywords": {
+      "hideaway": "100.00%"
+    }
+  },
+  "When this spell card is put into a graveyard after resolving, exile it haunting target creature.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "haunt": "100.00%"
+    },
+    "bestKeywords": {
+      "haunt": "100.00%"
+    }
+  },
+  "When you cast this spell, copy it for each spell cast before it this turn.": {
+    "count": 16,
+    "bestBeforeTokens": {
+      "storm": "100.00%"
+    },
+    "bestKeywords": {
+      "storm": "100.00%"
+    }
+  },
+  "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "storm": "100.00%"
+    },
+    "bestKeywords": {
+      "storm": "100.00%"
+    }
+  },
+  "When you cast this spell, copy it for each time you paid its replicate cost.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "replicate": "100.00%"
+    },
+    "bestKeywords": {
+      "replicate": "100.00%"
+    }
+  },
+  "When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "replicate": "100.00%"
+    },
+    "bestKeywords": {
+      "replicate": "100.00%"
+    }
+  },
+  "When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.": {
+    "count": 32,
+    "bestBeforeTokens": {
+      "cascade": "100.00%"
+    },
+    "bestKeywords": {
+      "cascade": "96.88%"
+    }
+  },
+  "When you cast this spell, you may copy it. If you do, choose an opponent to also copy it.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "demonstrate": "100.00%"
+    },
+    "bestKeywords": {
+      "demonstrate": "100.00%"
+    }
+  },
+  "When you cast this spell, you may copy it. If you do, choose an opponent to also copy it. Players may choose new targets for their copies.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "demonstrate": "100.00%"
+    },
+    "bestKeywords": {
+      "demonstrate": "100.00%"
+    }
+  },
+  "When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "ripple": "100.00%"
+    },
+    "bestKeywords": {
+      "ripple": "100.00%"
+    }
+  },
+  "Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.": {
+    "count": 32,
+    "bestBeforeTokens": {
+      "flanking": "100.00%"
+    },
+    "bestKeywords": {
+      "flanking": "93.75%"
+    }
+  },
+  "Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "exalted": "116.67%"
+    },
+    "bestKeywords": {}
+  },
+  "Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.": {
+    "count": 34,
+    "bestBeforeTokens": {
+      "exalted": "100.00%"
+    },
+    "bestKeywords": {
+      "exalted": "100.00%"
+    }
+  },
+  "Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.": {
+    "count": 20,
+    "bestBeforeTokens": {
+      "evolve": "100.00%"
+    },
+    "bestKeywords": {
+      "evolve": "100.00%"
+    }
+  },
+  "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "ward": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "myriad": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "ward": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "dethrone": "100.00%"
+    },
+    "bestKeywords": {
+      "dethrone": "100.00%"
+    }
+  },
+  "Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "training": "100.00%"
+    },
+    "bestKeywords": {
+      "training": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, add {R}. This mana lasts until end of combat.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "firebending": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "mobilize": "100.00%"
+    },
+    "bestKeywords": {
+      "mobilize": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "mobilize": "100.00%"
+    },
+    "bestKeywords": {
+      "mobilize": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, defending player sacrifices a permanent of their choice.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "annihilator": "100.00%"
+    },
+    "bestKeywords": {
+      "annihilator": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, defending player sacrifices two permanents of their choice.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "annihilator": "100.00%"
+    },
+    "bestKeywords": {
+      "annihilator": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "battle": "100.00%",
+      "cry": "100.00%"
+    },
+    "bestKeywords": {
+      "battle cry": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.": {
+    "count": 19,
+    "bestBeforeTokens": {
+      "myriad": "100.00%"
+    },
+    "bestKeywords": {
+      "myriad": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "melee": "100.00%"
+    },
+    "bestKeywords": {
+      "melee": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.": {
+    "count": 20,
+    "bestBeforeTokens": {
+      "mentor": "100.00%"
+    },
+    "bestKeywords": {
+      "mentor": "100.00%"
+    }
+  },
+  "Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "provoke": "100.00%"
+    },
+    "bestKeywords": {
+      "provoke": "100.00%"
+    }
+  },
+  "Whenever this creature becomes blocked, defending player loses 2 life.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "afflict": "100.00%"
+    },
+    "bestKeywords": {
+      "afflict": "100.00%"
+    }
+  },
+  "Whenever this creature becomes blocked, defending player loses 3 life.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "afflict": "100.00%"
+    },
+    "bestKeywords": {
+      "afflict": "100.00%"
+    }
+  },
+  "Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "rampage": "100.00%"
+    },
+    "bestKeywords": {
+      "rampage": "100.00%"
+    }
+  },
+  "Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "rampage": "100.00%"
+    },
+    "bestKeywords": {
+      "rampage": "100.00%"
+    }
+  },
+  "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.": {
+    "count": 31,
+    "bestBeforeTokens": {
+      "ward": "100.00%"
+    },
+    "bestKeywords": {
+      "ward": "100.00%"
+    }
+  },
+  "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "ward": "100.00%"
+    },
+    "bestKeywords": {
+      "ward": "100.00%"
+    }
+  },
+  "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "ward": "100.00%"
+    },
+    "bestKeywords": {
+      "ward": "100.00%"
+    }
+  },
+  "Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.": {
+    "count": 25,
+    "bestBeforeTokens": {
+      "bushido": "100.00%"
+    },
+    "bestKeywords": {
+      "bushido": "100.00%"
+    }
+  },
+  "Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "bushido": "100.00%"
+    },
+    "bestKeywords": {
+      "bushido": "100.00%"
+    }
+  },
+  "Whenever this creature deals combat damage to a player, that player exiles the top card of their library.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "ingest": "100.00%"
+    },
+    "bestKeywords": {
+      "devoid": "100.00%",
+      "ingest": "100.00%"
+    }
+  },
+  "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.": {
+    "count": 67,
+    "bestBeforeTokens": {
+      "prowess": "100.00%"
+    },
+    "bestKeywords": {
+      "prowess": "98.51%"
+    }
+  },
+  "Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "extort": "100.00%"
+    },
+    "bestKeywords": {
+      "extort": "100.00%"
+    }
+  },
+  "While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "phases": "100.00%",
+      "out": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "While it's phased out, it's treated as though it doesn't exist. It phases in before you untap during your next untap step.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "phases": "100.00%",
+      "out": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "waterbend": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "While they're phased out, they're treated as though they don't exist. Each one phases in before its controller untaps during their next untap step.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "phase": "100.00%",
+      "out": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You can have a Background as a second commander.": {
+    "count": 31,
+    "bestBeforeTokens": {
+      "background": "100.00%"
+    },
+    "bestKeywords": {
+      "choose a background": "100.00%"
+    }
+  },
+  "You can have two commanders if both have friends forever.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "friends": "100.00%",
+      "forever": "100.00%"
+    },
+    "bestKeywords": {
+      "friends forever": "100.00%"
+    }
+  },
+  "You can have two commanders if both have partner.": {
+    "count": 65,
+    "bestBeforeTokens": {
+      "partner": "100.00%"
+    },
+    "bestKeywords": {
+      "partner": "100.00%"
+    }
+  },
+  "You can have two commanders if both have ready to run.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "ready": "100.00%",
+      "run": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You can have two commanders if both have this ability.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "partner": "100.00%"
+    },
+    "bestKeywords": {
+      "partner": "100.00%"
+    }
+  },
+  "You can have two commanders if the other is the Doctor.": {
+    "count": 27,
+    "bestBeforeTokens": {
+      "doctor's": "100.00%",
+      "companion": "100.00%"
+    },
+    "bestKeywords": {
+      "doctor's companion": "100.00%"
+    }
+  },
+  "You can't be the target of spells or abilities your opponents control.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "hexproof": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You can't be the target of spells or abilities.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "shroud": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You descended if a permanent card was put into your graveyard from anywhere.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "beginning": "90.00%",
+      "step": "90.00%",
+      "descended": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You expend 4 as you spend your fourth total mana to cast spells during a turn.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "expend": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You may cast cards from your graveyard for their escape cost.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "escape": "200.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You may cast it any time you could cast an instant.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "flash": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You may cast it as a sorcery on a later turn without paying its mana cost.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "plotted": "100.00%"
+    },
+    "bestKeywords": {
+      "plot": "100.00%"
+    }
+  },
+  "You may cast that card from your graveyard for its flashback cost. Then exile it.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "flashback": "200.00%"
+    },
+    "bestKeywords": {}
+  },
+  "You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.": {
+    "count": 31,
+    "bestBeforeTokens": {
+      "megamorph": "100.00%"
+    },
+    "bestKeywords": {
+      "megamorph": "100.00%"
+    }
+  },
+  "You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.": {
+    "count": 150,
+    "bestBeforeTokens": {
+      "morph": "100.00%"
+    },
+    "bestKeywords": {
+      "morph": "100.00%"
+    }
+  },
+  "You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.": {
+    "count": 38,
+    "bestBeforeTokens": {
+      "disguise": "100.00%"
+    },
+    "bestKeywords": {
+      "disguise": "100.00%"
+    }
+  },
+  "You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.": {
+    "count": 18,
+    "bestBeforeTokens": {
+      "miracle": "100.00%"
+    },
+    "bestKeywords": {
+      "miracle": "100.00%"
+    }
+  },
+  "You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "jump-start": "100.00%"
+    },
+    "bestKeywords": {
+      "jump": "100.00%",
+      "jump-start": "100.00%"
+    }
+  },
+  "You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.": {
+    "count": 17,
+    "bestBeforeTokens": {
+      "retrace": "100.00%"
+    },
+    "bestKeywords": {
+      "retrace": "100.00%"
+    }
+  },
+  "You may cast this card from your graveyard for its escape cost.": {
+    "count": 30,
+    "bestBeforeTokens": {
+      "escape": "100.00%"
+    },
+    "bestKeywords": {
+      "escape": "100.00%"
+    }
+  },
+  "You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "flashback": "100.00%"
+    },
+    "bestKeywords": {
+      "flashback": "100.00%"
+    }
+  },
+  "You may cast this card from your graveyard for its flashback cost. Then exile it.": {
+    "count": 179,
+    "bestBeforeTokens": {
+      "flashback": "100.00%"
+    },
+    "bestKeywords": {
+      "flashback": "99.44%"
+    }
+  },
+  "You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "harmonize": "100.00%"
+    },
+    "bestKeywords": {
+      "harmonize": "100.00%"
+    }
+  },
+  "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.": {
+    "count": 27,
+    "bestBeforeTokens": {
+      "warp": "100.00%"
+    },
+    "bestKeywords": {
+      "warp": "100.00%"
+    }
+  },
+  "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Goblin or Rogue.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "prowl": "100.00%"
+    },
+    "bestKeywords": {
+      "prowl": "100.00%"
+    }
+  },
+  "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "prowl": "100.00%"
+    },
+    "bestKeywords": {
+      "prowl": "100.00%"
+    }
+  },
+  "You may cast this spell any time you could cast an instant.": {
+    "count": 96,
+    "bestBeforeTokens": {
+      "flash": "100.00%"
+    },
+    "bestKeywords": {
+      "flash": "100.00%"
+    }
+  },
+  "You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.": {
+    "count": 14,
+    "bestBeforeTokens": {
+      "emerge": "100.00%"
+    },
+    "bestKeywords": {
+      "emerge": "100.00%"
+    }
+  },
+  "You may cast this spell for its cleave cost. If you do, remove the words in square brackets.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "cleave": "100.00%"
+    },
+    "bestKeywords": {
+      "cleave": "100.00%"
+    }
+  },
+  "You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.": {
+    "count": 22,
+    "bestBeforeTokens": {
+      "dash": "100.00%"
+    },
+    "bestKeywords": {
+      "dash": "100.00%"
+    }
+  },
+  "You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.": {
+    "count": 25,
+    "bestBeforeTokens": {
+      "evoke": "100.00%"
+    },
+    "bestKeywords": {
+      "evoke": "100.00%"
+    }
+  },
+  "You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "freerunning": "100.00%"
+    },
+    "bestKeywords": {
+      "freerunning": "100.00%"
+    }
+  },
+  "You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\"": {
+    "count": 26,
+    "bestBeforeTokens": {
+      "overload": "100.00%"
+    },
+    "bestKeywords": {
+      "overload": "100.00%"
+    }
+  },
+  "You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "spectacle": "100.00%"
+    },
+    "bestKeywords": {
+      "spectacle": "100.00%"
+    }
+  },
+  "You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.": {
+    "count": 11,
+    "bestBeforeTokens": {
+      "surge": "100.00%"
+    },
+    "bestKeywords": {
+      "surge": "100.00%"
+    }
+  },
+  "You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.": {
+    "count": 19,
+    "bestBeforeTokens": {
+      "prototype": "100.00%"
+    },
+    "bestKeywords": {
+      "prototype": "100.00%"
+    }
+  },
+  "You may choose a Dragon you control or reveal a Dragon card from your hand.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "behold": "100.00%",
+      "dragon": "100.00%"
+    },
+    "bestKeywords": {
+      "behold": "100.00%"
+    }
+  },
+  "You may have this creature enter with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.": {
+    "count": 15,
+    "bestBeforeTokens": {
+      "unleash": "100.00%"
+    },
+    "bestKeywords": {
+      "unleash": "100.00%"
+    }
+  },
+  "You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.": {
+    "count": 25,
+    "bestBeforeTokens": {
+      "soulbond": "100.00%"
+    },
+    "bestKeywords": {
+      "soulbond": "100.00%"
+    }
+  },
+  "You may pay an additional {1} as you cast this spell.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {1}{B} as you cast this spell.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {1}{G} as you cast this spell.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {1}{R} as you cast this spell.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {1}{U} as you cast this spell.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {1}{W} as you cast this spell.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {2} as you cast this spell.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {2} as you cast this spell. If you do, put this card into your hand as it resolves.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "buyback": "100.00%"
+    },
+    "bestKeywords": {
+      "buyback": "100.00%"
+    }
+  },
+  "You may pay an additional {2} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "offspring": "100.00%"
+    },
+    "bestKeywords": {
+      "offspring": "100.00%"
+    }
+  },
+  "You may pay an additional {2}{B} as you cast this spell.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {2}{G} as you cast this spell.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {2}{U} as you cast this spell.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {2}{W} as you cast this spell.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {3} as you cast this spell.": {
+    "count": 13,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.": {
+    "count": 17,
+    "bestBeforeTokens": {
+      "buyback": "100.00%"
+    },
+    "bestKeywords": {
+      "buyback": "100.00%"
+    }
+  },
+  "You may pay an additional {3}{B} as you cast this spell.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {3}{R} as you cast this spell.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {4} as you cast this spell.": {
+    "count": 13,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {4} as you cast this spell. If you do, put this card into your hand as it resolves.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "buyback": "100.00%"
+    },
+    "bestKeywords": {
+      "buyback": "100.00%"
+    }
+  },
+  "You may pay an additional {5} as you cast this spell.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {B} as you cast this spell.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {G} as you cast this spell.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {R} as you cast this spell.": {
+    "count": 12,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {U} as you cast this spell.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {W} as you cast this spell.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay an additional {X} as you cast this spell.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "plot": "100.00%"
+    },
+    "bestKeywords": {
+      "plot": "100.00%"
+    }
+  },
+  "You may pay {2}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "plot": "100.00%"
+    },
+    "bestKeywords": {
+      "plot": "100.00%"
+    }
+  },
+  "You may pay {2}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "plot": "100.00%"
+    },
+    "bestKeywords": {
+      "plot": "100.00%"
+    }
+  },
+  "You may pay {3}{G} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "plot": "100.00%"
+    },
+    "bestKeywords": {
+      "plot": "100.00%"
+    }
+  },
+  "You may pay {3}{U} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "plot": "100.00%"
+    },
+    "bestKeywords": {
+      "plot": "100.00%"
+    }
+  },
+  "You may promise an opponent a gift as you cast this spell. If you do, they create a Food token before its other effects. It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "gift": "100.00%",
+      "food": "100.00%"
+    },
+    "bestKeywords": {
+      "gift": "100.00%",
+      "food": "100.00%"
+    }
+  },
+  "You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "gift": "100.00%",
+      "fish": "100.00%"
+    },
+    "bestKeywords": {
+      "gift": "100.00%"
+    }
+  },
+  "You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "gift": "100.00%"
+    },
+    "bestKeywords": {
+      "gift": "100.00%"
+    }
+  },
+  "You may put the top two cards of your library into your graveyard.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "mill": "100.00%"
+    },
+    "bestKeywords": {
+      "mill": "100.00%"
+    }
+  },
+  "You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "learn": "100.00%"
+    },
+    "bestKeywords": {
+      "learn": "100.00%"
+    }
+  },
+  "You may sacrifice a land in addition to any other costs as you cast this spell.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "kicker": "100.00%"
+    },
+    "bestKeywords": {
+      "kicker": "100.00%"
+    }
+  },
+  "You may sacrifice a land in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "buyback": "100.00%"
+    },
+    "bestKeywords": {
+      "buyback": "100.00%"
+    }
+  },
+  "You may sacrifice an artifact, enchantment, or token as you cast this spell.": {
+    "count": 20,
+    "bestBeforeTokens": {
+      "bargain": "100.00%"
+    },
+    "bestKeywords": {
+      "bargain": "100.00%"
+    }
+  },
+  "Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.": {
+    "count": 20,
+    "bestBeforeTokens": {
+      "improvise": "100.00%"
+    },
+    "bestKeywords": {
+      "improvise": "100.00%"
+    }
+  },
+  "Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.": {
+    "count": 85,
+    "bestBeforeTokens": {
+      "convoke": "100.00%"
+    },
+    "bestKeywords": {
+      "convoke": "100.00%"
+    }
+  },
+  "Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "devotion": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.": {
+    "count": 27,
+    "bestBeforeTokens": {
+      "party": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "Zero is even.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "even": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "an energy counter": {
+    "count": 24,
+    "bestBeforeTokens": {
+      "{e}": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "energy counters": {
+    "count": 16,
+    "bestBeforeTokens": {
+      "{e}": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "four energy counters": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "{e}{e}{e}{e}": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "three energy counters": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "{e}{e}{e}": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "two energy counters": {
+    "count": 62,
+    "bestBeforeTokens": {
+      "{e}{e}": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "{1}, Discard this card: Draw a card.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{1}: Attach to target creature you control. Equip only as a sorcery.": {
+    "count": 54,
+    "bestBeforeTokens": {
+      "equip": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "{1}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "equip": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "{1}: Put a level counter on this. Level up only as a sorcery.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "level": "100.00%",
+      "up": "100.00%"
+    },
+    "bestKeywords": {
+      "level up": "100.00%"
+    }
+  },
+  "{1}{B}, Discard this card: Draw a card.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "ninjutsu": "100.00%"
+    },
+    "bestKeywords": {
+      "ninjutsu": "100.00%"
+    }
+  },
+  "{1}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "unearth": "100.00%"
+    },
+    "bestKeywords": {
+      "unearth": "100.00%"
+    }
+  },
+  "{1}{B}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "transmute": "100.00%"
+    },
+    "bestKeywords": {
+      "transmute": "100.00%"
+    }
+  },
+  "{1}{G}, Discard this card: Draw a card.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "basic": "100.00%",
+      "landcycling": "100.00%"
+    },
+    "bestKeywords": {
+      "landcycling": "100.00%",
+      "basic landcycling": "100.00%",
+      "typecycling": "100.00%",
+      "cycling": "100.00%"
+    }
+  },
+  "{1}{R}, Discard this card: Draw a card.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "unearth": "100.00%"
+    },
+    "bestKeywords": {
+      "unearth": "100.00%"
+    }
+  },
+  "{1}{U}, Discard this card: Draw a card.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "ninjutsu": "100.00%"
+    },
+    "bestKeywords": {
+      "ninjutsu": "100.00%"
+    }
+  },
+  "{1}{U}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "transmute": "100.00%"
+    },
+    "bestKeywords": {
+      "transmute": "100.00%"
+    }
+  },
+  "{1}{U}{U}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "transmute": "100.00%"
+    },
+    "bestKeywords": {
+      "transmute": "100.00%"
+    }
+  },
+  "{1}{W}, Discard this card: Draw a card.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{2}, Discard this card: Draw a card.": {
+    "count": 150,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "forestcycling": "100.00%"
+    },
+    "bestKeywords": {
+      "landcycling": "100.00%",
+      "forestcycling": "100.00%",
+      "typecycling": "100.00%",
+      "cycling": "100.00%"
+    }
+  },
+  "{2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.": {
+    "count": 8,
+    "bestBeforeTokens": {
+      "mountaincycling": "100.00%"
+    },
+    "bestKeywords": {
+      "mountaincycling": "100.00%",
+      "landcycling": "100.00%",
+      "typecycling": "100.00%",
+      "cycling": "100.00%"
+    }
+  },
+  "{2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.": {
+    "count": 9,
+    "bestBeforeTokens": {
+      "plainscycling": "100.00%"
+    },
+    "bestKeywords": {
+      "plainscycling": "100.00%",
+      "landcycling": "100.00%",
+      "typecycling": "100.00%",
+      "cycling": "100.00%"
+    }
+  },
+  "{2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "swampcycling": "100.00%"
+    },
+    "bestKeywords": {
+      "landcycling": "100.00%",
+      "typecycling": "100.00%",
+      "cycling": "100.00%",
+      "swampcycling": "100.00%"
+    }
+  },
+  "{2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "basic": "100.00%",
+      "landcycling": "100.00%"
+    },
+    "bestKeywords": {
+      "landcycling": "100.00%",
+      "basic landcycling": "100.00%",
+      "typecycling": "100.00%",
+      "cycling": "100.00%"
+    }
+  },
+  "{2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "islandcycling": "100.00%"
+    },
+    "bestKeywords": {
+      "islandcycling": "100.00%",
+      "landcycling": "100.00%",
+      "typecycling": "100.00%",
+      "cycling": "100.00%"
+    }
+  },
+  "{2}: Attach to target creature you control. Equip only as a sorcery.": {
+    "count": 75,
+    "bestBeforeTokens": {
+      "equip": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "{2}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "equip": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "{2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "reconfigure": "100.00%"
+    },
+    "bestKeywords": {
+      "reconfigure": "100.00%"
+    }
+  },
+  "{2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "unearth": "100.00%"
+    },
+    "bestKeywords": {
+      "unearth": "100.00%"
+    }
+  },
+  "{2}{G}, Discard this card: Draw a card.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{2}{R}, Discard this card: Draw a card.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{2}{U}, Discard this card: Draw a card.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "ninjutsu": "100.00%"
+    },
+    "bestKeywords": {
+      "ninjutsu": "100.00%"
+    }
+  },
+  "{2}{W}, Discard this card: Draw a card.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{3}, Discard this card: Draw a card.": {
+    "count": 21,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{3}: Attach to target creature you control. Equip only as a sorcery.": {
+    "count": 42,
+    "bestBeforeTokens": {
+      "equip": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "{3}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "equip": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "{3}: Put a level counter on this. Level up only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "level": "100.00%",
+      "up": "100.00%"
+    },
+    "bestKeywords": {
+      "level up": "100.00%"
+    }
+  },
+  "{3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.": {
+    "count": 5,
+    "bestBeforeTokens": {
+      "ninjutsu": "100.00%"
+    },
+    "bestKeywords": {
+      "ninjutsu": "100.00%"
+    }
+  },
+  "{3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "unearth": "100.00%"
+    },
+    "bestKeywords": {
+      "unearth": "100.00%"
+    }
+  },
+  "{4}: Attach to target creature you control. Equip only as a sorcery.": {
+    "count": 16,
+    "bestBeforeTokens": {
+      "equip": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "{4}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.": {
+    "count": 4,
+    "bestBeforeTokens": {
+      "reconfigure": "100.00%"
+    },
+    "bestKeywords": {
+      "reconfigure": "100.00%"
+    }
+  },
+  "{5}: Attach to target creature you control. Equip only as a sorcery.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "equip": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    }
+  },
+  "{B}, Discard this card: Draw a card.": {
+    "count": 7,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{Q} is the untap symbol.": {
+    "count": 18,
+    "bestBeforeTokens": {
+      "{q}": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "{R}, Discard this card: Draw a card.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{R}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "reconfigure": "100.00%"
+    },
+    "bestKeywords": {
+      "reconfigure": "100.00%"
+    }
+  },
+  "{S} is mana from a snow source.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "{s}": "100.00%",
+      "spent": "100.00%"
+    },
+    "bestKeywords": {}
+  },
+  "{U}, Discard this card: Draw a card.": {
+    "count": 10,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "ninjutsu": "100.00%"
+    },
+    "bestKeywords": {
+      "ninjutsu": "100.00%"
+    }
+  },
+  "{W}, Discard this card: Draw a card.": {
+    "count": 6,
+    "bestBeforeTokens": {
+      "cycling": "100.00%"
+    },
+    "bestKeywords": {
+      "cycling": "100.00%"
+    }
+  },
+  "{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.": {
+    "count": 3,
+    "bestBeforeTokens": {
+      "outlast": "100.00%"
+    },
+    "bestKeywords": {
+      "outlast": "100.00%"
+    }
+  }
+}

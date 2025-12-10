@@ -1,0 +1,311 @@
+{
+  "An ongoing scheme remains face up until it's abandoned.": {
+    "count": 20,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "As this Saga enters and after your draw step add a lore counter. Sacrifice after III.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.": {
+    "count": 118,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.": {
+    "count": 23,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "As this Saga enters and after your draw step, add a lore counter. Sacrifice after VI.": {
+    "count": 3,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.": {
+    "count": 13,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Each deals damage equal to its power to the other.": {
+    "count": 49,
+    "bestBeforeTokens": {},
+    "bestKeywords": {
+      "fight": "100.00%"
+    }
+  },
+  "Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.": {
+    "count": 3,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Gain the next level as a sorcery to add its ability.": {
+    "count": 30,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "It loses all other creature types.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Leads to: Temple of Dumathoin": {
+    "count": 3,
+    "bestBeforeTokens": {},
+    "bestKeywords": {
+      "treasure": "100.00%",
+      "scry": "100.00%"
+    }
+  },
+  "Mana cost includes color.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Start the game with this conspiracy face up in the command zone.": {
+    "count": 12,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {B}": {
+    "count": 27,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {B}.": {
+    "count": 8,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {G}": {
+    "count": 25,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {G}.": {
+    "count": 6,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {R}": {
+    "count": 24,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {R}.": {
+    "count": 6,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {U}": {
+    "count": 25,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {U}.": {
+    "count": 6,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "Theme color: {W}": {
+    "count": 32,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "They're affected by summoning sickness.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "This effect lasts indefinitely.": {
+    "count": 47,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "This token's mana cost is {1}{G}.": {
+    "count": 3,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "This token's mana cost is {1}{R}.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {
+      "assemble": "100.00%"
+    }
+  },
+  "To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {
+      "cloak": "100.00%"
+    }
+  },
+  "You can mark this card to represent a double-faced card in your library or hand.": {
+    "count": 6,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "You may cast a legendary sorcery only if you control a legendary creature or planeswalker.": {
+    "count": 6,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "You still pay its costs. Timing rules still apply.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{B/G} can be paid with either {B} or {G}.": {
+    "count": 3,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{B/P} can be paid with either {B} or 2 life.": {
+    "count": 11,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{B/R} can be paid with either {B} or {R}.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{C} represents colorless mana.": {
+    "count": 37,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{G/P} can be paid with either {G} or 2 life.": {
+    "count": 7,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{G/W} can be paid with either {G} or {W}.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{R/G} can be paid with either {R} or {G}.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{R/P} can be paid with either {R} or 2 life.": {
+    "count": 8,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{S} can be paid with one mana from a snow source.": {
+    "count": 31,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {B} or {G}.": {
+    "count": 7,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {B} or {R}.": {
+    "count": 7,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {B}.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {G} or {U}.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {G} or {W}.": {
+    "count": 8,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {G}.": {
+    "count": 6,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {R} or {G}.": {
+    "count": 7,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {R} or {W}.": {
+    "count": 7,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {R}.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {U} or {B}.": {
+    "count": 7,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {U} or {R}.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {U}.": {
+    "count": 6,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {W} or {B}.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {W} or {U}.": {
+    "count": 7,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{T}: Add {W}.": {
+    "count": 5,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{U/B} can be paid with either {U} or {B}.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{U/P} can be paid with either {U} or 2 life.": {
+    "count": 10,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{U/R} can be paid with either {U} or {R}.": {
+    "count": 4,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{W/P} can be paid with either {W} or 2 life.": {
+    "count": 8,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  },
+  "{W/U} can be paid with either {W} or {U}.": {
+    "count": 3,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
+  }
+}
