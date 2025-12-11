@@ -1,0 +1,9 @@
+{
+  "name": "umbra armor",
+  "expr": "umbra armor",
+  "variations": [
+    {
+      "template": "If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura."
+    }
+  ]
+}

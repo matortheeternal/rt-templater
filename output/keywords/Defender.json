@@ -1,0 +1,9 @@
+{
+  "name": "defender",
+  "expr": "defender",
+  "variations": [
+    {
+      "template": "This creature can't attack."
+    }
+  ]
+}

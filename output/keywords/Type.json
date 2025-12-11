@@ -1,0 +1,9 @@
+{
+  "name": "type",
+  "expr": "type",
+  "variations": [
+    {
+      "template": "Artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery are card types."
+    }
+  ]
+}

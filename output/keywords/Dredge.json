@@ -1,0 +1,34 @@
+{
+  "name": "dredge",
+  "expr": "dredge",
+  "variations": [
+    {
+      "template": "You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card.",
+      "rts": [
+        "You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card."
+      ]
+    },
+    {
+      "template": "If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand.",
+      "rts": [
+        "If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand."
+      ]
+    },
+    {
+      "template": "If you would draw a card, you may mill <number:a_or_word> cards instead. If you do, return this card from your graveyard to your hand.",
+      "rts": [
+        "If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.",
+        "If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.",
+        "If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.",
+        "If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.",
+        "If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand."
+      ]
+    },
+    {
+      "template": "If an opponent would draw a card, instead you may have them mill exactly four cards and put this card into their hand from their graveyard.",
+      "rts": [
+        "If an opponent would draw a card, instead you may have them mill exactly four cards and put this card into their hand from their graveyard."
+      ]
+    }
+  ]
+}

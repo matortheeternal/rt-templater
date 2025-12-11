@@ -1,0 +1,17 @@
+{
+  "name": "recover",
+  "expr": "recover",
+  "variations": [
+    {
+      "template": "When a creature is put into your graveyard from the battlefield, you may pay <mana>. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
+      "rts": [
+        "When a creature is put into your graveyard from the battlefield, you may pay {1}{G}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
+        "When a creature is put into your graveyard from the battlefield, you may pay {1}{W}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
+        "When a creature is put into your graveyard from the battlefield, you may pay {2}{B}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
+        "When a creature is put into your graveyard from the battlefield, you may pay {R}{R}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
+        "When a creature is put into your graveyard from the battlefield, you may pay {1}{B}{B}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
+        "When a creature is put into your graveyard from the battlefield, you may pay {2}{U}{U}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card."
+      ]
+    }
+  ]
+}

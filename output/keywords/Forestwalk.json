@@ -1,0 +1,14 @@
+{
+  "name": "forestwalk",
+  "expr": "forestwalk",
+  "variations": [
+    {
+      "template": "<target> can't be blocked as long as defending player controls a Forest.",
+      "rts": [
+        "It can't be blocked as long as defending player controls a Forest.",
+        "They can't be blocked as long as defending player controls a Forest.",
+        "This creature can't be blocked as long as defending player controls a Forest."
+      ]
+    }
+  ]
+}

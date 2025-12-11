@@ -1,0 +1,9 @@
+{
+  "name": "motivate",
+  "expr": "motivate",
+  "variations": [
+    {
+      "template": "This creature can't attack or block unless you have paid its motivate cost once. Motivate only as a sorcery."
+    }
+  ]
+}

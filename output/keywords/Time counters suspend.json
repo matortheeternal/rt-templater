@@ -1,0 +1,9 @@
+{
+  "name": "time counters suspend",
+  "expr": "time counters suspend",
+  "variations": [
+    {
+      "template": "At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it's a creature, it has haste."
+    }
+  ]
+}

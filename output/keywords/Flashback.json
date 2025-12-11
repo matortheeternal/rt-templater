@@ -1,0 +1,30 @@
+{
+  "name": "flashback",
+  "expr": "flashback",
+  "variations": [
+    {
+      "template": "You may cast that card from your graveyard for its flashback cost. Then exile it.",
+      "rts": [
+        "You may cast that card from your graveyard for its flashback cost. Then exile it."
+      ]
+    },
+    {
+      "template": "You may cast this card from your graveyard for its flashback cost. Then exile it.",
+      "rts": [
+        "You may cast this card from your graveyard for its flashback cost. Then exile it."
+      ]
+    },
+    {
+      "template": "You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it.",
+      "rts": [
+        "You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it."
+      ]
+    },
+    {
+      "template": "You may cast this card from your graveyard for its flashback cost, then exile it. You can't exile Flash of Insight to pay for its own flashback cost.",
+      "rts": [
+        "You may cast this card from your graveyard for its flashback cost, then exile it. You can't exile Flash of Insight to pay for its own flashback cost."
+      ]
+    }
+  ]
+}

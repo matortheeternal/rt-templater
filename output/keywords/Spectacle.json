@@ -1,0 +1,9 @@
+{
+  "name": "spectacle",
+  "expr": "spectacle",
+  "variations": [
+    {
+      "template": "You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "proliferate",
+  "expr": "proliferate",
+  "variations": [
+    {
+      "template": "Choose any number of permanents and/or players, then give each another counter of each kind already there.",
+      "rts": [
+        "Choose any number of permanents and/or players, then give each another counter of each kind already there."
+      ]
+    },
+    {
+      "template": "To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.",
+      "rts": [
+        "To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there."
+      ]
+    },
+    {
+      "template": "Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.",
+      "rts": [
+        "Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again."
+      ]
+    }
+  ]
+}

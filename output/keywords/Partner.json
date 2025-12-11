@@ -1,0 +1,30 @@
+{
+  "name": "partner",
+  "expr": "partner",
+  "variations": [
+    {
+      "template": "You can have two commanders if both have partner.",
+      "rts": [
+        "You can have two commanders if both have partner."
+      ]
+    },
+    {
+      "template": "You can have two commanders if both have this ability.",
+      "rts": [
+        "You can have two commanders if both have this ability."
+      ]
+    },
+    {
+      "template": "You can have two commanders if they both have partner.",
+      "rts": [
+        "You can have two commanders if they both have partner."
+      ]
+    },
+    {
+      "template": "You can have two commanders if this is one of them. The other one is promoted to legendary.",
+      "rts": [
+        "You can have two commanders if this is one of them. The other one is promoted to legendary."
+      ]
+    }
+  ]
+}

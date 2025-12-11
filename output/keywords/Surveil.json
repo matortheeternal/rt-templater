@@ -1,0 +1,38 @@
+{
+  "name": "surveil",
+  "expr": "surveil",
+  "variations": [
+    {
+      "template": "Look at the top card of your library. You may put it into your graveyard.",
+      "rts": [
+        "Look at the top card of your library. You may put it into your graveyard."
+      ]
+    },
+    {
+      "template": "Look at the top card of your library. You may put that card into your graveyard.",
+      "rts": [
+        "Look at the top card of your library. You may put that card into your graveyard."
+      ]
+    },
+    {
+      "template": "To surveil 1, look at the top card of your library. You may put that card into your graveyard.",
+      "rts": [
+        "To surveil 1, look at the top card of your library. You may put that card into your graveyard."
+      ]
+    },
+    {
+      "template": "Look at the top <number:a_or_word> cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
+      "rts": [
+        "Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
+        "Look at the top five cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
+        "Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order."
+      ]
+    },
+    {
+      "template": "To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
+      "rts": [
+        "To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "embalm",
+  "expr": "embalm",
+  "variations": [
+    {
+      "template": "<mana>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie <card_sub_type> with no mana cost. Embalm only as a sorcery.",
+      "rts": [
+        "{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Cat with no mana cost. Embalm only as a sorcery.",
+        "{5}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Angel with no mana cost. Embalm only as a sorcery.",
+        "{5}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Manticore with no mana cost. Embalm only as a sorcery.",
+        "{5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Sphinx with no mana cost. Embalm only as a sorcery.",
+        "{3}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Snake Hydra with no mana cost. Embalm only as a sorcery.",
+        "{3}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Cleric with no mana cost. Embalm only as a sorcery.",
+        "{6}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Bird Warrior with no mana cost. Embalm only as a sorcery.",
+        "{2}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Warrior with no mana cost. Embalm only as a sorcery.",
+        "{3}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Snake Warrior with no mana cost. Embalm only as a sorcery.",
+        "{4}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Warrior with no mana cost. Embalm only as a sorcery.",
+        "{3}{W}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Cleric with no mana cost. Embalm only as a sorcery.",
+        "{3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Bird Soldier with no mana cost. Embalm only as a sorcery.",
+        "{4}{W}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Bird Warrior with no mana cost. Embalm only as a sorcery.",
+        "{3}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Illusion Warrior with no mana cost. Embalm only as a sorcery."
+      ]
+    },
+    {
+      "template": "Exile a creature card from your graveyard and pay its embalm cost: Create a token that's a copy of it, except it's a white Zombie in addition to its other types with no mana cost. Embalm only as a sorcery.",
+      "rts": [
+        "Exile a creature card from your graveyard and pay its embalm cost: Create a token that's a copy of it, except it's a white Zombie in addition to its other types with no mana cost. Embalm only as a sorcery."
+      ]
+    }
+  ]
+}

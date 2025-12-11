@@ -1,0 +1,18 @@
+{
+  "name": "wicked role",
+  "expr": "wicked role",
+  "variations": [
+    {
+      "template": "Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.",
+      "rts": [
+        "Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life."
+      ]
+    },
+    {
+      "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.",
+      "rts": [
+        "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "retrace",
+  "expr": "retrace",
+  "variations": [
+    {
+      "template": "Sorry, no room for reminder text.",
+      "rts": [
+        "Sorry, no room for reminder text."
+      ]
+    },
+    {
+      "template": "You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.",
+      "rts": [
+        "You may cast this card from your graveyard by discarding a land card in addition to paying its other costs."
+      ]
+    },
+    {
+      "template": "You may cast instant and sorcery cards from your graveyard by discarding a land card in addition to paying their other costs.",
+      "rts": [
+        "You may cast instant and sorcery cards from your graveyard by discarding a land card in addition to paying their other costs."
+      ]
+    }
+  ]
+}

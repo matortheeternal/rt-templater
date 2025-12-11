@@ -1,0 +1,9 @@
+{
+  "name": "desertwalk",
+  "expr": "desertwalk",
+  "variations": [
+    {
+      "template": "This creature can't be blocked as long as defending player controls a Desert."
+    }
+  ]
+}

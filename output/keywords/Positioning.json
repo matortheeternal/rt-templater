@@ -1,0 +1,9 @@
+{
+  "name": "positioning",
+  "expr": "positioning",
+  "variations": [
+    {
+      "template": "As this creature enters, lock your creatures in order from left to right for as long as you control a creature with positioning. Each time a creature enters or comes under your control, position it to the left or right of another creature you control."
+    }
+  ]
+}

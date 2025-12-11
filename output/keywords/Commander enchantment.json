@@ -1,0 +1,9 @@
+{
+  "name": "commander enchantment",
+  "expr": "commander enchantment",
+  "variations": [
+    {
+      "template": "This aura enchants a commander creature, and remains attached to the creature as it moves between any face-up zones. You can cast it on a Commander in your command zone."
+    }
+  ]
+}

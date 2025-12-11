@@ -1,0 +1,9 @@
+{
+  "name": "double team",
+  "expr": "double team",
+  "variations": [
+    {
+      "template": "When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team."
+    }
+  ]
+}

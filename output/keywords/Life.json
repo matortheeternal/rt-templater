@@ -1,0 +1,9 @@
+{
+  "name": "life",
+  "expr": "life",
+  "variations": [
+    {
+      "template": "Damage causes loss of life."
+    }
+  ]
+}

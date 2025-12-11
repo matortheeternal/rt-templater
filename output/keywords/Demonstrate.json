@@ -1,0 +1,30 @@
+{
+  "name": "demonstrate",
+  "expr": "demonstrate",
+  "variations": [
+    {
+      "template": "When you cast this spell, you may copy it. If you do, choose an opponent to also copy it.",
+      "rts": [
+        "When you cast this spell, you may copy it. If you do, choose an opponent to also copy it."
+      ]
+    },
+    {
+      "template": "When you cast one, you may copy it. If you do, choose an opponent to also copy it. Copies become tokens.",
+      "rts": [
+        "When you cast one, you may copy it. If you do, choose an opponent to also copy it. Copies become tokens."
+      ]
+    },
+    {
+      "template": "Whenever you cast a creature spell, you may copy it. If you do, choose an opponent to also copy it. Each copy becomes a token.",
+      "rts": [
+        "Whenever you cast a creature spell, you may copy it. If you do, choose an opponent to also copy it. Each copy becomes a token."
+      ]
+    },
+    {
+      "template": "When you cast this spell, you may copy it. If you do, choose an opponent to also copy it. Players may choose new targets for their copies.",
+      "rts": [
+        "When you cast this spell, you may copy it. If you do, choose an opponent to also copy it. Players may choose new targets for their copies."
+      ]
+    }
+  ]
+}

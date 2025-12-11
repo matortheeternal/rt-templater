@@ -1,0 +1,9 @@
+{
+  "name": "read ahead",
+  "expr": "read ahead",
+  "variations": [
+    {
+      "template": "Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III."
+    }
+  ]
+}

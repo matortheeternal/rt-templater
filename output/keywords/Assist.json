@@ -1,0 +1,23 @@
+{
+  "name": "assist",
+  "expr": "assist",
+  "variations": [
+    {
+      "template": "Another player can pay up to <mana> of this spell's cost.",
+      "rts": [
+        "Another player can pay up to {2} of this spell's cost.",
+        "Another player can pay up to {3} of this spell's cost.",
+        "Another player can pay up to {4} of this spell's cost.",
+        "Another player can pay up to {5} of this spell's cost.",
+        "Another player can pay up to {6} of this spell's cost.",
+        "Another player can pay up to {7} of this spell's cost."
+      ]
+    },
+    {
+      "template": "Another player can pay up to {X} of this spell's cost. You choose the value of X.",
+      "rts": [
+        "Another player can pay up to {X} of this spell's cost. You choose the value of X."
+      ]
+    }
+  ]
+}

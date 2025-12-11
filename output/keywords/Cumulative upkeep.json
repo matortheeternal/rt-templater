@@ -1,0 +1,24 @@
+{
+  "name": "cumulative upkeep",
+  "expr": "cumulative upkeep",
+  "variations": [
+    {
+      "template": "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay {2} for each age counter on it.",
+      "rts": [
+        "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay {2} for each age counter on it."
+      ]
+    },
+    {
+      "template": "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.",
+      "rts": [
+        "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it."
+      ]
+    },
+    {
+      "template": "At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it.",
+      "rts": [
+        "At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it."
+      ]
+    }
+  ]
+}

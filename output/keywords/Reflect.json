@@ -1,0 +1,9 @@
+{
+  "name": "reflect",
+  "expr": "reflect",
+  "variations": [
+    {
+      "template": "As this enters, each opponent may pay {0}. When they do, they create a token copy of this except it lacks this ability."
+    }
+  ]
+}

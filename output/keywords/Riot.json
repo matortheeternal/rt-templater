@@ -1,0 +1,18 @@
+{
+  "name": "riot",
+  "expr": "riot",
+  "variations": [
+    {
+      "template": "This creature enters with your choice of a +1/+1 counter or haste.",
+      "rts": [
+        "This creature enters with your choice of a +1/+1 counter or haste."
+      ]
+    },
+    {
+      "template": "This creature enters with your choice of an additional +1/+1 counter or haste.",
+      "rts": [
+        "This creature enters with your choice of an additional +1/+1 counter or haste."
+      ]
+    }
+  ]
+}

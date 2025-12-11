@@ -1,0 +1,24 @@
+{
+  "name": "entwine",
+  "expr": "entwine",
+  "variations": [
+    {
+      "template": "Choose all if you pay the entwine cost.",
+      "rts": [
+        "Choose all if you pay the entwine cost."
+      ]
+    },
+    {
+      "template": "Choose both if you pay the entwine cost.",
+      "rts": [
+        "Choose both if you pay the entwine cost."
+      ]
+    },
+    {
+      "template": "Choose all of them if you pay the entwine cost.",
+      "rts": [
+        "Choose all of them if you pay the entwine cost."
+      ]
+    }
+  ]
+}

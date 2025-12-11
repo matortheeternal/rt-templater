@@ -1,0 +1,9 @@
+{
+  "name": "forecast",
+  "expr": "forecast",
+  "variations": [
+    {
+      "template": "Activate only during your upkeep and only once each turn."
+    }
+  ]
+}

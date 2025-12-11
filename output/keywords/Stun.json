@@ -1,0 +1,9 @@
+{
+  "name": "stun",
+  "expr": "stun",
+  "variations": [
+    {
+      "template": "If it would become untapped, remove a stun counter from it instead."
+    }
+  ]
+}

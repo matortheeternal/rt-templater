@@ -1,0 +1,9 @@
+{
+  "name": "historic",
+  "expr": "historic",
+  "variations": [
+    {
+      "template": "Artifacts, legendaries, and Sagas are historic."
+    }
+  ]
+}

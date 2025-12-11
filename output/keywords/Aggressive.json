@@ -1,0 +1,9 @@
+{
+  "name": "aggressive",
+  "expr": "aggressive",
+  "variations": [
+    {
+      "template": "During your turn, there is an additional combat phase after the first, and only creatures with aggressive may attack during it."
+    }
+  ]
+}

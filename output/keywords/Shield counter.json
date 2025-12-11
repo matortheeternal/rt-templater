@@ -1,0 +1,9 @@
+{
+  "name": "shield counter",
+  "expr": "shield counter",
+  "variations": [
+    {
+      "template": "If it would be dealt damage or destroyed, remove a shield counter from it instead."
+    }
+  ]
+}

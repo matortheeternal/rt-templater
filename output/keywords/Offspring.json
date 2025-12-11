@@ -1,0 +1,26 @@
+{
+  "name": "offspring",
+  "expr": "offspring",
+  "variations": [
+    {
+      "template": "You may pay an additional <mana> as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+      "rts": [
+        "You may pay an additional {1} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+        "You may pay an additional {2} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+        "You may pay an additional {3} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+        "You may pay an additional {4} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+        "You may pay an additional {B} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+        "You may pay an additional {1}{R} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+        "You may pay an additional {1}{U} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+        "You may pay an additional {1}{W} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+        "You may pay an additional {2}{B} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it."
+      ]
+    },
+    {
+      "template": "You may pay an additional {2} as you cast a creature spell. If you do, when that creature enters, create a 1/1 token copy of it.",
+      "rts": [
+        "You may pay an additional {2} as you cast a creature spell. If you do, when that creature enters, create a 1/1 token copy of it."
+      ]
+    }
+  ]
+}

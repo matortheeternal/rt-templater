@@ -1,0 +1,9 @@
+{
+  "name": "shadow counter",
+  "expr": "shadow counter",
+  "variations": [
+    {
+      "template": "A creature with shadow can block or be blocked by only creatures with shadow."
+    }
+  ]
+}

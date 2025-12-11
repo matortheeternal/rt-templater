@@ -1,0 +1,9 @@
+{
+  "name": "squirrellink",
+  "expr": "squirrellink",
+  "variations": [
+    {
+      "template": "Damage dealt by this creature also causes you to create that many 1/1 green Squirrel creature tokens."
+    }
+  ]
+}

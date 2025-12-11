@@ -1,0 +1,14 @@
+{
+  "name": "renown",
+  "expr": "renown",
+  "variations": [
+    {
+      "template": "When this creature deals combat damage to a player, if it isn't renowned, put <number:a_or_word> +1/+1 counter<number:plural:s> on it and it becomes renowned.",
+      "rts": [
+        "When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.",
+        "When this creature deals combat damage to a player, if it isn't renowned, put six +1/+1 counters on it and it becomes renowned.",
+        "When this creature deals combat damage to a player, if it isn't renowned, put two +1/+1 counters on it and it becomes renowned."
+      ]
+    }
+  ]
+}

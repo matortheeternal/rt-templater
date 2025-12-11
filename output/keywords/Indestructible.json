@@ -1,0 +1,45 @@
+{
+  "name": "indestructible",
+  "expr": "indestructible",
+  "variations": [
+    {
+      "template": "Damage and effects that say \"destroy\" don't destroy <target_it>.",
+      "rts": [
+        "Damage and effects that say \"destroy\" don't destroy it.",
+        "Damage and effects that say \"destroy\" don't destroy this artifact.",
+        "Damage and effects that say \"destroy\" don't destroy this creature."
+      ]
+    },
+    {
+      "template": "Effects that say \"destroy\" don't destroy this artifact.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy this artifact."
+      ]
+    },
+    {
+      "template": "Effects that say \"destroy\" don't destroy this Equipment.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy this Equipment."
+      ]
+    },
+    {
+      "template": "Damage and effects that say \"destroy\" don't destroy them.",
+      "rts": [
+        "Damage and effects that say \"destroy\" don't destroy them."
+      ]
+    },
+    {
+      "template": "Damage and effects that say \"destroy\" don't destroy the creature.",
+      "rts": [
+        "Damage and effects that say \"destroy\" don't destroy the creature."
+      ]
+    },
+    {
+      "template": "Damage and effects that say \"destroy\" don't destroy <target_it>. If its toughness is 0 or less, it's still put into its owner's graveyard.",
+      "rts": [
+        "Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.",
+        "Damage and effects that say \"destroy\" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard."
+      ]
+    }
+  ]
+}

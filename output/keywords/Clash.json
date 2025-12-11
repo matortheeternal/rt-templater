@@ -1,0 +1,18 @@
+{
+  "name": "clash",
+  "expr": "clash",
+  "variations": [
+    {
+      "template": "This ability triggers after the clash ends.",
+      "rts": [
+        "This ability triggers after the clash ends."
+      ]
+    },
+    {
+      "template": "Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.",
+      "rts": [
+        "Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value."
+      ]
+    }
+  ]
+}

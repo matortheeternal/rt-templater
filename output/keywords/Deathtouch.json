@@ -1,0 +1,27 @@
+{
+  "name": "deathtouch",
+  "expr": "deathtouch",
+  "variations": [
+    {
+      "template": "Any amount of damage <target_deals> to a creature is enough to destroy it.",
+      "rts": [
+        "Any amount of damage it deals to a creature is enough to destroy it.",
+        "Any amount of damage they deal to a creature is enough to destroy it.",
+        "Any amount of damage this deals to a creature is enough to destroy it.",
+        "Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it."
+      ]
+    },
+    {
+      "template": "Any amount of damage it deals to a creature is enough to destroy that creature.",
+      "rts": [
+        "Any amount of damage it deals to a creature is enough to destroy that creature."
+      ]
+    },
+    {
+      "template": "Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana.",
+      "rts": [
+        "Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana."
+      ]
+    }
+  ]
+}

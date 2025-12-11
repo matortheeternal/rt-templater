@@ -1,0 +1,19 @@
+{
+  "name": "double strike",
+  "expr": "double strike",
+  "variations": [
+    {
+      "template": "<target_deals> both first-strike and regular combat damage.",
+      "rts": [
+        "It deals both first-strike and regular combat damage.",
+        "They deal both first-strike and regular combat damage."
+      ]
+    },
+    {
+      "template": "This creature deals both first-strike and regular combat damage.",
+      "rts": [
+        "This creature deals both first-strike and regular combat damage."
+      ]
+    }
+  ]
+}

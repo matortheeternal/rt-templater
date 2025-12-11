@@ -1,0 +1,18 @@
+{
+  "name": "jump-start",
+  "expr": "jump-start",
+  "variations": [
+    {
+      "template": "You may cast that card from your graveyard by discarding a card in addition to paying its other costs. Then exile it.",
+      "rts": [
+        "You may cast that card from your graveyard by discarding a card in addition to paying its other costs. Then exile it."
+      ]
+    },
+    {
+      "template": "You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.",
+      "rts": [
+        "You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card."
+      ]
+    }
+  ]
+}

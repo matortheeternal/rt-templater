@@ -1,0 +1,9 @@
+{
+  "name": "fossilize",
+  "expr": "fossilize",
+  "variations": [
+    {
+      "template": "Return this card from your graveyard to the battlefield with a finality counter on it. It's an artifact and not a creature."
+    }
+  ]
+}

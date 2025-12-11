@@ -1,0 +1,21 @@
+{
+  "name": "reinforce",
+  "expr": "reinforce",
+  "variations": [
+    {
+      "template": "<mana>, Discard this card: Put <number:a_or_word> +1/+1 counter<number:plural:s> on target creature.",
+      "rts": [
+        "{W}, Discard this card: Put a +1/+1 counter on target creature.",
+        "{1}{G}, Discard this card: Put a +1/+1 counter on target creature.",
+        "{1}{R}, Discard this card: Put a +1/+1 counter on target creature.",
+        "{1}{W}, Discard this card: Put a +1/+1 counter on target creature.",
+        "{1}{G}, Discard this card: Put two +1/+1 counters on target creature.",
+        "{2}{G}, Discard this card: Put two +1/+1 counters on target creature.",
+        "{2}{W}, Discard this card: Put two +1/+1 counters on target creature.",
+        "{X}{G}{G}, Discard this card: Put X +1/+1 counters on target creature.",
+        "{X}{W}{W}, Discard this card: Put X +1/+1 counters on target creature.",
+        "{3}{G}, Discard this card: Put three +1/+1 counters on target creature."
+      ]
+    }
+  ]
+}

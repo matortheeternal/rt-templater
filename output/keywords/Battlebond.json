@@ -1,0 +1,9 @@
+{
+  "name": "battlebond",
+  "expr": "battlebond",
+  "variations": [
+    {
+      "template": "You may pair this creature with an unpaired battle you control when either enters the battlefield. They remain paired for as long as you control both of them."
+    }
+  ]
+}

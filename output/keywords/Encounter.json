@@ -1,0 +1,9 @@
+{
+  "name": "encounter",
+  "expr": "encounter",
+  "variations": [
+    {
+      "template": "Then planeswalk away from this phenomenon."
+    }
+  ]
+}

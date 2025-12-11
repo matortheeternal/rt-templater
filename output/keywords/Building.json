@@ -1,0 +1,9 @@
+{
+  "name": "building",
+  "expr": "building",
+  "variations": [
+    {
+      "template": "Circle it to indicate your selection."
+    }
+  ]
+}

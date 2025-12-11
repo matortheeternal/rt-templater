@@ -1,0 +1,9 @@
+{
+  "name": "escalate",
+  "expr": "escalate",
+  "variations": [
+    {
+      "template": "Pay this cost for each mode chosen beyond the first."
+    }
+  ]
+}

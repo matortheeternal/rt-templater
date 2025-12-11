@@ -1,0 +1,9 @@
+{
+  "name": "landwalk",
+  "expr": "landwalk",
+  "variations": [
+    {
+      "template": "This creature can't be blocked as long as defending player controls a legendary land."
+    }
+  ]
+}

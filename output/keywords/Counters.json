@@ -1,0 +1,9 @@
+{
+  "name": "counters",
+  "expr": "counters",
+  "variations": [
+    {
+      "template": "That spell won't resolve."
+    }
+  ]
+}

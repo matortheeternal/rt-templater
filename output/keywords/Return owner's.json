@@ -1,0 +1,9 @@
+{
+  "name": "return owner's",
+  "expr": "return owner's",
+  "variations": [
+    {
+      "template": "Return it only if it's on the battlefield."
+    }
+  ]
+}

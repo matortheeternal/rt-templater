@@ -1,0 +1,9 @@
+{
+  "name": "battlefield",
+  "expr": "battlefield",
+  "variations": [
+    {
+      "template": "It's not a creature."
+    }
+  ]
+}

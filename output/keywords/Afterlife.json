@@ -1,0 +1,15 @@
+{
+  "name": "afterlife",
+  "expr": "afterlife",
+  "variations": [
+    {
+      "template": "When this <dies_or_gy>, create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
+      "rts": [
+        "When this creature dies, create a 1/1 white and black Spirit creature token with flying.",
+        "When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.",
+        "When this creature dies, create three 1/1 white and black Spirit creature tokens with flying.",
+        "When this permanent is put into a graveyard from the battlefield, create a 1/1 white and black Spirit creature token with flying."
+      ]
+    }
+  ]
+}

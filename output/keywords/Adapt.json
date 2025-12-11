@@ -1,0 +1,15 @@
+{
+  "name": "adapt",
+  "expr": "adapt",
+  "variations": [
+    {
+      "template": "If this creature has no +1/+1 counters on it, put <number:a_or_word> +1/+1 counter<number:plural:s> on it.",
+      "rts": [
+        "If this creature has no +1/+1 counters on it, put a +1/+1 counter on it.",
+        "If this creature has no +1/+1 counters on it, put two +1/+1 counters on it.",
+        "If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.",
+        "If this creature has no +1/+1 counters on it, put three +1/+1 counters on it."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "monstrosity",
+  "expr": "monstrosity",
+  "variations": [
+    {
+      "template": "If this creature isn't monstrous, put <number:a_or_word> +1/+1 counter<number:plural:s> on it and it becomes monstrous.",
+      "rts": [
+        "If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.",
+        "If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.",
+        "If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.",
+        "If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous.",
+        "If this creature isn't monstrous, put five +1/+1 counters on it and it becomes monstrous.",
+        "If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.",
+        "If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous."
+      ]
+    },
+    {
+      "template": "If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous. {S} can be paid with one mana from a snow source.",
+      "rts": [
+        "If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous. {S} can be paid with one mana from a snow source."
+      ]
+    }
+  ]
+}

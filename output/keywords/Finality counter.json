@@ -1,0 +1,9 @@
+{
+  "name": "finality counter",
+  "expr": "finality counter",
+  "variations": [
+    {
+      "template": "If a creature with a finality counter on it would die, exile it instead."
+    }
+  ]
+}

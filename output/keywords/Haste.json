@@ -1,0 +1,43 @@
+{
+  "name": "haste",
+  "expr": "haste",
+  "variations": [
+    {
+      "template": "It can attack this turn.",
+      "rts": [
+        "It can attack this turn."
+      ]
+    },
+    {
+      "template": "It can attack and {T} this turn.",
+      "rts": [
+        "It can attack and {T} this turn."
+      ]
+    },
+    {
+      "template": "<target_it> can attack and {T} as soon as it comes under your control.",
+      "rts": [
+        "It can attack and {T} as soon as it comes under your control.",
+        "This creature can attack and {T} as soon as it comes under your control."
+      ]
+    },
+    {
+      "template": "It can attack and {T} no matter when it came under your control.",
+      "rts": [
+        "It can attack and {T} no matter when it came under your control."
+      ]
+    },
+    {
+      "template": "They can attack and {T} as soon as they come under your control.",
+      "rts": [
+        "They can attack and {T} as soon as they come under your control."
+      ]
+    },
+    {
+      "template": "This creature can attack as soon as it comes under your control.",
+      "rts": [
+        "This creature can attack as soon as it comes under your control."
+      ]
+    }
+  ]
+}

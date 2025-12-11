@@ -1,0 +1,16 @@
+{
+  "name": "saddle",
+  "expr": "saddle",
+  "variations": [
+    {
+      "template": "Tap any number of other creatures you control with total power <number> or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.",
+      "rts": [
+        "Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.",
+        "Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.",
+        "Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.",
+        "Tap any number of other creatures you control with total power 4 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.",
+        "Tap any number of other creatures you control with total power 5 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery."
+      ]
+    }
+  ]
+}

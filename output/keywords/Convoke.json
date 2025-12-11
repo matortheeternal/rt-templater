@@ -1,0 +1,30 @@
+{
+  "name": "convoke",
+  "expr": "convoke",
+  "variations": [
+    {
+      "template": "Each tapped creature that you untap while casting this spell pays for {1} or one mana of that creature's color. This counts as convoke.",
+      "rts": [
+        "Each tapped creature that you untap while casting this spell pays for {1} or one mana of that creature's color. This counts as convoke."
+      ]
+    },
+    {
+      "template": "Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.",
+      "rts": [
+        "Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color."
+      ]
+    },
+    {
+      "template": "Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.",
+      "rts": [
+        "Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color."
+      ]
+    },
+    {
+      "template": "Your creatures can help cast those spells. Each creature you tap while casting a legendary creature spell pays for {1} or one mana of that creature's color.",
+      "rts": [
+        "Your creatures can help cast those spells. Each creature you tap while casting a legendary creature spell pays for {1} or one mana of that creature's color."
+      ]
+    }
+  ]
+}

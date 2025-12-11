@@ -18,8 +18,6 @@
   "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, and 31 are prime numbers.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
-      "step": "100.00%",
       "entered": "100.00%",
       "battlefield": "100.00%",
       "under": "100.00%",
@@ -30,8 +28,6 @@
       "indivisible": "100.00%",
       "0/0": "100.00%",
       "fractal": "100.00%",
-      "token": "100.00%",
-      "then": "100.00%",
       "many": "100.00%",
       "counters": "100.00%"
     },
@@ -52,7 +48,6 @@
       "enchanted": "100.00%",
       "attacked": "100.00%",
       "gold": "100.00%",
-      "token": "100.00%",
       "attacking": "100.00%",
       "does": "100.00%",
       "same": "100.00%"
@@ -71,8 +66,6 @@
       "revealed": "100.00%",
       "way": "100.00%",
       "map": "100.00%",
-      "token": "100.00%",
-      "then": "100.00%",
       "draws": "100.00%"
     },
     "bestKeywords": {
@@ -88,15 +81,12 @@
       "phenome-nom": "200.00%",
       "creates": "100.00%",
       "pizza": "200.00%",
-      "token": "100.00%",
       "least": "200.00%",
       "life": "200.00%",
       "tied": "100.00%",
       "for": "100.00%",
       "they": "100.00%",
-      "tokens": "100.00%",
       "instead": "100.00%",
-      "then": "100.00%",
       "planeswalk": "100.00%",
       "away": "100.00%"
     },
@@ -135,7 +125,6 @@
       "see": "100.00%",
       "seat": "100.00%",
       "next": "200.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "counters": "100.00%"
     },
@@ -261,7 +250,6 @@
     "bestBeforeTokens": {
       "colorless": "100.00%",
       "thopter": "100.00%",
-      "token": "100.00%",
       "flying": "100.00%"
     },
     "bestKeywords": {}
@@ -366,7 +354,6 @@
       "for": "100.00%",
       "team-up": "100.00%",
       "into": "100.00%",
-      "then": "100.00%",
       "shuffle": "100.00%"
     },
     "bestKeywords": {}
@@ -581,7 +568,6 @@
     "bestBeforeTokens": {
       "shuffle": "100.00%",
       "whammy": "300.00%",
-      "then": "200.00%",
       "island": "100.00%",
       "stop": "100.00%",
       "no": "100.00%",
@@ -741,7 +727,6 @@
       "com-": "100.00%",
       "mand": "100.00%",
       "zone": "100.00%",
-      "then": "100.00%",
       "planeswalk": "100.00%",
       "away": "100.00%",
       "phenom-": "100.00%",
@@ -802,7 +787,6 @@
       "{t}": "100.00%",
       "exert": "100.00%",
       "add": "100.00%",
-      "spent": "100.00%",
       "haste": "100.00%"
     },
     "bestKeywords": {}
@@ -886,7 +870,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "wolf": "100.00%",
-      "token": "100.00%",
       "named": "200.00%",
       "wolves": "200.00%",
       "hunt": "200.00%",
@@ -897,7 +880,6 @@
   "Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's blocking.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "combat": "200.00%",
       "banding": "100.00%"
     },
@@ -1040,8 +1022,7 @@
       "chaos": "100.00%",
       "split": "100.00%",
       "second": "100.00%",
-      "was": "100.00%",
-      "spent": "100.00%"
+      "was": "100.00%"
     },
     "bestKeywords": {
       "haste": "100.00%"
@@ -1076,10 +1057,8 @@
   "As the token enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "dragon": "100.00%",
-      "token": "100.00%",
       "flying": "100.00%",
       "devour": "100.00%"
     },
@@ -1193,8 +1172,7 @@
     "bestBeforeTokens": {
       "another": "100.00%",
       "outlaw": "100.00%",
-      "treasure": "100.00%",
-      "token": "100.00%"
+      "treasure": "100.00%"
     },
     "bestKeywords": {
       "treasure": "100.00%",
@@ -1324,7 +1302,6 @@
       "putting": "100.00%",
       "into": "100.00%",
       "resolves": "100.00%",
-      "then": "100.00%",
       "exiled": "100.00%",
       "suspend": "200.00%"
     },
@@ -1427,7 +1404,6 @@
       "chooses": "100.00%",
       "basic": "200.00%",
       "type": "200.00%",
-      "then": "100.00%",
       "choices": "100.00%",
       "revealed": "100.00%",
       "received": "100.00%",
@@ -1507,7 +1483,6 @@
       "lethal": "100.00%",
       "damage": "100.00%",
       "food": "100.00%",
-      "token": "100.00%",
       "draw": "100.00%"
     },
     "bestKeywords": {
@@ -1517,7 +1492,6 @@
   "Choose a creature with the least toughness among creatures you control and put X +1/+1 counters on it.": {
     "count": 2,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "bolster": "100.00%",
       "number": "100.00%"
     },
@@ -1549,7 +1523,6 @@
       "source": "100.00%",
       "choice": "100.00%",
       "shares": "100.00%",
-      "spent": "100.00%",
       "activation": "100.00%"
     },
     "bestKeywords": {}
@@ -1583,7 +1556,6 @@
       "attach": "100.00%",
       "up": "100.00%",
       "equipment": "200.00%",
-      "then": "100.00%",
       "amass": "100.00%",
       "orcs": "100.00%",
       "number": "100.00%"
@@ -1635,7 +1607,6 @@
       "counters": "200.00%",
       "enchantment": "200.00%",
       "result": "100.00%",
-      "then": "100.00%",
       "there": "100.00%",
       "more": "100.00%",
       "game": "100.00%"
@@ -1649,7 +1620,6 @@
     "bestBeforeTokens": {
       "odric": "100.00%",
       "blood": "100.00%",
-      "tokens": "100.00%",
       "number": "100.00%",
       "abilities": "100.00%",
       "among": "200.00%",
@@ -1896,7 +1866,6 @@
   "Damage dealt by the creature also causes you to gain that much life.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "combat": "100.00%",
       "counter": "100.00%",
       "lifelink": "100.00%"
@@ -1971,7 +1940,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "was": "200.00%",
-      "spent": "200.00%",
       "-3/-3": "100.00%",
       "+3/+3": "100.00%"
     },
@@ -1984,7 +1952,6 @@
       "up": "100.00%",
       "battlefield": "100.00%",
       "was": "200.00%",
-      "spent": "200.00%",
       "+2/+0": "100.00%",
       "gain": "100.00%",
       "haste": "100.00%"
@@ -1998,7 +1965,6 @@
       "lose": "100.00%",
       "flying": "200.00%",
       "was": "200.00%",
-      "spent": "200.00%",
       "gain": "100.00%"
     },
     "bestKeywords": {}
@@ -2008,8 +1974,7 @@
     "bestBeforeTokens": {
       "gain": "100.00%",
       "life": "200.00%",
-      "was": "200.00%",
-      "spent": "200.00%"
+      "was": "200.00%"
     },
     "bestKeywords": {}
   },
@@ -2020,8 +1985,7 @@
       "deals": "100.00%",
       "damage": "200.00%",
       "flying": "200.00%",
-      "was": "200.00%",
-      "spent": "200.00%"
+      "was": "200.00%"
     },
     "bestKeywords": {}
   },
@@ -2031,8 +1995,7 @@
       "can't": "200.00%",
       "play": "100.00%",
       "lands": "100.00%",
-      "was": "200.00%",
-      "spent": "200.00%"
+      "was": "200.00%"
     },
     "bestKeywords": {}
   },
@@ -2040,13 +2003,11 @@
     "count": 1,
     "bestBeforeTokens": {
       "was": "200.00%",
-      "spent": "200.00%",
       "return": "100.00%",
       "up": "100.00%",
       "owner's": "100.00%",
       "reveals": "100.00%",
       "their": "100.00%",
-      "then": "100.00%",
       "discards": "100.00%"
     },
     "bestKeywords": {}
@@ -2057,7 +2018,6 @@
       "opponents": "100.00%",
       "-1/-0": "100.00%",
       "was": "200.00%",
-      "spent": "200.00%",
       "+1/+0": "100.00%"
     },
     "bestKeywords": {}
@@ -2073,7 +2033,6 @@
       "be": "100.00%",
       "dealt": "100.00%",
       "was": "200.00%",
-      "spent": "200.00%",
       "loses": "100.00%",
       "life": "100.00%",
       "for": "100.00%",
@@ -2087,9 +2046,7 @@
     "bestBeforeTokens": {
       "kithkin": "100.00%",
       "soldier": "100.00%",
-      "tokens": "100.00%",
       "was": "200.00%",
-      "spent": "200.00%",
       "counter": "100.00%",
       "up": "100.00%"
     },
@@ -2216,8 +2173,7 @@
       "wins": "100.00%",
       "clash": "100.00%",
       "creates": "100.00%",
-      "assassin": "100.00%",
-      "tokens": "100.00%"
+      "assassin": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -2226,7 +2182,6 @@
     "bestBeforeTokens": {
       "elf": "100.00%",
       "warrior": "100.00%",
-      "tokens": "100.00%",
       "clash": "100.00%",
       "gain": "100.00%",
       "deathtouch": "100.00%"
@@ -2268,8 +2223,7 @@
       "anywhere": "100.00%",
       "else": "100.00%",
       "into": "100.00%",
-      "elemental": "100.00%",
-      "token": "100.00%"
+      "elemental": "100.00%"
     },
     "bestKeywords": {
       "magecraft": "100.00%"
@@ -2337,8 +2291,6 @@
       "charitable": "100.00%",
       "drafter": "100.00%",
       "dog": "100.00%",
-      "token": "100.00%",
-      "then": "200.00%",
       "players": "200.00%",
       "shuffles": "100.00%",
       "their": "300.00%",
@@ -2428,8 +2380,7 @@
       "permanent": "100.00%",
       "indestructible": "100.00%",
       "colorless": "100.00%",
-      "servo": "100.00%",
-      "token": "100.00%"
+      "servo": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -2482,7 +2433,6 @@
       "battlefield": "100.00%",
       "chef": "100.00%",
       "role": "100.00%",
-      "token": "100.00%",
       "up": "100.00%"
     },
     "bestKeywords": {
@@ -2495,34 +2445,11 @@
     "bestBeforeTokens": {
       "pay": "100.00%",
       "sorcerer": "100.00%",
-      "role": "100.00%",
-      "token": "100.00%"
+      "role": "100.00%"
     },
     "bestKeywords": {
       "role token": "100.00%",
       "scry": "100.00%"
-    }
-  },
-  "Enchanted creature gets +1/+1 and has trample.": {
-    "count": 2,
-    "bestBeforeTokens": {
-      "monster": "100.00%",
-      "role": "100.00%",
-      "token": "100.00%"
-    },
-    "bestKeywords": {
-      "role token": "100.00%"
-    }
-  },
-  "Enchanted creature gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.": {
-    "count": 2,
-    "bestBeforeTokens": {
-      "wicked": "100.00%",
-      "role": "100.00%",
-      "token": "100.00%"
-    },
-    "bestKeywords": {
-      "role token": "100.00%"
     }
   },
   "Enchanted creature has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\" If you put another Role on the creature later, put this one into the graveyard.": {
@@ -2534,22 +2461,9 @@
       "battlefield": "100.00%",
       "young": "100.00%",
       "hero": "100.00%",
-      "role": "100.00%",
-      "token": "100.00%"
+      "role": "100.00%"
     },
     "bestKeywords": {
-      "role token": "100.00%"
-    }
-  },
-  "Enchanted creature is 1/1.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "cursed": "100.00%",
-      "role": "100.00%",
-      "token": "100.00%"
-    },
-    "bestKeywords": {
-      "lifelink": "100.00%",
       "role token": "100.00%"
     }
   },
@@ -2618,7 +2532,6 @@
       "shuffles": "100.00%",
       "their": "200.00%",
       "into": "100.00%",
-      "then": "100.00%",
       "draws": "100.00%"
     },
     "bestKeywords": {}
@@ -2728,7 +2641,6 @@
   "Exile three cards from your graveyard or sacrifice a Food.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "combat": "100.00%",
       "forage": "100.00%"
     },
@@ -2783,7 +2695,6 @@
     "bestBeforeTokens": {
       "landfall": "100.00%",
       "food": "100.00%",
-      "token": "200.00%",
       "treasure": "100.00%"
     },
     "bestKeywords": {
@@ -2797,7 +2708,6 @@
     "bestBeforeTokens": {
       "number": "200.00%",
       "food": "100.00%",
-      "tokens": "100.00%",
       "opponents": "100.00%"
     },
     "bestKeywords": {
@@ -3010,8 +2920,7 @@
       "basic": "100.00%",
       "types": "100.00%",
       "appropriate": "100.00%",
-      "shockland": "100.00%",
-      "token": "100.00%"
+      "shockland": "100.00%"
     },
     "bestKeywords": {
       "demonstrate": "100.00%"
@@ -3066,7 +2975,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "dog": "100.00%",
-      "tokens": "100.00%",
       "highest": "100.00%",
       "commander": "100.00%",
       "tax": "100.00%",
@@ -3307,7 +3215,6 @@
       "ew-minance": "100.00%",
       "gunky": "100.00%",
       "runner": "100.00%",
-      "beginning": "100.00%",
       "first": "100.00%",
       "upkeep": "100.00%",
       "game": "100.00%",
@@ -3390,8 +3297,6 @@
   "He's not a creature during that time.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
-      "step": "100.00%",
       "hydro-man": "100.00%",
       "next": "100.00%",
       "he": "100.00%",
@@ -3457,8 +3362,6 @@
   "If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
-      "step": "100.00%",
       "return": "100.00%",
       "up": "100.00%",
       "enchantment": "100.00%",
@@ -3575,7 +3478,6 @@
   "If it does, it loses this ability.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "opponent's": "100.00%",
       "upkeep": "100.00%",
       "reveals": "100.00%",
@@ -3648,8 +3550,6 @@
   "If it would die, exile it instead.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
-      "step": "100.00%",
       "return": "100.00%",
       "power": "100.00%",
       "less": "100.00%",
@@ -3736,7 +3636,6 @@
     "bestBeforeTokens": {
       "return": "200.00%",
       "battlefield": "200.00%",
-      "then": "100.00%",
       "up": "100.00%",
       "aura": "100.00%",
       "and/or": "100.00%",
@@ -3857,7 +3756,6 @@
   "If two or more permanents are tied for lowest, target any one of them.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "destroy": "100.00%",
       "permanent": "100.00%",
@@ -3916,7 +3814,6 @@
     "bestBeforeTokens": {
       "monster": "100.00%",
       "role": "100.00%",
-      "token": "100.00%",
       "fights": "100.00%",
       "up": "100.00%",
       "don't": "100.00%"
@@ -3932,7 +3829,6 @@
       "ellivere": "100.00%",
       "virtuous": "100.00%",
       "role": "100.00%",
-      "token": "100.00%",
       "another": "100.00%"
     },
     "bestKeywords": {
@@ -3946,7 +3842,6 @@
       "cosplayer": "100.00%",
       "battlefield": "100.00%",
       "role": "100.00%",
-      "token": "100.00%",
       "attach": "100.00%"
     },
     "bestKeywords": {
@@ -3980,7 +3875,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "rafi": "100.00%",
-      "beginning": "100.00%",
       "first": "100.00%",
       "upkeep": "100.00%",
       "game": "200.00%",
@@ -4023,7 +3917,6 @@
   "In Commander sealed, that's everything you didn't play with. In any other commander game, find a way to select a random Magic card.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "random": "100.00%",
       "outside": "100.00%",
@@ -4045,8 +3938,7 @@
       "any": "100.00%",
       "type": "100.00%",
       "can": "100.00%",
-      "be": "100.00%",
-      "spent": "100.00%"
+      "be": "100.00%"
     },
     "bestKeywords": {
       "trample": "100.00%"
@@ -4063,8 +3955,7 @@
       "any": "100.00%",
       "type": "100.00%",
       "can": "100.00%",
-      "be": "100.00%",
-      "spent": "100.00%"
+      "be": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -4107,10 +3998,8 @@
       "enchantment": "100.00%",
       "octopus": "100.00%",
       "performer": "100.00%",
-      "token": "200.00%",
       "named": "100.00%",
       "contortionist": "100.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "fold": "100.00%",
       "half": "100.00%"
@@ -4177,7 +4066,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "counter": "100.00%",
-      "then": "100.00%",
       "reselect": "100.00%",
       "which": "100.00%",
       "attacking": "200.00%",
@@ -4185,8 +4073,7 @@
       "activate": "100.00%",
       "ability": "100.00%",
       "declare": "100.00%",
-      "attackers": "100.00%",
-      "step": "100.00%"
+      "attackers": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -4236,9 +4123,7 @@
       "chosen": "100.00%",
       "return": "100.00%",
       "owner's": "100.00%",
-      "beginning": "100.00%",
-      "next": "100.00%",
-      "step": "100.00%"
+      "next": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -4276,8 +4161,7 @@
       "deals": "100.00%",
       "combat": "100.00%",
       "damage": "100.00%",
-      "treasure": "100.00%",
-      "token": "100.00%"
+      "treasure": "100.00%"
     },
     "bestKeywords": {
       "treasure": "100.00%",
@@ -4532,7 +4416,6 @@
     "bestBeforeTokens": {
       "+1": "100.00%",
       "add": "100.00%",
-      "spent": "100.00%",
       "riot": "100.00%"
     },
     "bestKeywords": {}
@@ -4554,7 +4437,6 @@
       "5/5": "100.00%",
       "colorless": "100.00%",
       "vehicle": "100.00%",
-      "token": "100.00%",
       "named": "100.00%",
       "zeppelin": "100.00%",
       "flying": "100.00%",
@@ -4568,7 +4450,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "food": "100.00%",
-      "token": "100.00%",
       "still": "100.00%"
     },
     "bestKeywords": {}
@@ -4632,7 +4513,6 @@
   "It keeps its types. It just has a new name. Remember this is a family event.": {
     "count": 1,
     "bestBeforeTokens": {
-      "token": "100.00%",
       "name": "100.00%",
       "using": "100.00%",
       "up": "100.00%",
@@ -4826,11 +4706,9 @@
       "spend": "100.00%",
       "only": "100.00%",
       "second": "100.00%",
-      "spent": "100.00%",
       "deep": "100.00%",
       "dish": "100.00%",
-      "pizza": "100.00%",
-      "token": "100.00%"
+      "pizza": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -4839,8 +4717,7 @@
     "bestBeforeTokens": {
       "contested": "100.00%",
       "game": "100.00%",
-      "ball": "100.00%",
-      "token": "100.00%"
+      "ball": "100.00%"
     },
     "bestKeywords": {
       "flying": "100.00%"
@@ -4852,8 +4729,7 @@
       "destroy": "100.00%",
       "creature's": "100.00%",
       "controller": "100.00%",
-      "arrest": "100.00%",
-      "token": "100.00%"
+      "arrest": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -4865,20 +4741,9 @@
       "nontoken": "100.00%",
       "controller": "100.00%",
       "creates": "100.00%",
-      "confluence": "100.00%",
-      "token": "100.00%"
+      "confluence": "100.00%"
     },
     "bestKeywords": {}
-  },
-  "It's a land with \"{T}: Add {C}\" and \"{1}: This token becomes a 2/2 creature with all creature types until end of turn. It's still a land.\"": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "mutavault": "100.00%",
-      "token": "100.00%"
-    },
-    "bestKeywords": {
-      "changeling": "100.00%"
-    }
   },
   "It's a land with {T}: Add {C}.": {
     "count": 1,
@@ -4890,8 +4755,7 @@
       "land's": "100.00%",
       "controller": "100.00%",
       "creates": "100.00%",
-      "wastes": "100.00%",
-      "token": "100.00%"
+      "wastes": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -4900,8 +4764,7 @@
     "bestBeforeTokens": {
       "enchanted": "100.00%",
       "{t}": "100.00%",
-      "tarmogoyf": "100.00%",
-      "token": "100.00%"
+      "tarmogoyf": "100.00%"
     },
     "bestKeywords": {
       "enchant": "100.00%"
@@ -4912,8 +4775,7 @@
     "bestBeforeTokens": {
       "iii": "100.00%",
       "spellgorger": "100.00%",
-      "weird": "100.00%",
-      "token": "100.00%"
+      "weird": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -4922,11 +4784,9 @@
     "bestBeforeTokens": {
       "planeswalk": "100.00%",
       "here": "100.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "elvish": "100.00%",
-      "impersonators": "100.00%",
-      "token": "100.00%"
+      "impersonators": "100.00%"
     },
     "bestKeywords": {
       "treasure": "100.00%"
@@ -4936,8 +4796,7 @@
     "count": 2,
     "bestBeforeTokens": {
       "forest": "100.00%",
-      "dryad": "100.00%",
-      "token": "100.00%"
+      "dryad": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -4959,13 +4818,11 @@
     "bestBeforeTokens": {
       "solved": "100.00%",
       "more": "100.00%",
-      "tokens": "200.00%",
       "would": "100.00%",
       "be": "100.00%",
       "created": "200.00%",
       "under": "100.00%",
       "clue": "100.00%",
-      "token": "100.00%",
       "instead": "100.00%"
     },
     "bestKeywords": {}
@@ -4974,8 +4831,7 @@
     "count": 1,
     "bestBeforeTokens": {
       "visit": "100.00%",
-      "food": "100.00%",
-      "token": "100.00%"
+      "food": "100.00%"
     },
     "bestKeywords": {
       "food": "100.00%"
@@ -4995,7 +4851,6 @@
       "kylem": "100.00%",
       "all-star": "100.00%",
       "battlefield": "100.00%",
-      "token": "100.00%",
       "copy": "100.00%",
       "all": "100.00%",
       "glitters": "100.00%",
@@ -5189,7 +5044,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "ii": "100.00%",
-      "token": "200.00%",
       "that's": "200.00%",
       "copy": "200.00%",
       "krark": "100.00%",
@@ -5251,8 +5105,7 @@
     "bestBeforeTokens": {
       "mine": "100.00%",
       "tunnels": "100.00%",
-      "treasure": "100.00%",
-      "token": "100.00%"
+      "treasure": "100.00%"
     },
     "bestKeywords": {
       "treasure": "100.00%",
@@ -5352,8 +5205,7 @@
     "count": 1,
     "bestBeforeTokens": {
       "goblin": "200.00%",
-      "lair": "100.00%",
-      "token": "100.00%"
+      "lair": "100.00%"
     },
     "bestKeywords": {
       "treasure": "100.00%",
@@ -5377,7 +5229,6 @@
       "medic": "100.00%",
       "battlefield": "100.00%",
       "leeches": "100.00%",
-      "token": "100.00%",
       "into": "100.00%"
     },
     "bestKeywords": {}
@@ -5409,7 +5260,6 @@
       "planeswalk": "100.00%",
       "quicksilver": "100.00%",
       "sea": "100.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "scry": "100.00%"
     },
@@ -5490,7 +5340,6 @@
   "Mana cost includes color. If a mana symbol has multiple colors, choose one.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "first": "100.00%",
       "main": "100.00%",
       "phase": "100.00%",
@@ -5537,7 +5386,6 @@
       "random": "100.00%",
       "find": "100.00%",
       "creates": "100.00%",
-      "token": "200.00%",
       "than": "100.00%",
       "copy": "100.00%",
       "type": "100.00%",
@@ -5845,7 +5693,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "draw": "100.00%",
-      "then": "100.00%",
       "face": "100.00%",
       "down": "100.00%",
       "foretold": "100.00%",
@@ -5882,7 +5729,6 @@
     "bestBeforeTokens": {
       "all": "100.00%",
       "incubator": "100.00%",
-      "tokens": "200.00%",
       "become": "100.00%",
       "food": "100.00%",
       "blood": "100.00%",
@@ -5921,7 +5767,6 @@
       "yavimaya": "100.00%",
       "cradle": "100.00%",
       "growth": "100.00%",
-      "token": "100.00%",
       "that's": "100.00%",
       "copy": "100.00%",
       "chosen": "100.00%"
@@ -5997,7 +5842,6 @@
     "bestBeforeTokens": {
       "enchanted": "100.00%",
       "would": "100.00%",
-      "step": "100.00%",
       "remove": "100.00%",
       "counter": "100.00%",
       "instead": "100.00%"
@@ -6071,7 +5915,6 @@
       "device": "200.00%",
       "take": "100.00%",
       "picture": "100.00%",
-      "token": "100.00%",
       "that's": "100.00%",
       "photocopy": "100.00%",
       "pictured": "100.00%"
@@ -6097,7 +5940,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "parade!": "100.00%",
-      "beginning": "100.00%",
       "combat": "100.00%",
       "time": "100.00%",
       "been": "100.00%",
@@ -6115,9 +5957,7 @@
       "colorless": "100.00%",
       "phyrexian": "100.00%",
       "mite": "100.00%",
-      "tokens": "100.00%",
       "toxic": "100.00%",
-      "token": "100.00%",
       "can't": "100.00%",
       "block": "100.00%",
       "more": "100.00%",
@@ -6142,7 +5982,6 @@
       "colorless": "100.00%",
       "phyrexian": "100.00%",
       "mite": "100.00%",
-      "token": "200.00%",
       "toxic": "100.00%",
       "can't": "100.00%",
       "block": "100.00%"
@@ -6173,7 +6012,6 @@
   "Players reveal the discarded cards simultaneously.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "discards": "100.00%",
       "who": "100.00%",
@@ -6305,7 +6143,6 @@
       "uninstall": "100.00%",
       "all": "100.00%",
       "results": "100.00%",
-      "then": "100.00%",
       "roll": "100.00%",
       "six-sided": "100.00%",
       "die": "100.00%",
@@ -6546,7 +6383,6 @@
     "count": 2,
     "bestBeforeTokens": {
       "explores": "200.00%",
-      "then": "100.00%",
       "again": "100.00%"
     },
     "bestKeywords": {
@@ -6556,7 +6392,6 @@
   "Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the exploring creature, then put the card back or put it into your graveyard.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "combat": "100.00%",
       "merfolk": "100.00%",
       "explores": "100.00%"
@@ -6569,7 +6404,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "explores": "200.00%",
-      "then": "100.00%",
       "again": "100.00%"
     },
     "bestKeywords": {
@@ -6603,10 +6437,8 @@
       "kharis": "100.00%",
       "&": "100.00%",
       "beholder": "100.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "human": "100.00%",
-      "token": "100.00%",
       "make": "100.00%",
       "charisma": "100.00%",
       "check": "100.00%"
@@ -6879,7 +6711,6 @@
     "bestBeforeTokens": {
       "exhaust": "100.00%",
       "counters": "100.00%",
-      "then": "100.00%",
       "earthbend": "100.00%"
     },
     "bestKeywords": {
@@ -6920,7 +6751,6 @@
     "bestBeforeTokens": {
       "{t}": "100.00%",
       "add": "100.00%",
-      "spent": "100.00%",
       "haste": "100.00%"
     },
     "bestKeywords": {}
@@ -6961,7 +6791,6 @@
   "That phase occurs as though it's your turn instead.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "phase": "600.00%",
       "first": "100.00%",
       "main": "200.00%",
@@ -7056,7 +6885,6 @@
   "The beginning phase includes the untap, upkeep, and draw steps.": {
     "count": 2,
     "bestBeforeTokens": {
-      "beginning": "200.00%",
       "postcombat": "100.00%",
       "main": "100.00%",
       "phases": "100.00%",
@@ -7130,15 +6958,13 @@
       "random": "100.00%",
       "than": "100.00%",
       "guesses": "100.00%",
-      "deck's": "100.00%",
-      "then": "100.00%"
+      "deck's": "100.00%"
     },
     "bestKeywords": {}
   },
   "The end step happens after the added untap, upkeep, and draw steps.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "200.00%",
       "enchanted": "100.00%",
       "player's": "100.00%",
       "postcombat": "100.00%",
@@ -7186,7 +7012,6 @@
       "counter": "300.00%",
       "for": "100.00%",
       "long": "100.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "deals": "100.00%",
       "damage": "100.00%"
@@ -7268,10 +7093,8 @@
       "mox": "200.00%",
       "don't": "100.00%",
       "random": "100.00%",
-      "token": "200.00%",
       "that's": "100.00%",
       "copy": "100.00%",
-      "then": "100.00%",
       "all": "100.00%",
       "lotus": "100.00%"
     },
@@ -7281,7 +7104,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "monstrous": "100.00%",
-      "token": "100.00%",
       "that's": "100.00%",
       "copy": "100.00%"
     },
@@ -7294,7 +7116,6 @@
     "bestBeforeTokens": {
       "more": "100.00%",
       "powerstone": "100.00%",
-      "token": "100.00%",
       "ability": "100.00%",
       "triggers": "100.00%",
       "only": "100.00%",
@@ -7399,7 +7220,6 @@
       "shuffles": "100.00%",
       "their": "200.00%",
       "into": "100.00%",
-      "then": "100.00%",
       "draws": "100.00%"
     },
     "bestKeywords": {}
@@ -7410,11 +7230,9 @@
       "clue": "100.00%",
       "room": "100.00%",
       "random": "100.00%",
-      "token": "100.00%",
       "that's": "100.00%",
       "copy": "100.00%",
       "halves": "100.00%",
-      "then": "100.00%",
       "unlock": "100.00%"
     },
     "bestKeywords": {
@@ -7440,7 +7258,6 @@
       "disciple": "100.00%",
       "nissa": "200.00%",
       "pay": "100.00%",
-      "tokens": "100.00%",
       "copies": "100.00%",
       "different": "100.00%",
       "planeswalkers": "100.00%",
@@ -7498,7 +7315,6 @@
   "They can attack and {T} this turn.": {
     "count": 2,
     "bestBeforeTokens": {
-      "tokens": "100.00%",
       "gain": "100.00%",
       "haste": "100.00%"
     },
@@ -7552,7 +7368,6 @@
     "bestBeforeTokens": {
       "goblin": "100.00%",
       "scout": "100.00%",
-      "tokens": "100.00%",
       "mountainwalk": "100.00%"
     },
     "bestKeywords": {}
@@ -7615,7 +7430,6 @@
   "They can't look it up or ask for help as this ability is resolving. Nice try, though.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "first": "100.00%",
       "main": "100.00%",
       "phase": "100.00%",
@@ -7634,7 +7448,6 @@
       "guesses": "100.00%",
       "which": "100.00%",
       "incorrect": "100.00%",
-      "then": "100.00%",
       "who": "100.00%",
       "guessed": "100.00%",
       "incorrectly": "100.00%",
@@ -7665,7 +7478,6 @@
       "for": "100.00%",
       "rest": "100.00%",
       "game": "100.00%",
-      "tokens": "200.00%",
       "own": "100.00%",
       "become": "100.00%",
       "still": "100.00%"
@@ -7703,7 +7515,6 @@
       "shuffles": "100.00%",
       "into": "100.00%",
       "their": "100.00%",
-      "then": "100.00%",
       "investigates": "100.00%"
     },
     "bestKeywords": {
@@ -7729,7 +7540,6 @@
     "bestBeforeTokens": {
       "phyrexian": "100.00%",
       "insect": "100.00%",
-      "tokens": "100.00%",
       "infect": "100.00%"
     },
     "bestKeywords": {}
@@ -7790,21 +7600,10 @@
       "shuffles": "100.00%",
       "into": "100.00%",
       "their": "100.00%",
-      "then": "100.00%",
       "discovers": "100.00%"
     },
     "bestKeywords": {
       "discover": "100.00%"
-    }
-  },
-  "They have \"Whenever a creature you control enters, if it has greater power or toughness than this token, put a +1/+1 counter on this token.\" They see this creature enter.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "tokens": "100.00%",
-      "evolve": "100.00%"
-    },
-    "bestKeywords": {
-      "devoid": "100.00%"
     }
   },
   "They have \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\"": {
@@ -7824,8 +7623,7 @@
       "crafter": "100.00%",
       "battlefield": "100.00%",
       "colorless": "100.00%",
-      "scrap": "100.00%",
-      "tokens": "100.00%"
+      "scrap": "100.00%"
     },
     "bestKeywords": {
       "affinity": "100.00%"
@@ -7856,7 +7654,6 @@
       "20": "100.00%",
       "highland": "100.00%",
       "runner": "100.00%",
-      "beginning": "100.00%",
       "first": "100.00%",
       "upkeep": "100.00%",
       "game": "200.00%",
@@ -7877,7 +7674,6 @@
   "They phase in before you untap during your next untap step.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "all": "100.00%",
       "lands": "100.00%",
@@ -7960,14 +7756,6 @@
       "investigate": "100.00%"
     }
   },
-  "They're 2/2 black Zombie creatures.": {
-    "count": 2,
-    "bestBeforeTokens": {
-      "walker": "100.00%",
-      "tokens": "100.00%"
-    },
-    "bestKeywords": {}
-  },
   "They're 2/2 creatures.": {
     "count": 1,
     "bestBeforeTokens": {
@@ -7983,8 +7771,7 @@
     "bestBeforeTokens": {
       "keeper": "100.00%",
       "scythes": "100.00%",
-      "scythe": "100.00%",
-      "tokens": "100.00%"
+      "scythe": "100.00%"
     },
     "bestKeywords": {
       "echo": "100.00%"
@@ -7998,8 +7785,7 @@
       "planeswalker": "100.00%",
       "controller": "100.00%",
       "creates": "100.00%",
-      "map": "100.00%",
-      "tokens": "100.00%"
+      "map": "100.00%"
     },
     "bestKeywords": {
       "explore": "100.00%"
@@ -8012,56 +7798,29 @@
       "permanent": "100.00%",
       "leaves": "100.00%",
       "battlefield": "100.00%",
-      "food": "100.00%",
-      "tokens": "100.00%"
+      "food": "100.00%"
     },
     "bestKeywords": {
       "food": "100.00%"
     }
-  },
-  "They're artifacts with \"{2}, {T}, Sacrifice this token: Search you library for a basic land card, put it onto the battlefield tapped, then shuffle.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "lander": "200.00%",
-      "tokens": "100.00%"
-    },
-    "bestKeywords": {}
   },
   "They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\"": {
     "count": 1,
     "bestBeforeTokens": {
       "stimulus": "100.00%",
       "package": "100.00%",
-      "treasure": "100.00%",
-      "tokens": "100.00%"
+      "treasure": "100.00%"
     },
     "bestKeywords": {
       "treasure": "100.00%",
       "scry": "100.00%"
     }
   },
-  "They're artifacts with \"{T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.\"": {
-    "count": 2,
-    "bestBeforeTokens": {
-      "junk": "100.00%",
-      "tokens": "100.00%"
-    },
-    "bestKeywords": {}
-  },
   "They're artifacts with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\"": {
     "count": 1,
     "bestBeforeTokens": {
       "powerstone": "100.00%",
-      "token": "100.00%",
       "for": "100.00%"
-    },
-    "bestKeywords": {}
-  },
-  "They're considered tokens for spells and abilities. After a creature leaves the battlefield, it ceases to exist.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "all": "100.00%",
-      "tokens": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -8069,8 +7828,7 @@
     "count": 2,
     "bestBeforeTokens": {
       "niko": "100.00%",
-      "shard": "100.00%",
-      "tokens": "100.00%"
+      "shard": "100.00%"
     },
     "bestKeywords": {
       "scry": "100.00%"
@@ -8088,7 +7846,6 @@
   "They're no longer planeswalkers. Loyalty abilities can still be activated.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "combat": "200.00%",
       "any": "100.00%",
       "number": "100.00%",
@@ -8136,8 +7893,7 @@
       "more": "100.00%",
       "leave": "100.00%",
       "skeleton": "100.00%",
-      "pirate": "100.00%",
-      "token": "100.00%"
+      "pirate": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -8577,7 +8333,6 @@
       "permanent": "100.00%",
       "number": "100.00%",
       "treasure": "100.00%",
-      "tokens": "100.00%",
       "amount": "100.00%",
       "they": "100.00%",
       "paid": "100.00%"
@@ -8677,12 +8432,10 @@
   "This is true even if this leaves the battlefield and returns.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "lose": "200.00%",
       "life": "200.00%",
       "draw": "200.00%",
-      "then": "100.00%",
       "double": "100.00%",
       "amount": "100.00%",
       "for": "100.00%",
@@ -9041,8 +8794,7 @@
     "count": 1,
     "bestBeforeTokens": {
       "affinity": "100.00%",
-      "for": "100.00%",
-      "tokens": "100.00%"
+      "for": "100.00%"
     },
     "bestKeywords": {
       "affinity": "100.00%"
@@ -9239,7 +8991,6 @@
     "bestBeforeTokens": {
       "amass": "100.00%",
       "orcs": "100.00%",
-      "then": "100.00%",
       "mills": "100.00%",
       "amassed": "100.00%",
       "army's": "100.00%",
@@ -9255,7 +9006,6 @@
     "bestBeforeTokens": {
       "amass": "100.00%",
       "zombies": "100.00%",
-      "then": "100.00%",
       "army": "100.00%",
       "amassed": "100.00%",
       "deals": "100.00%",
@@ -9311,7 +9061,6 @@
       "party": "100.00%",
       "among": "100.00%",
       "they": "100.00%",
-      "then": "100.00%",
       "sacrifices": "100.00%",
       "rest": "100.00%"
     },
@@ -9371,7 +9120,6 @@
       "than": "100.00%",
       "number": "100.00%",
       "treasure": "100.00%",
-      "tokens": "100.00%",
       "difference": "100.00%"
     },
     "bestKeywords": {
@@ -9452,7 +9200,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "owner's": "100.00%",
-      "then": "100.00%",
       "fateseal": "100.00%"
     },
     "bestKeywords": {
@@ -9495,16 +9242,6 @@
     "bestBeforeTokens": {
       "explores": "100.00%",
       "times": "100.00%"
-    },
-    "bestKeywords": {
-      "explore": "100.00%"
-    }
-  },
-  "To have this creature explore, reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.": {
-    "count": 2,
-    "bestBeforeTokens": {
-      "explores": "100.00%",
-      "then": "100.00%"
     },
     "bestKeywords": {
       "explore": "100.00%"
@@ -9570,7 +9307,6 @@
       "manifest": "100.00%",
       "dread": "100.00%",
       "times": "100.00%",
-      "then": "100.00%",
       "counters": "100.00%"
     },
     "bestKeywords": {
@@ -9605,8 +9341,7 @@
       "into": "100.00%",
       "squirrel": "200.00%",
       "returned": "100.00%",
-      "food": "100.00%",
-      "token": "100.00%"
+      "food": "100.00%"
     },
     "bestKeywords": {
       "food": "100.00%",
@@ -9617,7 +9352,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "mills": "100.00%",
-      "then": "100.00%",
       "return": "100.00%",
       "up": "100.00%"
     },
@@ -9649,7 +9383,6 @@
       "team": "200.00%",
       "pass": "100.00%",
       "ball": "100.00%",
-      "then": "100.00%",
       "was": "100.00%",
       "kicked": "100.00%",
       "gain": "100.00%",
@@ -9704,7 +9437,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "proliferate": "100.00%",
-      "then": "100.00%",
       "any": "100.00%",
       "number": "100.00%",
       "permanents": "200.00%",
@@ -9725,7 +9457,6 @@
       "combat": "100.00%",
       "damage": "100.00%",
       "scry": "100.00%",
-      "then": "100.00%",
       "draw": "100.00%"
     },
     "bestKeywords": {
@@ -9738,8 +9469,7 @@
     "bestBeforeTokens": {
       "dies": "100.00%",
       "scry": "100.00%",
-      "treasure": "100.00%",
-      "token": "100.00%"
+      "treasure": "100.00%"
     },
     "bestKeywords": {
       "treasure": "100.00%",
@@ -9750,28 +9480,7 @@
     "count": 2,
     "bestBeforeTokens": {
       "scry": "100.00%",
-      "then": "100.00%",
       "draw": "100.00%"
-    },
-    "bestKeywords": {
-      "scry": "100.00%"
-    }
-  },
-  "To scry X, a player looks at the top X cards of their library, then puts any number of them on the bottom and the rest on top in any order.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "scry": "200.00%",
-      "then": "100.00%"
-    },
-    "bestKeywords": {
-      "scry": "100.00%"
-    }
-  },
-  "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "scry": "300.00%",
-      "then": "200.00%"
     },
     "bestKeywords": {
       "scry": "100.00%"
@@ -9781,7 +9490,6 @@
     "count": 2,
     "bestBeforeTokens": {
       "surveil": "100.00%",
-      "then": "100.00%",
       "draw": "100.00%"
     },
     "bestKeywords": {
@@ -9793,7 +9501,6 @@
     "bestBeforeTokens": {
       "surveil": "100.00%",
       "no": "100.00%",
-      "then": "100.00%",
       "draw": "100.00%"
     },
     "bestKeywords": {
@@ -9821,7 +9528,6 @@
       "surveil": "100.00%",
       "number": "100.00%",
       "artifacts": "100.00%",
-      "then": "100.00%",
       "draw": "100.00%"
     },
     "bestKeywords": {
@@ -9851,7 +9557,6 @@
       "shuffles": "100.00%",
       "into": "100.00%",
       "their": "200.00%",
-      "then": "100.00%",
       "they": "300.00%",
       "look": "100.00%",
       "wrap": "100.00%",
@@ -9894,7 +9599,6 @@
     "count": 2,
     "bestBeforeTokens": {
       "treasure": "150.00%",
-      "tokens": "150.00%",
       "number": "150.00%",
       "artifacts": "150.00%",
       "enchantments": "150.00%",
@@ -9945,8 +9649,6 @@
   "Treat them and anything attached to them as though they didn't exist.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
-      "step": "100.00%",
       "planeswalked": "100.00%",
       "unyaro": "100.00%",
       "all": "100.00%",
@@ -10016,8 +9718,6 @@
   "Until your next turn, the goaded creatures attack each combat if able and attack a player other than you if able.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
-      "step": "100.00%",
       "goad": "100.00%",
       "opponents": "100.00%",
       "that's": "100.00%",
@@ -10070,7 +9770,6 @@
     "bestBeforeTokens": {
       "zabulous": "200.00%",
       "cosplayer": "200.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "tournament-legal": "100.00%",
       "non-aura": "100.00%",
@@ -11025,21 +10724,10 @@
     "count": 1,
     "bestBeforeTokens": {
       "incubator": "100.00%",
-      "tokens": "100.00%",
       "evolve": "100.00%"
     },
     "bestKeywords": {
       "incubate": "100.00%"
-    }
-  },
-  "Whenever a creature token you control attacks with another creature with greater power, put a +1/+1 counter on that token.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "tokens": "100.00%",
-      "training": "100.00%"
-    },
-    "bestKeywords": {
-      "blind betrayal": "100.00%"
     }
   },
   "Whenever a creature with afflict 2 becomes blocked, defending player loses 2 life.": {
@@ -11075,7 +10763,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "soldier": "100.00%",
-      "tokens": "100.00%",
       "firebending": "100.00%"
     },
     "bestKeywords": {
@@ -11093,7 +10780,6 @@
   "Whenever a creature with rampage 3 becomes blocked, it gets +3/+3 until end of turn for each creature blocking it beyond the first.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "upkeep": "200.00%",
       "flying": "100.00%",
       "first": "100.00%",
@@ -11115,7 +10801,6 @@
     "bestBeforeTokens": {
       "monet": "200.00%",
       "turtle": "100.00%",
-      "tokens": "200.00%",
       "training": "100.00%",
       "was": "100.00%",
       "ninjutsu'd": "100.00%",
@@ -11243,7 +10928,6 @@
       "7/7": "100.00%",
       "colorless": "100.00%",
       "eldrazi": "100.00%",
-      "token": "100.00%",
       "annihilator": "100.00%"
     },
     "bestKeywords": {}
@@ -11426,7 +11110,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "otter": "100.00%",
-      "token": "100.00%",
       "prowess": "100.00%",
       "was": "100.00%",
       "anywhere": "100.00%",
@@ -11443,7 +11126,6 @@
       "flurry": "100.00%",
       "second": "100.00%",
       "monk": "100.00%",
-      "token": "100.00%",
       "prowess": "100.00%",
       "rally": "100.00%",
       "counter": "100.00%"
@@ -11457,7 +11139,6 @@
     "bestBeforeTokens": {
       "goblin": "100.00%",
       "wizard": "100.00%",
-      "tokens": "100.00%",
       "prowess": "100.00%"
     },
     "bestKeywords": {}
@@ -11507,12 +11188,10 @@
   "While they're phased out, they're treated as though they don't exist. They phase in before that player untaps during their next untap step.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "for": "200.00%",
       "excess": "100.00%",
       "number": "100.00%",
-      "then": "100.00%",
       "chosen": "100.00%",
       "permanents": "100.00%",
       "phase": "100.00%",
@@ -11541,20 +11220,11 @@
     },
     "bestKeywords": {}
   },
-  "Y counts.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "then": "100.00%",
-      "consonant": "100.00%"
-    },
-    "bestKeywords": {}
-  },
   "Yes, it's technically red life gain. Sorry, color pie.": {
     "count": 1,
     "bestBeforeTokens": {
       "•": "100.00%",
-      "gingerbrute": "100.00%",
-      "token": "100.00%"
+      "gingerbrute": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -11681,7 +11351,6 @@
       "could": "100.00%",
       "mulligan": "100.00%",
       "all": "100.00%",
-      "then": "100.00%",
       "draw": "100.00%",
       "many": "100.00%"
     },
@@ -11777,7 +11446,6 @@
       "for": "100.00%",
       "rest": "100.00%",
       "game": "100.00%",
-      "then": "100.00%",
       "into": "100.00%"
     },
     "bestKeywords": {}
@@ -11837,7 +11505,6 @@
     "bestBeforeTokens": {
       "commander": "100.00%",
       "own": "100.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "counters": "100.00%",
       "they": "100.00%",
@@ -11973,11 +11640,7 @@
   "You descend each time a permanent card is put into your graveyard from anywhere.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
-      "step": "100.00%",
       "fungus": "100.00%",
-      "tokens": "100.00%",
-      "token": "100.00%",
       "can't": "100.00%",
       "block": "100.00%",
       "number": "100.00%",
@@ -12122,7 +11785,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "scry": "100.00%",
-      "then": "100.00%",
       "{e}{e}": "100.00%"
     },
     "bestKeywords": {
@@ -12377,7 +12039,6 @@
     "bestBeforeTokens": {
       "{t}": "100.00%",
       "look": "100.00%",
-      "then": "100.00%",
       "face": "100.00%",
       "down": "100.00%"
     },
@@ -12391,7 +12052,6 @@
       "pack": "200.00%",
       "face": "100.00%",
       "down": "100.00%",
-      "then": "100.00%",
       "pass": "100.00%",
       "next": "100.00%",
       "drafting": "100.00%"
@@ -12745,8 +12405,7 @@
       "magic": "100.00%",
       "trick": "100.00%",
       "they": "100.00%",
-      "hat": "100.00%",
-      "token": "100.00%"
+      "hat": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -12904,7 +12563,6 @@
       "for": "100.00%",
       "rest": "100.00%",
       "game": "100.00%",
-      "beginning": "100.00%",
       "upkeep": "100.00%",
       "counter": "100.00%",
       "turns": "100.00%",
@@ -12919,20 +12577,16 @@
   "You'll want to look these up.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
-      "step": "100.00%",
       "life": "100.00%",
       "total": "100.00%",
       "lazy": "100.00%",
       "caterer's": "100.00%",
       "sequence": "100.00%",
       "food": "100.00%",
-      "token": "200.00%",
       "fibonacci": "100.00%",
       "number": "200.00%",
       "0/0": "100.00%",
       "fractal": "200.00%",
-      "then": "100.00%",
       "counter": "100.00%",
       "square": "100.00%",
       "counters": "100.00%",
@@ -12949,7 +12603,6 @@
     "bestBeforeTokens": {
       "ash": "200.00%",
       "lizard": "100.00%",
-      "token": "100.00%",
       "that's": "100.00%",
       "copy": "100.00%",
       "following": "100.00%",
@@ -13045,14 +12698,12 @@
   "Your party consists of up to one of each of Cleric, Rogue, Warrior, and Wizard. If your party size is 1, the party die is a d4. It's a d8 for 2, a d12 for 3, and a d20 for 4.": {
     "count": 1,
     "bestBeforeTokens": {
-      "beginning": "100.00%",
       "combat": "100.00%",
       "roll": "100.00%",
       "party": "100.00%",
       "die": "100.00%",
       "number": "100.00%",
       "treasure": "100.00%",
-      "tokens": "100.00%",
       "result": "100.00%"
     },
     "bestKeywords": {
@@ -13085,7 +12736,6 @@
       "damage": "100.00%",
       "gold": "100.00%",
       "dragon": "100.00%",
-      "token": "100.00%",
       "flying": "100.00%",
       "roll": "100.00%",
       "d20": "100.00%"
@@ -13155,7 +12805,6 @@
       "between": "100.00%",
       "keyword": "100.00%",
       "counter": "100.00%",
-      "then": "100.00%",
       "resolve": "100.00%",
       "following": "100.00%",
       "ability": "100.00%",

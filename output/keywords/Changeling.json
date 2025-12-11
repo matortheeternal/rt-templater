@@ -1,0 +1,19 @@
+{
+  "name": "changeling",
+  "expr": "changeling",
+  "variations": [
+    {
+      "template": "<target_it> is every creature type.",
+      "rts": [
+        "It is every creature type.",
+        "This token is every creature type."
+      ]
+    },
+    {
+      "template": "This card is every creature type.",
+      "rts": [
+        "This card is every creature type."
+      ]
+    }
+  ]
+}

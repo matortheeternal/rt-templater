@@ -1,0 +1,18 @@
+{
+  "name": "suspect",
+  "expr": "suspect",
+  "variations": [
+    {
+      "template": "It has menace and can't block.",
+      "rts": [
+        "It has menace and can't block."
+      ]
+    },
+    {
+      "template": "A suspected creature has menace and can't block.",
+      "rts": [
+        "A suspected creature has menace and can't block."
+      ]
+    }
+  ]
+}

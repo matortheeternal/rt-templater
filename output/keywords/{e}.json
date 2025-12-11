@@ -1,0 +1,18 @@
+{
+  "name": "{e}",
+  "expr": "{e}",
+  "variations": [
+    {
+      "template": "energy counters",
+      "rts": [
+        "energy counters"
+      ]
+    },
+    {
+      "template": "an energy counter",
+      "rts": [
+        "an energy counter"
+      ]
+    }
+  ]
+}

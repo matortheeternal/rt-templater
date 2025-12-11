@@ -1,0 +1,9 @@
+{
+  "name": "declare attackers reselect which permanent attacking",
+  "expr": "declare attackers reselect which permanent attacking",
+  "variations": [
+    {
+      "template": "It can't attack its controller or their permanents."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "goaded",
+  "expr": "goaded",
+  "variations": [
+    {
+      "template": "It attacks each combat if able and attacks a player other than you if able.",
+      "rts": [
+        "It attacks each combat if able and attacks a player other than you if able."
+      ]
+    },
+    {
+      "template": "They attack each combat if able and attack a player other than you if able.",
+      "rts": [
+        "They attack each combat if able and attack a player other than you if able."
+      ]
+    }
+  ]
+}

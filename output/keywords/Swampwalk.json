@@ -1,0 +1,14 @@
+{
+  "name": "swampwalk",
+  "expr": "swampwalk",
+  "variations": [
+    {
+      "template": "<target> can't be blocked as long as defending player controls a Swamp.",
+      "rts": [
+        "It can't be blocked as long as defending player controls a Swamp.",
+        "They can't be blocked as long as defending player controls a Swamp.",
+        "This creature can't be blocked as long as defending player controls a Swamp."
+      ]
+    }
+  ]
+}

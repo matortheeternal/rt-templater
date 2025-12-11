@@ -1,0 +1,9 @@
+{
+  "name": "transfigure",
+  "expr": "transfigure",
+  "variations": [
+    {
+      "template": "{1}{B}{B}, Sacrifice this creature: Search your library for a creature card with the same mana value as this creature, put that card onto the battlefield, then shuffle. Transfigure only as a sorcery."
+    }
+  ]
+}

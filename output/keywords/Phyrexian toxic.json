@@ -1,0 +1,9 @@
+{
+  "name": "phyrexian toxic",
+  "expr": "phyrexian toxic",
+  "variations": [
+    {
+      "template": "Players dealt combat damage by them also get a poison counter."
+    }
+  ]
+}

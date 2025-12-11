@@ -1,0 +1,9 @@
+{
+  "name": "undaunted",
+  "expr": "undaunted",
+  "variations": [
+    {
+      "template": "This spell costs {1} less to cast for each opponent."
+    }
+  ]
+}

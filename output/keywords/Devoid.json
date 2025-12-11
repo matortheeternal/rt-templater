@@ -1,0 +1,9 @@
+{
+  "name": "devoid",
+  "expr": "devoid",
+  "variations": [
+    {
+      "template": "This card has no color."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "prowl",
+  "expr": "prowl",
+  "variations": [
+    {
+      "template": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue.",
+      "rts": [
+        "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue."
+      ]
+    },
+    {
+      "template": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a <card_sub_type> or Rogue.",
+      "rts": [
+        "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Faerie or Rogue.",
+        "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Goblin or Rogue."
+      ]
+    },
+    {
+      "template": "You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a Sphinx or Rogue.",
+      "rts": [
+        "You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a Sphinx or Rogue."
+      ]
+    }
+  ]
+}

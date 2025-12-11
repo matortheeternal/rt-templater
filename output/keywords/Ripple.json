@@ -1,0 +1,18 @@
+{
+  "name": "ripple",
+  "expr": "ripple",
+  "variations": [
+    {
+      "template": "When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.",
+      "rts": [
+        "When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library."
+      ]
+    },
+    {
+      "template": "Whenever you cast a spell, you may reveal the top four cards of your library. You may cast spells with the same name as that spell from among the revealed cards without paying their mana costs. Put the rest on the bottom of your library.",
+      "rts": [
+        "Whenever you cast a spell, you may reveal the top four cards of your library. You may cast spells with the same name as that spell from among the revealed cards without paying their mana costs. Put the rest on the bottom of your library."
+      ]
+    }
+  ]
+}

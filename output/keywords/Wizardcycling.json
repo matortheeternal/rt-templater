@@ -1,0 +1,13 @@
+{
+  "name": "wizardcycling",
+  "expr": "wizardcycling",
+  "variations": [
+    {
+      "template": "<mana>, Discard this card: Search your library for a Wizard card, reveal it, put it into your hand, then shuffle.",
+      "rts": [
+        "{2}, Discard this card: Search your library for a Wizard card, reveal it, put it into your hand, then shuffle.",
+        "{3}, Discard this card: Search your library for a Wizard card, reveal it, put it into your hand, then shuffle."
+      ]
+    }
+  ]
+}

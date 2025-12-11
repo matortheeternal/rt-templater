@@ -1,0 +1,9 @@
+{
+  "name": "spaceship",
+  "expr": "spaceship",
+  "variations": [
+    {
+      "template": "This creature enters with six +1/+1 counters. If it would be dealt damage, remove that many +1/+1 counters instead. Its abilities are active as long as it has at least that many +1/+1 counters."
+    }
+  ]
+}

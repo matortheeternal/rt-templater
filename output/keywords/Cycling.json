@@ -1,0 +1,78 @@
+{
+  "name": "cycling",
+  "expr": "cycling",
+  "variations": [
+    {
+      "template": "<mana>, Discard this card: Draw a card.",
+      "rts": [
+        "{1}, Discard this card: Draw a card.",
+        "{2}, Discard this card: Draw a card.",
+        "{3}, Discard this card: Draw a card.",
+        "{B}, Discard this card: Draw a card.",
+        "{G}, Discard this card: Draw a card.",
+        "{R}, Discard this card: Draw a card.",
+        "{U}, Discard this card: Draw a card.",
+        "{W}, Discard this card: Draw a card.",
+        "{B/R}, Discard this card: Draw a card.",
+        "{G/W}, Discard this card: Draw a card.",
+        "{R/G}, Discard this card: Draw a card.",
+        "{U/B}, Discard this card: Draw a card.",
+        "{W/U}, Discard this card: Draw a card.",
+        "{1}{B}, Discard this card: Draw a card.",
+        "{1}{G}, Discard this card: Draw a card.",
+        "{1}{R}, Discard this card: Draw a card.",
+        "{1}{U}, Discard this card: Draw a card.",
+        "{1}{W}, Discard this card: Draw a card.",
+        "{2}{B}, Discard this card: Draw a card.",
+        "{2}{G}, Discard this card: Draw a card.",
+        "{2}{R}, Discard this card: Draw a card.",
+        "{2}{U}, Discard this card: Draw a card.",
+        "{2}{W}, Discard this card: Draw a card.",
+        "{3}{B}, Discard this card: Draw a card.",
+        "{3}{G}, Discard this card: Draw a card.",
+        "{3}{R}, Discard this card: Draw a card.",
+        "{B}{B}, Discard this card: Draw a card.",
+        "{W}{U}, Discard this card: Draw a card.",
+        "{1}{B}{B}, Discard this card: Draw a card.",
+        "{1}{R}{R}, Discard this card: Draw a card.",
+        "{2}{G}{G}, Discard this card: Draw a card.",
+        "{3}{B}{B}, Discard this card: Draw a card.",
+        "{4}{G}{G}, Discard this card: Draw a card.",
+        "{4}{U}{U}, Discard this card: Draw a card.",
+        "{5}{R}{R}, Discard this card: Draw a card.",
+        "{6}{W}{W}, Discard this card: Draw a card.",
+        "{B}{G}{U}, Discard this card: Draw a card.",
+        "{B}{R}{G}, Discard this card: Draw a card.",
+        "{G}{U}{R}, Discard this card: Draw a card.",
+        "{G}{W}{U}, Discard this card: Draw a card.",
+        "{R}{G}{W}, Discard this card: Draw a card.",
+        "{R}{W}{B}, Discard this card: Draw a card.",
+        "{U}{B}{R}, Discard this card: Draw a card.",
+        "{U}{R}{W}, Discard this card: Draw a card.",
+        "{W}{B}{G}, Discard this card: Draw a card.",
+        "{W}{U}{B}, Discard this card: Draw a card.",
+        "{X}{1}{U}, Discard this card: Draw a card.",
+        "{X}{2}{R}, Discard this card: Draw a card.",
+        "{X}{2}{W}, Discard this card: Draw a card.",
+        "{X}{G}{G}, Discard this card: Draw a card.",
+        "{5}{B}{R}{G}, Discard this card: Draw a card.",
+        "{5}{G}{W}{U}, Discard this card: Draw a card.",
+        "{5}{R}{G}{W}, Discard this card: Draw a card.",
+        "{5}{U}{B}{R}, Discard this card: Draw a card.",
+        "{5}{W}{U}{B}, Discard this card: Draw a card."
+      ]
+    },
+    {
+      "template": "{1}{U}, Discard that card: Draw a card.",
+      "rts": [
+        "{1}{U}, Discard that card: Draw a card."
+      ]
+    },
+    {
+      "template": "Sacrifice a land, Discard this card: Draw a card.",
+      "rts": [
+        "Sacrifice a land, Discard this card: Draw a card."
+      ]
+    }
+  ]
+}

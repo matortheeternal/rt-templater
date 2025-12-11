@@ -1,0 +1,18 @@
+{
+  "name": "evolve",
+  "expr": "evolve",
+  "variations": [
+    {
+      "template": "Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.",
+      "rts": [
+        "Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature."
+      ]
+    },
+    {
+      "template": "They have \"Whenever a creature you control enters, if it has greater power or toughness than this token, put a +1/+1 counter on this token.\" They see this creature enter.",
+      "rts": [
+        "They have \"Whenever a creature you control enters, if it has greater power or toughness than this token, put a +1/+1 counter on this token.\" They see this creature enter."
+      ]
+    }
+  ]
+}

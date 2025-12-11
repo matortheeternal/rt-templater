@@ -1,0 +1,25 @@
+{
+  "name": "awaken",
+  "expr": "awaken",
+  "variations": [
+    {
+      "template": "If you cast this spell for <mana>, also put <number:a_or_word> +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+      "rts": [
+        "If you cast this spell for {4}{W}, also put two +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {4}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {5}{U}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {6}{G}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {6}{R}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {4}{U}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {5}{B}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {5}{W}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {4}{W}{U}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {5}{B}{B}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {4}{U}{U}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {5}{B}{B}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {6}{U}{U}{U}, also put six +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+        "If you cast this spell for {5}{W}{W}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land."
+      ]
+    }
+  ]
+}

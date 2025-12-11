@@ -1,0 +1,9 @@
+{
+  "name": "upgrade",
+  "expr": "upgrade",
+  "variations": [
+    {
+      "template": "This creature enters covering another artifact you control. If it can't, exile it. Ignore the artifact it's covering. Anywhere this card goes, cards underneath it also go. It has haste."
+    }
+  ]
+}

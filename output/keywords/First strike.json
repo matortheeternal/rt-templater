@@ -1,0 +1,19 @@
+{
+  "name": "first strike",
+  "expr": "first strike",
+  "variations": [
+    {
+      "template": "<target_deals> combat damage before creatures without first strike.",
+      "rts": [
+        "It deals combat damage before creatures without first strike.",
+        "They deal combat damage before creatures without first strike."
+      ]
+    },
+    {
+      "template": "This creature deals combat damage before creatures without first strike.",
+      "rts": [
+        "This creature deals combat damage before creatures without first strike."
+      ]
+    }
+  ]
+}

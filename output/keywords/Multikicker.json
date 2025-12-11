@@ -1,0 +1,23 @@
+{
+  "name": "multikicker",
+  "expr": "multikicker",
+  "variations": [
+    {
+      "template": "You may pay an additional <mana> any number of times as you cast this spell.",
+      "rts": [
+        "You may pay an additional {1} any number of times as you cast this spell.",
+        "You may pay an additional {2} any number of times as you cast this spell.",
+        "You may pay an additional {B} any number of times as you cast this spell.",
+        "You may pay an additional {G} any number of times as you cast this spell.",
+        "You may pay an additional {R} any number of times as you cast this spell.",
+        "You may pay an additional {U} any number of times as you cast this spell.",
+        "You may pay an additional {W} any number of times as you cast this spell.",
+        "You may pay an additional {1}{B} any number of times as you cast this spell.",
+        "You may pay an additional {1}{G} any number of times as you cast this spell.",
+        "You may pay an additional {1}{R} any number of times as you cast this spell.",
+        "You may pay an additional {1}{U} any number of times as you cast this spell.",
+        "You may pay an additional {1}{W} any number of times as you cast this spell."
+      ]
+    }
+  ]
+}

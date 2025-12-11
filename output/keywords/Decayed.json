@@ -1,0 +1,14 @@
+{
+  "name": "decayed",
+  "expr": "decayed",
+  "variations": [
+    {
+      "template": "<target> can't block. When it attacks, sacrifice it at end of combat.",
+      "rts": [
+        "It can't block. When it attacks, sacrifice it at end of combat.",
+        "This creature can't block. When it attacks, sacrifice it at end of combat.",
+        "A creature with decayed can't block. When it attacks, sacrifice it at end of combat."
+      ]
+    }
+  ]
+}

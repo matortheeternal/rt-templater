@@ -1,0 +1,9 @@
+{
+  "name": "ready run",
+  "expr": "ready run",
+  "variations": [
+    {
+      "template": "You can have two commanders if both have ready to run."
+    }
+  ]
+}

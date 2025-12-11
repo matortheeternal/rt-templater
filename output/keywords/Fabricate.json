@@ -1,0 +1,14 @@
+{
+  "name": "fabricate",
+  "expr": "fabricate",
+  "variations": [
+    {
+      "template": "When this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on it or create <number:a_or_word> 1/1 colorless Servo artifact creature token<number:plural:s>.",
+      "rts": [
+        "When this creature enters, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.",
+        "When this creature enters, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.",
+        "When this creature enters, put three +1/+1 counters on it or create three 1/1 colorless Servo artifact creature tokens."
+      ]
+    }
+  ]
+}

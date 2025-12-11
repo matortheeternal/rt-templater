@@ -1,0 +1,81 @@
+{
+  "name": "kicker",
+  "expr": "kicker",
+  "variations": [
+    {
+      "template": "You may pay an additional <mana> as you cast this spell.",
+      "rts": [
+        "You may pay an additional {1} as you cast this spell.",
+        "You may pay an additional {2} as you cast this spell.",
+        "You may pay an additional {3} as you cast this spell.",
+        "You may pay an additional {4} as you cast this spell.",
+        "You may pay an additional {5} as you cast this spell.",
+        "You may pay an additional {6} as you cast this spell.",
+        "You may pay an additional {7} as you cast this spell.",
+        "You may pay an additional {8} as you cast this spell.",
+        "You may pay an additional {B} as you cast this spell.",
+        "You may pay an additional {C} as you cast this spell.",
+        "You may pay an additional {G} as you cast this spell.",
+        "You may pay an additional {R} as you cast this spell.",
+        "You may pay an additional {U} as you cast this spell.",
+        "You may pay an additional {W} as you cast this spell.",
+        "You may pay an additional {X} as you cast this spell.",
+        "You may pay an additional {1}{B} as you cast this spell.",
+        "You may pay an additional {1}{C} as you cast this spell.",
+        "You may pay an additional {1}{G} as you cast this spell.",
+        "You may pay an additional {1}{R} as you cast this spell.",
+        "You may pay an additional {1}{U} as you cast this spell.",
+        "You may pay an additional {1}{W} as you cast this spell.",
+        "You may pay an additional {2}{B} as you cast this spell.",
+        "You may pay an additional {2}{C} as you cast this spell.",
+        "You may pay an additional {2}{G} as you cast this spell.",
+        "You may pay an additional {2}{R} as you cast this spell.",
+        "You may pay an additional {2}{U} as you cast this spell.",
+        "You may pay an additional {2}{W} as you cast this spell.",
+        "You may pay an additional {3}{B} as you cast this spell.",
+        "You may pay an additional {3}{G} as you cast this spell.",
+        "You may pay an additional {3}{R} as you cast this spell.",
+        "You may pay an additional {3}{U} as you cast this spell.",
+        "You may pay an additional {3}{W} as you cast this spell.",
+        "You may pay an additional {4}{G} as you cast this spell.",
+        "You may pay an additional {4}{U} as you cast this spell.",
+        "You may pay an additional {5}{B} as you cast this spell.",
+        "You may pay an additional {5}{R} as you cast this spell.",
+        "You may pay an additional {8}{R} as you cast this spell.",
+        "You may pay an additional {B}{B} as you cast this spell.",
+        "You may pay an additional {W}{W} as you cast this spell.",
+        "You may pay an additional {X}{2} as you cast this spell."
+      ]
+    },
+    {
+      "template": "You may sacrifice a land in addition to any other costs as you cast this spell.",
+      "rts": [
+        "You may sacrifice a land in addition to any other costs as you cast this spell."
+      ]
+    },
+    {
+      "template": "You may sacrifice a creature in addition to any other costs as you cast this spell.",
+      "rts": [
+        "You may sacrifice a creature in addition to any other costs as you cast this spell."
+      ]
+    },
+    {
+      "template": "You may pay {2}{R} and sacrifice a land in addition to any other costs as you cast this spell.",
+      "rts": [
+        "You may pay {2}{R} and sacrifice a land in addition to any other costs as you cast this spell."
+      ]
+    },
+    {
+      "template": "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.",
+      "rts": [
+        "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell."
+      ]
+    },
+    {
+      "template": "You may pay {2}{B} and discard a creature card in addition to any other costs as you cast this spell.",
+      "rts": [
+        "You may pay {2}{B} and discard a creature card in addition to any other costs as you cast this spell."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "banding",
+  "expr": "banding",
+  "variations": [
+    {
+      "template": "Just ask around until you find someone who knows.",
+      "rts": [
+        "Just ask around until you find someone who knows."
+      ]
+    },
+    {
+      "template": "Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.",
+      "rts": [
+        "Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking."
+      ]
+    },
+    {
+      "template": "Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding a player controls are blocking or being blocked by a creature, that player divides that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.",
+      "rts": [
+        "Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding a player controls are blocking or being blocked by a creature, that player divides that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking."
+      ]
+    }
+  ]
+}

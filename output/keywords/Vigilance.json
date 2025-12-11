@@ -1,0 +1,19 @@
+{
+  "name": "vigilance",
+  "expr": "vigilance",
+  "variations": [
+    {
+      "template": "Attacking doesn't cause <target_it> to tap.",
+      "rts": [
+        "Attacking doesn't cause it to tap.",
+        "Attacking doesn't cause this creature to tap."
+      ]
+    },
+    {
+      "template": "Attacking doesn't cause them to tap.",
+      "rts": [
+        "Attacking doesn't cause them to tap."
+      ]
+    }
+  ]
+}

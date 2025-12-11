@@ -1,0 +1,9 @@
+{
+  "name": "offering",
+  "expr": "offering",
+  "variations": [
+    {
+      "template": "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "skulk",
+  "expr": "skulk",
+  "variations": [
+    {
+      "template": "<target> can't be blocked by creatures with greater power.",
+      "rts": [
+        "It can't be blocked by creatures with greater power.",
+        "They can't be blocked by creatures with greater power.",
+        "This creature can't be blocked by creatures with greater power."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "mills",
+  "expr": "mills",
+  "variations": [
+    {
+      "template": "They put the top card of their library into their graveyard.",
+      "rts": [
+        "They put the top card of their library into their graveyard."
+      ]
+    },
+    {
+      "template": "They each put the top card of their library into their graveyard.",
+      "rts": [
+        "They each put the top card of their library into their graveyard."
+      ]
+    },
+    {
+      "template": "They put the top <number:a_or_word> cards of their library into their graveyard.",
+      "rts": [
+        "They put the top two cards of their library into their graveyard.",
+        "They put the top four cards of their library into their graveyard.",
+        "They put the top three cards of their library into their graveyard."
+      ]
+    },
+    {
+      "template": "To mill a card, a player puts the top card of their library into their graveyard.",
+      "rts": [
+        "To mill a card, a player puts the top card of their library into their graveyard."
+      ]
+    },
+    {
+      "template": "To mill two cards, a player puts the top two cards of their library into their graveyard.",
+      "rts": [
+        "To mill two cards, a player puts the top two cards of their library into their graveyard."
+      ]
+    }
+  ]
+}

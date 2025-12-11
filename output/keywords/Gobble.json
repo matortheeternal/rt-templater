@@ -1,0 +1,9 @@
+{
+  "name": "gobble",
+  "expr": "gobble",
+  "variations": [
+    {
+      "template": "Each time you gobble, take a bite of food or sacrifice a Food token."
+    }
+  ]
+}

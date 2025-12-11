@@ -1,0 +1,18 @@
+{
+  "name": "gift",
+  "expr": "gift",
+  "variations": [
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.",
+      "rts": [
+        "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card."
+      ]
+    },
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.",
+      "rts": [
+        "You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "surge",
+  "expr": "surge",
+  "variations": [
+    {
+      "template": "You may cast this spell for its surge cost if you or a teammate has cast another spell this turn."
+    }
+  ]
+}

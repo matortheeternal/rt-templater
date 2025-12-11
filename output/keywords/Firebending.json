@@ -1,0 +1,14 @@
+{
+  "name": "firebending",
+  "expr": "firebending",
+  "variations": [
+    {
+      "template": "Whenever this creature attacks, add <mana>. This mana lasts until end of combat.",
+      "rts": [
+        "Whenever this creature attacks, add {R}. This mana lasts until end of combat.",
+        "Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.",
+        "Whenever this creature attacks, add {R}{R}{R}. This mana lasts until end of combat."
+      ]
+    }
+  ]
+}

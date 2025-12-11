@@ -1,0 +1,35 @@
+{
+  "name": "ninjutsu",
+  "expr": "ninjutsu",
+  "variations": [
+    {
+      "template": "<mana>, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+      "rts": [
+        "{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{U/B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{1}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{1}{R}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{3}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{1}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{2}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{3}{B}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "{4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking."
+      ]
+    },
+    {
+      "template": "{1}{U}, Shuffle an unblocked attacker you control into its owner's library: Put this card onto the battlefield from your library tapped and attacking. Activate only while searching your library.",
+      "rts": [
+        "{1}{U}, Shuffle an unblocked attacker you control into its owner's library: Put this card onto the battlefield from your library tapped and attacking. Activate only while searching your library."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "exalted",
+  "expr": "exalted",
+  "variations": [
+    {
+      "template": "If a creature has multiple instances of exalted, each triggers separately.",
+      "rts": [
+        "If a creature has multiple instances of exalted, each triggers separately."
+      ]
+    },
+    {
+      "template": "Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.",
+      "rts": [
+        "Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn."
+      ]
+    },
+    {
+      "template": "Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.",
+      "rts": [
+        "Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control."
+      ]
+    }
+  ]
+}

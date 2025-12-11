@@ -1,0 +1,32 @@
+{
+  "name": "trample",
+  "expr": "trample",
+  "variations": [
+    {
+      "template": "This spell can deal excess damage to its target's controller.",
+      "rts": [
+        "This spell can deal excess damage to its target's controller."
+      ]
+    },
+    {
+      "template": "This creature can deal excess combat damage to the player it's attacking.",
+      "rts": [
+        "This creature can deal excess combat damage to the player it's attacking."
+      ]
+    },
+    {
+      "template": "<target> can deal excess combat damage to the player or planeswalker it's attacking.",
+      "rts": [
+        "It can deal excess combat damage to the player or planeswalker it's attacking.",
+        "This creature can deal excess combat damage to the player or planeswalker it's attacking.",
+        "A creature with trample can deal excess combat damage to the player or planeswalker it's attacking."
+      ]
+    },
+    {
+      "template": "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.",
+      "rts": [
+        "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking."
+      ]
+    }
+  ]
+}

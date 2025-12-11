@@ -1,0 +1,13 @@
+{
+  "name": "swampcycling",
+  "expr": "swampcycling",
+  "variations": [
+    {
+      "template": "<mana>, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.",
+      "rts": [
+        "{1}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.",
+        "{2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle."
+      ]
+    }
+  ]
+}

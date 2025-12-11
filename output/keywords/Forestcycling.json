@@ -1,0 +1,13 @@
+{
+  "name": "forestcycling",
+  "expr": "forestcycling",
+  "variations": [
+    {
+      "template": "<mana>, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.",
+      "rts": [
+        "{1}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.",
+        "{2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle."
+      ]
+    }
+  ]
+}

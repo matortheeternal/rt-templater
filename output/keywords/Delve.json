@@ -1,0 +1,19 @@
+{
+  "name": "delve",
+  "expr": "delve",
+  "variations": [
+    {
+      "template": "Each card you exile from your graveyard while casting <target_spell> pays for {1}.",
+      "rts": [
+        "Each card you exile from your graveyard while casting this spell pays for {1}.",
+        "Each card you exile from your graveyard while casting those spells pays for {1}."
+      ]
+    },
+    {
+      "template": "Each card you exile from your graveyard while casting this spell pays for 1 generic mana.",
+      "rts": [
+        "Each card you exile from your graveyard while casting this spell pays for 1 generic mana."
+      ]
+    }
+  ]
+}

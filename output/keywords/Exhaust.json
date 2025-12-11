@@ -1,0 +1,9 @@
+{
+  "name": "exhaust",
+  "expr": "exhaust",
+  "variations": [
+    {
+      "template": "Activate each exhaust ability only once."
+    }
+  ]
+}

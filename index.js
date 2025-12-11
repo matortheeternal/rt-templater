@@ -2,11 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import {
-  buildReminderTextMap,
-  createMergedTemplates,
-  mergeTwoOrLess,
-  saveRtMap,
-  sortReminderTexts
+  buildReminderTextMap, createMergedTemplates, mergeTwoOrLess,
+  saveIndividualKeywords, saveRtMap, sortReminderTexts
 } from './src/mapBuilder.js';
 import { organizeReminderTexts, saveExtraOutputs } from './src/reminderTextSorter.js';
 import { getUniqueReminderTexts } from './src/getUniqueReminderTexts.js';
@@ -27,3 +24,4 @@ saveExtraOutputs();
 sortReminderTexts(rtMap);
 createMergedTemplates(rtMap);
 saveRtMap(rtMap);
+saveIndividualKeywords(rtMap);

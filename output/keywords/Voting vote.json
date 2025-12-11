@@ -1,0 +1,9 @@
+{
+  "name": "voting vote",
+  "expr": "voting vote",
+  "variations": [
+    {
+      "template": "The votes can be for different choices or for the same choice."
+    }
+  ]
+}

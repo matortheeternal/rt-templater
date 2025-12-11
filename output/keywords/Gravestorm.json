@@ -1,0 +1,18 @@
+{
+  "name": "gravestorm",
+  "expr": "gravestorm",
+  "variations": [
+    {
+      "template": "When you cast this spell, copy it for each permanent put into a graveyard from the battlefield this turn.",
+      "rts": [
+        "When you cast this spell, copy it for each permanent put into a graveyard from the battlefield this turn."
+      ]
+    },
+    {
+      "template": "When you cast this spell, copy it for each permanent put into a graveyard this turn. You may choose new targets for the copies.",
+      "rts": [
+        "When you cast this spell, copy it for each permanent put into a graveyard this turn. You may choose new targets for the copies."
+      ]
+    }
+  ]
+}

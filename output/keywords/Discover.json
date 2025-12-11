@@ -1,0 +1,20 @@
+{
+  "name": "discover",
+  "expr": "discover",
+  "variations": [
+    {
+      "template": "Exile cards from the top of your library until you exile a nonland card with mana value <number> or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
+      "rts": [
+        "Exile cards from the top of your library until you exile a nonland card with mana value 3 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
+        "Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
+        "Exile cards from the top of your library until you exile a nonland card with mana value 5 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order."
+      ]
+    },
+    {
+      "template": "Exile cards from the top of your library until you exile a nonland card with that mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
+      "rts": [
+        "Exile cards from the top of your library until you exile a nonland card with that mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order."
+      ]
+    }
+  ]
+}

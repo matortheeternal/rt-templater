@@ -1,0 +1,18 @@
+{
+  "name": "permanent",
+  "expr": "permanent",
+  "variations": [
+    {
+      "template": "Its mana symbols remain unchanged.",
+      "rts": [
+        "Its mana symbols remain unchanged."
+      ]
+    },
+    {
+      "template": "Mana symbols on that permanent remain unchanged.",
+      "rts": [
+        "Mana symbols on that permanent remain unchanged."
+      ]
+    }
+  ]
+}

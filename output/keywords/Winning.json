@@ -1,0 +1,9 @@
+{
+  "name": "winning",
+  "expr": "winning",
+  "variations": [
+    {
+      "template": "s"
+    }
+  ]
+}

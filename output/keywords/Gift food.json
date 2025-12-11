@@ -1,0 +1,9 @@
+{
+  "name": "gift food",
+  "expr": "gift food",
+  "variations": [
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, they create a Food token before its other effects. It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\""
+    }
+  ]
+}

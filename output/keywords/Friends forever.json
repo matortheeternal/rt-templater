@@ -1,0 +1,9 @@
+{
+  "name": "friends forever",
+  "expr": "friends forever",
+  "variations": [
+    {
+      "template": "You can have two commanders if both have friends forever."
+    }
+  ]
+}

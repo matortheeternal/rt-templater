@@ -1,0 +1,24 @@
+{
+  "name": "enchant",
+  "expr": "enchant",
+  "variations": [
+    {
+      "template": "Target a land as you cast this. This card enters attached to that land.",
+      "rts": [
+        "Target a land as you cast this. This card enters attached to that land."
+      ]
+    },
+    {
+      "template": "Target a creature as you cast this. This card enters attached to that creature.",
+      "rts": [
+        "Target a creature as you cast this. This card enters attached to that creature."
+      ]
+    },
+    {
+      "template": "This Aura remains on the battlefield. If you play enchanted card or it otherwise leaves your hand, put this Aura into the graveyard.",
+      "rts": [
+        "This Aura remains on the battlefield. If you play enchanted card or it otherwise leaves your hand, put this Aura into the graveyard."
+      ]
+    }
+  ]
+}

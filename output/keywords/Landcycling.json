@@ -1,0 +1,9 @@
+{
+  "name": "landcycling",
+  "expr": "landcycling",
+  "variations": [
+    {
+      "template": "{2}, Discard this card: Search your library for an artifact land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

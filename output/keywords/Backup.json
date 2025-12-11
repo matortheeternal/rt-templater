@@ -1,0 +1,38 @@
+{
+  "name": "backup",
+  "expr": "backup",
+  "variations": [
+    {
+      "template": "When this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on target creature. If that's another creature, it gains the following ability until end of turn.",
+      "rts": [
+        "When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following ability until end of turn.",
+        "When this creature enters, put two +1/+1 counters on target creature. If that's another creature, it gains the following ability until end of turn.",
+        "When this creature enters, put three +1/+1 counters on target creature. If that's another creature, it gains the following ability until end of turn."
+      ]
+    },
+    {
+      "template": "When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following abilities until end of turn.",
+      "rts": [
+        "When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following abilities until end of turn."
+      ]
+    },
+    {
+      "template": "When this creature enters the battlefield, put two +1/+1 counters on target creature. If that's another creature, it gains the following abilities until end of turn.",
+      "rts": [
+        "When this creature enters the battlefield, put two +1/+1 counters on target creature. If that's another creature, it gains the following abilities until end of turn."
+      ]
+    },
+    {
+      "template": "When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following abilities until end of turn. Each backup ability triggers separately.",
+      "rts": [
+        "When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following abilities until end of turn. Each backup ability triggers separately."
+      ]
+    },
+    {
+      "template": "When this creature enters the battlefield, you may reveal a creature card from your hand. When it eventually comes into play, if you cast it from your hand, it enters with a +1/+1 counter. It also gains the following ability in your hand until end of turn.",
+      "rts": [
+        "When this creature enters the battlefield, you may reveal a creature card from your hand. When it eventually comes into play, if you cast it from your hand, it enters with a +1/+1 counter. It also gains the following ability in your hand until end of turn."
+      ]
+    }
+  ]
+}

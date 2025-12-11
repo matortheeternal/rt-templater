@@ -1,0 +1,34 @@
+{
+  "name": "equip",
+  "expr": "equip",
+  "variations": [
+    {
+      "template": "<mana>: Attach to target creature you control. Equip only as a sorcery.",
+      "rts": [
+        "{0}: Attach to target creature you control. Equip only as a sorcery.",
+        "{1}: Attach to target creature you control. Equip only as a sorcery.",
+        "{2}: Attach to target creature you control. Equip only as a sorcery.",
+        "{3}: Attach to target creature you control. Equip only as a sorcery.",
+        "{4}: Attach to target creature you control. Equip only as a sorcery.",
+        "{5}: Attach to target creature you control. Equip only as a sorcery.",
+        "{8}: Attach to target creature you control. Equip only as a sorcery.",
+        "{W}: Attach to target creature you control. Equip only as a sorcery.",
+        "{1}{B}: Attach to target creature you control. Equip only as a sorcery.",
+        "{1}{W}: Attach to target creature you control. Equip only as a sorcery.",
+        "{2}{G}: Attach to target creature you control. Equip only as a sorcery.",
+        "{2}{R}: Attach to target creature you control. Equip only as a sorcery.",
+        "{3}{W}: Attach to target creature you control. Equip only as a sorcery."
+      ]
+    },
+    {
+      "template": "<mana>: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.",
+      "rts": [
+        "{1}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.",
+        "{2}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.",
+        "{3}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.",
+        "{4}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.",
+        "{5}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves."
+      ]
+    }
+  ]
+}

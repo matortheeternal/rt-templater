@@ -1,0 +1,23 @@
+{
+  "name": "shroud",
+  "expr": "shroud",
+  "variations": [
+    {
+      "template": "<target> can't be the target<number:plural:s> of spells or abilities.",
+      "rts": [
+        "It can't be the target of spells or abilities.",
+        "You can't be the target of spells or abilities.",
+        "They can't be the targets of spells or abilities.",
+        "This creature can't be the target of spells or abilities.",
+        "This enchantment can't be the target of spells or abilities.",
+        "A creature with shroud can't be the target of spells or abilities."
+      ]
+    },
+    {
+      "template": "A permanent with shroud can't be the target of spells or abilities.",
+      "rts": [
+        "A permanent with shroud can't be the target of spells or abilities."
+      ]
+    }
+  ]
+}

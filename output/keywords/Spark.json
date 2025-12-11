@@ -1,0 +1,9 @@
+{
+  "name": "spark",
+  "expr": "spark",
+  "variations": [
+    {
+      "template": "Activate spark abilities by spending or giving yourself spark counters. Activate only one spark ability per turn, and only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "menace",
+  "expr": "menace",
+  "variations": [
+    {
+      "template": "<target> can't be blocked except by two or more creatures.",
+      "rts": [
+        "It can't be blocked except by two or more creatures.",
+        "They can't be blocked except by two or more creatures.",
+        "This creature can't be blocked except by two or more creatures.",
+        "A creature with menace can't be blocked except by two or more creatures."
+      ]
+    }
+  ]
+}

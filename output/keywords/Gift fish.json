@@ -1,0 +1,18 @@
+{
+  "name": "gift fish",
+  "expr": "gift fish",
+  "variations": [
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they create a tapped 1/1 blue Fish creature token.",
+      "rts": [
+        "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they create a tapped 1/1 blue Fish creature token."
+      ]
+    },
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects.",
+      "rts": [
+        "You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects."
+      ]
+    }
+  ]
+}

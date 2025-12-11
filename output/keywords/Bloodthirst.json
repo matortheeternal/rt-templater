@@ -1,0 +1,21 @@
+{
+  "name": "bloodthirst",
+  "expr": "bloodthirst",
+  "variations": [
+    {
+      "template": "If an opponent was dealt damage this turn, this creature enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it.",
+      "rts": [
+        "If an opponent was dealt damage this turn, this creature enters with a +1/+1 counter on it.",
+        "If an opponent was dealt damage this turn, this creature enters with six +1/+1 counters on it.",
+        "If an opponent was dealt damage this turn, this creature enters with two +1/+1 counters on it.",
+        "If an opponent was dealt damage this turn, this creature enters with three +1/+1 counters on it."
+      ]
+    },
+    {
+      "template": "This creature enters with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.",
+      "rts": [
+        "This creature enters with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn."
+      ]
+    }
+  ]
+}

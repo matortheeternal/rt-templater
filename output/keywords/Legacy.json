@@ -1,0 +1,9 @@
+{
+  "name": "legacy",
+  "expr": "legacy",
+  "variations": [
+    {
+      "template": "During deckbuilding, circle any number of the following. You can spend 1 point for free. For every 2 points spent beyond that, increase this card's mana cost by {1}."
+    }
+  ]
+}

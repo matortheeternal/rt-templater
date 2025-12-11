@@ -1,0 +1,25 @@
+{
+  "name": "lifelink",
+  "expr": "lifelink",
+  "variations": [
+    {
+      "template": "Damage dealt by <target_creature> also causes you to gain that much life.",
+      "rts": [
+        "Damage dealt by this creature also causes you to gain that much life.",
+        "Damage dealt by those creatures also causes you to gain that much life."
+      ]
+    },
+    {
+      "template": "Damage dealt by the creature also causes its controller to gain that much life.",
+      "rts": [
+        "Damage dealt by the creature also causes its controller to gain that much life."
+      ]
+    },
+    {
+      "template": "Damage dealt by a creature with lifelink also causes its controller to gain that much life.",
+      "rts": [
+        "Damage dealt by a creature with lifelink also causes its controller to gain that much life."
+      ]
+    }
+  ]
+}

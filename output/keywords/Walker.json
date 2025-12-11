@@ -1,0 +1,9 @@
+{
+  "name": "walker",
+  "expr": "walker",
+  "variations": [
+    {
+      "template": "They're 2/2 black Zombie creatures."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "compleated",
+  "expr": "compleated",
+  "variations": [
+    {
+      "template": "<compleated_mana> can be paid with <compleated_options> or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
+      "rts": [
+        "{B/P} can be paid with {B} or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
+        "{U/P} can be paid with {U} or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
+        "{G/U/P} can be paid with {G}, {U}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
+        "{G/W/P} can be paid with {G}, {W}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
+        "{R/G/P} can be paid with {R}, {G}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
+        "{R/W/P} can be paid with {R}, {W}, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters."
+      ]
+    },
+    {
+      "template": "{G/P} can be paid with {G} or 2 life. For each {G/P} paid with life, this planeswalker enters with two fewer loyalty counters.",
+      "rts": [
+        "{G/P} can be paid with {G} or 2 life. For each {G/P} paid with life, this planeswalker enters with two fewer loyalty counters."
+      ]
+    }
+  ]
+}

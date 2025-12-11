@@ -1,0 +1,18 @@
+{
+  "name": "fortify",
+  "expr": "fortify",
+  "variations": [
+    {
+      "template": "{3}: Attach to target land you control. Fortify only as a sorcery.",
+      "rts": [
+        "{3}: Attach to target land you control. Fortify only as a sorcery."
+      ]
+    },
+    {
+      "template": "{3}: Attach to target land you control. Fortify only as a sorcery. This card enters unattached and stays on the battlefield if the land leaves.",
+      "rts": [
+        "{3}: Attach to target land you control. Fortify only as a sorcery. This card enters unattached and stays on the battlefield if the land leaves."
+      ]
+    }
+  ]
+}

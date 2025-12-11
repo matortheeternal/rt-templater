@@ -1,0 +1,30 @@
+{
+  "name": "connives",
+  "expr": "connives",
+  "variations": [
+    {
+      "template": "Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.",
+      "rts": [
+        "Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature."
+      ]
+    },
+    {
+      "template": "Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.",
+      "rts": [
+        "Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature."
+      ]
+    },
+    {
+      "template": "Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.",
+      "rts": [
+        "Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way."
+      ]
+    },
+    {
+      "template": "To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.",
+      "rts": [
+        "To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature."
+      ]
+    }
+  ]
+}

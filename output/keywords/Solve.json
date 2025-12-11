@@ -1,0 +1,9 @@
+{
+  "name": "solve",
+  "expr": "solve",
+  "variations": [
+    {
+      "template": "If unsolved, solve at the beginning of your end step."
+    }
+  ]
+}

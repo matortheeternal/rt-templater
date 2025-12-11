@@ -1,0 +1,9 @@
+{
+  "name": "boast",
+  "expr": "boast",
+  "variations": [
+    {
+      "template": "Activate only if this creature attacked this turn and only once each turn."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "cursed role",
+  "expr": "cursed role",
+  "variations": [
+    {
+      "template": "Enchanted creature is 1/1.",
+      "rts": [
+        "Enchanted creature is 1/1."
+      ]
+    },
+    {
+      "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1.",
+      "rts": [
+        "If you control another Role on it, put that one into the graveyard. Enchanted creature is 1/1."
+      ]
+    }
+  ]
+}

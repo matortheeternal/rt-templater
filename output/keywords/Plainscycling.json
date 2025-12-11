@@ -1,0 +1,13 @@
+{
+  "name": "plainscycling",
+  "expr": "plainscycling",
+  "variations": [
+    {
+      "template": "<mana>, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.",
+      "rts": [
+        "{1}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.",
+        "{2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle."
+      ]
+    }
+  ]
+}

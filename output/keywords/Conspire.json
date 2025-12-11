@@ -1,0 +1,24 @@
+{
+  "name": "conspire",
+  "expr": "conspire",
+  "variations": [
+    {
+      "template": "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it.",
+      "rts": [
+        "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it."
+      ]
+    },
+    {
+      "template": "As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
+      "rts": [
+        "As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy."
+      ]
+    },
+    {
+      "template": "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.",
+      "rts": [
+        "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy."
+      ]
+    }
+  ]
+}

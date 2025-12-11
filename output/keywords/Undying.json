@@ -1,0 +1,14 @@
+{
+  "name": "undying",
+  "expr": "undying",
+  "variations": [
+    {
+      "template": "When <target> dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
+      "rts": [
+        "When it dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
+        "When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
+        "When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "type landwalk",
+  "expr": "type landwalk",
+  "variations": [
+    {
+      "template": "It can't be blocked as long as defending player controls a land of that type."
+    }
+  ]
+}

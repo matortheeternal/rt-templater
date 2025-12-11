@@ -1,0 +1,25 @@
+{
+  "name": "soulshift",
+  "expr": "soulshift",
+  "variations": [
+    {
+      "template": "When this creature dies, you may return target Spirit card with mana value <number> or less from your graveyard to your hand.",
+      "rts": [
+        "When this creature dies, you may return target Spirit card with mana value 1 or less from your graveyard to your hand.",
+        "When this creature dies, you may return target Spirit card with mana value 2 or less from your graveyard to your hand.",
+        "When this creature dies, you may return target Spirit card with mana value 3 or less from your graveyard to your hand.",
+        "When this creature dies, you may return target Spirit card with mana value 4 or less from your graveyard to your hand.",
+        "When this creature dies, you may return target Spirit card with mana value 5 or less from your graveyard to your hand.",
+        "When this creature dies, you may return target Spirit card with mana value 6 or less from your graveyard to your hand.",
+        "When this creature dies, you may return target Spirit card with mana value 7 or less from your graveyard to your hand.",
+        "When this creature dies, you may return target Spirit card with mana value 8 or less from your graveyard to your hand."
+      ]
+    },
+    {
+      "template": "When this creature dies, you may return up to two target Spirit cards with mana value 4 or less from your graveyard to your hand.",
+      "rts": [
+        "When this creature dies, you may return up to two target Spirit cards with mana value 4 or less from your graveyard to your hand."
+      ]
+    }
+  ]
+}

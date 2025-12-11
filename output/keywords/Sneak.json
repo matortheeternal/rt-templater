@@ -1,0 +1,9 @@
+{
+  "name": "sneak",
+  "expr": "sneak",
+  "variations": [
+    {
+      "template": "You may cast this spell for {2}{R} if you also return an unblocked attacker you control to hand during the declare blockers step."
+    }
+  ]
+}

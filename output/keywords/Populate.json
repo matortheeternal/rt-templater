@@ -1,0 +1,13 @@
+{
+  "name": "populate",
+  "expr": "populate",
+  "variations": [
+    {
+      "template": "<create> a token that's a copy of a creature token you control.",
+      "rts": [
+        "Create a token that's a copy of a creature token you control.",
+        "To populate, create a token that's a copy of a creature token you control."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "flashforward",
+  "expr": "flashforward",
+  "variations": [
+    {
+      "template": "You may cast this card from exile for its flashforward cost. Then put it on the bottom of your library."
+    }
+  ]
+}

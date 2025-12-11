@@ -1,0 +1,9 @@
+{
+  "name": "open attraction",
+  "expr": "open attraction",
+  "variations": [
+    {
+      "template": "Put the top card of your Attraction deck onto the battlefield."
+    }
+  ]
+}

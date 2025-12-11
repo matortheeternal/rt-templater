@@ -1,0 +1,9 @@
+{
+  "name": "character",
+  "expr": "character",
+  "variations": [
+    {
+      "template": "Any nonlegendary creature can choose this as its Background. It becomes legendary and can be your commander."
+    }
+  ]
+}

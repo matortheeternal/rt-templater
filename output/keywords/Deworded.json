@@ -1,0 +1,9 @@
+{
+  "name": "deworded",
+  "expr": "deworded",
+  "variations": [
+    {
+      "template": "This creature counts as having no abilities."
+    }
+  ]
+}

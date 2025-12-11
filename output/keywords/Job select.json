@@ -1,0 +1,9 @@
+{
+  "name": "job select",
+  "expr": "job select",
+  "variations": [
+    {
+      "template": "When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it."
+    }
+  ]
+}

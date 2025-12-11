@@ -1,0 +1,9 @@
+{
+  "name": "expend",
+  "expr": "expend",
+  "variations": [
+    {
+      "template": "You expend 4 as you spend your fourth total mana to cast spells during a turn."
+    }
+  ]
+}

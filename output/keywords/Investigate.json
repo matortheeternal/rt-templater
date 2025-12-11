@@ -1,0 +1,19 @@
+{
+  "name": "investigate",
+  "expr": "investigate",
+  "variations": [
+    {
+      "template": "<create> a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+      "rts": [
+        "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+        "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
+      ]
+    },
+    {
+      "template": "Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\"",
+      "rts": [
+        "Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "fear",
+  "expr": "fear",
+  "variations": [
+    {
+      "template": "<target> can't be blocked except by artifact creatures and/or black creatures.",
+      "rts": [
+        "It can't be blocked except by artifact creatures and/or black creatures.",
+        "They can't be blocked except by artifact creatures and/or black creatures.",
+        "This creature can't be blocked except by artifact creatures and/or black creatures."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "islandwalk",
+  "expr": "islandwalk",
+  "variations": [
+    {
+      "template": "<target> can't be blocked as long as defending player controls an Island.",
+      "rts": [
+        "It can't be blocked as long as defending player controls an Island.",
+        "They can't be blocked as long as defending player controls an Island.",
+        "This creature can't be blocked as long as defending player controls an Island."
+      ]
+    }
+  ]
+}

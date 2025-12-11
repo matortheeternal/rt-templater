@@ -16,7 +16,8 @@ const stopWords = [
     '+1/+1', 'hand', 'legendary', 'other', 'x', 'black', 'red', 'white', 'blue',
     'green', '2/2', '1/1', '3/3', '4/4', 'attacks', 'controls', "card's", 'plus',
     'had', 'though', 'becomes', 'do', 'instant', 'sorcery', 'hand', 'zombie', 'onto',
-    'arcane', 'artifact'
+    'arcane', 'artifact', 'token', 'tokens', 'shapeshifter', 'spent', 'then',
+    'beginning', 'step'
 ];
 
 const twoOrLess = {};

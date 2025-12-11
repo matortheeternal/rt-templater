@@ -1,0 +1,9 @@
+{
+  "name": "background",
+  "expr": "background",
+  "variations": [
+    {
+      "template": "You can have a Background as a second commander."
+    }
+  ]
+}

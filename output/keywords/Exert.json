@@ -1,0 +1,18 @@
+{
+  "name": "exert",
+  "expr": "exert",
+  "variations": [
+    {
+      "template": "It won't untap during your next untap step.",
+      "rts": [
+        "It won't untap during your next untap step."
+      ]
+    },
+    {
+      "template": "An exerted creature won't untap during your next untap step.",
+      "rts": [
+        "An exerted creature won't untap during your next untap step."
+      ]
+    }
+  ]
+}

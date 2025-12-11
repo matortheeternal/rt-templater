@@ -1,0 +1,18 @@
+{
+  "name": "basic landcycling",
+  "expr": "basic landcycling",
+  "variations": [
+    {
+      "template": "<mana>, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "rts": [
+        "{1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "{2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "{1}{B}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "{1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "{1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "{1}{U}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "{1}{W}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+      ]
+    }
+  ]
+}

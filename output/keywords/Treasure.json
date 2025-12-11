@@ -1,0 +1,30 @@
+{
+  "name": "treasure",
+  "expr": "treasure",
+  "variations": [
+    {
+      "template": "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+      "rts": [
+        "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""
+      ]
+    },
+    {
+      "template": "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+      "rts": [
+        "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\""
+      ]
+    },
+    {
+      "template": "It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "rts": [
+        "It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+      ]
+    },
+    {
+      "template": "A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+      "rts": [
+        "A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""
+      ]
+    }
+  ]
+}

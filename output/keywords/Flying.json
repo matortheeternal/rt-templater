@@ -1,0 +1,19 @@
+{
+  "name": "flying",
+  "expr": "flying",
+  "variations": [
+    {
+      "template": "<target_it> can't be blocked except by creatures with flying or reach.",
+      "rts": [
+        "It can't be blocked except by creatures with flying or reach.",
+        "This creature can't be blocked except by creatures with flying or reach."
+      ]
+    },
+    {
+      "template": "Players with flying can't be dealt damage by creatures without flying.",
+      "rts": [
+        "Players with flying can't be dealt damage by creatures without flying."
+      ]
+    }
+  ]
+}

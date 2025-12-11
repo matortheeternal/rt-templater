@@ -1,0 +1,42 @@
+{
+  "name": "devotion",
+  "expr": "devotion",
+  "variations": [
+    {
+      "template": "Each {R} in the mana costs of permanents you control counts toward your devotion to red.",
+      "rts": [
+        "Each {R} in the mana costs of permanents you control counts toward your devotion to red."
+      ]
+    },
+    {
+      "template": "Each {U} in the mana costs of permanents you control counts toward your devotion to blue.",
+      "rts": [
+        "Each {U} in the mana costs of permanents you control counts toward your devotion to blue."
+      ]
+    },
+    {
+      "template": "Each {B} in the mana costs of permanents you control counts toward your devotion to black.",
+      "rts": [
+        "Each {B} in the mana costs of permanents you control counts toward your devotion to black."
+      ]
+    },
+    {
+      "template": "Each {G} in the mana costs of permanents you control counts toward your devotion to green.",
+      "rts": [
+        "Each {G} in the mana costs of permanents you control counts toward your devotion to green."
+      ]
+    },
+    {
+      "template": "Each {W} in the mana costs of permanents you control counts toward your devotion to white.",
+      "rts": [
+        "Each {W} in the mana costs of permanents you control counts toward your devotion to white."
+      ]
+    },
+    {
+      "template": "Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.",
+      "rts": [
+        "Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control."
+      ]
+    }
+  ]
+}

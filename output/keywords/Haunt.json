@@ -1,0 +1,18 @@
+{
+  "name": "haunt",
+  "expr": "haunt",
+  "variations": [
+    {
+      "template": "When this creature dies, exile it haunting target creature.",
+      "rts": [
+        "When this creature dies, exile it haunting target creature."
+      ]
+    },
+    {
+      "template": "When this spell card is put into a graveyard after resolving, exile it haunting target creature.",
+      "rts": [
+        "When this spell card is put into a graveyard after resolving, exile it haunting target creature."
+      ]
+    }
+  ]
+}

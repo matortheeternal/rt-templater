@@ -1,0 +1,34 @@
+{
+  "name": "hexproof",
+  "expr": "hexproof",
+  "variations": [
+    {
+      "template": "<target> can't be the target<number:plural:s> of spells or abilities your opponents control.",
+      "rts": [
+        "It can't be the target of spells or abilities your opponents control.",
+        "You can't be the target of spells or abilities your opponents control.",
+        "They can't be the targets of spells or abilities your opponents control.",
+        "This creature can't be the target of spells or abilities your opponents control.",
+        "A creature with hexproof can't be the target of spells or abilities your opponents control."
+      ]
+    },
+    {
+      "template": "This creature can't be the target of black spells or abilities your opponents control.",
+      "rts": [
+        "This creature can't be the target of black spells or abilities your opponents control."
+      ]
+    },
+    {
+      "template": "This creature can't be the target of white spells or abilities your opponents control.",
+      "rts": [
+        "This creature can't be the target of white spells or abilities your opponents control."
+      ]
+    },
+    {
+      "template": "You can't be the target of spells or abilities your opponents control, including Aura spells.",
+      "rts": [
+        "You can't be the target of spells or abilities your opponents control, including Aura spells."
+      ]
+    }
+  ]
+}

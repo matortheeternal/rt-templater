@@ -1,0 +1,32 @@
+{
+  "name": "buyback",
+  "expr": "buyback",
+  "variations": [
+    {
+      "template": "You may pay an additional <mana> as you cast this spell. If you do, put this card into your hand as it resolves.",
+      "rts": [
+        "You may pay an additional {2} as you cast this spell. If you do, put this card into your hand as it resolves.",
+        "You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.",
+        "You may pay an additional {4} as you cast this spell. If you do, put this card into your hand as it resolves.",
+        "You may pay an additional {5} as you cast this spell. If you do, put this card into your hand as it resolves.",
+        "You may pay an additional {1}{U} as you cast this spell. If you do, put this card into your hand as it resolves.",
+        "You may pay an additional {2}{G} as you cast this spell. If you do, put this card into your hand as it resolves.",
+        "You may pay an additional {2}{U} as you cast this spell. If you do, put this card into your hand as it resolves.",
+        "You may pay an additional {2}{B}{B} as you cast this spell. If you do, put this card into your hand as it resolves.",
+        "You may pay an additional {2}{W}{W} as you cast this spell. If you do, put this card into your hand as it resolves."
+      ]
+    },
+    {
+      "template": "You may sacrifice a land in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.",
+      "rts": [
+        "You may sacrifice a land in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves."
+      ]
+    },
+    {
+      "template": "You may discard two cards in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.",
+      "rts": [
+        "You may discard two cards in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves."
+      ]
+    }
+  ]
+}

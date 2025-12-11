@@ -1,9 +1,9 @@
 import { compileTemplate } from './templateCompiler.js';
 
-const altGroup = /\([^()]*\|[^()]*\)/;
+// const altGroup = /\([^()]*\|[^()]*\)/;
 function testCandidate(subset, label) {
     const template = compileTemplate(subset, label);
-    return !altGroup.test(template);
+    return template.indexOf('(') === -1;
 }
 
 export function findBest(strings, label) {

@@ -1,0 +1,9 @@
+{
+  "name": "{s}",
+  "expr": "{s}",
+  "variations": [
+    {
+      "template": "{S} is mana from a snow source."
+    }
+  ]
+}

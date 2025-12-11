@@ -1,0 +1,9 @@
+{
+  "name": "leaves battlefield",
+  "expr": "leaves battlefield",
+  "variations": [
+    {
+      "template": "That creature returns under its owner's control."
+    }
+  ]
+}

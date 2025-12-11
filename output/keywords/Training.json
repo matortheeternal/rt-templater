@@ -1,0 +1,24 @@
+{
+  "name": "training",
+  "expr": "training",
+  "variations": [
+    {
+      "template": "Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.",
+      "rts": [
+        "Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature."
+      ]
+    },
+    {
+      "template": "Whenever a creature token you control attacks with another creature with greater power, put a +1/+1 counter on that token.",
+      "rts": [
+        "Whenever a creature token you control attacks with another creature with greater power, put a +1/+1 counter on that token."
+      ]
+    },
+    {
+      "template": "Whenever a creature you control attacks with another creature with greater power, put a +1/+1 counter on the creature with lesser power.",
+      "rts": [
+        "Whenever a creature you control attacks with another creature with greater power, put a +1/+1 counter on the creature with lesser power."
+      ]
+    }
+  ]
+}

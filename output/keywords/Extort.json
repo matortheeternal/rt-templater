@@ -1,0 +1,18 @@
+{
+  "name": "extort",
+  "expr": "extort",
+  "variations": [
+    {
+      "template": "If a creature has multiple instances of extort, each triggers separately.",
+      "rts": [
+        "If a creature has multiple instances of extort, each triggers separately."
+      ]
+    },
+    {
+      "template": "Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.",
+      "rts": [
+        "Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life."
+      ]
+    }
+  ]
+}

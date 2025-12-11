@@ -1,0 +1,9 @@
+{
+  "name": "adventure",
+  "expr": "adventure",
+  "variations": [
+    {
+      "template": "It doesn't need to have gone on the adventure first."
+    }
+  ]
+}

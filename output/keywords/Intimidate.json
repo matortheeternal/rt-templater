@@ -1,0 +1,14 @@
+{
+  "name": "intimidate",
+  "expr": "intimidate",
+  "variations": [
+    {
+      "template": "<target> can't be blocked except by artifact creatures and/or creatures that share a color with it.",
+      "rts": [
+        "It can't be blocked except by artifact creatures and/or creatures that share a color with it.",
+        "This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.",
+        "A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it."
+      ]
+    }
+  ]
+}

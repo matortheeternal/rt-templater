@@ -1,0 +1,9 @@
+{
+  "name": "activated ability",
+  "expr": "activated ability",
+  "variations": [
+    {
+      "template": "Mana abilities can't be targeted."
+    }
+  ]
+}

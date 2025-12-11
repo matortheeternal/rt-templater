@@ -1,0 +1,18 @@
+{
+  "name": "blitz",
+  "expr": "blitz",
+  "variations": [
+    {
+      "template": "If you cast a spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.",
+      "rts": [
+        "If you cast a spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step."
+      ]
+    },
+    {
+      "template": "If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.",
+      "rts": [
+        "If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step."
+      ]
+    }
+  ]
+}

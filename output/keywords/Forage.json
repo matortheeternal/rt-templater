@@ -1,0 +1,9 @@
+{
+  "name": "forage",
+  "expr": "forage",
+  "variations": [
+    {
+      "template": "To forage, exile three cards from your graveyard or sacrifice a Food."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dealt damage counter",
+  "expr": "dealt damage counter",
+  "variations": [
+    {
+      "template": "It must survive the damage to get the counter."
+    }
+  ]
+}

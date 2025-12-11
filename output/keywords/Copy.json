@@ -1,0 +1,24 @@
+{
+  "name": "copy",
+  "expr": "copy",
+  "variations": [
+    {
+      "template": "The copy becomes a token.",
+      "rts": [
+        "The copy becomes a token."
+      ]
+    },
+    {
+      "template": "A copy of a creature spell becomes a token.",
+      "rts": [
+        "A copy of a creature spell becomes a token."
+      ]
+    },
+    {
+      "template": "A copy of a permanent spell becomes a token.",
+      "rts": [
+        "A copy of a permanent spell becomes a token."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "stage",
+  "expr": "stage",
+  "variations": [
+    {
+      "template": "1/4",
+      "rts": [
+        "1/4"
+      ]
+    },
+    {
+      "template": "2/4",
+      "rts": [
+        "2/4"
+      ]
+    },
+    {
+      "template": "4/1",
+      "rts": [
+        "4/1"
+      ]
+    },
+    {
+      "template": "4/4",
+      "rts": [
+        "4/4"
+      ]
+    }
+  ]
+}

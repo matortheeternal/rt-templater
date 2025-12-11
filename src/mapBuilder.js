@@ -1,5 +1,3 @@
-import { mergeNStrings } from './lcs.js';
-import { getReplacement } from './replacers/index.js';
 import fs from 'fs';
 import { compileTemplate } from './templateCompiler.js';
 import { findBest } from './findBest.js';
@@ -81,4 +79,21 @@ export function saveRtMap(rtMap) {
     });
     console.log(`Produced ${mapOutput.length} reminder text groups`);
     fs.writeFileSync('output/rtMap.json', JSON.stringify(mapOutput, null, 2));
+}
+
+export function saveIndividualKeywords(rtMap) {
+    fs.rmSync('output/keywords', { recursive: true });
+    fs.mkdirSync('output/keywords');
+    Object.values(rtMap).forEach(v => {
+        const output = {
+            name: v.label,
+            expr: v.label,
+            variations: v.best || (v.merged
+                ? [{ template: v.merged.template }]
+                : [{ template: v.rts[0].text }])
+        };
+        const text = JSON.stringify(output, null, 2);
+        const filename = v.label.slice(0, 1).toUpperCase() + v.label.slice(1) + '.json';
+        fs.writeFileSync(`output/keywords/${filename}`, text);
+    });
 }

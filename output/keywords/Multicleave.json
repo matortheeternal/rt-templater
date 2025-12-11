@@ -1,0 +1,9 @@
+{
+  "name": "multicleave",
+  "expr": "multicleave",
+  "variations": [
+    {
+      "template": "You may pay an additional {1} any number of times as you cast this spell. For each time you do, choose a paired set of square brackets and remove the words in between."
+    }
+  ]
+}

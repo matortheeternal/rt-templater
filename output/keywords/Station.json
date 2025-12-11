@@ -1,0 +1,73 @@
+{
+  "name": "station",
+  "expr": "station",
+  "variations": [
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this <card_sub_type>. Station only as a sorcery.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.",
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 3+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 3+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 4+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 4+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 5+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 5+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+."
+      ]
+    },
+    {
+      "template": "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 20+.",
+      "rts": [
+        "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 20+."
+      ]
+    }
+  ]
+}

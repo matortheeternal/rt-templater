@@ -1,0 +1,9 @@
+{
+  "name": "affinitycycling",
+  "expr": "affinitycycling",
+  "variations": [
+    {
+      "template": "{2}, Discard this card: Search your library for a card with affinity, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "reach",
+  "expr": "reach",
+  "variations": [
+    {
+      "template": "<target> can block creatures with flying.",
+      "rts": [
+        "It can block creatures with flying.",
+        "They can block creatures with flying.",
+        "This creature can block creatures with flying.",
+        "A creature with reach can block creatures with flying."
+      ]
+    }
+  ]
+}

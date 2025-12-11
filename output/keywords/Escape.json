@@ -1,0 +1,24 @@
+{
+  "name": "escape",
+  "expr": "escape",
+  "variations": [
+    {
+      "template": "You may cast cards from your graveyard for their escape cost.",
+      "rts": [
+        "You may cast cards from your graveyard for their escape cost."
+      ]
+    },
+    {
+      "template": "You may cast this card from your graveyard for its escape cost.",
+      "rts": [
+        "You may cast this card from your graveyard for its escape cost."
+      ]
+    },
+    {
+      "template": "You may cast it from your graveyard for its escape cost this turn.",
+      "rts": [
+        "You may cast it from your graveyard for its escape cost this turn."
+      ]
+    }
+  ]
+}

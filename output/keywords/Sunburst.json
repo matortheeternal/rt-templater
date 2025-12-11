@@ -1,0 +1,24 @@
+{
+  "name": "sunburst",
+  "expr": "sunburst",
+  "variations": [
+    {
+      "template": "It enters with a +1/+1 counter on it for each color of mana spent to cast it.",
+      "rts": [
+        "It enters with a +1/+1 counter on it for each color of mana spent to cast it."
+      ]
+    },
+    {
+      "template": "This enters with a +1/+1 counter on it for each color of mana spent to cast it.",
+      "rts": [
+        "This enters with a +1/+1 counter on it for each color of mana spent to cast it."
+      ]
+    },
+    {
+      "template": "This enters with a charge counter on it for each color of mana spent to cast it.",
+      "rts": [
+        "This enters with a charge counter on it for each color of mana spent to cast it."
+      ]
+    }
+  ]
+}

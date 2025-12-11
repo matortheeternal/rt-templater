@@ -1,0 +1,13 @@
+{
+  "name": "mountainwalk",
+  "expr": "mountainwalk",
+  "variations": [
+    {
+      "template": "<target_it> can't be blocked as long as defending player controls a Mountain.",
+      "rts": [
+        "It can't be blocked as long as defending player controls a Mountain.",
+        "This creature can't be blocked as long as defending player controls a Mountain."
+      ]
+    }
+  ]
+}

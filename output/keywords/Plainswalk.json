@@ -1,0 +1,13 @@
+{
+  "name": "plainswalk",
+  "expr": "plainswalk",
+  "variations": [
+    {
+      "template": "<target> can't be blocked as long as defending player controls a Plains.",
+      "rts": [
+        "They can't be blocked as long as defending player controls a Plains.",
+        "This creature can't be blocked as long as defending player controls a Plains."
+      ]
+    }
+  ]
+}
