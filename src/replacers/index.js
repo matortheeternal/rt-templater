@@ -10,10 +10,10 @@ const varReplacers = [
     ...MiscReplacers
 ];
 
-export function getReplacement(parts, label, str) {
+export function getReplacement(parts, label) {
     for (const Replacer of varReplacers) {
         const replacer = new Replacer(label);
-        const res = replacer.replace(parts, match);
+        const res = replacer.replace(parts);
         if (res) return res;
     }
 }

@@ -28,7 +28,7 @@
       ]
     },
     {
-      "template": "<target_it> can attack and {T} as soon as it comes under your control.",
+      "template": "<target> can attack and {T} as soon as it comes under your control.",
       "rts": [
         "It can attack and {T} as soon as it comes under your control.",
         "This creature can attack and {T} as soon as it comes under your control."

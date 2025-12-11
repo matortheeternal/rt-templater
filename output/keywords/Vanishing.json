@@ -11,26 +11,21 @@
       ]
     },
     {
-      "template": "This creature enters with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+      "template": "<target> enters with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
       "rts": [
         "This creature enters with a time counter on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "This creature enters with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "This creature enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-        "This creature enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
+        "This creature enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+        "This enchantment enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+        "This enchantment enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+        "This enchantment enters with twelve time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
       ]
     },
     {
       "template": "This Aura enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
       "rts": [
         "This Aura enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
-      ]
-    },
-    {
-      "template": "This enchantment enters with <number:word> time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-      "rts": [
-        "This enchantment enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-        "This enchantment enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-        "This enchantment enters with twelve time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
       ]
     },
     {

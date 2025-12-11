@@ -3,7 +3,7 @@
   "expr": "Changeling",
   "variations": [
     {
-      "template": "<target_it> is every creature type.",
+      "template": "<target> is every creature type.",
       "rts": [
         "It is every creature type.",
         "This token is every creature type."

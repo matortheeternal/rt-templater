@@ -1840,7 +1840,7 @@
     },
     "best": [
       {
-        "template": "<target_it> is every creature type.",
+        "template": "<target> is every creature type.",
         "rts": [
           "It is every creature type.",
           "This token is every creature type."
@@ -4320,29 +4320,19 @@
       }
     ],
     "merged": {
-      "template": "This (artifact|creature|enchantment) enters with <number:word> fade counter<number:plural:s> on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
+      "template": "<target> enters with <number:word> fade counter<number:plural:s> on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
       "count": 17
     },
     "best": [
       {
-        "template": "This artifact enters with <number:word> fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
+        "template": "<target> enters with <number:word> fade counter<number:plural:s> on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
         "rts": [
           "This artifact enters with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
-          "This artifact enters with four fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it."
-        ]
-      },
-      {
-        "template": "This creature enters with <number:word> fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
-        "rts": [
           "This creature enters with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
+          "This artifact enters with four fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
           "This creature enters with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
           "This creature enters with four fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
-          "This creature enters with three fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it."
-        ]
-      },
-      {
-        "template": "This enchantment enters with <number:word> fade counter<number:plural:s> on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
-        "rts": [
+          "This creature enters with three fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
           "This enchantment enters with one fade counter on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
           "This enchantment enters with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
           "This enchantment enters with seven fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it."
@@ -5156,7 +5146,7 @@
       }
     ],
     "merged": {
-      "template": "This (land|creature) enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. Whenever (a|another) creature enters, you may move a +1/+1 counter from this (land|creature) onto it.",
+      "template": "<target> enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. Whenever (a|another) creature enters, you may move a +1/+1 counter from this (land|creature) onto it.",
       "count": 13
     },
     "best": [
@@ -5341,7 +5331,7 @@
         ]
       },
       {
-        "template": "<target_it> can attack and {T} as soon as it comes under your control.",
+        "template": "<target> can attack and {T} as soon as it comes under your control.",
         "rts": [
           "It can attack and {T} as soon as it comes under your control.",
           "This creature can attack and {T} as soon as it comes under your control."
@@ -6631,7 +6621,7 @@
       }
     ],
     "merged": {
-      "template": "<target_it> can't be blocked as long as defending player controls (an artifact land|a land of that type|a snow land|a snow land of that type|a land of any of those types).",
+      "template": "<target> can't be blocked as long as defending player controls (an artifact land|a land of that type|a snow land|a snow land of that type|a land of any of those types).",
       "count": 8
     },
     "best": [
@@ -7683,12 +7673,12 @@
       }
     ],
     "merged": {
-      "template": "Whenever <target> attacks, for each opponent other than defending player, you may create a token (that's a) copy (of this creature) that's tapped and attacking that player or a planeswalker they control. (Then do it again.) Exile the tokens at end of combat.",
+      "template": "Whenever <target_it> attacks, for each opponent other than defending player, you may create a token (that's a) copy (of this creature) that's tapped and attacking that player or a planeswalker they control. (Then do it again.) Exile the tokens at end of combat.",
       "count": 28
     },
     "best": [
       {
-        "template": "Whenever <target> attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.",
+        "template": "Whenever <target_it> attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.",
         "rts": [
           "Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.",
           "Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.",
@@ -9282,7 +9272,7 @@
     },
     "best": [
       {
-        "template": "<target_it> enters with your choice of a +1/+1 counter or haste.",
+        "template": "<target> enters with your choice of a +1/+1 counter or haste.",
         "rts": [
           "It enters with your choice of a +1/+1 counter or haste.",
           "This creature enters with your choice of a +1/+1 counter or haste."
@@ -11508,12 +11498,12 @@
       }
     ],
     "merged": {
-      "template": "When <target> dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
+      "template": "When <target_it> dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
       "count": 26
     },
     "best": [
       {
-        "template": "When <target> dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
+        "template": "When <target_it> dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
         "rts": [
           "When it dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
           "When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
@@ -11836,26 +11826,21 @@
         ]
       },
       {
-        "template": "This creature enters with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+        "template": "<target> enters with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "rts": [
           "This creature enters with a time counter on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
           "This creature enters with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
           "This creature enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-          "This creature enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
+          "This creature enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+          "This enchantment enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+          "This enchantment enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+          "This enchantment enters with twelve time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
         ]
       },
       {
         "template": "This Aura enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "rts": [
           "This Aura enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
-        ]
-      },
-      {
-        "template": "This enchantment enters with <number:word> time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-        "rts": [
-          "This enchantment enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-          "This enchantment enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-          "This enchantment enters with twelve time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
         ]
       },
       {

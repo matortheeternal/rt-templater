@@ -21,7 +21,17 @@ class TargetCreatureReplacer extends Replacer {
 
 class TargetItReplacer extends Replacer {
     id = '<target_it>';
-    expr = new RegExp(`^(?:it|this ${thisTypesGroup}|equipped creature)$`, 'i');
+
+    constructor(label) {
+        super();
+        const options = [
+            'it',
+            `this ${thisTypesGroup}`,
+            'equipped creature',
+            `a creature with ${label.toLowerCase()}`
+        ];
+        this.expr = new RegExp(`^(?:${options.join('|')})$`);
+    }
 }
 
 class TargetReplacer extends Replacer {
@@ -29,15 +39,20 @@ class TargetReplacer extends Replacer {
 
     constructor(label) {
         super();
-        this.expr = new RegExp(
-            `^(?:It|You|They|This ${thisTypesGroup}|A creature with ${label})$`, 'i'
-        );
+        const options = [
+            'It',
+            '[Yy]ou',
+            '[Tt]hey',
+            `[Tt]his ${thisTypesGroup}`,
+            `[Aa] creature with ${label.toLowerCase()}`
+        ];
+        this.expr = new RegExp(`^(?:${options.join('|')})$`);
     }
 }
 
 class TargetCardReplacer extends Replacer {
     id = '<target_card>';
-    expr = /^(?:This card|This token|That card)$/;
+    expr = /^(?:This card|This token|That card)$/i;
 }
 
 class TargetDeals extends Replacer {
