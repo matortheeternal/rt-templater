@@ -17,14 +17,9 @@
       ]
     },
     {
-      "template": "Effects that say \"destroy\" don't destroy this artifact.",
+      "template": "Effects that say \"destroy\" don't destroy this <type>.",
       "rts": [
-        "Effects that say \"destroy\" don't destroy this artifact."
-      ]
-    },
-    {
-      "template": "Effects that say \"destroy\" don't destroy this Equipment.",
-      "rts": [
+        "Effects that say \"destroy\" don't destroy this artifact.",
         "Effects that say \"destroy\" don't destroy this Equipment."
       ]
     },

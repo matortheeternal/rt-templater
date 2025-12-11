@@ -9,10 +9,11 @@
       ]
     },
     {
-      "template": "<create> a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+      "template": "<create> a Clue token. It's an artifact with \"{2}, Sacrifice this <type>: Draw a card.\"",
       "rts": [
         "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
         "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+        "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\"",
         "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
       ]
     },
@@ -20,12 +21,6 @@
       "template": "Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\"",
       "rts": [
         "Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\""
-      ]
-    },
-    {
-      "template": "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\"",
-      "rts": [
-        "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\""
       ]
     }
   ]

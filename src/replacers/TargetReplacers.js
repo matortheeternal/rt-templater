@@ -25,9 +25,14 @@ class TargetCreatureReplacer extends Replacer {
 
     constructor(label) {
         super();
-        this.expr = new RegExp(
-            `^(?:the creature|that creature|this creature|those creatures|a creature with ${label})$`
-        );
+        const options = [
+            'the creature',
+            'that creature',
+            'this creature',
+            'those creatures',
+            `a creature with ${label.toLowerCase()}`
+        ];
+        this.expr = new RegExp(`^(?:${options.join('|')})$`);
     }
 }
 
@@ -40,7 +45,7 @@ class TargetItReplacer extends Replacer {
             'it',
             `this ${thisTypesGroup}`,
             'equipped creature',
-            `a creature with ${label.toLowerCase()}`
+            `a creature with ${label.toLowerCase()}(?: \\d)?`
         ];
         this.expr = new RegExp(`^(?:${options.join('|')})$`);
     }
@@ -78,6 +83,20 @@ class TargetDeals extends Replacer {
     }
 }
 
+class TargetDies extends Replacer {
+    id = '<target_dies>';
+
+    constructor(label) {
+        super();
+        const options = [
+            'this creature dies',
+            'this permanent is put into a graveyard from the battlefield',
+            `a creature with ${label.toLowerCase()}(?: \\d)? dies`
+        ];
+        this.expr = new RegExp(`^(?:${options.join('|')})$`);
+    }
+}
+
 export default [
     TargetSpellReplacer,
     TargetSpellCostsReplacer,
@@ -86,4 +105,5 @@ export default [
     TargetReplacer,
     TargetItReplacer,
     TargetDeals,
+    TargetDies,
 ]

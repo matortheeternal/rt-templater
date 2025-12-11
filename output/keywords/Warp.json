@@ -9,14 +9,9 @@
       ]
     },
     {
-      "template": "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.",
+      "template": "You may cast this card from your hand for its warp cost. Exile this <type> at the beginning of the next end step, then you may cast it from exile on a later turn.",
       "rts": [
-        "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn."
-      ]
-    },
-    {
-      "template": "You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn.",
-      "rts": [
+        "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.",
         "You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn."
       ]
     },

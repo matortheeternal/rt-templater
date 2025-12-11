@@ -17,14 +17,9 @@
       ]
     },
     {
-      "template": "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+      "template": "They're artifacts with \"{T}, Sacrifice this <type>: Add one mana of any color.\"",
       "rts": [
-        "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\""
-      ]
-    },
-    {
-      "template": "They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
-      "rts": [
+        "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
         "They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
       ]
     },

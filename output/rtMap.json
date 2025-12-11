@@ -166,144 +166,49 @@
       }
     ],
     "merged": {
-      "template": "<target_spell_costs> {1} less to cast for each (Aura|artifact|Cat|Bird|Food|Frog|Gate|Town|Dalek|Human|Swamp|token|Forest|Island|Knight|Lizard|Plains|Sliver|Spirit|Citizen|Mountain|creature|Equipment|snow land|enchantment|planeswalker|artifact creature|artifact, legendary, and/or Saga permanent|Assassin, Mercenary, Pirate, Rogue, and/or Warlock) you (control|control as you cast it).",
+      "template": "<target_spell_costs> {1} less to cast for each <type> you (control|control as you cast it).",
       "count": 70
     },
     "best": [
       {
-        "template": "They cost {1} less to cast for each Aura you control.",
+        "template": "<target_spell_costs> {1} less to cast for each <type> you control.",
         "rts": [
-          "They cost {1} less to cast for each Aura you control."
-        ]
-      },
-      {
-        "template": "<target_spell_costs> {1} less to cast for each artifact you control.",
-        "rts": [
+          "They cost {1} less to cast for each Aura you control.",
           "They cost {1} less to cast for each artifact you control.",
-          "This spell costs {1} less to cast for each artifact you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each <card_sub_type> you control.",
-        "rts": [
           "This spell costs {1} less to cast for each Cat you control.",
           "This spell costs {1} less to cast for each Bird you control.",
+          "This spell costs {1} less to cast for each Food you control.",
           "This spell costs {1} less to cast for each Frog you control.",
+          "This spell costs {1} less to cast for each Gate you control.",
+          "This spell costs {1} less to cast for each Town you control.",
           "This spell costs {1} less to cast for each Dalek you control.",
           "This spell costs {1} less to cast for each Human you control.",
+          "This spell costs {1} less to cast for each Swamp you control.",
+          "This spell costs {1} less to cast for each token you control.",
+          "This spell costs {1} less to cast for each Forest you control.",
+          "This spell costs {1} less to cast for each Island you control.",
           "This spell costs {1} less to cast for each Knight you control.",
           "This spell costs {1} less to cast for each Lizard you control.",
+          "This spell costs {1} less to cast for each Plains you control.",
           "This spell costs {1} less to cast for each Sliver you control.",
           "This spell costs {1} less to cast for each Spirit you control.",
-          "This spell costs {1} less to cast for each Citizen you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Food you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Food you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Gate you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Gate you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Town you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Town you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Swamp you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Swamp you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each token you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each token you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Forest you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Forest you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Island you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Island you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Plains you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Plains you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Mountain you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Mountain you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each creature you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each creature you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Equipment you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Equipment you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each snow land you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each snow land you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each enchantment you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each enchantment you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each planeswalker you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each planeswalker you control."
+          "This spell costs {1} less to cast for each Citizen you control.",
+          "This spell costs {1} less to cast for each Mountain you control.",
+          "This spell costs {1} less to cast for each artifact you control.",
+          "This spell costs {1} less to cast for each creature you control.",
+          "This spell costs {1} less to cast for each Equipment you control.",
+          "This spell costs {1} less to cast for each snow land you control.",
+          "This spell costs {1} less to cast for each enchantment you control.",
+          "This spell costs {1} less to cast for each planeswalker you control.",
+          "This spell costs {1} less to cast for each artifact creature you control.",
+          "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control.",
+          "This spell costs {1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control."
         ]
       },
       {
         "template": "It costs {1} less to cast for each artifact you control as you cast it.",
         "rts": [
           "It costs {1} less to cast for each artifact you control as you cast it."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each artifact creature you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each artifact creature you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control."
         ]
       }
     ]
@@ -342,7 +247,7 @@
       }
     ],
     "merged": {
-      "template": "Whenever (it|this creature|a creature with afflict 2|a creature with afflict 3) becomes blocked, defending player loses <number> life.",
+      "template": "Whenever <target_it> becomes blocked, defending player loses <number> life.",
       "count": 13
     },
     "best": [
@@ -353,12 +258,7 @@
           "Whenever this creature becomes blocked, defending player loses 1 life.",
           "Whenever this creature becomes blocked, defending player loses 2 life.",
           "Whenever this creature becomes blocked, defending player loses 3 life.",
-          "Whenever this creature becomes blocked, defending player loses 4 life."
-        ]
-      },
-      {
-        "template": "Whenever a creature with afflict <number> becomes blocked, defending player loses <number> life.",
-        "rts": [
+          "Whenever this creature becomes blocked, defending player loses 4 life.",
           "Whenever a creature with afflict 2 becomes blocked, defending player loses 2 life.",
           "Whenever a creature with afflict 3 becomes blocked, defending player loses 3 life."
         ]
@@ -396,18 +296,23 @@
     },
     "best": [
       {
-        "template": "When this <dies_or_gy>, create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
+        "template": "When this creature dies, create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
         "rts": [
           "When this creature dies, create a 1/1 white and black Spirit creature token with flying.",
           "When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.",
-          "When this creature dies, create three 1/1 white and black Spirit creature tokens with flying.",
-          "When this permanent is put into a graveyard from the battlefield, create a 1/1 white and black Spirit creature token with flying."
+          "When this creature dies, create three 1/1 white and black Spirit creature tokens with flying."
         ]
       },
       {
         "template": "When a creature with afterlife 1 dies, create a 1/1 white and black Spirit creature token with flying.",
         "rts": [
           "When a creature with afterlife 1 dies, create a 1/1 white and black Spirit creature token with flying."
+        ]
+      },
+      {
+        "template": "When this permanent is put into a graveyard from the battlefield, create a 1/1 white and black Spirit creature token with flying.",
+        "rts": [
+          "When this permanent is put into a graveyard from the battlefield, create a 1/1 white and black Spirit creature token with flying."
         ]
       }
     ]
@@ -2057,7 +1962,7 @@
       }
     ],
     "merged": {
-      "template": "(Your creatures can help cast it|Your creatures can help cast this spell|Your creatures can help cast those spells). Each creature you tap while casting (a noncreature spell from exile|it|this spell|an artifact spell|a multicolored spell|a legendary creature spell) pays for {1} or one mana of (a color) that (creature is|creature's color).",
+      "template": "(Your creatures can help cast it|Your creatures can help cast this spell|Your creatures can help cast those spells). Each creature you tap while casting (a noncreature spell from exile|it|this spell|an artifact spell|a multicolored spell|a legendary creature spell) pays for {1} or one mana of (a color) that <type>.",
       "count": 90
     },
     "best": [
@@ -2963,14 +2868,9 @@
     },
     "best": [
       {
-        "template": "As this creature enters, you may sacrifice any number of artifacts. It enters with that many +1/+1 counters on it.",
+        "template": "As this creature enters, you may sacrifice any number of <type>. It enters with that many +1/+1 counters on it.",
         "rts": [
-          "As this creature enters, you may sacrifice any number of artifacts. It enters with that many +1/+1 counters on it."
-        ]
-      },
-      {
-        "template": "As this creature enters, you may sacrifice any number of creatures. It enters with that many +1/+1 counters on it.",
-        "rts": [
+          "As this creature enters, you may sacrifice any number of artifacts. It enters with that many +1/+1 counters on it.",
           "As this creature enters, you may sacrifice any number of creatures. It enters with that many +1/+1 counters on it."
         ]
       },
@@ -3335,7 +3235,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast this spell by sacrificing (a creature|an artifact) and paying the emerge cost reduced by that (creature's|artifact's) mana value.",
+      "template": "You may cast this spell by sacrificing (a creature|an artifact) and paying the emerge cost reduced by that <type> mana value.",
       "count": 15
     },
     "best": [
@@ -3911,7 +3811,7 @@
       }
     ],
     "merged": {
-      "template": "(Whenever|They have \"Whenever) a creature you control enters, if (it|that creature) has greater power or toughness than this (token|creature), put a +1/+1 counter on this (creature|token.\" They see this creature enter).",
+      "template": "(Whenever|They have \"Whenever) a creature you control enters, if (it|that creature) has greater power or toughness than this <type>, put a +1/+1 counter on this <type>.",
       "count": 21
     },
     "best": [
@@ -5403,21 +5303,11 @@
         ]
       },
       {
-        "template": "When this artifact enters, look at the top <number:word> cards of your library, exile one face down, then put the rest on the bottom in a random order.",
+        "template": "When this <type> enters, look at the top <number:word> cards of your library, exile one face down, then put the rest on the bottom in a random order.",
         "rts": [
           "When this artifact enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.",
-          "When this artifact enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order."
-        ]
-      },
-      {
-        "template": "When this creature enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
-        "rts": [
-          "When this creature enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order."
-        ]
-      },
-      {
-        "template": "When this enchantment enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.",
-        "rts": [
+          "When this artifact enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
+          "When this creature enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
           "When this enchantment enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order."
         ]
       },
@@ -5704,14 +5594,9 @@
         ]
       },
       {
-        "template": "Effects that say \"destroy\" don't destroy this artifact.",
+        "template": "Effects that say \"destroy\" don't destroy this <type>.",
         "rts": [
-          "Effects that say \"destroy\" don't destroy this artifact."
-        ]
-      },
-      {
-        "template": "Effects that say \"destroy\" don't destroy this Equipment.",
-        "rts": [
+          "Effects that say \"destroy\" don't destroy this artifact.",
           "Effects that say \"destroy\" don't destroy this Equipment."
         ]
       },
@@ -5913,7 +5798,7 @@
       }
     ],
     "merged": {
-      "template": "<create> a (colorless) Clue (token. It's an) artifact (token) with \"{2}, Sacrifice this (token|artifact): Draw a card.\"",
+      "template": "<create> a (colorless) Clue (token. It's an) artifact (token) with \"{2}, Sacrifice this <type>: Draw a card.\"",
       "count": 102
     },
     "best": [
@@ -5924,10 +5809,11 @@
         ]
       },
       {
-        "template": "<create> a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+        "template": "<create> a Clue token. It's an artifact with \"{2}, Sacrifice this <type>: Draw a card.\"",
         "rts": [
           "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
           "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+          "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\"",
           "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
         ]
       },
@@ -5935,12 +5821,6 @@
         "template": "Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\"",
         "rts": [
           "Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\""
-        ]
-      },
-      {
-        "template": "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\"",
-        "rts": [
-          "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\""
         ]
       }
     ]
@@ -10959,19 +10839,14 @@
           "Players dealt combat damage by this creature also get two poison counters.",
           "Players dealt combat damage by equipped creature also get a poison counter.",
           "Players dealt combat damage by this creature also get four poison counters.",
-          "Players dealt combat damage by this creature also get three poison counters."
+          "Players dealt combat damage by this creature also get three poison counters.",
+          "Players dealt combat damage by a creature with toxic 1 also get a poison counter."
         ]
       },
       {
         "template": "Players dealt combat damage by them also get a poison counter.",
         "rts": [
           "Players dealt combat damage by them also get a poison counter."
-        ]
-      },
-      {
-        "template": "Players dealt combat damage by a creature with toxic 1 also get a poison counter.",
-        "rts": [
-          "Players dealt combat damage by a creature with toxic 1 also get a poison counter."
         ]
       },
       {
@@ -11236,14 +11111,9 @@
         ]
       },
       {
-        "template": "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+        "template": "They're artifacts with \"{T}, Sacrifice this <type>: Add one mana of any color.\"",
         "rts": [
-          "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\""
-        ]
-      },
-      {
-        "template": "They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
-        "rts": [
+          "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
           "They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
         ]
       },
@@ -11983,14 +11853,9 @@
         ]
       },
       {
-        "template": "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.",
+        "template": "You may cast this card from your hand for its warp cost. Exile this <type> at the beginning of the next end step, then you may cast it from exile on a later turn.",
         "rts": [
-          "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn."
-        ]
-      },
-      {
-        "template": "You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn.",
-        "rts": [
+          "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.",
           "You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn."
         ]
       },

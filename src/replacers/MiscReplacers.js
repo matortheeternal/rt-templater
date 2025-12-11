@@ -39,14 +39,22 @@ class CardSubtypeReplacer extends Replacer {
     expr = new RegExp(`^${subtypesGroup}(?: ${subtypesGroup})?$`, 'i');
 }
 
-class DiesOrGyReplacer extends Replacer {
-    id = '<dies_or_gy>';
-    expr = /^(creature dies|permanent is put into a graveyard from the battlefield)$/;
-}
-
 class ColorReplacer extends Replacer {
     id = '<color>';
     expr = /^(white|blue|black|red|green)$/i;
+}
+
+const allTypes = [
+    'Aura', 'artifact', 'Cat', 'Bird', 'Food', 'Frog', 'Gate', 'Town', 'Dalek', 'Human',
+    'Swamp', 'token', 'Forest', 'Island', 'Knight', 'Lizard', 'Plains', 'Sliver',
+    'Spirit', 'Citizen', 'Mountain', 'creature', 'Equipment', 'snow land', 'enchantment',
+    'planeswalker', 'artifact creature', 'artifact, legendary, and/or Saga permanent',
+    'Assassin, Mercenary, Pirate, Rogue, and/or Warlock'
+];
+
+class TypeReplacer extends Replacer {
+    id = '<type>'
+    expr = new RegExp(`^(${allTypes.join('|')})`, 'i')
 }
 
 export default [
@@ -56,6 +64,6 @@ export default [
     CompleatedManaOptionsReplacer,
     GenericManaPartReplacer,
     CardSubtypeReplacer,
-    DiesOrGyReplacer,
-    ColorReplacer
+    ColorReplacer,
+    TypeReplacer
 ]

@@ -3,139 +3,44 @@
   "expr": "Affinity",
   "variations": [
     {
-      "template": "They cost {1} less to cast for each Aura you control.",
+      "template": "<target_spell_costs> {1} less to cast for each <type> you control.",
       "rts": [
-        "They cost {1} less to cast for each Aura you control."
-      ]
-    },
-    {
-      "template": "<target_spell_costs> {1} less to cast for each artifact you control.",
-      "rts": [
+        "They cost {1} less to cast for each Aura you control.",
         "They cost {1} less to cast for each artifact you control.",
-        "This spell costs {1} less to cast for each artifact you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each <card_sub_type> you control.",
-      "rts": [
         "This spell costs {1} less to cast for each Cat you control.",
         "This spell costs {1} less to cast for each Bird you control.",
+        "This spell costs {1} less to cast for each Food you control.",
         "This spell costs {1} less to cast for each Frog you control.",
+        "This spell costs {1} less to cast for each Gate you control.",
+        "This spell costs {1} less to cast for each Town you control.",
         "This spell costs {1} less to cast for each Dalek you control.",
         "This spell costs {1} less to cast for each Human you control.",
+        "This spell costs {1} less to cast for each Swamp you control.",
+        "This spell costs {1} less to cast for each token you control.",
+        "This spell costs {1} less to cast for each Forest you control.",
+        "This spell costs {1} less to cast for each Island you control.",
         "This spell costs {1} less to cast for each Knight you control.",
         "This spell costs {1} less to cast for each Lizard you control.",
+        "This spell costs {1} less to cast for each Plains you control.",
         "This spell costs {1} less to cast for each Sliver you control.",
         "This spell costs {1} less to cast for each Spirit you control.",
-        "This spell costs {1} less to cast for each Citizen you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Food you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Food you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Gate you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Gate you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Town you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Town you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Swamp you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Swamp you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each token you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each token you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Forest you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Forest you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Island you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Island you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Plains you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Plains you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Mountain you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Mountain you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each creature you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each creature you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Equipment you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Equipment you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each snow land you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each snow land you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each enchantment you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each enchantment you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each planeswalker you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each planeswalker you control."
+        "This spell costs {1} less to cast for each Citizen you control.",
+        "This spell costs {1} less to cast for each Mountain you control.",
+        "This spell costs {1} less to cast for each artifact you control.",
+        "This spell costs {1} less to cast for each creature you control.",
+        "This spell costs {1} less to cast for each Equipment you control.",
+        "This spell costs {1} less to cast for each snow land you control.",
+        "This spell costs {1} less to cast for each enchantment you control.",
+        "This spell costs {1} less to cast for each planeswalker you control.",
+        "This spell costs {1} less to cast for each artifact creature you control.",
+        "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control.",
+        "This spell costs {1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control."
       ]
     },
     {
       "template": "It costs {1} less to cast for each artifact you control as you cast it.",
       "rts": [
         "It costs {1} less to cast for each artifact you control as you cast it."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each artifact creature you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each artifact creature you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control."
       ]
     }
   ]
