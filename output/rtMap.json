@@ -131,7 +131,7 @@
       }
     ],
     "merged": {
-      "template": "When this (creature dies|permanent is put into a graveyard from the battlefield), create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
+      "template": "When this <dies_or_gy>, create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
       "count": 11
     }
   },
@@ -343,7 +343,7 @@
       }
     ],
     "merged": {
-      "template": "Another player can pay up to ({2}|{3}|{4}|{5}|{6}|{7}|{X}) of this spell's cost. (You choose the value of X.)",
+      "template": "Another player can pay up to <generic_mana_part> of this spell's cost. (You choose the value of X.)",
       "count": 16
     }
   },

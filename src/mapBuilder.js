@@ -1,5 +1,5 @@
 import { mergeNStrings } from './lcs.js';
-import { getReplacement } from './replacers.js';
+import { getReplacement } from './replacers/index.js';
 import fs from 'fs';
 
 export function buildReminderTextMap(out) {
