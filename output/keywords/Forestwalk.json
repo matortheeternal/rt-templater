@@ -9,6 +9,12 @@
         "They can't be blocked as long as defending player controls a Forest.",
         "This creature can't be blocked as long as defending player controls a Forest."
       ]
+    },
+    {
+      "template": "This creature can't be blocked as long as defending player controls a snow Forest.",
+      "rts": [
+        "This creature can't be blocked as long as defending player controls a snow Forest."
+      ]
     }
   ]
 }

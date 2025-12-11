@@ -1,9 +1,0 @@
-{
-  "name": "bank",
-  "expr": "bank",
-  "variations": [
-    {
-      "template": "If you cast Memory Bank from your hand, exile it until the end of the match. You may cast it from exile during another game this match. It still counts toward your deck minimum."
-    }
-  ]
-}

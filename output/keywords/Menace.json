@@ -10,6 +10,18 @@
         "This creature can't be blocked except by two or more creatures.",
         "A creature with menace can't be blocked except by two or more creatures."
       ]
+    },
+    {
+      "template": "It can't be blocked except by two or more creatures. {C} represents colorless mana.",
+      "rts": [
+        "It can't be blocked except by two or more creatures. {C} represents colorless mana."
+      ]
+    },
+    {
+      "template": "It can't be blocked except by two or more creatures. {S} can be paid with one mana from a snow source.",
+      "rts": [
+        "It can't be blocked except by two or more creatures. {S} can be paid with one mana from a snow source."
+      ]
     }
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "name": "forbidden",
-  "expr": "forbidden",
-  "variations": [
-    {
-      "template": "This card can't be in your starting deck. Yes, you read that right. You need to figure out a way to get it into the game without it being in your deck."
-    }
-  ]
-}

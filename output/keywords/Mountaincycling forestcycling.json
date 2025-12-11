@@ -1,0 +1,9 @@
+{
+  "name": "mountaincycling forestcycling",
+  "expr": "mountaincycling forestcycling",
+  "variations": [
+    {
+      "template": "{2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "swampcycling mountaincycling",
+  "expr": "swampcycling mountaincycling",
+  "variations": [
+    {
+      "template": "{2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

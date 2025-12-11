@@ -1,9 +1,0 @@
-{
-  "name": "annihinfect",
-  "expr": "annihinfect",
-  "variations": [
-    {
-      "template": "Whenever this creature attacks, defending player sacrifices a permanent for each poison counter they have."
-    }
-  ]
-}

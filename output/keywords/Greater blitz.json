@@ -1,0 +1,9 @@
+{
+  "name": "greater blitz",
+  "expr": "greater blitz",
+  "variations": [
+    {
+      "template": "You may choose to cast that spell for its blitz cost. If you do, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step."
+    }
+  ]
+}

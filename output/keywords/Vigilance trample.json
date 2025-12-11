@@ -1,0 +1,9 @@
+{
+  "name": "vigilance trample",
+  "expr": "vigilance trample",
+  "variations": [
+    {
+      "template": "Attacking doesn't cause this creature to tap. He can deal excess combat damage to the player he's attacking."
+    }
+  ]
+}

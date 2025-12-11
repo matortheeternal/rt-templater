@@ -3,9 +3,9 @@
   "expr": "convoke",
   "variations": [
     {
-      "template": "Each tapped creature that you untap while casting this spell pays for {1} or one mana of that creature's color. This counts as convoke.",
+      "template": "Each creature you tap while casting a noncreature spell from exile pays for {1} or one mana of that creature's color.",
       "rts": [
-        "Each tapped creature that you untap while casting this spell pays for {1} or one mana of that creature's color. This counts as convoke."
+        "Each creature you tap while casting a noncreature spell from exile pays for {1} or one mana of that creature's color."
       ]
     },
     {
@@ -18,6 +18,12 @@
       "template": "Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.",
       "rts": [
         "Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color."
+      ]
+    },
+    {
+      "template": "Your creatures can help cast those spells. Each creature you tap while casting a multicolored spell pays for {1} or one mana of a color that creature is.",
+      "rts": [
+        "Your creatures can help cast those spells. Each creature you tap while casting a multicolored spell pays for {1} or one mana of a color that creature is."
       ]
     },
     {

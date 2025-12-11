@@ -1,0 +1,9 @@
+{
+  "name": "thopter flying",
+  "expr": "thopter flying",
+  "variations": [
+    {
+      "template": "A creature with flying can't be blocked except by creatures with flying or reach."
+    }
+  ]
+}

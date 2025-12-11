@@ -1,0 +1,9 @@
+{
+  "name": "gift octopus",
+  "expr": "gift octopus",
+  "variations": [
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they create an 8/8 blue Octopus creature token."
+    }
+  ]
+}

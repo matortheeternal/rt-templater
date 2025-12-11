@@ -30,7 +30,6 @@ export function mergeTwoOrLess(twoOrLess, rtMap) {
         if (tokens.length > 2) return;
         const tokenKey = tokens.join(' ');
         if (!rtMap.hasOwnProperty(tokenKey)) {
-            if (tokens.length > 1) return;
             rtMap[tokenKey] = { label: tokenKey, count: 0, rts: [] };
         }
         const src = rtMap[tokenKey];

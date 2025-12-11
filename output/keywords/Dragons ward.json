@@ -1,0 +1,9 @@
+{
+  "name": "dragons ward",
+  "expr": "dragons ward",
+  "variations": [
+    {
+      "template": "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
+    }
+  ]
+}

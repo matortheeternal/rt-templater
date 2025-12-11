@@ -1,0 +1,9 @@
+{
+  "name": "melee trample",
+  "expr": "melee trample",
+  "variations": [
+    {
+      "template": "Whenever a creature with melee attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat."
+    }
+  ]
+}

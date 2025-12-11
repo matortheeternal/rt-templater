@@ -1,0 +1,18 @@
+{
+  "name": "fateseal",
+  "expr": "fateseal",
+  "variations": [
+    {
+      "template": "To fateseal 1, its controller looks at the top card of an opponent's library, then they may put that card on the bottom of that library.",
+      "rts": [
+        "To fateseal 1, its controller looks at the top card of an opponent's library, then they may put that card on the bottom of that library."
+      ]
+    },
+    {
+      "template": "To fateseal 2, look at the top two cards of an opponent's library, then put any number of them on the bottom of that player's library and the rest on top in any order.",
+      "rts": [
+        "To fateseal 2, look at the top two cards of an opponent's library, then put any number of them on the bottom of that player's library and the rest on top in any order."
+      ]
+    }
+  ]
+}

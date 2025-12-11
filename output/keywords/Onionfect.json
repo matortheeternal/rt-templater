@@ -1,9 +1,0 @@
-{
-  "name": "onionfect",
-  "expr": "onionfect",
-  "variations": [
-    {
-      "template": "This creature deals damage in the form of giving you Food tokens."
-    }
-  ]
-}

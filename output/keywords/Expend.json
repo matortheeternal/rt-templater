@@ -3,7 +3,22 @@
   "expr": "expend",
   "variations": [
     {
-      "template": "You expend 4 as you spend your fourth total mana to cast spells during a turn."
+      "template": "You expend 6 as you spend your sixth total mana to cast spells during a turn.",
+      "rts": [
+        "You expend 6 as you spend your sixth total mana to cast spells during a turn."
+      ]
+    },
+    {
+      "template": "You expend 4 as you spend your fourth total mana to cast spells during a turn.",
+      "rts": [
+        "You expend 4 as you spend your fourth total mana to cast spells during a turn."
+      ]
+    },
+    {
+      "template": "You expend 8 as you spend your eighth total mana to cast spells during a turn.",
+      "rts": [
+        "You expend 8 as you spend your eighth total mana to cast spells during a turn."
+      ]
     }
   ]
 }

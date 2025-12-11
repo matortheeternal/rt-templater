@@ -1,9 +1,0 @@
-{
-  "name": "proliferatelink",
-  "expr": "proliferatelink",
-  "variations": [
-    {
-      "template": "Damage dealt by this creature also causes you to proliferate that many times. You proliferate before checking for lethal damage on creatures."
-    }
-  ]
-}

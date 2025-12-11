@@ -1,0 +1,9 @@
+{
+  "name": "sliver absorb",
+  "expr": "sliver absorb",
+  "variations": [
+    {
+      "template": "If a source would deal damage to a Sliver, prevent 1 of that damage."
+    }
+  ]
+}

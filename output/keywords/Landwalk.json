@@ -3,7 +3,22 @@
   "expr": "landwalk",
   "variations": [
     {
-      "template": "This creature can't be blocked as long as defending player controls a legendary land."
+      "template": "It can't be blocked as long as defending player controls an artifact land.",
+      "rts": [
+        "It can't be blocked as long as defending player controls an artifact land."
+      ]
+    },
+    {
+      "template": "This creature can't be blocked as long as defending player controls a snow land.",
+      "rts": [
+        "This creature can't be blocked as long as defending player controls a snow land."
+      ]
+    },
+    {
+      "template": "This creature can't be blocked as long as defending player controls a legendary land.",
+      "rts": [
+        "This creature can't be blocked as long as defending player controls a legendary land."
+      ]
     }
   ]
 }

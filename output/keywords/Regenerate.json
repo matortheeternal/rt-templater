@@ -10,6 +10,12 @@
       ]
     },
     {
+      "template": "The next time he would be destroyed this turn, instead tap him, remove him from combat, and heal all damage on him.",
+      "rts": [
+        "The next time he would be destroyed this turn, instead tap him, remove him from combat, and heal all damage on him."
+      ]
+    },
+    {
       "template": "The next time the creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.",
       "rts": [
         "The next time the creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it."
@@ -19,6 +25,12 @@
       "template": "The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.",
       "rts": [
         "The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it."
+      ]
+    },
+    {
+      "template": "If it regenerates, the next time it would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.",
+      "rts": [
+        "If it regenerates, the next time it would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it."
       ]
     }
   ]

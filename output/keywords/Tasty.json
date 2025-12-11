@@ -1,9 +1,0 @@
-{
-  "name": "tasty",
-  "expr": "tasty",
-  "variations": [
-    {
-      "template": "This creature can be attacked directly. If it is attacked, it can't block creatures that didn't attack it."
-    }
-  ]
-}

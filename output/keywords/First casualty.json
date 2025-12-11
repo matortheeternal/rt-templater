@@ -1,0 +1,9 @@
+{
+  "name": "first casualty",
+  "expr": "first casualty",
+  "variations": [
+    {
+      "template": "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy."
+    }
+  ]
+}

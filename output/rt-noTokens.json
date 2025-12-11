@@ -10,7 +10,7 @@
     "bestKeywords": {}
   },
   "As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.": {
-    "count": 118,
+    "count": 116,
     "bestBeforeTokens": {},
     "bestKeywords": {}
   },
@@ -59,58 +59,18 @@
       "scry": "100.00%"
     }
   },
-  "Mana cost includes color.": {
+  "Mana symbols on that permanent remain unchanged.": {
     "count": 4,
     "bestBeforeTokens": {},
     "bestKeywords": {}
   },
-  "Start the game with this conspiracy face up in the command zone.": {
+  "Return it only if it's on the battlefield.": {
     "count": 12,
     "bestBeforeTokens": {},
     "bestKeywords": {}
   },
-  "Theme color: {B}": {
-    "count": 27,
-    "bestBeforeTokens": {},
-    "bestKeywords": {}
-  },
-  "Theme color: {B}.": {
-    "count": 8,
-    "bestBeforeTokens": {},
-    "bestKeywords": {}
-  },
-  "Theme color: {G}": {
-    "count": 25,
-    "bestBeforeTokens": {},
-    "bestKeywords": {}
-  },
-  "Theme color: {G}.": {
-    "count": 6,
-    "bestBeforeTokens": {},
-    "bestKeywords": {}
-  },
-  "Theme color: {R}": {
-    "count": 24,
-    "bestBeforeTokens": {},
-    "bestKeywords": {}
-  },
-  "Theme color: {R}.": {
-    "count": 6,
-    "bestBeforeTokens": {},
-    "bestKeywords": {}
-  },
-  "Theme color: {U}": {
-    "count": 25,
-    "bestBeforeTokens": {},
-    "bestKeywords": {}
-  },
-  "Theme color: {U}.": {
-    "count": 6,
-    "bestBeforeTokens": {},
-    "bestKeywords": {}
-  },
-  "Theme color: {W}": {
-    "count": 32,
+  "Start the game with this conspiracy face up in the command zone.": {
+    "count": 10,
     "bestBeforeTokens": {},
     "bestKeywords": {}
   },
@@ -120,7 +80,7 @@
     "bestKeywords": {}
   },
   "This effect lasts indefinitely.": {
-    "count": 47,
+    "count": 46,
     "bestBeforeTokens": {},
     "bestKeywords": {}
   },
@@ -133,13 +93,6 @@
     "count": 4,
     "bestBeforeTokens": {},
     "bestKeywords": {}
-  },
-  "To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.": {
-    "count": 5,
-    "bestBeforeTokens": {},
-    "bestKeywords": {
-      "assemble": "100.00%"
-    }
   },
   "To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.": {
     "count": 5,
@@ -169,7 +122,7 @@
     "bestKeywords": {}
   },
   "{B/P} can be paid with either {B} or 2 life.": {
-    "count": 11,
+    "count": 9,
     "bestBeforeTokens": {},
     "bestKeywords": {}
   },
@@ -229,7 +182,7 @@
     "bestKeywords": {}
   },
   "{T}: Add {G} or {W}.": {
-    "count": 8,
+    "count": 7,
     "bestBeforeTokens": {},
     "bestKeywords": {}
   },
@@ -264,7 +217,7 @@
     "bestKeywords": {}
   },
   "{T}: Add {U}.": {
-    "count": 6,
+    "count": 5,
     "bestBeforeTokens": {},
     "bestKeywords": {}
   },

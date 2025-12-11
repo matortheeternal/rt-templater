@@ -1,9 +1,0 @@
-{
-  "name": "scrycast",
-  "expr": "scrycast",
-  "variations": [
-    {
-      "template": "If you see this card while scrying, you may reveal it and cast it by paying {0}."
-    }
-  ]
-}

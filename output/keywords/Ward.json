@@ -18,9 +18,27 @@
       ]
     },
     {
+      "template": "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
+      "rts": [
+        "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
+      ]
+    },
+    {
       "template": "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card.",
       "rts": [
         "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card."
+      ]
+    },
+    {
+      "template": "Whenever an artifact you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
+      "rts": [
+        "Whenever an artifact you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
+      ]
+    },
+    {
+      "template": "Whenever another Merfolk you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
+      "rts": [
+        "Whenever another Merfolk you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
       ]
     }
   ]

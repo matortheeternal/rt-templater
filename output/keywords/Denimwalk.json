@@ -1,9 +1,0 @@
-{
-  "name": "denimwalk",
-  "expr": "denimwalk",
-  "variations": [
-    {
-      "template": "This creature can't be blocked as long as defending player is wearing denim."
-    }
-  ]
-}

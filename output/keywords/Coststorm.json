@@ -1,9 +1,0 @@
-{
-  "name": "coststorm",
-  "expr": "coststorm",
-  "variations": [
-    {
-      "template": "When you cast this spell, copy it for each different mana value among other spells and lands you've played this turn."
-    }
-  ]
-}

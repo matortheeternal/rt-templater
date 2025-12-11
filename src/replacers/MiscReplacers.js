@@ -36,12 +36,17 @@ class GenericManaPartReplacer extends Replacer {
 
 class CardSubtypeReplacer extends Replacer {
     id = '<card_sub_type>';
-    expr = new RegExp(`${subtypesGroup}(?: ${subtypesGroup})?`, 'i');
+    expr = new RegExp(`^${subtypesGroup}(?: ${subtypesGroup})?$`, 'i');
 }
 
 class DiesOrGyReplacer extends Replacer {
     id = '<dies_or_gy>';
     expr = /^(creature dies|permanent is put into a graveyard from the battlefield)$/;
+}
+
+class ColorReplacer extends Replacer {
+    id = '<color>';
+    expr = /^(white|blue|black|red|green)$/i;
 }
 
 export default [
@@ -51,5 +56,6 @@ export default [
     CompleatedManaOptionsReplacer,
     GenericManaPartReplacer,
     CardSubtypeReplacer,
-    DiesOrGyReplacer
+    DiesOrGyReplacer,
+    ColorReplacer
 ]

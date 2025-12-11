@@ -13,6 +13,18 @@
       "rts": [
         "Until your next turn, that permanent can't attack or block and its activated abilities can't be activated."
       ]
+    },
+    {
+      "template": "Until your next turn, those creatures can't attack or block and their activated abilities can't be activated.",
+      "rts": [
+        "Until your next turn, those creatures can't attack or block and their activated abilities can't be activated."
+      ]
+    },
+    {
+      "template": "Until your next turn, those permanents can't attack or block and their activated abilities can't be activated.",
+      "rts": [
+        "Until your next turn, those permanents can't attack or block and their activated abilities can't be activated."
+      ]
     }
   ]
 }

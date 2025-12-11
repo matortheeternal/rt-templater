@@ -1,9 +1,0 @@
-{
-  "name": "booster enchantment",
-  "expr": "booster enchantment",
-  "variations": [
-    {
-      "template": "Then Planeswalk away from this phenomenon."
-    }
-  ]
-}

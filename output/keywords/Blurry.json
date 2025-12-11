@@ -1,9 +1,0 @@
-{
-  "name": "blurry",
-  "expr": "blurry",
-  "variations": [
-    {
-      "template": "This creature can be blocked only if defending player was wearing glasses as it was cast."
-    }
-  ]
-}

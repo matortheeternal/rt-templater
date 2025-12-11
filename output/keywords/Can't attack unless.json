@@ -1,9 +1,0 @@
-{
-  "name": "can't attack unless",
-  "expr": "can't attack unless",
-  "variations": [
-    {
-      "template": "This cost is paid as attackers are declared."
-    }
-  ]
-}

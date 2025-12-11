@@ -1,0 +1,9 @@
+{
+  "name": "commander ninjutsu",
+  "expr": "commander ninjutsu",
+  "variations": [
+    {
+      "template": "{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking."
+    }
+  ]
+}

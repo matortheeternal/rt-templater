@@ -1,0 +1,9 @@
+{
+  "name": "blocks blocked",
+  "expr": "blocks blocked",
+  "variations": [
+    {
+      "template": "This removes this creature from combat."
+    }
+  ]
+}

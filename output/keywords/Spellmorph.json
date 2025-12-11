@@ -1,9 +1,0 @@
-{
-  "name": "spellmorph",
-  "expr": "spellmorph",
-  "variations": [
-    {
-      "template": "You may cast this card face down as a 2/2 creature for {3}. Cast it any time for its spellmorph cost."
-    }
-  ]
-}

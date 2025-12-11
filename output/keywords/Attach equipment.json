@@ -1,9 +1,0 @@
-{
-  "name": "attach equipment",
-  "expr": "attach equipment",
-  "variations": [
-    {
-      "template": "Control of the Equipment doesn't change."
-    }
-  ]
-}

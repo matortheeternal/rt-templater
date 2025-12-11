@@ -1,0 +1,9 @@
+{
+  "name": "gift extra",
+  "expr": "gift extra",
+  "variations": [
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, they take an extra turn after this one."
+    }
+  ]
+}

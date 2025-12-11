@@ -23,6 +23,12 @@ function extractLineReminders(line) {
     return results;
 }
 
+function isUnsetCard(card) {
+    return card.set_type === 'funny'
+        || card.set_type === 'memorabilia'
+        || card.set === 'mb2';
+}
+
 function updateTokenCount(entry, token) {
     entry.beforeTokens[token] = (entry.beforeTokens[token] || 0) + 1;
 }
@@ -32,6 +38,7 @@ export function getUniqueReminderTexts(cards) {
 
     for (const card of cards) {
         if (!card.oracle_text) continue;
+        if (isUnsetCard(card)) continue;
         const keywords = Array.isArray(card.keywords)
             ? card.keywords.map((k) => k.toLowerCase())
             : [];

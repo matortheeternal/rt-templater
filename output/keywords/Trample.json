@@ -3,12 +3,6 @@
   "expr": "trample",
   "variations": [
     {
-      "template": "This spell can deal excess damage to its target's controller.",
-      "rts": [
-        "This spell can deal excess damage to its target's controller."
-      ]
-    },
-    {
       "template": "This creature can deal excess combat damage to the player it's attacking.",
       "rts": [
         "This creature can deal excess combat damage to the player it's attacking."
@@ -23,8 +17,9 @@
       ]
     },
     {
-      "template": "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.",
+      "template": "Each of those creature<number:plural:s> can deal excess combat damage to the player or planeswalker it's attacking.",
       "rts": [
+        "Each of those creature can deal excess combat damage to the player or planeswalker it's attacking.",
         "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking."
       ]
     }

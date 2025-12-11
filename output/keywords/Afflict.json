@@ -3,8 +3,9 @@
   "expr": "afflict",
   "variations": [
     {
-      "template": "Whenever this creature becomes blocked, defending player loses <number> life.",
+      "template": "Whenever <target_it> becomes blocked, defending player loses <number> life.",
       "rts": [
+        "Whenever it becomes blocked, defending player loses 1 life.",
         "Whenever this creature becomes blocked, defending player loses 1 life.",
         "Whenever this creature becomes blocked, defending player loses 2 life.",
         "Whenever this creature becomes blocked, defending player loses 3 life.",

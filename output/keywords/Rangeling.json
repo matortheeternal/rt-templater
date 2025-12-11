@@ -1,9 +1,0 @@
-{
-  "name": "rangeling",
-  "expr": "rangeling",
-  "variations": [
-    {
-      "template": "This card is every land type, including Plains, Island, Swamp, Mountain, Forest, Desert, Gate, Lair, Locus, and all those Urza's ones."
-    }
-  ]
-}

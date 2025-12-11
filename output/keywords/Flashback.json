@@ -3,6 +3,12 @@
   "expr": "flashback",
   "variations": [
     {
+      "template": "Mana cost includes color.",
+      "rts": [
+        "Mana cost includes color."
+      ]
+    },
+    {
       "template": "You may cast that card from your graveyard for its flashback cost. Then exile it.",
       "rts": [
         "You may cast that card from your graveyard for its flashback cost. Then exile it."
@@ -12,6 +18,12 @@
       "template": "You may cast this card from your graveyard for its flashback cost. Then exile it.",
       "rts": [
         "You may cast this card from your graveyard for its flashback cost. Then exile it."
+      ]
+    },
+    {
+      "template": "Its owner may cast the card from their graveyard for its mana cost. Then they exile it.",
+      "rts": [
+        "Its owner may cast the card from their graveyard for its mana cost. Then they exile it."
       ]
     },
     {

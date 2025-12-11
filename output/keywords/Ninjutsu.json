@@ -24,12 +24,6 @@
         "{3}{B}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
         "{4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking."
       ]
-    },
-    {
-      "template": "{1}{U}, Shuffle an unblocked attacker you control into its owner's library: Put this card onto the battlefield from your library tapped and attacking. Activate only while searching your library.",
-      "rts": [
-        "{1}{U}, Shuffle an unblocked attacker you control into its owner's library: Put this card onto the battlefield from your library tapped and attacking. Activate only while searching your library."
-      ]
     }
   ]
 }

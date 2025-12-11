@@ -1,0 +1,9 @@
+{
+  "name": "phase",
+  "expr": "phase",
+  "variations": [
+    {
+      "template": "Remove all attackers and blockers from combat. Exile all spells and abilities from the stack, including this spell."
+    }
+  ]
+}

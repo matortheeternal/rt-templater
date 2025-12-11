@@ -1,0 +1,9 @@
+{
+  "name": "leave pirate",
+  "expr": "leave pirate",
+  "variations": [
+    {
+      "template": "This ability triggers only from the battlefield."
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "name": "frenzy",
-  "expr": "frenzy",
-  "variations": [
-    {
-      "template": "Whenever this creature attacks and isn't blocked, it gets +2/+0 until end of turn."
-    }
-  ]
-}

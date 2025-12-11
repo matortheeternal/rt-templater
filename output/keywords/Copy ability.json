@@ -1,0 +1,9 @@
+{
+  "name": "copy ability",
+  "expr": "copy ability",
+  "variations": [
+    {
+      "template": "Mana abilities can't be copied."
+    }
+  ]
+}

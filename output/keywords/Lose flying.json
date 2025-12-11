@@ -1,0 +1,9 @@
+{
+  "name": "lose flying",
+  "expr": "lose flying",
+  "variations": [
+    {
+      "template": "Do both if {G}{U} was spent."
+    }
+  ]
+}

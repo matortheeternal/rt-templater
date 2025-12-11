@@ -3,7 +3,16 @@
   "expr": "type landwalk",
   "variations": [
     {
-      "template": "It can't be blocked as long as defending player controls a land of that type."
+      "template": "It can't be blocked as long as defending player controls a land of that type.",
+      "rts": [
+        "It can't be blocked as long as defending player controls a land of that type."
+      ]
+    },
+    {
+      "template": "It can't be blocked as long as defending player controls a snow land of that type.",
+      "rts": [
+        "It can't be blocked as long as defending player controls a snow land of that type."
+      ]
     }
   ]
 }

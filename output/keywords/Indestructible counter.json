@@ -1,0 +1,9 @@
+{
+  "name": "indestructible counter",
+  "expr": "indestructible counter",
+  "variations": [
+    {
+      "template": "Damage and effects that say \"destroy\" don't destroy those creatures."
+    }
+  ]
+}

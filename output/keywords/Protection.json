@@ -3,27 +3,39 @@
   "expr": "protection",
   "variations": [
     {
-      "template": "This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue.",
+      "template": "They can't be blocked, targeted, or dealt damage by Rats.",
       "rts": [
-        "This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue."
+        "They can't be blocked, targeted, or dealt damage by Rats."
       ]
     },
     {
-      "template": "This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.",
+      "template": "You can't be targeted, dealt damage, or enchanted by anything with that name.",
       "rts": [
-        "This creature can't be blocked, targeted, dealt damage, or enchanted by anything black."
+        "You can't be targeted, dealt damage, or enchanted by anything with that name."
       ]
     },
     {
-      "template": "This creature can't be blocked, targeted, dealt damage, or enchanted by anything white.",
+      "template": "This creature can't be blocked, targeted, dealt damage, or enchanted by anything <color>.",
       "rts": [
+        "This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue.",
+        "This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.",
         "This creature can't be blocked, targeted, dealt damage, or enchanted by anything white."
       ]
     },
     {
-      "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything red.",
+      "template": "You can't be dealt damage, enchanted, or targeted by anything controlled by your opponents.",
       "rts": [
-        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything red."
+        "You can't be dealt damage, enchanted, or targeted by anything controlled by your opponents."
+      ]
+    },
+    {
+      "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything <color>.",
+      "rts": [
+        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything red.",
+        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything blue.",
+        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything black.",
+        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything green.",
+        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything white."
       ]
     },
     {
@@ -33,27 +45,15 @@
       ]
     },
     {
-      "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything blue.",
+      "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored.",
       "rts": [
-        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything blue."
+        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored."
       ]
     },
     {
-      "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything black.",
+      "template": "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything controlled by those players.",
       "rts": [
-        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything black."
-      ]
-    },
-    {
-      "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything green.",
-      "rts": [
-        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything green."
-      ]
-    },
-    {
-      "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything white.",
-      "rts": [
-        "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything white."
+        "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything controlled by those players."
       ]
     }
   ]

@@ -1,9 +1,0 @@
-{
-  "name": "four-faced",
-  "expr": "four-faced",
-  "variations": [
-    {
-      "template": "Whenever this becomes tapped, move it to the next stage, or to stage 1 if it's at stage 4."
-    }
-  ]
-}

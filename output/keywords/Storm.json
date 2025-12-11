@@ -3,12 +3,6 @@
   "expr": "storm",
   "variations": [
     {
-      "template": "Pretend it works on a land.",
-      "rts": [
-        "Pretend it works on a land."
-      ]
-    },
-    {
       "template": "When you cast this spell, copy it for each spell cast before it this turn.",
       "rts": [
         "When you cast this spell, copy it for each spell cast before it this turn."
@@ -21,9 +15,9 @@
       ]
     },
     {
-      "template": "When you cast this spell, copy it for each spell cast before it this turn. The copies become tokens.",
+      "template": "When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
       "rts": [
-        "When you cast this spell, copy it for each spell cast before it this turn. The copies become tokens."
+        "When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies."
       ]
     },
     {
@@ -36,12 +30,6 @@
       "template": "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies. Copies become tokens.",
       "rts": [
         "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies. Copies become tokens."
-      ]
-    },
-    {
-      "template": "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies. The copies enter as tokens.",
-      "rts": [
-        "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies. The copies enter as tokens."
       ]
     }
   ]

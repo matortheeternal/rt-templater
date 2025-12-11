@@ -1,0 +1,9 @@
+{
+  "name": "islandwalk swampwalk",
+  "expr": "islandwalk swampwalk",
+  "variations": [
+    {
+      "template": "This creature can't be blocked as long as defending player controls an Island or a Swamp."
+    }
+  ]
+}

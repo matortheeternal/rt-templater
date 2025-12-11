@@ -1,0 +1,9 @@
+{
+  "name": "indestructible servo",
+  "expr": "indestructible servo",
+  "variations": [
+    {
+      "template": "Effects that say \"destroy\" don't destroy a permanent with indestructible, and if it's a creature, it can't be destroyed by damage."
+    }
+  ]
+}

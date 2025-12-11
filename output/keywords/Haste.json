@@ -9,9 +9,16 @@
       ]
     },
     {
-      "template": "It can attack and {T} this turn.",
+      "template": "<target> can attack and {T} this turn.",
       "rts": [
-        "It can attack and {T} this turn."
+        "It can attack and {T} this turn.",
+        "They can attack and {T} this turn."
+      ]
+    },
+    {
+      "template": "The creature can attack and {T} this turn.",
+      "rts": [
+        "The creature can attack and {T} this turn."
       ]
     },
     {
@@ -37,6 +44,24 @@
       "template": "This creature can attack as soon as it comes under your control.",
       "rts": [
         "This creature can attack as soon as it comes under your control."
+      ]
+    },
+    {
+      "template": "They can attack and {T} even if they just came under your control.",
+      "rts": [
+        "They can attack and {T} even if they just came under your control."
+      ]
+    },
+    {
+      "template": "This effect lasts as long as that land remains on the battlefield.",
+      "rts": [
+        "This effect lasts as long as that land remains on the battlefield."
+      ]
+    },
+    {
+      "template": "That creature can attack and {T} as soon as it comes under your control.",
+      "rts": [
+        "That creature can attack and {T} as soon as it comes under your control."
       ]
     }
   ]

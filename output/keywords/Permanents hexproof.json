@@ -1,0 +1,9 @@
+{
+  "name": "permanents hexproof",
+  "expr": "permanents hexproof",
+  "variations": [
+    {
+      "template": "You and they can't be the targets of spells or abilities your opponents control."
+    }
+  ]
+}

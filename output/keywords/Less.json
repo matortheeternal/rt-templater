@@ -3,7 +3,11 @@
   "expr": "less",
   "variations": [
     {
-      "template": "If it doesn't require {U}, it costs {1} less to cast."
+      "template": "If it doesn't require <mana>, it costs {1} less to cast.",
+      "rts": [
+        "If it doesn't require {R}, it costs {1} less to cast.",
+        "If it doesn't require {U}, it costs {1} less to cast."
+      ]
     }
   ]
 }

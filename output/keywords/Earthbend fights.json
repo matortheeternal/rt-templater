@@ -1,0 +1,9 @@
+{
+  "name": "earthbend fights",
+  "expr": "earthbend fights",
+  "variations": [
+    {
+      "template": "To earthbend 2, target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Creatures that fight each deal damage equal to their power to the other."
+    }
+  ]
+}

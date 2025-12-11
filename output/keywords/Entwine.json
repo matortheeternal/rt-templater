@@ -13,12 +13,6 @@
       "rts": [
         "Choose both if you pay the entwine cost."
       ]
-    },
-    {
-      "template": "Choose all of them if you pay the entwine cost.",
-      "rts": [
-        "Choose all of them if you pay the entwine cost."
-      ]
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "name": "endures counters",
+  "expr": "endures counters",
+  "variations": [
+    {
+      "template": "Put X +1/+1 counters on the creature that entered or create an X/X white Spirit creature token."
+    }
+  ]
+}

@@ -6,6 +6,7 @@
       "template": "Choose a creature with the least toughness among creatures you control and put <number:a_or_word> +1/+1 counter<number:plural:s> on it.",
       "rts": [
         "Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.",
+        "Choose a creature with the least toughness among creatures you control and put X +1/+1 counters on it.",
         "Choose a creature with the least toughness among creatures you control and put two +1/+1 counters on it.",
         "Choose a creature with the least toughness among creatures you control and put five +1/+1 counters on it.",
         "Choose a creature with the least toughness among creatures you control and put four +1/+1 counters on it.",

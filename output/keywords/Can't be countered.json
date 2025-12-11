@@ -1,9 +1,0 @@
-{
-  "name": "can't be countered",
-  "expr": "can't be countered",
-  "variations": [
-    {
-      "template": "This includes by the ward ability."
-    }
-  ]
-}

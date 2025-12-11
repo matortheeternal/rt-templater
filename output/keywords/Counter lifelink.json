@@ -1,0 +1,9 @@
+{
+  "name": "counter lifelink",
+  "expr": "counter lifelink",
+  "variations": [
+    {
+      "template": "Damage dealt by the creature also causes you to gain that much life."
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "name": "sinecure",
-  "expr": "sinecure",
-  "variations": [
-    {
-      "template": "This creature can occupy a space two spaces higher on the Monk Track than its power."
-    }
-  ]
-}

@@ -21,6 +21,12 @@
       ]
     },
     {
+      "template": "Treasure tokens are artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+      "rts": [
+        "Treasure tokens are artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\""
+      ]
+    },
+    {
       "template": "A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
       "rts": [
         "A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""

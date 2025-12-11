@@ -3,7 +3,16 @@
   "expr": "battlefield",
   "variations": [
     {
-      "template": "It's not a creature."
+      "template": "It's not a creature.",
+      "rts": [
+        "It's not a creature."
+      ]
+    },
+    {
+      "template": "Auras with nothing to enchant remain in your graveyard.",
+      "rts": [
+        "Auras with nothing to enchant remain in your graveyard."
+      ]
     }
   ]
 }

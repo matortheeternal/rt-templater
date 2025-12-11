@@ -5,8 +5,15 @@
     {
       "template": "<target> can't be blocked except by creatures with horsemanship.",
       "rts": [
+        "It can't be blocked except by creatures with horsemanship.",
         "They can't be blocked except by creatures with horsemanship.",
         "This creature can't be blocked except by creatures with horsemanship."
+      ]
+    },
+    {
+      "template": "It can't be blocked except by creatures with horsemanship. This effect lasts indefinitely.",
+      "rts": [
+        "It can't be blocked except by creatures with horsemanship. This effect lasts indefinitely."
       ]
     }
   ]

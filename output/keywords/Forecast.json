@@ -3,7 +3,16 @@
   "expr": "forecast",
   "variations": [
     {
-      "template": "Activate only during your upkeep and only once each turn."
+      "template": "Activate only during your upkeep and only once each turn.",
+      "rts": [
+        "Activate only during your upkeep and only once each turn."
+      ]
+    },
+    {
+      "template": "Activate this ability only during your upkeep and only once each turn.",
+      "rts": [
+        "Activate this ability only during your upkeep and only once each turn."
+      ]
     }
   ]
 }

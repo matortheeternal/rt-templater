@@ -1,9 +1,0 @@
-{
-  "name": "pledge",
-  "expr": "pledge",
-  "variations": [
-    {
-      "template": "Join a two-colored guild if you haven't already this game."
-    }
-  ]
-}

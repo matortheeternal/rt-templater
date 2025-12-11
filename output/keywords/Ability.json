@@ -1,0 +1,9 @@
+{
+  "name": "ability",
+  "expr": "ability",
+  "variations": [
+    {
+      "template": "It won't be affected by the spell or ability."
+    }
+  ]
+}

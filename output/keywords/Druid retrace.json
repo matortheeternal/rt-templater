@@ -1,0 +1,9 @@
+{
+  "name": "druid retrace",
+  "expr": "druid retrace",
+  "variations": [
+    {
+      "template": "You may cast cards with retrace from your graveyard by discarding a land card in addition to paying their other costs."
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "name": "oildying",
-  "expr": "oildying",
-  "variations": [
-    {
-      "template": "When this creature dies, if it had no oil counters on it, return it to the battlefield under its owner's control with an oil counter on it."
-    }
-  ]
-}

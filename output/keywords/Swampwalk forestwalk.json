@@ -1,0 +1,9 @@
+{
+  "name": "swampwalk forestwalk",
+  "expr": "swampwalk forestwalk",
+  "variations": [
+    {
+      "template": "This creature can't be blocked as long as defending player controls a Swamp or a Forest."
+    }
+  ]
+}

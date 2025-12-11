@@ -35,6 +35,30 @@
       ]
     },
     {
+      "template": "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage."
+      ]
+    },
+    {
+      "template": "Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage."
+      ]
+    },
+    {
+      "template": "Effects that say \"destroy\" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage."
+      ]
+    },
+    {
+      "template": "Effects that say \"destroy\" don't destroy that permanent. A creature with indestructible can't be destroyed by damage.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy that permanent. A creature with indestructible can't be destroyed by damage."
+      ]
+    },
+    {
       "template": "Damage and effects that say \"destroy\" don't destroy <target_it>. If its toughness is 0 or less, it's still put into its owner's graveyard.",
       "rts": [
         "Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.",

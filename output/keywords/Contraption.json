@@ -1,9 +1,0 @@
-{
-  "name": "contraption",
-  "expr": "contraption",
-  "variations": [
-    {
-      "template": "Put the top card of your Contraption deck face up onto one of your sprockets."
-    }
-  ]
-}

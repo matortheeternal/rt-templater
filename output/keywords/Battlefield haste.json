@@ -1,0 +1,9 @@
+{
+  "name": "battlefield haste",
+  "expr": "battlefield haste",
+  "variations": [
+    {
+      "template": "Do both if {B}{R} was spent."
+    }
+  ]
+}

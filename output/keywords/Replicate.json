@@ -14,12 +14,6 @@
         "When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.",
         "When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies."
       ]
-    },
-    {
-      "template": "When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copy.",
-      "rts": [
-        "When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copy."
-      ]
     }
   ]
 }

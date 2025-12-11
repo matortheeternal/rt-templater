@@ -3,6 +3,12 @@
   "expr": "phasing",
   "variations": [
     {
+      "template": "It phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist.",
+      "rts": [
+        "It phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist."
+      ]
+    },
+    {
       "template": "This phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist.",
       "rts": [
         "This phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist."

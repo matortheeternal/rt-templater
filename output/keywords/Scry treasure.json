@@ -1,0 +1,9 @@
+{
+  "name": "scry treasure",
+  "expr": "scry treasure",
+  "variations": [
+    {
+      "template": "To scry 1, look at the top card of your library. You may put that card on the bottom. A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""
+    }
+  ]
+}

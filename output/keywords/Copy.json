@@ -3,6 +3,12 @@
   "expr": "copy",
   "variations": [
     {
+      "template": "You still pay its costs.",
+      "rts": [
+        "You still pay its costs."
+      ]
+    },
+    {
       "template": "The copy becomes a token.",
       "rts": [
         "The copy becomes a token."

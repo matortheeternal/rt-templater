@@ -1,0 +1,9 @@
+{
+  "name": "collect {tk}",
+  "expr": "collect {tk}",
+  "variations": [
+    {
+      "template": "ticket counters"
+    }
+  ]
+}

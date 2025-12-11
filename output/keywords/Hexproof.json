@@ -13,15 +13,16 @@
       ]
     },
     {
-      "template": "This creature can't be the target of black spells or abilities your opponents control.",
+      "template": "This creature can't be the target of <color> spells or abilities your opponents control.",
       "rts": [
-        "This creature can't be the target of black spells or abilities your opponents control."
+        "This creature can't be the target of black spells or abilities your opponents control.",
+        "This creature can't be the target of white spells or abilities your opponents control."
       ]
     },
     {
-      "template": "This creature can't be the target of white spells or abilities your opponents control.",
+      "template": "This creature can't be the target of monocolored spells or abilities your opponents control.",
       "rts": [
-        "This creature can't be the target of white spells or abilities your opponents control."
+        "This creature can't be the target of monocolored spells or abilities your opponents control."
       ]
     },
     {

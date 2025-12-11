@@ -1,0 +1,9 @@
+{
+  "name": "dinosaur prowl",
+  "expr": "dinosaur prowl",
+  "variations": [
+    {
+      "template": "You may cast a spell for its prowl cost if you dealt combat damage to a player this turn with a creature with any of its creature types."
+    }
+  ]
+}

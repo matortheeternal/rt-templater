@@ -1,9 +1,0 @@
-{
-  "name": "knightlifelink",
-  "expr": "knightlifelink",
-  "variations": [
-    {
-      "template": "Damage dealt by Knights you control also causes you to gain that much life."
-    }
-  ]
-}

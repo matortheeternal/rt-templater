@@ -13,12 +13,6 @@
       "rts": [
         "Target a creature as you cast this. This card enters attached to that creature."
       ]
-    },
-    {
-      "template": "This Aura remains on the battlefield. If you play enchanted card or it otherwise leaves your hand, put this Aura into the graveyard.",
-      "rts": [
-        "This Aura remains on the battlefield. If you play enchanted card or it otherwise leaves your hand, put this Aura into the graveyard."
-      ]
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "name": "remains paying",
+  "expr": "remains paying",
+  "variations": [
+    {
+      "template": "If it has X in its mana cost, X is 0."
+    }
+  ]
+}

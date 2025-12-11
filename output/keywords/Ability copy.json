@@ -1,0 +1,9 @@
+{
+  "name": "ability copy",
+  "expr": "ability copy",
+  "variations": [
+    {
+      "template": "{R/W} can be paid with either {R} or {W}."
+    }
+  ]
+}

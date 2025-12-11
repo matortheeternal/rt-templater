@@ -1,9 +1,0 @@
-{
-  "name": "shackle",
-  "expr": "shackle",
-  "variations": [
-    {
-      "template": "{3}: Attach to target creature you don't control. Shackle only as a sorcery."
-    }
-  ]
-}

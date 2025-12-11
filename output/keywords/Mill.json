@@ -37,6 +37,12 @@
       ]
     },
     {
+      "template": "Each of them puts the top two cards of their library into their graveyard.",
+      "rts": [
+        "Each of them puts the top two cards of their library into their graveyard."
+      ]
+    },
+    {
       "template": "To mill <number:a_or_word> cards, put the top <number:a_or_word> cards of your library into your graveyard.",
       "rts": [
         "To mill two cards, put the top two cards of your library into your graveyard.",

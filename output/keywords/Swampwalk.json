@@ -9,6 +9,12 @@
         "They can't be blocked as long as defending player controls a Swamp.",
         "This creature can't be blocked as long as defending player controls a Swamp."
       ]
+    },
+    {
+      "template": "This creature can't be blocked as long as defending player controls a snow Swamp.",
+      "rts": [
+        "This creature can't be blocked as long as defending player controls a snow Swamp."
+      ]
     }
   ]
 }

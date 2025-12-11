@@ -1,0 +1,9 @@
+{
+  "name": "bolster counter",
+  "expr": "bolster counter",
+  "variations": [
+    {
+      "template": "To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it."
+    }
+  ]
+}

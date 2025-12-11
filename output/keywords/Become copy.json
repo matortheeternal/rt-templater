@@ -1,0 +1,9 @@
+{
+  "name": "become copy",
+  "expr": "become copy",
+  "variations": [
+    {
+      "template": "If it does, it loses this ability for the rest of the turn."
+    }
+  ]
+}

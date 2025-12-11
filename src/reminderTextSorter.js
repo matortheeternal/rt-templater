@@ -17,7 +17,23 @@ const stopWords = [
     'green', '2/2', '1/1', '3/3', '4/4', 'attacks', 'controls', "card's", 'plus',
     'had', 'though', 'becomes', 'do', 'instant', 'sorcery', 'hand', 'zombie', 'onto',
     'arcane', 'artifact', 'token', 'tokens', 'shapeshifter', 'spent', 'then',
-    'beginning', 'step'
+    'beginning', 'step', 'and/or', '+1', 'next', 'add', 'still', 'base', 'power',
+    'toughness', '0/1', 'enchanted', '+2', '+3', 'visit', 'number', '•', 'be',
+    '+2/+0', '+1/+0', '+0/+1', '+0/+2', '+2/+2', '+3/+3', '-1/-1', '-3/-3', '+2/+1',
+    "player's", 'play', 'permanent', 'phyrexian', 'noncreature', 'nonartifact',
+    'value', 'artifacts', 'equipment', 'commanders', 'which', 'declare', 'gain',
+    'goblin', 'any', 'times', 'twice', '{t}', 'targets', 'was', '-1/-0', 'all',
+    'elemental', 'elf', 'faerie', 'kithkin', 'merfolk', 'shaman', '5/5', 'combat',
+    'enchantment', '{12}', 'halfling', 'again', 'opponents', 'untapped', 'monocolored',
+    'he', 'hydro-man', 'lands', 'insect', 'soldier', 'snake', 'scout', 'wolverine', 'rat',
+    'multicolored', 'for', 'players', 'graveyards', 'forest' , 'dryad', 'orcs', 'zombies',
+    'spirits', 'knights', 'lizards', 'islands', 'humans', 'gates', 'frogs', 'forests',
+    'foods', 'enchantments', 'daleks', 'citizens', 'cats', 'birds', 'auras', 'mountains',
+    'outlaws', 'planeswalkers', 'slivers', 'spirits', 'swamps', 'towns', 'snow', 'they',
+    'name', 'draw', 'Dragons', 'dies', 'dragon', 'attackers', 'plains', 'assassin',
+    'adds', 'colorless', 'destroy', 'up', "creature's", 'nontoken', 'vampire', 'lair',
+    'moonfolk', 'skeleton', 'fox', 'long', 'return', 'chosen', 'clues', 'another',
+    "can't", 'can', "owner's", 'rats', 'new', 'more', 'than', 'voting', 'perpetually'
 ];
 
 const twoOrLess = {};

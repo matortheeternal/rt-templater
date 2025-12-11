@@ -1,9 +1,0 @@
-{
-  "name": "interplanar",
-  "expr": "interplanar",
-  "variations": [
-    {
-      "template": "This creature enters onto the interplanar battlefield. Players can't control creatures on the interplanar battlefield."
-    }
-  ]
-}

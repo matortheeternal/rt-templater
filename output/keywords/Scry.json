@@ -34,9 +34,10 @@
       ]
     },
     {
-      "template": "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+      "template": "To scry <number>, look at the top <number:a_or_word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
       "rts": [
-        "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order."
+        "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+        "To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order."
       ]
     },
     {

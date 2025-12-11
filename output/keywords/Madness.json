@@ -3,16 +3,7 @@
   "expr": "madness",
   "variations": [
     {
-      "template": "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.",
-      "rts": [
-        "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard."
-      ]
-    },
-    {
-      "template": "If you discard this card, discard it into exile. When you do, play it for its madness cost or put it into your graveyard. You can play a land only during your turn and only if you have an available land play remaining.",
-      "rts": [
-        "If you discard this card, discard it into exile. When you do, play it for its madness cost or put it into your graveyard. You can play a land only during your turn and only if you have an available land play remaining."
-      ]
+      "template": "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard."
     }
   ]
 }

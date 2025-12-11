@@ -3,9 +3,16 @@
   "expr": "riot",
   "variations": [
     {
-      "template": "This creature enters with your choice of a +1/+1 counter or haste.",
+      "template": "<target_it> enters with your choice of a +1/+1 counter or haste.",
       "rts": [
+        "It enters with your choice of a +1/+1 counter or haste.",
         "This creature enters with your choice of a +1/+1 counter or haste."
+      ]
+    },
+    {
+      "template": "They enter with your choice of a +1/+1 counter or haste.",
+      "rts": [
+        "They enter with your choice of a +1/+1 counter or haste."
       ]
     },
     {

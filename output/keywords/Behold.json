@@ -1,0 +1,18 @@
+{
+  "name": "behold",
+  "expr": "behold",
+  "variations": [
+    {
+      "template": "You may choose a Dragon you control or reveal a Dragon card from your hand.",
+      "rts": [
+        "You may choose a Dragon you control or reveal a Dragon card from your hand."
+      ]
+    },
+    {
+      "template": "To behold a Dragon, choose a Dragon you control or reveal a Dragon card from your hand.",
+      "rts": [
+        "To behold a Dragon, choose a Dragon you control or reveal a Dragon card from your hand."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "countered",
+  "expr": "countered",
+  "variations": [
+    {
+      "template": "This includes by the ward ability."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "turns type",
+  "expr": "turns type",
+  "variations": [
+    {
+      "template": "If a card has multiple permanent types, choose one as you play it."
+    }
+  ]
+}

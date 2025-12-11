@@ -1,9 +1,0 @@
-{
-  "name": "affinity for equipment",
-  "expr": "affinity for equipment",
-  "variations": [
-    {
-      "template": "This spell costs {1} less to cast for each Equipment you control."
-    }
-  ]
-}

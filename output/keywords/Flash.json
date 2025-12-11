@@ -3,10 +3,22 @@
   "expr": "flash",
   "variations": [
     {
+      "template": "It can be cast any time you could cast an instant.",
+      "rts": [
+        "It can be cast any time you could cast an instant."
+      ]
+    },
+    {
       "template": "You may cast <target_spell> any time you could cast an instant.",
       "rts": [
         "You may cast it any time you could cast an instant.",
         "You may cast this spell any time you could cast an instant."
+      ]
+    },
+    {
+      "template": "You may cast them any time you could cast an instant.",
+      "rts": [
+        "You may cast them any time you could cast an instant."
       ]
     },
     {

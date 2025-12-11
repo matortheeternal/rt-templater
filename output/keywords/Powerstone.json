@@ -9,6 +9,12 @@
       ]
     },
     {
+      "template": "They're artifacts with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\"",
+      "rts": [
+        "They're artifacts with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\""
+      ]
+    },
+    {
       "template": "The tokens are artifacts with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\"",
       "rts": [
         "The tokens are artifacts with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\""

@@ -3,7 +3,16 @@
   "expr": "life",
   "variations": [
     {
-      "template": "Damage causes loss of life."
+      "template": "Damage causes loss of life.",
+      "rts": [
+        "Damage causes loss of life."
+      ]
+    },
+    {
+      "template": "Do both if {G}{W} was spent.",
+      "rts": [
+        "Do both if {G}{W} was spent."
+      ]
     }
   ]
 }

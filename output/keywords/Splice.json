@@ -13,12 +13,6 @@
       "rts": [
         "As you cast an instant or sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell."
       ]
-    },
-    {
-      "template": "As you cast an instant or sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's abilities to that spell. It's still an instant or sorcery spell.",
-      "rts": [
-        "As you cast an instant or sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's abilities to that spell. It's still an instant or sorcery spell."
-      ]
     }
   ]
 }

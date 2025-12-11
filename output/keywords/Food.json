@@ -3,6 +3,12 @@
   "expr": "food",
   "variations": [
     {
+      "template": "It has \"{2},{T}, Sacrifice this token: You gain 3 life.\"",
+      "rts": [
+        "It has \"{2},{T}, Sacrifice this token: You gain 3 life.\""
+      ]
+    },
+    {
       "template": "It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
       "rts": [
         "It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\""
@@ -12,6 +18,12 @@
       "template": "They're artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
       "rts": [
         "They're artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\""
+      ]
+    },
+    {
+      "template": "Food tokens are artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
+      "rts": [
+        "Food tokens are artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\""
       ]
     },
     {

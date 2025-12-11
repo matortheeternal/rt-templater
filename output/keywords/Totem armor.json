@@ -1,0 +1,9 @@
+{
+  "name": "totem armor",
+  "expr": "totem armor",
+  "variations": [
+    {
+      "template": "If enchanted permanent would be destroyed, instead remove all damage from it and destroy this Aura."
+    }
+  ]
+}

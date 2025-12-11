@@ -1,9 +1,0 @@
-{
-  "name": "ustujnin",
-  "expr": "ustujnin",
-  "variations": [
-    {
-      "template": "{B}, Return a blocking creature you control to hand: Put this card onto the battlefield from your hand blocking the same creature."
-    }
-  ]
-}

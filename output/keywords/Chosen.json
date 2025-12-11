@@ -1,9 +1,0 @@
-{
-  "name": "chosen",
-  "expr": "chosen",
-  "variations": [
-    {
-      "template": "It's still an artifact."
-    }
-  ]
-}

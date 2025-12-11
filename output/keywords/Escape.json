@@ -19,6 +19,12 @@
       "rts": [
         "You may cast it from your graveyard for its escape cost this turn."
       ]
+    },
+    {
+      "template": "You may cast a card with escape from your graveyard for its escape cost.",
+      "rts": [
+        "You may cast a card with escape from your graveyard for its escape cost."
+      ]
     }
   ]
 }

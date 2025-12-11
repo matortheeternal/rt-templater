@@ -23,12 +23,6 @@
         "If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.",
         "If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand."
       ]
-    },
-    {
-      "template": "If an opponent would draw a card, instead you may have them mill exactly four cards and put this card into their hand from their graveyard.",
-      "rts": [
-        "If an opponent would draw a card, instead you may have them mill exactly four cards and put this card into their hand from their graveyard."
-      ]
     }
   ]
 }

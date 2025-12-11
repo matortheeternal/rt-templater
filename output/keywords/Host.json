@@ -1,9 +1,0 @@
-{
-  "name": "host",
-  "expr": "host",
-  "variations": [
-    {
-      "template": "{1}{R}: Host target creature at this Realm. A Realm can host any number of creatures. Host only as a sorcery."
-    }
-  ]
-}

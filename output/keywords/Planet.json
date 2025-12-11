@@ -1,9 +1,0 @@
-{
-  "name": "planet",
-  "expr": "planet",
-  "variations": [
-    {
-      "template": "When this permanent enters, exile the top five cards of your library as its resources."
-    }
-  ]
-}

@@ -9,6 +9,12 @@
         "This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.",
         "A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it."
       ]
+    },
+    {
+      "template": "Each of those creatures can't be blocked except by artifact creatures and/or creatures that share a color with it.",
+      "rts": [
+        "Each of those creatures can't be blocked except by artifact creatures and/or creatures that share a color with it."
+      ]
     }
   ]
 }

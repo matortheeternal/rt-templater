@@ -1,9 +1,0 @@
-{
-  "name": "consonant",
-  "expr": "consonant",
-  "variations": [
-    {
-      "template": "Y counts."
-    }
-  ]
-}

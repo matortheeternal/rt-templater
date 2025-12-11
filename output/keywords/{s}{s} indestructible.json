@@ -1,0 +1,9 @@
+{
+  "name": "{s}{s} indestructible",
+  "expr": "{s}{s} indestructible",
+  "variations": [
+    {
+      "template": "Damage and effects that say \"destroy\" don't destroy it. {S} can be paid with one mana from a snow source."
+    }
+  ]
+}

@@ -8,6 +8,12 @@
         "Create a token that's a copy of a creature token you control.",
         "To populate, create a token that's a copy of a creature token you control."
       ]
+    },
+    {
+      "template": "To populate, create a token that's a copy of a creature token you control. Do this X times.",
+      "rts": [
+        "To populate, create a token that's a copy of a creature token you control. Do this X times."
+      ]
     }
   ]
 }

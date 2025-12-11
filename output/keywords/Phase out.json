@@ -9,6 +9,12 @@
       ]
     },
     {
+      "template": "Treat them and anything attached to them as though they don't exist until their controller's next turn.",
+      "rts": [
+        "Treat them and anything attached to them as though they don't exist until their controller's next turn."
+      ]
+    },
+    {
       "template": "While they're phased out, they're treated as though they don't exist. Each one phases in before its controller untaps during their next untap step.",
       "rts": [
         "While they're phased out, they're treated as though they don't exist. Each one phases in before its controller untaps during their next untap step."

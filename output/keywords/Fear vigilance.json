@@ -1,0 +1,9 @@
+{
+  "name": "fear vigilance",
+  "expr": "fear vigilance",
+  "variations": [
+    {
+      "template": "Attacking doesn't cause it to tap, and it can't be blocked except by artifact creatures and/or black creatures."
+    }
+  ]
+}

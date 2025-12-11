@@ -1,0 +1,9 @@
+{
+  "name": "loses types",
+  "expr": "loses types",
+  "variations": [
+    {
+      "template": "It still has its abilities, but it's no longer a creature."
+    }
+  ]
+}

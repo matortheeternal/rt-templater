@@ -1,9 +1,0 @@
-{
-  "name": "teach",
-  "expr": "teach",
-  "variations": [
-    {
-      "template": "Then exile this spell taught to a creature you control. For as long as this card remains exiled, that creature has \"{T}: Copy the exiled card. You may cast the copy for its teach cost.\""
-    }
-  ]
-}

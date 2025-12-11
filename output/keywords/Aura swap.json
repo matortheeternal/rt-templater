@@ -1,0 +1,9 @@
+{
+  "name": "aura swap",
+  "expr": "aura swap",
+  "variations": [
+    {
+      "template": "{2}{U}: Exchange this Aura with an Aura card in your hand."
+    }
+  ]
+}

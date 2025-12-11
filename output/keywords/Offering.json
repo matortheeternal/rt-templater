@@ -3,7 +3,20 @@
   "expr": "offering",
   "variations": [
     {
-      "template": "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color."
+      "template": "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color.",
+      "rts": [
+        "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color."
+      ]
+    },
+    {
+      "template": "You may cast this spell any time you could cast an instant by sacrificing a <card_sub_type> and paying the difference in mana costs between this and the sacrificed <card_sub_type>. Mana cost includes color.",
+      "rts": [
+        "You may cast this spell any time you could cast an instant by sacrificing a Fox and paying the difference in mana costs between this and the sacrificed Fox. Mana cost includes color.",
+        "You may cast this spell any time you could cast an instant by sacrificing a Rat and paying the difference in mana costs between this and the sacrificed Rat. Mana cost includes color.",
+        "You may cast this spell any time you could cast an instant by sacrificing a Snake and paying the difference in mana costs between this and the sacrificed Snake. Mana cost includes color.",
+        "You may cast this spell any time you could cast an instant by sacrificing a Goblin and paying the difference in mana costs between this and the sacrificed Goblin. Mana cost includes color.",
+        "You may cast this spell any time you could cast an instant by sacrificing a Moonfolk and paying the difference in mana costs between this and the sacrificed Moonfolk. Mana cost includes color."
+      ]
     }
   ]
 }
