@@ -208,7 +208,6 @@
     "count": 2,
     "bestBeforeTokens": {
       "defender": "100.00%",
-      "artifact": "200.00%",
       "addition": "100.00%",
       "types": "100.00%",
       "activated": "100.00%"
@@ -262,7 +261,6 @@
     "bestBeforeTokens": {
       "colorless": "100.00%",
       "thopter": "100.00%",
-      "artifact": "100.00%",
       "token": "100.00%",
       "flying": "100.00%"
     },
@@ -292,7 +290,6 @@
     "count": 2,
     "bestBeforeTokens": {
       "islandwalk": "100.00%",
-      "artifact": "100.00%",
       "destroy": "100.00%"
     },
     "bestKeywords": {}
@@ -681,7 +678,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "long": "100.00%",
-      "artifact": "100.00%",
       "untapped": "100.00%",
       "would": "100.00%",
       "less": "100.00%",
@@ -1044,7 +1040,6 @@
       "chaos": "100.00%",
       "split": "100.00%",
       "second": "100.00%",
-      "artifact": "100.00%",
       "was": "100.00%",
       "spent": "100.00%"
     },
@@ -1127,18 +1122,6 @@
       "devour": "100.00%"
     }
   },
-  "As this creature enters, you may sacrifice any number of artifacts. It enters with that many +1/+1 counters on it.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "devour": "100.00%",
-      "artifact": "100.00%"
-    },
-    "bestKeywords": {
-      "vigilance": "100.00%",
-      "flash": "100.00%",
-      "devour": "100.00%"
-    }
-  },
   "As this creature enters, you may sacrifice any number of creatures. It enters with X +1/+1 counters on it for each of those creatures.": {
     "count": 1,
     "bestBeforeTokens": {
@@ -1171,7 +1154,6 @@
     "bestBeforeTokens": {
       "first": "100.00%",
       "nonlegendary": "100.00%",
-      "artifact": "100.00%",
       "casualty": "100.00%"
     },
     "bestKeywords": {}
@@ -1417,7 +1399,6 @@
     "bestBeforeTokens": {
       "return": "100.00%",
       "all": "200.00%",
-      "artifact": "100.00%",
       "enchantment": "100.00%",
       "graveyards": "100.00%",
       "battlefield": "100.00%",
@@ -2448,7 +2429,6 @@
       "indestructible": "100.00%",
       "colorless": "100.00%",
       "servo": "100.00%",
-      "artifact": "100.00%",
       "token": "100.00%"
     },
     "bestKeywords": {}
@@ -2582,8 +2562,7 @@
       "animated": "100.00%",
       "role": "100.00%",
       "up": "100.00%",
-      "noncreature": "100.00%",
-      "artifact": "100.00%"
+      "noncreature": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -2604,6 +2583,11 @@
     "bestKeywords": {
       "haste": "100.00%"
     }
+  },
+  "Equipment that's a creature can't equip a creature.": {
+    "count": 2,
+    "bestBeforeTokens": {},
+    "bestKeywords": {}
   },
   "Equipment, Auras its controller controls, and counters are modifications.": {
     "count": 1,
@@ -2672,7 +2656,6 @@
     "bestBeforeTokens": {
       "reach": "100.00%",
       "{t}": "200.00%",
-      "artifact": "100.00%",
       "discover": "100.00%"
     },
     "bestKeywords": {
@@ -2688,16 +2671,6 @@
       "value": "100.00%"
     },
     "bestKeywords": {}
-  },
-  "Exile it and pay its mana cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
-      "encore": "200.00%"
-    },
-    "bestKeywords": {
-      "fear": "100.00%"
-    }
   },
   "Exile it only if it's still on the battlefield.": {
     "count": 1,
@@ -3564,7 +3537,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "long": "100.00%",
-      "artifact": "100.00%",
       "all": "100.00%",
       "activated": "100.00%",
       "abilities": "100.00%"
@@ -3662,7 +3634,6 @@
       "enchanted": "100.00%",
       "permanent": "100.00%",
       "treasure": "100.00%",
-      "artifact": "200.00%",
       "{t}": "100.00%",
       "add": "100.00%",
       "any": "100.00%",
@@ -3700,7 +3671,6 @@
       "add": "100.00%",
       "any": "100.00%",
       "next": "100.00%",
-      "artifact": "100.00%",
       "sunburst": "100.00%"
     },
     "bestKeywords": {}
@@ -4276,7 +4246,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "+2/+0": "100.00%",
-      "artifact": "100.00%",
       "landwalk": "100.00%"
     },
     "bestKeywords": {
@@ -4558,14 +4527,6 @@
       "equip": "100.00%"
     }
   },
-  "It enters with a +1/+1 counter on it for each color of mana spent to cast it.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
-      "sunburst": "100.00%"
-    },
-    "bestKeywords": {}
-  },
   "It enters with your choice of a +1/+1 counter or haste.": {
     "count": 1,
     "bestBeforeTokens": {
@@ -4593,7 +4554,6 @@
       "5/5": "100.00%",
       "colorless": "100.00%",
       "vehicle": "100.00%",
-      "artifact": "100.00%",
       "token": "100.00%",
       "named": "100.00%",
       "zeppelin": "100.00%",
@@ -4790,7 +4750,6 @@
     "count": 2,
     "bestBeforeTokens": {
       "noncreature": "100.00%",
-      "artifact": "200.00%",
       "power": "100.00%",
       "toughness": "100.00%",
       "value": "100.00%"
@@ -5026,8 +4985,7 @@
     "count": 1,
     "bestBeforeTokens": {
       "player's": "100.00%",
-      "food": "100.00%",
-      "artifact": "100.00%"
+      "food": "100.00%"
     },
     "bestKeywords": {}
   },
@@ -5129,7 +5087,6 @@
       "permanent": "100.00%",
       "colorless": "100.00%",
       "clue": "100.00%",
-      "artifact": "200.00%",
       "draw": "100.00%",
       "loses": "100.00%",
       "all": "100.00%",
@@ -5158,7 +5115,6 @@
       "enchanted": "100.00%",
       "permanent": "100.00%",
       "vehicle": "100.00%",
-      "artifact": "100.00%",
       "crew": "100.00%",
       "loses": "100.00%",
       "all": "100.00%",
@@ -5283,6 +5239,11 @@
       "permanent": "100.00%",
       "draw": "100.00%"
     },
+    "bestKeywords": {}
+  },
+  "Leads to: Cradle of the Death God": {
+    "count": 2,
+    "bestBeforeTokens": {},
     "bestKeywords": {}
   },
   "Leads to: Dark Pool, Fungi Cavern": {
@@ -6154,7 +6115,6 @@
       "colorless": "100.00%",
       "phyrexian": "100.00%",
       "mite": "100.00%",
-      "artifact": "100.00%",
       "tokens": "100.00%",
       "toxic": "100.00%",
       "token": "100.00%",
@@ -6182,7 +6142,6 @@
       "colorless": "100.00%",
       "phyrexian": "100.00%",
       "mite": "100.00%",
-      "artifact": "100.00%",
       "token": "200.00%",
       "toxic": "100.00%",
       "can't": "100.00%",
@@ -6696,7 +6655,6 @@
     "bestBeforeTokens": {
       "activate": "200.00%",
       "ability": "300.00%",
-      "artifact": "100.00%",
       "isn't": "100.00%",
       "more": "100.00%",
       "permanents": "100.00%",
@@ -7335,7 +7293,6 @@
     "count": 2,
     "bestBeforeTokens": {
       "more": "100.00%",
-      "artifact": "100.00%",
       "powerstone": "100.00%",
       "token": "100.00%",
       "ability": "100.00%",
@@ -7732,7 +7689,6 @@
     "bestBeforeTokens": {
       "affinity": "100.00%",
       "for": "100.00%",
-      "artifact": "200.00%",
       "weren't": "100.00%",
       "originally": "100.00%"
     },
@@ -7829,7 +7785,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "owner": "100.00%",
-      "artifact": "100.00%",
       "value": "200.00%",
       "greater": "100.00%",
       "shuffles": "100.00%",
@@ -7870,7 +7825,6 @@
       "battlefield": "100.00%",
       "colorless": "100.00%",
       "scrap": "100.00%",
-      "artifact": "100.00%",
       "tokens": "100.00%"
     },
     "bestKeywords": {
@@ -9018,8 +8972,7 @@
     "count": 1,
     "bestBeforeTokens": {
       "affinity": "100.00%",
-      "for": "100.00%",
-      "artifact": "100.00%"
+      "for": "100.00%"
     },
     "bestKeywords": {
       "affinity": "100.00%"
@@ -9215,7 +9168,6 @@
   "Those creatures return under their owners' control.": {
     "count": 1,
     "bestBeforeTokens": {
-      "artifact": "200.00%",
       "all": "100.00%",
       "power": "100.00%",
       "greater": "100.00%",
@@ -9931,7 +9883,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "destroy": "100.00%",
-      "artifact": "100.00%",
       "enchantment": "100.00%",
       "emblem": "100.00%",
       "gameplay": "100.00%",
@@ -10953,16 +10904,6 @@
     },
     "bestKeywords": {}
   },
-  "When you cast one, you may copy it. If you do, choose an opponent to also copy it. Copies become tokens.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
-      "demonstrate": "100.00%"
-    },
-    "bestKeywords": {
-      "flying": "100.00%"
-    }
-  },
   "When you cast that Saga, copy it for each time you paid its replicate cost. Copies of Saga spells become tokens.": {
     "count": 1,
     "bestBeforeTokens": {
@@ -11085,7 +11026,6 @@
     "bestBeforeTokens": {
       "incubator": "100.00%",
       "tokens": "100.00%",
-      "artifact": "100.00%",
       "evolve": "100.00%"
     },
     "bestKeywords": {
@@ -11111,14 +11051,6 @@
     "bestKeywords": {
       "amass": "100.00%"
     }
-  },
-  "Whenever a creature with afflict 3 becomes blocked, defending player loses 3 life.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
-      "afflict": "100.00%"
-    },
-    "bestKeywords": {}
   },
   "Whenever a creature with annihilator 1 attacks, defending player sacrifices a permanent of their choice.": {
     "count": 1,
@@ -11942,7 +11874,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "destroy": "100.00%",
-      "artifact": "100.00%",
       "enchantment": "100.00%"
     },
     "bestKeywords": {}
@@ -12146,7 +12077,6 @@
       "expend": "100.00%",
       "gain": "100.00%",
       "up": "100.00%",
-      "artifact": "100.00%",
       "for": "100.00%",
       "long": "100.00%"
     },
@@ -12191,7 +12121,6 @@
   "You get two energy counters. To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.": {
     "count": 1,
     "bestBeforeTokens": {
-      "artifact": "100.00%",
       "scry": "100.00%",
       "then": "100.00%",
       "{e}{e}": "100.00%"
@@ -12222,14 +12151,6 @@
     "bestKeywords": {
       "surveil": "100.00%"
     }
-  },
-  "You may cast a card from your hand for its warp cost. Exile that permanent at the beginning of the next end step, then you may cast it from exile on a later turn.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
-      "warp": "100.00%"
-    },
-    "bestKeywords": {}
   },
   "You may cast a card with escape from your graveyard for its escape cost.": {
     "count": 1,
@@ -12401,28 +12322,6 @@
     },
     "bestKeywords": {
       "offering": "100.00%"
-    }
-  },
-  "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
-      "offering": "100.00%"
-    },
-    "bestKeywords": {
-      "flying": "100.00%",
-      "offering": "100.00%",
-      "double strike": "100.00%"
-    }
-  },
-  "You may cast this spell by sacrificing an artifact and paying the emerge cost reduced by that artifact's mana value.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "emerge": "100.00%",
-      "artifact": "100.00%"
-    },
-    "bestKeywords": {
-      "emerge": "100.00%"
     }
   },
   "You may choose to cast that spell for its blitz cost. If you do, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.": {
@@ -12791,18 +12690,7 @@
     "count": 1,
     "bestBeforeTokens": {
       "kicker": "100.00%",
-      "artifact": "100.00%",
       "goblin": "100.00%"
-    },
-    "bestKeywords": {
-      "kicker": "100.00%"
-    }
-  },
-  "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.": {
-    "count": 2,
-    "bestBeforeTokens": {
-      "kicker": "100.00%",
-      "artifact": "100.00%"
     },
     "bestKeywords": {
       "kicker": "100.00%"
@@ -13129,14 +13017,6 @@
     "count": 1,
     "bestBeforeTokens": {
       "multicolored": "100.00%",
-      "convoke": "100.00%"
-    },
-    "bestKeywords": {}
-  },
-  "Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
       "convoke": "100.00%"
     },
     "bestKeywords": {}
@@ -13484,14 +13364,6 @@
       "flying": "100.00%"
     }
   },
-  "{1}{B}{R}: Return the card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
-      "unearth": "100.00%"
-    },
-    "bestKeywords": {}
-  },
   "{2/B} can be paid with any two mana or with {B}. This card's mana value is 6.": {
     "count": 1,
     "bestBeforeTokens": {},
@@ -13589,19 +13461,6 @@
       "typecycling": "100.00%",
       "cycling": "100.00%",
       "swampcycling": "100.00%"
-    }
-  },
-  "{2}, Discard this card: Search your library for an artifact land card, reveal it, put it into your hand, then shuffle.": {
-    "count": 1,
-    "bestBeforeTokens": {
-      "artifact": "100.00%",
-      "landcycling": "100.00%"
-    },
-    "bestKeywords": {
-      "affinity": "100.00%",
-      "landcycling": "100.00%",
-      "typecycling": "100.00%",
-      "cycling": "100.00%"
     }
   },
   "{2}{U}: Exchange this Aura with an Aura card in your hand.": {

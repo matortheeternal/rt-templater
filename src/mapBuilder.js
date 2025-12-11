@@ -1,6 +1,8 @@
 import { mergeNStrings } from './lcs.js';
 import { getReplacement } from './replacers/index.js';
 import fs from 'fs';
+import { compileTemplate } from './templateCompiler.js';
+import { findBest } from './findBest.js';
 
 export function buildReminderTextMap(out) {
     const rtMap = {};
@@ -56,20 +58,18 @@ export function sortReminderTexts(rtMap) {
 }
 
 export function createMergedTemplates(rtMap) {
-    const variantGroupExpr = /\(([^)]+)\)/g;
-    Object.values(rtMap).forEach(v => {
-        let merged = mergeNStrings(v.rts.map(rt => rt.text));
-        if (v.rts.length === 1) return;
-        merged = merged.replaceAll(variantGroupExpr, function(match, p1) {
-            const parts = p1.split('|');
-            if (parts.length === 1) return match;
-            const rep = getReplacement(parts, v.label);
-            return rep ? rep : `(${parts.join('|')})`;
-        })
-        v.merged = {
-            template: merged,
-            count: v.rts.reduce((c, rt) => c + rt.count, 0)
+    Object.values(rtMap).forEach(entry => {
+        if (entry.rts.length === 1) return;
+        console.log(`Finding template for ${entry.label}`);
+        const rtTexts = entry.rts.map(rt => rt.text);
+        entry.merged = {
+            template: compileTemplate(rtTexts, entry.label),
+            count: entry.rts.reduce((c, rt) => c + rt.count, 0)
         };
+        entry.best = findBest(rtTexts, entry.label).map(rts => ({
+            template: compileTemplate(rts, entry.label),
+            rts
+        }));
     });
 }
 
