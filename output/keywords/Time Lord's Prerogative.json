@@ -1,0 +1,9 @@
+{
+  "name": "Time Lord's Prerogative",
+  "expr": "Time Lord's Prerogative",
+  "variations": [
+    {
+      "template": "Artifacts, legendaries, and Sagas are historic. A copy of a permanent spell becomes a token."
+    }
+  ]
+}

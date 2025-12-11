@@ -3,7 +3,16 @@
   "expr": "Venture into the dungeon",
   "variations": [
     {
-      "template": "Enter the first room or advance to the next room."
+      "template": "Enter the first room or advance to the next room.",
+      "rts": [
+        "Enter the first room or advance to the next room."
+      ]
+    },
+    {
+      "template": "To venture into the dungeon, enter the first room or advance to the next room.",
+      "rts": [
+        "To venture into the dungeon, enter the first room or advance to the next room."
+      ]
     }
   ]
 }

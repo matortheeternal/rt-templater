@@ -2,6 +2,8 @@ import fs from 'fs';
 
 const dictionary = new Map();
 
+const exclude = ['Ability'];
+
 function buildKeywordTokensDictionary(keywords) {
     keywords.forEach(kw => {
         kw.toLowerCase().split(' ').forEach(token => {
@@ -20,7 +22,7 @@ export function loadKnownKeywords(cards) {
         });
     });
 
-    const output = [...set].sort();
+    const output = [...set].sort().filter(kw => !exclude.includes(kw));
     buildKeywordTokensDictionary(output);
     fs.writeFileSync('input/knownKeywords.json', JSON.stringify(output, null, 2));
 }

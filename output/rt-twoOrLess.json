@@ -528,6 +528,33 @@
       "Convoke"
     ]
   },
+  "A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\"": {
+    "count": 1,
+    "beforeTokens": {
+      "{2}": 1,
+      "{t}": 1,
+      "copy": 2,
+      "target": 1,
+      "triggered": 1,
+      "ability": 1,
+      "you": 2,
+      "control": 1,
+      "may": 1,
+      "choose": 1,
+      "new": 1,
+      "targets": 1,
+      "for": 1,
+      "the": 1
+    },
+    "keywords": {},
+    "bestBeforeTokens": {
+      "copy": "200.00%",
+      "triggered": "100.00%",
+      "ability": "100.00%"
+    },
+    "bestKeywords": {},
+    "matchedKeywords": []
+  },
   "Activate only as an instant.": {
     "count": 1,
     "beforeTokens": {
@@ -1018,95 +1045,6 @@
     },
     "bestKeywords": {},
     "matchedKeywords": []
-  },
-  "Artifacts, legendaries, and Sagas are historic. A copy of a permanent spell becomes a token.": {
-    "count": 1,
-    "beforeTokens": {
-      "time": 1,
-      "lord's": 1,
-      "prerogative": 1,
-      "whenever": 1,
-      "you": 1,
-      "cast": 1,
-      "a": 1,
-      "historic": 1,
-      "spell": 1,
-      "copy": 2,
-      "it": 1,
-      "except": 1,
-      "the": 1,
-      "isn't": 1,
-      "legendary": 1,
-      "this": 1,
-      "ability": 1,
-      "triggers": 1,
-      "only": 1,
-      "once": 1,
-      "each": 1,
-      "turn": 1
-    },
-    "keywords": {
-      "time lord's prerogative": 1
-    },
-    "bestBeforeTokens": {
-      "time": "100.00%",
-      "lord's": "100.00%",
-      "prerogative": "100.00%",
-      "historic": "100.00%",
-      "copy": "200.00%",
-      "except": "100.00%",
-      "isn't": "100.00%",
-      "ability": "100.00%",
-      "triggers": "100.00%",
-      "only": "100.00%",
-      "once": "100.00%"
-    },
-    "bestKeywords": {
-      "time lord's prerogative": "100.00%"
-    },
-    "matchedKeywords": [
-      "Time Lord's Prerogative",
-      "Ability"
-    ]
-  },
-  "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"": {
-    "count": 1,
-    "beforeTokens": {
-      "whenever": 1,
-      "you": 1,
-      "cast": 1,
-      "a": 1,
-      "historic": 1,
-      "spell": 1,
-      "investigate": 1,
-      "this": 1,
-      "ability": 1,
-      "triggers": 1,
-      "only": 1,
-      "once": 1,
-      "each": 1,
-      "turn": 1
-    },
-    "keywords": {
-      "investigate": 1,
-      "doctor's companion": 1
-    },
-    "bestBeforeTokens": {
-      "historic": "100.00%",
-      "investigate": "100.00%",
-      "ability": "100.00%",
-      "triggers": "100.00%",
-      "only": "100.00%",
-      "once": "100.00%"
-    },
-    "bestKeywords": {
-      "investigate": "100.00%",
-      "doctor's companion": "100.00%"
-    },
-    "matchedKeywords": [
-      "Investigate",
-      "Ability"
-    ]
   },
   "As a Saga enters, choose a chapter and start with that many lore counters. Skipped chapters don't trigger.": {
     "count": 1,
@@ -3914,6 +3852,74 @@
     "bestKeywords": {},
     "matchedKeywords": []
   },
+  "It can be in any deck whose commander's color identity includes green.": {
+    "count": 1,
+    "beforeTokens": {
+      "fallaji": 1,
+      "wayfarer": 1,
+      "is": 1,
+      "all": 1,
+      "colors": 1,
+      "this": 1,
+      "ability": 1,
+      "doesn't": 1,
+      "affect": 1,
+      "its": 1,
+      "color": 1,
+      "identity": 1
+    },
+    "keywords": {},
+    "bestBeforeTokens": {
+      "fallaji": "100.00%",
+      "wayfarer": "100.00%",
+      "colors": "100.00%",
+      "ability": "100.00%",
+      "affect": "100.00%",
+      "identity": "100.00%"
+    },
+    "bestKeywords": {},
+    "matchedKeywords": []
+  },
+  "It can't attack its controller.": {
+    "count": 1,
+    "beforeTokens": {
+      "{2}": 1,
+      "put": 1,
+      "a": 1,
+      "+1/+1": 1,
+      "counter": 1,
+      "on": 1,
+      "this": 4,
+      "creature": 3,
+      "then": 1,
+      "you": 1,
+      "may": 2,
+      "reselect": 1,
+      "which": 1,
+      "player": 2,
+      "is": 2,
+      "attacking": 2,
+      "only": 2,
+      "the": 2,
+      "activate": 1,
+      "ability": 1,
+      "and": 1,
+      "during": 1,
+      "declare": 1,
+      "attackers": 1,
+      "step": 1
+    },
+    "keywords": {},
+    "bestBeforeTokens": {
+      "reselect": "100.00%",
+      "attacking": "200.00%",
+      "only": "200.00%",
+      "activate": "100.00%",
+      "ability": "100.00%"
+    },
+    "bestKeywords": {},
+    "matchedKeywords": []
+  },
   "It can't attack or block as long as you're looking directly at it.": {
     "count": 1,
     "beforeTokens": {
@@ -4688,6 +4694,33 @@
     },
     "matchedKeywords": []
   },
+  "It won't be affected by the spell or ability.": {
+    "count": 1,
+    "beforeTokens": {
+      "whenever": 1,
+      "a": 2,
+      "creature": 2,
+      "becomes": 1,
+      "the": 1,
+      "target": 1,
+      "of": 1,
+      "spell": 1,
+      "or": 1,
+      "ability": 1,
+      "return": 1,
+      "that": 1,
+      "to": 1,
+      "its": 1,
+      "owner's": 1,
+      "hand": 1
+    },
+    "keywords": {},
+    "bestBeforeTokens": {
+      "ability": "100.00%"
+    },
+    "bestKeywords": {},
+    "matchedKeywords": []
+  },
   "It's a land with \"{T}: Add {C}\" and \"{1}: This token becomes a 2/2 creature with all creature types until end of turn. It's still a land.\"": {
     "count": 1,
     "beforeTokens": {
@@ -5187,6 +5220,67 @@
     "bestKeywords": {
       "equip": "100.00%"
     },
+    "matchedKeywords": []
+  },
+  "Mana abilities can't be copied.": {
+    "count": 2,
+    "beforeTokens": {
+      "whenever": 1,
+      "you": 8,
+      "cast": 2,
+      "an": 2,
+      "eldrazi": 1,
+      "spell": 3,
+      "may": 3,
+      "pay": 1,
+      "{c}{c}": 1,
+      "if": 1,
+      "do": 1,
+      "copy": 4,
+      "all": 2,
+      "spells": 1,
+      "control": 2,
+      "then": 1,
+      "other": 1,
+      "activated": 1,
+      "and": 1,
+      "triggered": 1,
+      "abilities": 1,
+      "choose": 2,
+      "new": 2,
+      "targets": 2,
+      "for": 2,
+      "the": 2,
+      "copies": 1,
+      "{1}{u}": 1,
+      "{t}": 1,
+      "exile": 1,
+      "seven": 1,
+      "cards": 1,
+      "from": 1,
+      "your": 1,
+      "graveyard": 1,
+      "add": 1,
+      "{u}": 1,
+      "when": 1,
+      "spend": 1,
+      "this": 1,
+      "mana": 1,
+      "to": 1,
+      "a": 1,
+      "or": 2,
+      "activate": 1,
+      "ability": 2,
+      "that": 1
+    },
+    "keywords": {
+      "devoid": 1
+    },
+    "bestBeforeTokens": {
+      "copy": "200.00%",
+      "ability": "100.00%"
+    },
+    "bestKeywords": {},
     "matchedKeywords": []
   },
   "Mana cost includes color. If a mana symbol has multiple colors, choose one.": {
@@ -5778,6 +5872,89 @@
     },
     "matchedKeywords": []
   },
+  "Sacrificing an artifact for mana to activate an ability doesn't count.": {
+    "count": 1,
+    "beforeTokens": {
+      "whenever": 1,
+      "you": 3,
+      "activate": 2,
+      "an": 2,
+      "ability": 3,
+      "of": 1,
+      "artifact": 1,
+      "or": 2,
+      "creature": 1,
+      "that": 2,
+      "isn't": 1,
+      "a": 1,
+      "mana": 1,
+      "if": 1,
+      "one": 1,
+      "more": 1,
+      "permanents": 1,
+      "were": 1,
+      "sacrificed": 1,
+      "to": 1,
+      "it": 1,
+      "may": 2,
+      "copy": 2,
+      "choose": 1,
+      "new": 1,
+      "targets": 1,
+      "for": 1,
+      "the": 1
+    },
+    "keywords": {
+      "deathtouch": 1
+    },
+    "bestBeforeTokens": {
+      "activate": "200.00%",
+      "ability": "300.00%",
+      "isn't": "100.00%",
+      "permanents": "100.00%",
+      "were": "100.00%",
+      "sacrificed": "100.00%",
+      "copy": "200.00%"
+    },
+    "bestKeywords": {
+      "deathtouch": "100.00%"
+    },
+    "matchedKeywords": []
+  },
+  "Select from among all legal targets.": {
+    "count": 1,
+    "beforeTokens": {
+      "whenever": 1,
+      "a": 2,
+      "spell": 1,
+      "or": 1,
+      "ability": 1,
+      "is": 1,
+      "put": 1,
+      "onto": 1,
+      "the": 1,
+      "stack": 1,
+      "if": 1,
+      "it": 1,
+      "has": 1,
+      "single": 1,
+      "target": 2,
+      "reselect": 1,
+      "its": 1,
+      "at": 1,
+      "random": 1
+    },
+    "keywords": {},
+    "bestBeforeTokens": {
+      "ability": "100.00%",
+      "stack": "100.00%",
+      "single": "100.00%",
+      "reselect": "100.00%",
+      "random": "100.00%"
+    },
+    "bestKeywords": {},
+    "matchedKeywords": []
+  },
   "Shield counters don't prevent this damage as they're removed.": {
     "count": 1,
     "beforeTokens": {
@@ -6238,6 +6415,43 @@
     "bestKeywords": {
       "monstrosity": "100.00%"
     },
+    "matchedKeywords": []
+  },
+  "The token is an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\"": {
+    "count": 2,
+    "beforeTokens": {
+      "whenever": 2,
+      "you": 2,
+      "discard": 2,
+      "one": 2,
+      "or": 2,
+      "more": 2,
+      "artifact": 2,
+      "cards": 2,
+      "create": 2,
+      "a": 2,
+      "tapped": 2,
+      "powerstone": 2,
+      "token": 2,
+      "this": 2,
+      "ability": 2,
+      "triggers": 2,
+      "only": 2,
+      "once": 2,
+      "each": 2,
+      "turn": 2
+    },
+    "keywords": {
+      "vigilance": 1
+    },
+    "bestBeforeTokens": {
+      "powerstone": "100.00%",
+      "ability": "100.00%",
+      "triggers": "100.00%",
+      "only": "100.00%",
+      "once": "100.00%"
+    },
+    "bestKeywords": {},
     "matchedKeywords": []
   },
   "The types of mana are white, blue, black, red, green, and colorless.": {
@@ -8333,60 +8547,6 @@
       "Treasure"
     ]
   },
-  "To venture into the dungeon, enter the first room or advance to the next room.": {
-    "count": 2,
-    "beforeTokens": {
-      "whenever": 2,
-      "one": 1,
-      "or": 2,
-      "more": 1,
-      "creature": 2,
-      "cards": 1,
-      "are": 1,
-      "put": 1,
-      "into": 3,
-      "your": 1,
-      "graveyard": 1,
-      "from": 1,
-      "anywhere": 1,
-      "venture": 2,
-      "the": 2,
-      "dungeon": 2,
-      "this": 2,
-      "ability": 2,
-      "triggers": 2,
-      "only": 2,
-      "once": 2,
-      "each": 2,
-      "turn": 2,
-      "you": 1,
-      "cast": 1,
-      "a": 1,
-      "planeswalker": 1,
-      "spell": 1
-    },
-    "keywords": {
-      "venture into the dungeon": 2,
-      "reach": 1,
-      "ward": 1
-    },
-    "bestBeforeTokens": {
-      "into": "150.00%",
-      "venture": "100.00%",
-      "dungeon": "100.00%",
-      "ability": "100.00%",
-      "triggers": "100.00%",
-      "only": "100.00%",
-      "once": "100.00%"
-    },
-    "bestKeywords": {
-      "venture into the dungeon": "100.00%"
-    },
-    "matchedKeywords": [
-      "Venture into the dungeon",
-      "Ability"
-    ]
-  },
   "Treat phased-out creatures and anything attached to them as though they don't exist until their controller's next turn.": {
     "count": 1,
     "beforeTokens": {
@@ -10088,8 +10248,7 @@
       "First strike",
       "Strike first",
       "Trample",
-      "Rampage",
-      "Ability"
+      "Rampage"
     ]
   },
   "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}.": {
@@ -11106,6 +11265,64 @@
     "bestKeywords": {},
     "matchedKeywords": []
   },
+  "You see all cards that player could see and make all decisions for them.": {
+    "count": 1,
+    "beforeTokens": {
+      "equipped": 1,
+      "creature": 1,
+      "gets": 1,
+      "+1/+1": 1,
+      "and": 1,
+      "has": 1,
+      "{15}": 1,
+      "exile": 1,
+      "the": 1,
+      "dominion": 1,
+      "bracelet": 1,
+      "you": 1,
+      "control": 1,
+      "target": 1,
+      "opponent": 1,
+      "during": 1,
+      "their": 1,
+      "next": 1,
+      "turn": 1,
+      "this": 2,
+      "ability": 1,
+      "costs": 1,
+      "{x}": 1,
+      "less": 1,
+      "to": 1,
+      "activate": 2,
+      "where": 1,
+      "x": 1,
+      "is": 1,
+      "creature's": 1,
+      "power": 1,
+      "only": 1,
+      "as": 1,
+      "a": 1,
+      "sorcery": 1
+    },
+    "keywords": {
+      "equip": 1
+    },
+    "bestBeforeTokens": {
+      "{15}": "100.00%",
+      "dominion": "100.00%",
+      "bracelet": "100.00%",
+      "their": "100.00%",
+      "ability": "100.00%",
+      "costs": "100.00%",
+      "less": "100.00%",
+      "activate": "200.00%",
+      "only": "100.00%"
+    },
+    "bestKeywords": {
+      "equip": "100.00%"
+    },
+    "matchedKeywords": []
+  },
   "You start at 0% coolness.": {
     "count": 1,
     "beforeTokens": {
@@ -11890,6 +12107,52 @@
       "enchant": 1
     },
     "bestBeforeTokens": {},
+    "bestKeywords": {},
+    "matchedKeywords": []
+  },
+  "{R/W} can be paid with either {R} or {W}.": {
+    "count": 2,
+    "beforeTokens": {
+      "whenever": 1,
+      "agrus": 1,
+      "kos": 1,
+      "becomes": 1,
+      "the": 1,
+      "target": 2,
+      "of": 2,
+      "an": 1,
+      "ability": 3,
+      "that": 3,
+      "targets": 2,
+      "only": 1,
+      "it": 1,
+      "you": 3,
+      "may": 1,
+      "pay": 1,
+      "{1}{r/w}": 1,
+      "if": 1,
+      "do": 1,
+      "copy": 2,
+      "for": 1,
+      "each": 2,
+      "other": 1,
+      "creature": 1,
+      "control": 1,
+      "could": 1,
+      "a": 1,
+      "different": 1,
+      "one": 1,
+      "those": 1,
+      "creatures": 1
+    },
+    "keywords": {
+      "first strike": 1,
+      "vigilance": 1
+    },
+    "bestBeforeTokens": {
+      "ability": "150.00%",
+      "copy": "100.00%"
+    },
     "bestKeywords": {},
     "matchedKeywords": []
   },

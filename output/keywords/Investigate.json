@@ -12,7 +12,8 @@
       "template": "<create> a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
       "rts": [
         "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
-        "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
+        "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+        "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
       ]
     },
     {

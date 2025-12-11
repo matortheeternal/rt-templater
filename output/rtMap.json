@@ -1,127 +1,5 @@
 [
   {
-    "label": "Ability",
-    "count": 34,
-    "rts": [
-      {
-        "text": "It can't attack its controller.",
-        "count": 1
-      },
-      {
-        "text": "Mana abilities can't be copied.",
-        "count": 2
-      },
-      {
-        "text": "Mana abilities can't be targeted.",
-        "count": 21
-      },
-      {
-        "text": "Select from among all legal targets.",
-        "count": 1
-      },
-      {
-        "text": "{R/W} can be paid with either {R} or {W}.",
-        "count": 2
-      },
-      {
-        "text": "It won't be affected by the spell or ability.",
-        "count": 1
-      },
-      {
-        "text": "A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\"",
-        "count": 1
-      },
-      {
-        "text": "It can be in any deck whose commander's color identity includes green.",
-        "count": 1
-      },
-      {
-        "text": "Sacrificing an artifact for mana to activate an ability doesn't count.",
-        "count": 1
-      },
-      {
-        "text": "You see all cards that player could see and make all decisions for them.",
-        "count": 1
-      },
-      {
-        "text": "The token is an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\"",
-        "count": 2
-      }
-    ],
-    "merged": {
-      "template": "(It|Mana abilities) can't (attack its controller.|be copied.|be targeted.|Select from among all legal targets.|{R/W} can be paid with either {R} or {W}.|It won't be affected by the spell or ability.|A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\"|It can be in any deck whose commander's color identity includes green.|Sacrificing an artifact for mana to activate an ability doesn't count.|You see all cards that player could see and make all decisions for them.|The token is an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")",
-      "count": 34
-    },
-    "best": [
-      {
-        "template": "It can't attack its controller.",
-        "rts": [
-          "It can't attack its controller."
-        ]
-      },
-      {
-        "template": "Mana abilities can't be copied.",
-        "rts": [
-          "Mana abilities can't be copied."
-        ]
-      },
-      {
-        "template": "Mana abilities can't be targeted.",
-        "rts": [
-          "Mana abilities can't be targeted."
-        ]
-      },
-      {
-        "template": "Select from among all legal targets.",
-        "rts": [
-          "Select from among all legal targets."
-        ]
-      },
-      {
-        "template": "{R/W} can be paid with either {R} or {W}.",
-        "rts": [
-          "{R/W} can be paid with either {R} or {W}."
-        ]
-      },
-      {
-        "template": "It won't be affected by the spell or ability.",
-        "rts": [
-          "It won't be affected by the spell or ability."
-        ]
-      },
-      {
-        "template": "A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\"",
-        "rts": [
-          "A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\""
-        ]
-      },
-      {
-        "template": "It can be in any deck whose commander's color identity includes green.",
-        "rts": [
-          "It can be in any deck whose commander's color identity includes green."
-        ]
-      },
-      {
-        "template": "Sacrificing an artifact for mana to activate an ability doesn't count.",
-        "rts": [
-          "Sacrificing an artifact for mana to activate an ability doesn't count."
-        ]
-      },
-      {
-        "template": "You see all cards that player could see and make all decisions for them.",
-        "rts": [
-          "You see all cards that player could see and make all decisions for them."
-        ]
-      },
-      {
-        "template": "The token is an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\"",
-        "rts": [
-          "The token is an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\""
-        ]
-      }
-    ]
-  },
-  {
     "label": "Adapt",
     "count": 23,
     "rts": [
@@ -6012,7 +5890,7 @@
   },
   {
     "label": "Investigate",
-    "count": 101,
+    "count": 102,
     "rts": [
       {
         "text": "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\"",
@@ -6033,11 +5911,15 @@
       {
         "text": "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\"",
         "count": 1
+      },
+      {
+        "text": "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+        "count": 1
       }
     ],
     "merged": {
       "template": "<create> a (colorless) Clue (token. It's an) artifact (token) with \"{2}, Sacrifice this (token|artifact): Draw a card.\"",
-      "count": 101
+      "count": 102
     },
     "best": [
       {
@@ -6050,7 +5932,8 @@
         "template": "<create> a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
         "rts": [
           "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
-          "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
+          "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+          "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
         ]
       },
       {
@@ -10990,6 +10873,16 @@
     ]
   },
   {
+    "label": "Time Lord's Prerogative",
+    "count": 1,
+    "rts": [
+      {
+        "text": "Artifacts, legendaries, and Sagas are historic. A copy of a permanent spell becomes a token.",
+        "count": 1
+      }
+    ]
+  },
+  {
     "label": "Time Travel",
     "count": 6,
     "rts": [
@@ -11853,11 +11746,33 @@
   },
   {
     "label": "Venture into the dungeon",
-    "count": 38,
+    "count": 40,
     "rts": [
       {
         "text": "Enter the first room or advance to the next room.",
         "count": 38
+      },
+      {
+        "text": "To venture into the dungeon, enter the first room or advance to the next room.",
+        "count": 2
+      }
+    ],
+    "merged": {
+      "template": "(Enter|To venture into) the (dungeon, enter the) first room or advance to the next room.",
+      "count": 40
+    },
+    "best": [
+      {
+        "template": "Enter the first room or advance to the next room.",
+        "rts": [
+          "Enter the first room or advance to the next room."
+        ]
+      },
+      {
+        "template": "To venture into the dungeon, enter the first room or advance to the next room.",
+        "rts": [
+          "To venture into the dungeon, enter the first room or advance to the next room."
+        ]
       }
     ]
   },
