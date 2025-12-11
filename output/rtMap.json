@@ -166,7 +166,7 @@
       }
     ],
     "merged": {
-      "template": "(They cost|This spell costs|It costs) {1} less to cast for each (Aura|artifact|Cat|Bird|Food|Frog|Gate|Town|Dalek|Human|Swamp|token|Forest|Island|Knight|Lizard|Plains|Sliver|Spirit|Citizen|Mountain|creature|Equipment|snow land|enchantment|planeswalker|artifact creature|artifact, legendary, and/or Saga permanent|Assassin, Mercenary, Pirate, Rogue, and/or Warlock) you (control|control as you cast it).",
+      "template": "<target_spell_costs> {1} less to cast for each (Aura|artifact|Cat|Bird|Food|Frog|Gate|Town|Dalek|Human|Swamp|token|Forest|Island|Knight|Lizard|Plains|Sliver|Spirit|Citizen|Mountain|creature|Equipment|snow land|enchantment|planeswalker|artifact creature|artifact, legendary, and/or Saga permanent|Assassin, Mercenary, Pirate, Rogue, and/or Warlock) you (control|control as you cast it).",
       "count": 70
     },
     "best": [
@@ -177,9 +177,10 @@
         ]
       },
       {
-        "template": "They cost {1} less to cast for each artifact you control.",
+        "template": "<target_spell_costs> {1} less to cast for each artifact you control.",
         "rts": [
-          "They cost {1} less to cast for each artifact you control."
+          "They cost {1} less to cast for each artifact you control.",
+          "This spell costs {1} less to cast for each artifact you control."
         ]
       },
       {
@@ -249,12 +250,6 @@
         "template": "This spell costs {1} less to cast for each Mountain you control.",
         "rts": [
           "This spell costs {1} less to cast for each Mountain you control."
-        ]
-      },
-      {
-        "template": "This spell costs {1} less to cast for each artifact you control.",
-        "rts": [
-          "This spell costs {1} less to cast for each artifact you control."
         ]
       },
       {

@@ -8,6 +8,18 @@ class TargetSpellReplacer extends Replacer {
     expr = /^(?:it|the spell|that spell|this spell|those spells)$/;
 }
 
+class TargetSpellCostsReplacer extends Replacer {
+    id = '<target_spell_costs>';
+    expr = new RegExp(`^(?:${[
+        'it costs',
+        'the spell costs',
+        'that spell costs',
+        'this spell costs',
+        'those spells cost',
+        'they cost'
+    ].join('|')})$`, 'i');
+}
+
 class TargetCreatureReplacer extends Replacer {
     id = '<target_creature>';
 
@@ -68,6 +80,7 @@ class TargetDeals extends Replacer {
 
 export default [
     TargetSpellReplacer,
+    TargetSpellCostsReplacer,
     TargetCreatureReplacer,
     TargetCardReplacer,
     TargetReplacer,

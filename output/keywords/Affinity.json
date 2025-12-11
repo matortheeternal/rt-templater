@@ -9,9 +9,10 @@
       ]
     },
     {
-      "template": "They cost {1} less to cast for each artifact you control.",
+      "template": "<target_spell_costs> {1} less to cast for each artifact you control.",
       "rts": [
-        "They cost {1} less to cast for each artifact you control."
+        "They cost {1} less to cast for each artifact you control.",
+        "This spell costs {1} less to cast for each artifact you control."
       ]
     },
     {
@@ -81,12 +82,6 @@
       "template": "This spell costs {1} less to cast for each Mountain you control.",
       "rts": [
         "This spell costs {1} less to cast for each Mountain you control."
-      ]
-    },
-    {
-      "template": "This spell costs {1} less to cast for each artifact you control.",
-      "rts": [
-        "This spell costs {1} less to cast for each artifact you control."
       ]
     },
     {
