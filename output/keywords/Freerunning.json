@@ -1,6 +1,6 @@
 {
-  "name": "freerunning",
-  "expr": "freerunning",
+  "name": "Freerunning",
+  "expr": "Freerunning",
   "variations": [
     {
       "template": "You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.",

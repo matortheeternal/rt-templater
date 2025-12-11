@@ -1,6 +1,6 @@
 {
-  "name": "bolster",
-  "expr": "bolster",
+  "name": "Bolster",
+  "expr": "Bolster",
   "variations": [
     {
       "template": "Choose a creature with the least toughness among creatures you control and put <number:a_or_word> +1/+1 counter<number:plural:s> on it.",
@@ -11,6 +11,12 @@
         "Choose a creature with the least toughness among creatures you control and put five +1/+1 counters on it.",
         "Choose a creature with the least toughness among creatures you control and put four +1/+1 counters on it.",
         "Choose a creature with the least toughness among creatures you control and put three +1/+1 counters on it."
+      ]
+    },
+    {
+      "template": "To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.",
+      "rts": [
+        "To bolster 1, choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it."
       ]
     }
   ]

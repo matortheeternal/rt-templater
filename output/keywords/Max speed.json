@@ -1,0 +1,9 @@
+{
+  "name": "Max speed",
+  "expr": "Max speed",
+  "variations": [
+    {
+      "template": "Each opponent puts the top two cards of their library into their graveyard."
+    }
+  ]
+}

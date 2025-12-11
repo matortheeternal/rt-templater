@@ -1,6 +1,6 @@
 {
-  "name": "bargain",
-  "expr": "bargain",
+  "name": "Bargain",
+  "expr": "Bargain",
   "variations": [
     {
       "template": "You may sacrifice an artifact, enchantment, or token as you cast this spell."

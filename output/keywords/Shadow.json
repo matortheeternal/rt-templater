@@ -1,12 +1,14 @@
 {
-  "name": "shadow",
-  "expr": "shadow",
+  "name": "Shadow",
+  "expr": "Shadow",
   "variations": [
     {
-      "template": "<target_it> can block or be blocked by only creatures with shadow.",
+      "template": "<target> can block or be blocked by only creatures with shadow.",
       "rts": [
         "It can block or be blocked by only creatures with shadow.",
-        "This creature can block or be blocked by only creatures with shadow."
+        "They can block or be blocked by only creatures with shadow.",
+        "This creature can block or be blocked by only creatures with shadow.",
+        "A creature with shadow can block or be blocked by only creatures with shadow."
       ]
     },
     {

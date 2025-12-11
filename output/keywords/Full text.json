@@ -1,9 +1,0 @@
-{
-  "name": "full text",
-  "expr": "full text",
-  "variations": [
-    {
-      "template": "This creature has that card's name, mana cost, color, types, abilities, power, and toughness."
-    }
-  ]
-}

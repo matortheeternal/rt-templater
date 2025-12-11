@@ -1,6 +1,6 @@
 {
-  "name": "equip",
-  "expr": "equip",
+  "name": "Equip",
+  "expr": "Equip",
   "variations": [
     {
       "template": "<mana>: Attach to target creature you control. Equip only as a sorcery.",
@@ -11,6 +11,7 @@
         "{3}: Attach to target creature you control. Equip only as a sorcery.",
         "{4}: Attach to target creature you control. Equip only as a sorcery.",
         "{5}: Attach to target creature you control. Equip only as a sorcery.",
+        "{6}: Attach to target creature you control. Equip only as a sorcery.",
         "{8}: Attach to target creature you control. Equip only as a sorcery.",
         "{W}: Attach to target creature you control. Equip only as a sorcery.",
         "{1}{B}: Attach to target creature you control. Equip only as a sorcery.",
@@ -34,6 +35,12 @@
         "{3}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.",
         "{4}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.",
         "{5}: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves."
+      ]
+    },
+    {
+      "template": "Pay 3 life: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves.",
+      "rts": [
+        "Pay 3 life: Attach to target creature you control. Equip only as a sorcery. This card enters unattached and stays on the battlefield if the creature leaves."
       ]
     }
   ]

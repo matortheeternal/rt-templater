@@ -1,6 +1,6 @@
 {
-  "name": "shroud",
-  "expr": "shroud",
+  "name": "Shroud",
+  "expr": "Shroud",
   "variations": [
     {
       "template": "<target> can't be the target<number:plural:s> of spells or abilities.",
@@ -17,6 +17,12 @@
       "template": "A permanent with shroud can't be the target of spells or abilities.",
       "rts": [
         "A permanent with shroud can't be the target of spells or abilities."
+      ]
+    },
+    {
+      "template": "{S} can be paid with one mana from a snow source. A creature with shroud can't be the target of spells or abilities.",
+      "rts": [
+        "{S} can be paid with one mana from a snow source. A creature with shroud can't be the target of spells or abilities."
       ]
     }
   ]

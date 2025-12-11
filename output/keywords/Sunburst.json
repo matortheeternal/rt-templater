@@ -1,6 +1,6 @@
 {
-  "name": "sunburst",
-  "expr": "sunburst",
+  "name": "Sunburst",
+  "expr": "Sunburst",
   "variations": [
     {
       "template": "It enters with a +1/+1 counter on it for each color of mana spent to cast it.",

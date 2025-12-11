@@ -1,0 +1,9 @@
+{
+  "name": "Conjure",
+  "expr": "Conjure",
+  "variations": [
+    {
+      "template": "Your choice is not revealed to other players."
+    }
+  ]
+}

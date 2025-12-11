@@ -1,6 +1,6 @@
 {
-  "name": "annihilator",
-  "expr": "annihilator",
+  "name": "Annihilator",
+  "expr": "Annihilator",
   "variations": [
     {
       "template": "Whenever this creature attacks, defending player sacrifices a permanent.",
@@ -9,13 +9,14 @@
       ]
     },
     {
-      "template": "Whenever this creature attacks, defending player sacrifices a permanent of their choice.",
+      "template": "Whenever <target_it> attacks, defending player sacrifices a permanent of their choice.",
       "rts": [
+        "Whenever it attacks, defending player sacrifices a permanent of their choice.",
         "Whenever this creature attacks, defending player sacrifices a permanent of their choice."
       ]
     },
     {
-      "template": "Whenever this creature attacks, defending player sacrifices <number:a_or_word> permanents of their choice.",
+      "template": "Whenever this creature attacks, defending player sacrifices <number:word> permanents of their choice.",
       "rts": [
         "Whenever this creature attacks, defending player sacrifices two permanents of their choice.",
         "Whenever this creature attacks, defending player sacrifices four permanents of their choice.",

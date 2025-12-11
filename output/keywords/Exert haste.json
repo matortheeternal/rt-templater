@@ -1,9 +1,0 @@
-{
-  "name": "exert haste",
-  "expr": "exert haste",
-  "variations": [
-    {
-      "template": "An exerted permanent won't untap during your next untap step."
-    }
-  ]
-}

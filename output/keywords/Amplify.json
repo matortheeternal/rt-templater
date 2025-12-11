@@ -1,6 +1,6 @@
 {
-  "name": "amplify",
-  "expr": "amplify",
+  "name": "Amplify",
+  "expr": "Amplify",
   "variations": [
     {
       "template": "As this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on it for each <card_sub_type> card you reveal in your hand.",

@@ -1,6 +1,6 @@
 {
-  "name": "multikicker",
-  "expr": "multikicker",
+  "name": "Multikicker",
+  "expr": "Multikicker",
   "variations": [
     {
       "template": "You may pay an additional <mana> any number of times as you cast this spell.",

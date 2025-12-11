@@ -1,9 +1,0 @@
-{
-  "name": "rejuvenation",
-  "expr": "rejuvenation",
-  "variations": [
-    {
-      "template": "If you cast Flameskull this way, you can't play the other card, and vice versa."
-    }
-  ]
-}

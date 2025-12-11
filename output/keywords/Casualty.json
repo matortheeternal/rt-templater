@@ -1,6 +1,6 @@
 {
-  "name": "casualty",
-  "expr": "casualty",
+  "name": "Casualty",
+  "expr": "Casualty",
   "variations": [
     {
       "template": "As you cast this spell, you may sacrifice a creature with power <number> or greater. When you do, copy this spell.",
@@ -8,6 +8,24 @@
         "As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.",
         "As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.",
         "As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell."
+      ]
+    },
+    {
+      "template": "As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell. The copy becomes a token.",
+      "rts": [
+        "As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell. The copy becomes a token."
+      ]
+    },
+    {
+      "template": "As you cast it, you may sacrifice a creature with power 2 or greater. When you do, copy it. A copy of an artifact spell becomes a token.",
+      "rts": [
+        "As you cast it, you may sacrifice a creature with power 2 or greater. When you do, copy it. A copy of an artifact spell becomes a token."
+      ]
+    },
+    {
+      "template": "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.",
+      "rts": [
+        "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy."
       ]
     },
     {

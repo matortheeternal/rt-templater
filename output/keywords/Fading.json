@@ -1,16 +1,16 @@
 {
-  "name": "fading",
-  "expr": "fading",
+  "name": "Fading",
+  "expr": "Fading",
   "variations": [
     {
-      "template": "This artifact enters with <number:a_or_word> fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
+      "template": "This artifact enters with <number:word> fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
       "rts": [
         "This artifact enters with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
         "This artifact enters with four fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it."
       ]
     },
     {
-      "template": "This creature enters with <number:a_or_word> fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
+      "template": "This creature enters with <number:word> fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
       "rts": [
         "This creature enters with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
         "This creature enters with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "template": "This enchantment enters with <number:a_or_word> fade counter<number:plural:s> on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
+      "template": "This enchantment enters with <number:word> fade counter<number:plural:s> on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
       "rts": [
         "This enchantment enters with one fade counter on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
         "This enchantment enters with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",

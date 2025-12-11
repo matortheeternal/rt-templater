@@ -1,6 +1,6 @@
 {
-  "name": "menace",
-  "expr": "menace",
+  "name": "Menace",
+  "expr": "Menace",
   "variations": [
     {
       "template": "<target> can't be blocked except by two or more creatures.",

@@ -1,6 +1,6 @@
 {
-  "name": "toxic",
-  "expr": "toxic",
+  "name": "Toxic",
+  "expr": "Toxic",
   "variations": [
     {
       "template": "Players dealt combat damage by <target_it> also get <number:a_or_word> poison counter<number:plural:s>.",
@@ -19,6 +19,24 @@
       "template": "Players dealt combat damage by them also get a poison counter.",
       "rts": [
         "Players dealt combat damage by them also get a poison counter."
+      ]
+    },
+    {
+      "template": "Players dealt combat damage by a creature with toxic 1 also get a poison counter.",
+      "rts": [
+        "Players dealt combat damage by a creature with toxic 1 also get a poison counter."
+      ]
+    },
+    {
+      "template": "Players dealt combat damage by it also get a poison counter. {W/P} can be paid with either {W} or 2 life.",
+      "rts": [
+        "Players dealt combat damage by it also get a poison counter. {W/P} can be paid with either {W} or 2 life."
+      ]
+    },
+    {
+      "template": "A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature's total toxic value.",
+      "rts": [
+        "A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature's total toxic value."
       ]
     },
     {

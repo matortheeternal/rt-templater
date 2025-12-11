@@ -1,7 +1,31 @@
 {
-  "name": "scry",
-  "expr": "scry",
+  "name": "Scry",
+  "expr": "Scry",
   "variations": [
+    {
+      "template": "Leads to: Mad Wizard's Lair",
+      "rts": [
+        "Leads to: Mad Wizard's Lair"
+      ]
+    },
+    {
+      "template": "Leads to: Goblin Lair, Mine Tunnels",
+      "rts": [
+        "Leads to: Goblin Lair, Mine Tunnels"
+      ]
+    },
+    {
+      "template": "Leads to: Goblin Bazaar, Twisted Caverns",
+      "rts": [
+        "Leads to: Goblin Bazaar, Twisted Caverns"
+      ]
+    },
+    {
+      "template": "Leads to: Runestone Caverns, Muiral's Graveyard",
+      "rts": [
+        "Leads to: Runestone Caverns, Muiral's Graveyard"
+      ]
+    },
     {
       "template": "Look at the top card of your library. You may put it on the bottom.",
       "rts": [
@@ -21,9 +45,16 @@
       ]
     },
     {
-      "template": "Look at the top <number:a_or_word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+      "template": "To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.",
+      "rts": [
+        "To scry 1, look at the top card of your library, then you may put that card on the bottom of your library."
+      ]
+    },
+    {
+      "template": "Look at the top <number:word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
       "rts": [
         "Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+        "Look at the top four cards of your library, then put any number of them on the bottom and the rest on top in any order.",
         "Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order."
       ]
     },
@@ -34,16 +65,28 @@
       ]
     },
     {
-      "template": "To scry <number>, look at the top <number:a_or_word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+      "template": "To scry <number>, look at the top <number:word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
       "rts": [
         "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
         "To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order."
       ]
     },
     {
+      "template": "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom.",
+      "rts": [
+        "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom."
+      ]
+    },
+    {
       "template": "To scry X, a player looks at the top X cards of their library, then puts any number of them on the bottom and the rest on top in any order.",
       "rts": [
         "To scry X, a player looks at the top X cards of their library, then puts any number of them on the bottom and the rest on top in any order."
+      ]
+    },
+    {
+      "template": "You get two energy counters. To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+      "rts": [
+        "You get two energy counters. To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order."
       ]
     }
   ]

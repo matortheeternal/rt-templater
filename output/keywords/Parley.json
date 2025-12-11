@@ -1,0 +1,9 @@
+{
+  "name": "Parley",
+  "expr": "Parley",
+  "variations": [
+    {
+      "template": "A Map token is an artifact with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\""
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "name": "sliver lifelink",
-  "expr": "sliver lifelink",
-  "variations": [
-    {
-      "template": "Damage dealt by a Sliver creature you control also causes you to gain that much life."
-    }
-  ]
-}

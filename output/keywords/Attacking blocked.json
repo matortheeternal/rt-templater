@@ -1,9 +1,0 @@
-{
-  "name": "attacking blocked",
-  "expr": "attacking blocked",
-  "variations": [
-    {
-      "template": "This spell works on creatures that can't be blocked."
-    }
-  ]
-}

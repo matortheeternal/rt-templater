@@ -1,6 +1,6 @@
 {
-  "name": "devour",
-  "expr": "devour",
+  "name": "Devour",
+  "expr": "Devour",
   "variations": [
     {
       "template": "As this creature enters, you may sacrifice any number of artifacts. It enters with that many +1/+1 counters on it.",
@@ -27,9 +27,21 @@
       ]
     },
     {
+      "template": "As that creature enters, you may sacrifice any number of creatures. It enters with five times that many +1/+1 counters on it.",
+      "rts": [
+        "As that creature enters, you may sacrifice any number of creatures. It enters with five times that many +1/+1 counters on it."
+      ]
+    },
+    {
       "template": "As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it.",
       "rts": [
         "As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it."
+      ]
+    },
+    {
+      "template": "As this creature enters, you may sacrifice any number of creatures. It enters with X +1/+1 counters on it for each of those creatures.",
+      "rts": [
+        "As this creature enters, you may sacrifice any number of creatures. It enters with X +1/+1 counters on it for each of those creatures."
       ]
     }
   ]

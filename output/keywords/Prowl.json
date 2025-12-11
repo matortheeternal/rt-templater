@@ -1,6 +1,6 @@
 {
-  "name": "prowl",
-  "expr": "prowl",
+  "name": "Prowl",
+  "expr": "Prowl",
   "variations": [
     {
       "template": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue.",
@@ -19,6 +19,12 @@
       "template": "You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a Sphinx or Rogue.",
       "rts": [
         "You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a Sphinx or Rogue."
+      ]
+    },
+    {
+      "template": "You may cast a spell for its prowl cost if you dealt combat damage to a player this turn with a creature with any of its creature types.",
+      "rts": [
+        "You may cast a spell for its prowl cost if you dealt combat damage to a player this turn with a creature with any of its creature types."
       ]
     }
   ]

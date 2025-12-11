@@ -1,6 +1,6 @@
 {
-  "name": "deathtouch",
-  "expr": "deathtouch",
+  "name": "Deathtouch",
+  "expr": "Deathtouch",
   "variations": [
     {
       "template": "Any amount of damage <target_deals> to a creature is enough to destroy it.",

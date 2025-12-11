@@ -1,6 +1,6 @@
 {
-  "name": "skulk",
-  "expr": "skulk",
+  "name": "Skulk",
+  "expr": "Skulk",
   "variations": [
     {
       "template": "<target> can't be blocked by creatures with greater power.",

@@ -1,9 +1,0 @@
-{
-  "name": "deathtouch lifelink",
-  "expr": "deathtouch lifelink",
-  "variations": [
-    {
-      "template": "Any amount of damage it deals to a creature is enough to destroy it. Damage dealt by this creature also causes you to gain that much life."
-    }
-  ]
-}

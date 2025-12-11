@@ -1,9 +1,0 @@
-{
-  "name": "trample over",
-  "expr": "trample over",
-  "variations": [
-    {
-      "template": "This creature can deal excess combat damage to the controller of the planeswalker it's attacking."
-    }
-  ]
-}

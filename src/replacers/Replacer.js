@@ -2,7 +2,7 @@ export default class Replacer {
     id = '';
     expr = null;
 
-    replace(parts, label) {
+    replace(parts) {
         const match = parts.every(part => {
             return this.expr.test(part);
         });

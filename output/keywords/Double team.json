@@ -1,9 +1,18 @@
 {
-  "name": "double team",
-  "expr": "double team",
+  "name": "Double team",
+  "expr": "Double team",
   "variations": [
     {
-      "template": "When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team."
+      "template": "When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.",
+      "rts": [
+        "When this creature attacks, conjure a duplicate into your hand, then both of them perpetually lose double team."
+      ]
+    },
+    {
+      "template": "When a creature with double team attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.",
+      "rts": [
+        "When a creature with double team attacks, conjure a duplicate into your hand, then both of them perpetually lose double team."
+      ]
     }
   ]
 }

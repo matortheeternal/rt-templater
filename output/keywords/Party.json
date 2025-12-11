@@ -1,9 +1,0 @@
-{
-  "name": "party",
-  "expr": "party",
-  "variations": [
-    {
-      "template": "Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard."
-    }
-  ]
-}

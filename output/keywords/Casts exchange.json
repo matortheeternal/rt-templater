@@ -1,9 +1,0 @@
-{
-  "name": "casts exchange",
-  "expr": "casts exchange",
-  "variations": [
-    {
-      "template": "If the spell becomes a permanent, you control that permanent."
-    }
-  ]
-}

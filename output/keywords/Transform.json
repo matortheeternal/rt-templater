@@ -1,0 +1,9 @@
+{
+  "name": "Transform",
+  "expr": "Transform",
+  "variations": [
+    {
+      "template": "Only double-faced cards can be transformed."
+    }
+  ]
+}

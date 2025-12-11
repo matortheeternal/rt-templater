@@ -15,9 +15,14 @@ class NumberMultiReplacer extends Replacer {
     expr = /^(?:twice|three times|four times) that$/
 }
 
+class NumberWordReplacer extends Replacer {
+    id = '<number:word>';
+    expr = /^(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|X)$/i;
+}
+
 class NumberAOrWordReplacer extends Replacer {
     id = '<number:a_or_word>';
-    expr = /^(?:a|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|X)$/i;
+    expr = /^(?:a|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|X)$/i;
 }
 
 function isPlural(p1, p2) {
@@ -41,6 +46,7 @@ export default [
     NumberReplacer,
     NumberNumberReplacer,
     NumberMultiReplacer,
+    NumberWordReplacer,
     NumberAOrWordReplacer,
     NumberPluralSReplacer
 ];

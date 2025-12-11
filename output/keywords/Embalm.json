@@ -1,6 +1,6 @@
 {
-  "name": "embalm",
-  "expr": "embalm",
+  "name": "Embalm",
+  "expr": "Embalm",
   "variations": [
     {
       "template": "<mana>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie <card_sub_type> with no mana cost. Embalm only as a sorcery.",

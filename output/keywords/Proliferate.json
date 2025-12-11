@@ -1,6 +1,6 @@
 {
-  "name": "proliferate",
-  "expr": "proliferate",
+  "name": "Proliferate",
+  "expr": "Proliferate",
   "variations": [
     {
       "template": "Choose any number of permanents and/or players, then give each another counter of each kind already there.",
@@ -18,6 +18,18 @@
       "template": "Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again.",
       "rts": [
         "Choose any number of permanents and/or players, then give each another counter of each kind already there. Then do it again."
+      ]
+    },
+    {
+      "template": "To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there. Treat phased-out permanents and anything attached to them as though they don't exist until their controller's next turn.",
+      "rts": [
+        "To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there. Treat phased-out permanents and anything attached to them as though they don't exist until their controller's next turn."
+      ]
+    },
+    {
+      "template": "They commit a crime if they target an opponent, anything an opponent controls, and/or cards in an opponent's graveyard. To proliferate, you choose any number of permanents and/or players, then give each another counter of each kind already there.",
+      "rts": [
+        "They commit a crime if they target an opponent, anything an opponent controls, and/or cards in an opponent's graveyard. To proliferate, you choose any number of permanents and/or players, then give each another counter of each kind already there."
       ]
     }
   ]

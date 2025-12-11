@@ -1,9 +1,0 @@
-{
-  "name": "tiered",
-  "expr": "tiered",
-  "variations": [
-    {
-      "template": "Choose one additional cost."
-    }
-  ]
-}

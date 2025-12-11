@@ -1,6 +1,6 @@
 {
-  "name": "renown",
-  "expr": "renown",
+  "name": "Renown",
+  "expr": "Renown",
   "variations": [
     {
       "template": "When this creature deals combat damage to a player, if it isn't renowned, put <number:a_or_word> +1/+1 counter<number:plural:s> on it and it becomes renowned.",

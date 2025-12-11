@@ -1,9 +1,0 @@
-{
-  "name": "historic cycling",
-  "expr": "historic cycling",
-  "variations": [
-    {
-      "template": "{2}{W}, Discard that card: Draw a card."
-    }
-  ]
-}

@@ -1,6 +1,6 @@
 {
-  "name": "rebound",
-  "expr": "rebound",
+  "name": "Rebound",
+  "expr": "Rebound",
   "variations": [
     {
       "template": "Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.",

@@ -1,6 +1,6 @@
 {
-  "name": "goad",
-  "expr": "goad",
+  "name": "Goad",
+  "expr": "Goad",
   "variations": [
     {
       "template": "Until your next turn, it attacks each combat if able and attacks a player other than you if able.",
@@ -30,6 +30,12 @@
       "template": "A goaded creature attacks each combat if able and attacks a player other than you if able, until your next turn.",
       "rts": [
         "A goaded creature attacks each combat if able and attacks a player other than you if able, until your next turn."
+      ]
+    },
+    {
+      "template": "Until your next turn, the goaded creatures attack each combat if able and attack a player other than you if able.",
+      "rts": [
+        "Until your next turn, the goaded creatures attack each combat if able and attack a player other than you if able."
       ]
     }
   ]

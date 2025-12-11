@@ -1,6 +1,6 @@
 {
-  "name": "compleated",
-  "expr": "compleated",
+  "name": "Compleated",
+  "expr": "Compleated",
   "variations": [
     {
       "template": "<compleated_mana> can be paid with <compleated_options> or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",

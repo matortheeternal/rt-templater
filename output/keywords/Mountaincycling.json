@@ -1,6 +1,6 @@
 {
-  "name": "mountaincycling",
-  "expr": "mountaincycling",
+  "name": "Mountaincycling",
+  "expr": "Mountaincycling",
   "variations": [
     {
       "template": "<mana>, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.",

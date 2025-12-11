@@ -1,0 +1,24 @@
+{
+  "name": "Attack",
+  "expr": "Attack",
+  "variations": [
+    {
+      "template": "This cost is paid as attackers are declared.",
+      "rts": [
+        "This cost is paid as attackers are declared."
+      ]
+    },
+    {
+      "template": "This cost is paid as attackers or blockers are declared.",
+      "rts": [
+        "This cost is paid as attackers or blockers are declared."
+      ]
+    },
+    {
+      "template": "If a creature with a shield counter on it would be dealt damage or destroyed, remove a shield counter from it instead.",
+      "rts": [
+        "If a creature with a shield counter on it would be dealt damage or destroyed, remove a shield counter from it instead."
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "name": "epic",
-  "expr": "epic",
+  "name": "Epic",
+  "expr": "Epic",
   "variations": [
     {
       "template": "For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability.",

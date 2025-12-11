@@ -1,9 +1,0 @@
-{
-  "name": "stun counter",
-  "expr": "stun counter",
-  "variations": [
-    {
-      "template": "If a permanent with a stun counter would become untapped, remove one from it instead."
-    }
-  ]
-}

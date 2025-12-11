@@ -1,9 +1,0 @@
-{
-  "name": "historic scry",
-  "expr": "historic scry",
-  "variations": [
-    {
-      "template": "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom."
-    }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "name": "gold",
-  "expr": "gold",
-  "variations": [
-    {
-      "template": "It's an artifact with \"Sacrifice this token: Add one mana of any color.\""
-    }
-  ]
-}

@@ -1,6 +1,6 @@
 {
-  "name": "offspring",
-  "expr": "offspring",
+  "name": "Offspring",
+  "expr": "Offspring",
   "variations": [
     {
       "template": "You may pay an additional <mana> as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",

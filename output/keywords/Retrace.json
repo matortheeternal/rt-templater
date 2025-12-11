@@ -1,6 +1,6 @@
 {
-  "name": "retrace",
-  "expr": "retrace",
+  "name": "Retrace",
+  "expr": "Retrace",
   "variations": [
     {
       "template": "You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.",
@@ -12,6 +12,12 @@
       "template": "You may cast permanent cards from your graveyard by discarding a land card in addition to paying their other costs.",
       "rts": [
         "You may cast permanent cards from your graveyard by discarding a land card in addition to paying their other costs."
+      ]
+    },
+    {
+      "template": "You may cast cards with retrace from your graveyard by discarding a land card in addition to paying their other costs.",
+      "rts": [
+        "You may cast cards with retrace from your graveyard by discarding a land card in addition to paying their other costs."
       ]
     },
     {

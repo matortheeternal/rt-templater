@@ -1,6 +1,6 @@
 {
-  "name": "assist",
-  "expr": "assist",
+  "name": "Assist",
+  "expr": "Assist",
   "variations": [
     {
       "template": "Another player can pay up to <mana> of this spell's cost.",

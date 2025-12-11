@@ -1,6 +1,6 @@
 {
-  "name": "convoke",
-  "expr": "convoke",
+  "name": "Convoke",
+  "expr": "Convoke",
   "variations": [
     {
       "template": "Each creature you tap while casting a noncreature spell from exile pays for {1} or one mana of that creature's color.",
@@ -9,8 +9,9 @@
       ]
     },
     {
-      "template": "Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.",
+      "template": "Your creatures can help cast <target_spell>. Each creature you tap while casting <target_spell> pays for {1} or one mana of that creature's color.",
       "rts": [
+        "Your creatures can help cast it. Each creature you tap while casting it pays for {1} or one mana of that creature's color.",
         "Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color."
       ]
     },

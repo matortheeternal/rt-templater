@@ -1,9 +1,0 @@
-{
-  "name": "non-outlaw",
-  "expr": "non-outlaw",
-  "variations": [
-    {
-      "template": "Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. Everyone else is fair game."
-    }
-  ]
-}

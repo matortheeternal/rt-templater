@@ -1,6 +1,6 @@
 {
-  "name": "ingest",
-  "expr": "ingest",
+  "name": "Ingest",
+  "expr": "Ingest",
   "variations": [
     {
       "template": "Whenever this creature deals combat damage to a player, that player exiles the top card of their library."

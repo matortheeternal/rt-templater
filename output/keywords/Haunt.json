@@ -1,6 +1,6 @@
 {
-  "name": "haunt",
-  "expr": "haunt",
+  "name": "Haunt",
+  "expr": "Haunt",
   "variations": [
     {
       "template": "When this creature dies, exile it haunting target creature.",

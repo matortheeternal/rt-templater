@@ -1,9 +1,0 @@
-{
-  "name": "morph costs",
-  "expr": "morph costs",
-  "variations": [
-    {
-      "template": "This doesn't affect the cost to cast creature spells face down."
-    }
-  ]
-}

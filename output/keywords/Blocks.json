@@ -1,9 +1,0 @@
-{
-  "name": "blocks",
-  "expr": "blocks",
-  "variations": [
-    {
-      "template": "The attacking creature remains blocked."
-    }
-  ]
-}

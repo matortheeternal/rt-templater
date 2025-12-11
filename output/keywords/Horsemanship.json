@@ -1,6 +1,6 @@
 {
-  "name": "horsemanship",
-  "expr": "horsemanship",
+  "name": "Horsemanship",
+  "expr": "Horsemanship",
   "variations": [
     {
       "template": "<target> can't be blocked except by creatures with horsemanship.",

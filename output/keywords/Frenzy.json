@@ -1,0 +1,9 @@
+{
+  "name": "Frenzy",
+  "expr": "Frenzy",
+  "variations": [
+    {
+      "template": "Whenever a Sliver attacks and isn't blocked, it gets +1/+0 until end of turn."
+    }
+  ]
+}

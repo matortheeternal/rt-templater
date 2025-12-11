@@ -1,6 +1,6 @@
 {
-  "name": "transmute",
-  "expr": "transmute",
+  "name": "Transmute",
+  "expr": "Transmute",
   "variations": [
     {
       "template": "{1}{U}{U}, Discard this card: Search your library for a card with mana value 0, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",

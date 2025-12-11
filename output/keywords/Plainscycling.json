@@ -1,6 +1,6 @@
 {
-  "name": "plainscycling",
-  "expr": "plainscycling",
+  "name": "Plainscycling",
+  "expr": "Plainscycling",
   "variations": [
     {
       "template": "<mana>, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.",

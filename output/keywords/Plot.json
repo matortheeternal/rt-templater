@@ -1,6 +1,6 @@
 {
-  "name": "plot",
-  "expr": "plot",
+  "name": "Plot",
+  "expr": "Plot",
   "variations": [
     {
       "template": "You may pay <mana> and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.",

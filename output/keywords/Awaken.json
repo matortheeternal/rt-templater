@@ -1,9 +1,9 @@
 {
-  "name": "awaken",
-  "expr": "awaken",
+  "name": "Awaken",
+  "expr": "Awaken",
   "variations": [
     {
-      "template": "If you cast this spell for <mana>, also put <number:a_or_word> +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+      "template": "If you cast this spell for <mana>, also put <number:word> +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
       "rts": [
         "If you cast this spell for {4}{W}, also put two +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
         "If you cast this spell for {4}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",

@@ -1,9 +1,0 @@
-{
-  "name": "enchant modified",
-  "expr": "enchant modified",
-  "variations": [
-    {
-      "template": "Equipment, Auras its controller controls, and counters are modifications."
-    }
-  ]
-}

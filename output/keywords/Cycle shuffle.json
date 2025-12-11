@@ -1,9 +1,0 @@
-{
-  "name": "cycle shuffle",
-  "expr": "cycle shuffle",
-  "variations": [
-    {
-      "template": "Do this before you draw."
-    }
-  ]
-}

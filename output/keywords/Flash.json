@@ -1,6 +1,6 @@
 {
-  "name": "flash",
-  "expr": "flash",
+  "name": "Flash",
+  "expr": "Flash",
   "variations": [
     {
       "template": "It can be cast any time you could cast an instant.",

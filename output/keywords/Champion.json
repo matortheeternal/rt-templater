@@ -1,6 +1,6 @@
 {
-  "name": "champion",
-  "expr": "champion",
+  "name": "Champion",
+  "expr": "Champion",
   "variations": [
     {
       "template": "When this enters, sacrifice it unless you exile another <card_sub_type> you control. When this leaves the battlefield, that card returns to the battlefield.",
@@ -19,9 +19,10 @@
       ]
     },
     {
-      "template": "When this enters, sacrifice it unless you exile another Goblin or Shaman you control. When this leaves the battlefield, that card returns to the battlefield.",
+      "template": "When this enters, sacrifice it unless you exile another <card_sub_type> or <card_sub_type> you control. When this leaves the battlefield, that card returns to the battlefield.",
       "rts": [
-        "When this enters, sacrifice it unless you exile another Goblin or Shaman you control. When this leaves the battlefield, that card returns to the battlefield."
+        "When this enters, sacrifice it unless you exile another Goblin or Shaman you control. When this leaves the battlefield, that card returns to the battlefield.",
+        "When this enters, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield."
       ]
     },
     {

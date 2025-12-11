@@ -1,6 +1,6 @@
 {
-  "name": "seek",
-  "expr": "seek",
+  "name": "Seek",
+  "expr": "Seek",
   "variations": [
     {
       "template": "To seek a card, put one at random from your library into your hand."

@@ -1,6 +1,6 @@
 {
-  "name": "exalted",
-  "expr": "exalted",
+  "name": "Exalted",
+  "expr": "Exalted",
   "variations": [
     {
       "template": "If a creature has multiple instances of exalted, each triggers separately.",

@@ -1,10 +1,11 @@
 {
-  "name": "incubate",
-  "expr": "incubate",
+  "name": "Incubate",
+  "expr": "Incubate",
   "variations": [
     {
-      "template": "<create> an Incubator token with <number:a_or_word> +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
+      "template": "<create> an Incubator token with <number:a_or_word> +1/+1 counter<number:plural:s> on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
       "rts": [
+        "Create an Incubator token with a +1/+1 counter on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
         "Create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
         "Create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
         "Create an Incubator token with five +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",

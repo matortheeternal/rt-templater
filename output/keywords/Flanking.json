@@ -1,11 +1,17 @@
 {
-  "name": "flanking",
-  "expr": "flanking",
+  "name": "Flanking",
+  "expr": "Flanking",
   "variations": [
     {
       "template": "Each instance of flanking triggers separately.",
       "rts": [
         "Each instance of flanking triggers separately."
+      ]
+    },
+    {
+      "template": "Whenever a creature without flanking blocks a Sliver, the blocking creature gets -1/-1 until end of turn.",
+      "rts": [
+        "Whenever a creature without flanking blocks a Sliver, the blocking creature gets -1/-1 until end of turn."
       ]
     },
     {

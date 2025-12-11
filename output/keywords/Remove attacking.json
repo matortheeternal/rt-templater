@@ -1,9 +1,0 @@
-{
-  "name": "remove attacking",
-  "expr": "remove attacking",
-  "variations": [
-    {
-      "template": "If you activate during end of combat, the creature will untap after it deals combat damage."
-    }
-  ]
-}

@@ -1,6 +1,6 @@
 {
-  "name": "escalate",
-  "expr": "escalate",
+  "name": "Escalate",
+  "expr": "Escalate",
   "variations": [
     {
       "template": "Pay this cost for each mode chosen beyond the first."

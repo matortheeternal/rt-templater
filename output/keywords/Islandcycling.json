@@ -1,6 +1,6 @@
 {
-  "name": "islandcycling",
-  "expr": "islandcycling",
+  "name": "Islandcycling",
+  "expr": "Islandcycling",
   "variations": [
     {
       "template": "<mana>, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.",

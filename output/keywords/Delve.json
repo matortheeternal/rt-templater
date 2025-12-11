@@ -1,6 +1,6 @@
 {
-  "name": "delve",
-  "expr": "delve",
+  "name": "Delve",
+  "expr": "Delve",
   "variations": [
     {
       "template": "Each card you exile from your graveyard while casting <target_spell> pays for {1}.",

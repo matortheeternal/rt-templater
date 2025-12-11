@@ -1,9 +1,0 @@
-{
-  "name": "surveil no",
-  "expr": "surveil no",
-  "variations": [
-    {
-      "template": "To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order."
-    }
-  ]
-}

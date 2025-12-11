@@ -1,9 +1,0 @@
-{
-  "name": "outlaw treasure",
-  "expr": "outlaw treasure",
-  "variations": [
-    {
-      "template": "Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""
-    }
-  ]
-}

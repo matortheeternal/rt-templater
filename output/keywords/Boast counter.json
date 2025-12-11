@@ -1,9 +1,0 @@
-{
-  "name": "boast counter",
-  "expr": "boast counter",
-  "variations": [
-    {
-      "template": "Activate only if that creature attacked this turn and only once each turn."
-    }
-  ]
-}

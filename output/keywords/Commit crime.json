@@ -1,9 +1,0 @@
-{
-  "name": "commit crime",
-  "expr": "commit crime",
-  "variations": [
-    {
-      "template": "It returns only from the battlefield. Targeting opponents, anything they control, and/or cards in their graveyards is a crime."
-    }
-  ]
-}

@@ -1,6 +1,6 @@
 {
-  "name": "graft",
-  "expr": "graft",
+  "name": "Graft",
+  "expr": "Graft",
   "variations": [
     {
       "template": "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it.",

@@ -1,6 +1,6 @@
 {
-  "name": "vigilance",
-  "expr": "vigilance",
+  "name": "Vigilance",
+  "expr": "Vigilance",
   "variations": [
     {
       "template": "Attacking doesn't cause <target_it> to tap.",

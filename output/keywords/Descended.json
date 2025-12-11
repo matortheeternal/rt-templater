@@ -1,9 +1,0 @@
-{
-  "name": "descended",
-  "expr": "descended",
-  "variations": [
-    {
-      "template": "You descended if a permanent card was put into your graveyard from anywhere."
-    }
-  ]
-}

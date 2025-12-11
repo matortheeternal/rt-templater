@@ -1,6 +1,6 @@
 {
-  "name": "phasing",
-  "expr": "phasing",
+  "name": "Phasing",
+  "expr": "Phasing",
   "variations": [
     {
       "template": "It phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist.",

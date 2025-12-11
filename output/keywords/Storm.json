@@ -1,11 +1,17 @@
 {
-  "name": "storm",
-  "expr": "storm",
+  "name": "Storm",
+  "expr": "Storm",
   "variations": [
     {
       "template": "When you cast this spell, copy it for each spell cast before it this turn.",
       "rts": [
         "When you cast this spell, copy it for each spell cast before it this turn."
+      ]
+    },
+    {
+      "template": "Whenever you cast an instant or sorcery spell, copy it for each spell cast before it this turn.",
+      "rts": [
+        "Whenever you cast an instant or sorcery spell, copy it for each spell cast before it this turn."
       ]
     },
     {

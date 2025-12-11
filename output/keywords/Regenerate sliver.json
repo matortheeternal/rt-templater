@@ -1,9 +1,0 @@
-{
-  "name": "regenerate sliver",
-  "expr": "regenerate sliver",
-  "variations": [
-    {
-      "template": "The next time that Sliver would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it."
-    }
-  ]
-}

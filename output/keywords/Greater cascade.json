@@ -1,9 +1,0 @@
-{
-  "name": "greater cascade",
-  "expr": "greater cascade",
-  "variations": [
-    {
-      "template": "When you cast one, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Then do it again."
-    }
-  ]
-}

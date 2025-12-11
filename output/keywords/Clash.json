@@ -1,6 +1,6 @@
 {
-  "name": "clash",
-  "expr": "clash",
+  "name": "Clash",
+  "expr": "Clash",
   "variations": [
     {
       "template": "This ability triggers after the clash ends.",

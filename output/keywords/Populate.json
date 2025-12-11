@@ -1,6 +1,6 @@
 {
-  "name": "populate",
-  "expr": "populate",
+  "name": "Populate",
+  "expr": "Populate",
   "variations": [
     {
       "template": "<create> a token that's a copy of a creature token you control.",

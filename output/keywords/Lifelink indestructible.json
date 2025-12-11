@@ -1,9 +1,0 @@
-{
-  "name": "lifelink indestructible",
-  "expr": "lifelink indestructible",
-  "variations": [
-    {
-      "template": "Damage dealt by that creature also causes its controller to gain that much life, and it can't be destroyed by damage or effects that say \"destroy.\""
-    }
-  ]
-}

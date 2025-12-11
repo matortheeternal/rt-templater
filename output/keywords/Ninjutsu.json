@@ -1,6 +1,6 @@
 {
-  "name": "ninjutsu",
-  "expr": "ninjutsu",
+  "name": "Ninjutsu",
+  "expr": "Ninjutsu",
   "variations": [
     {
       "template": "<mana>, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",

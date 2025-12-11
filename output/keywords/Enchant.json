@@ -1,11 +1,17 @@
 {
-  "name": "enchant",
-  "expr": "enchant",
+  "name": "Enchant",
+  "expr": "Enchant",
   "variations": [
     {
       "template": "Target a land as you cast this. This card enters attached to that land.",
       "rts": [
         "Target a land as you cast this. This card enters attached to that land."
+      ]
+    },
+    {
+      "template": "Equipment, Auras its controller controls, and counters are modifications.",
+      "rts": [
+        "Equipment, Auras its controller controls, and counters are modifications."
       ]
     },
     {

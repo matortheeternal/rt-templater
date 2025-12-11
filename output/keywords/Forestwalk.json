@@ -1,6 +1,6 @@
 {
-  "name": "forestwalk",
-  "expr": "forestwalk",
+  "name": "Forestwalk",
+  "expr": "Forestwalk",
   "variations": [
     {
       "template": "<target> can't be blocked as long as defending player controls a Forest.",

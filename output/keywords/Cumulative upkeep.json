@@ -1,6 +1,6 @@
 {
-  "name": "cumulative upkeep",
-  "expr": "cumulative upkeep",
+  "name": "Cumulative upkeep",
+  "expr": "Cumulative upkeep",
   "variations": [
     {
       "template": "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay {2} for each age counter on it.",
@@ -18,6 +18,12 @@
       "template": "At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it.",
       "rts": [
         "At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it."
+      ]
+    },
+    {
+      "template": "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S} can be paid with one mana from a snow source.",
+      "rts": [
+        "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S} can be paid with one mana from a snow source."
       ]
     }
   ]

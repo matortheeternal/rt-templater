@@ -1,6 +1,6 @@
 {
-  "name": "modular",
-  "expr": "modular",
+  "name": "Modular",
+  "expr": "Modular",
   "variations": [
     {
       "template": "This creature enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. When it dies, you may put its +1/+1 counters on target artifact creature.",

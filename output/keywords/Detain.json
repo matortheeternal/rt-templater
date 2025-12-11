@@ -1,6 +1,6 @@
 {
-  "name": "detain",
-  "expr": "detain",
+  "name": "Detain",
+  "expr": "Detain",
   "variations": [
     {
       "template": "Until your next turn, that creature can't attack or block and its activated abilities can't be activated.",

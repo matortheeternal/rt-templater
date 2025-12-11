@@ -1,6 +1,6 @@
 {
-  "name": "rampage",
-  "expr": "rampage",
+  "name": "Rampage",
+  "expr": "Rampage",
   "variations": [
     {
       "template": "Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.",
@@ -18,6 +18,12 @@
       "template": "Whenever this creature becomes blocked, it gets +3/+3 until end of turn for each creature blocking it beyond the first.",
       "rts": [
         "Whenever this creature becomes blocked, it gets +3/+3 until end of turn for each creature blocking it beyond the first."
+      ]
+    },
+    {
+      "template": "Whenever this creature becomes blocked, it gets +4/+4 until end of turn for each creature blocking it beyond the first.",
+      "rts": [
+        "Whenever this creature becomes blocked, it gets +4/+4 until end of turn for each creature blocking it beyond the first."
       ]
     }
   ]

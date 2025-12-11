@@ -1,9 +1,0 @@
-{
-  "name": "scry surveil",
-  "expr": "scry surveil",
-  "variations": [
-    {
-      "template": "Draw after you scry or surveil."
-    }
-  ]
-}

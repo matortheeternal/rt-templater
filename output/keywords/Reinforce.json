@@ -1,6 +1,6 @@
 {
-  "name": "reinforce",
-  "expr": "reinforce",
+  "name": "Reinforce",
+  "expr": "Reinforce",
   "variations": [
     {
       "template": "<mana>, Discard this card: Put <number:a_or_word> +1/+1 counter<number:plural:s> on target creature.",

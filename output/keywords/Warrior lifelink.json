@@ -1,9 +1,0 @@
-{
-  "name": "warrior lifelink",
-  "expr": "warrior lifelink",
-  "variations": [
-    {
-      "template": "Damage dealt by those Warriors also causes their controller to gain that much life."
-    }
-  ]
-}

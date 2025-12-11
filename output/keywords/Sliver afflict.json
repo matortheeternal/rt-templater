@@ -1,9 +1,0 @@
-{
-  "name": "sliver afflict",
-  "expr": "sliver afflict",
-  "variations": [
-    {
-      "template": "Whenever a creature with afflict 2 becomes blocked, defending player loses 2 life."
-    }
-  ]
-}

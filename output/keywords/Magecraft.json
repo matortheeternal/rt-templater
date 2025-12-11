@@ -1,0 +1,9 @@
+{
+  "name": "Magecraft",
+  "expr": "Magecraft",
+  "variations": [
+    {
+      "template": "Each instance of that ability triggers separately."
+    }
+  ]
+}

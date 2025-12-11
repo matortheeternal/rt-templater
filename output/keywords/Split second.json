@@ -1,9 +1,18 @@
 {
-  "name": "split second",
-  "expr": "split second",
+  "name": "Split second",
+  "expr": "Split second",
   "variations": [
     {
-      "template": "As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities."
+      "template": "As long as it's on the stack, players can't cast spells or activate abilities that aren't mana abilities.",
+      "rts": [
+        "As long as it's on the stack, players can't cast spells or activate abilities that aren't mana abilities."
+      ]
+    },
+    {
+      "template": "As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.",
+      "rts": [
+        "As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities."
+      ]
     }
   ]
 }

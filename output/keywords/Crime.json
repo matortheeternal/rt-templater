@@ -1,9 +1,0 @@
-{
-  "name": "crime",
-  "expr": "crime",
-  "variations": [
-    {
-      "template": "Targeting opponents, anything they control, and/or cards in their graveyards is a crime."
-    }
-  ]
-}

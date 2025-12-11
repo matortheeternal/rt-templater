@@ -1,9 +1,0 @@
-{
-  "name": "vote",
-  "expr": "vote",
-  "variations": [
-    {
-      "template": "The votes can be for different choices or for the same choice."
-    }
-  ]
-}

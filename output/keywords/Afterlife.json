@@ -1,6 +1,6 @@
 {
-  "name": "afterlife",
-  "expr": "afterlife",
+  "name": "Afterlife",
+  "expr": "Afterlife",
   "variations": [
     {
       "template": "When this <dies_or_gy>, create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",

@@ -1,9 +1,0 @@
-{
-  "name": "map",
-  "expr": "map",
-  "variations": [
-    {
-      "template": "It's an artifact with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\""
-    }
-  ]
-}

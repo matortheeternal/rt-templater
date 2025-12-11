@@ -1,6 +1,6 @@
 {
-  "name": "exert",
-  "expr": "exert",
+  "name": "Exert",
+  "expr": "Exert",
   "variations": [
     {
       "template": "It won't untap during your next untap step.",

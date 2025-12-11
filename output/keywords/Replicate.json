@@ -1,6 +1,6 @@
 {
-  "name": "replicate",
-  "expr": "replicate",
+  "name": "Replicate",
+  "expr": "Replicate",
   "variations": [
     {
       "template": "When you cast this spell, copy it for each time you paid its replicate cost.",
@@ -13,6 +13,12 @@
       "rts": [
         "When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.",
         "When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies."
+      ]
+    },
+    {
+      "template": "When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies. A copy of a permanent spell becomes a token.",
+      "rts": [
+        "When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies. A copy of a permanent spell becomes a token."
       ]
     }
   ]

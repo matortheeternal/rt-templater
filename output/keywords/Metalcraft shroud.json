@@ -1,9 +1,0 @@
-{
-  "name": "metalcraft shroud",
-  "expr": "metalcraft shroud",
-  "variations": [
-    {
-      "template": "An artifact with shroud can't be the target of spells or abilities."
-    }
-  ]
-}

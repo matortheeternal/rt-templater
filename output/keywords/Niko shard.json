@@ -1,9 +1,0 @@
-{
-  "name": "niko shard",
-  "expr": "niko shard",
-  "variations": [
-    {
-      "template": "They're enchantments with \"{2}, Sacrifice this token: Scry 1, then draw a card.\""
-    }
-  ]
-}

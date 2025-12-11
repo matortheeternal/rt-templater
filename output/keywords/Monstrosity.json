@@ -1,6 +1,6 @@
 {
-  "name": "monstrosity",
-  "expr": "monstrosity",
+  "name": "Monstrosity",
+  "expr": "Monstrosity",
   "variations": [
     {
       "template": "If this creature isn't monstrous, put <number:a_or_word> +1/+1 counter<number:plural:s> on it and it becomes monstrous.",

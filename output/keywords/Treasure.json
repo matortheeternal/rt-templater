@@ -1,11 +1,19 @@
 {
-  "name": "treasure",
-  "expr": "treasure",
+  "name": "Treasure",
+  "expr": "Treasure",
   "variations": [
     {
-      "template": "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+      "template": "Leads to: Dark Pool, Fungi Cavern",
       "rts": [
-        "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""
+        "Leads to: Dark Pool, Fungi Cavern"
+      ]
+    },
+    {
+      "template": "<this_token_is>",
+      "rts": [
+        "If it was a creature, it's no longer a creature.",
+        "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+        "It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
       ]
     },
     {
@@ -15,9 +23,9 @@
       ]
     },
     {
-      "template": "It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+      "template": "They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
       "rts": [
-        "It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+        "They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
       ]
     },
     {
@@ -30,6 +38,12 @@
       "template": "A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
       "rts": [
         "A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""
+      ]
+    },
+    {
+      "template": "Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+      "rts": [
+        "Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "name": "dredge",
-  "expr": "dredge",
+  "name": "Dredge",
+  "expr": "Dredge",
   "variations": [
     {
       "template": "You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card.",
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "template": "If you would draw a card, you may mill <number:a_or_word> cards instead. If you do, return this card from your graveyard to your hand.",
+      "template": "If you would draw a card, you may mill <number:word> cards instead. If you do, return this card from your graveyard to your hand.",
       "rts": [
         "If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.",
         "If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.",

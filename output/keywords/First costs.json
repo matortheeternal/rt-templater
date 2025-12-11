@@ -1,9 +1,0 @@
-{
-  "name": "first costs",
-  "expr": "first costs",
-  "variations": [
-    {
-      "template": "or {1}"
-    }
-  ]
-}

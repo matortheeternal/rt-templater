@@ -1,9 +1,0 @@
-{
-  "name": "upkeep lowest",
-  "expr": "upkeep lowest",
-  "variations": [
-    {
-      "template": "If two or more permanents are tied for lowest, target any one of them."
-    }
-  ]
-}

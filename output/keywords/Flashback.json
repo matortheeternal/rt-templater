@@ -1,6 +1,6 @@
 {
-  "name": "flashback",
-  "expr": "flashback",
+  "name": "Flashback",
+  "expr": "Flashback",
   "variations": [
     {
       "template": "Mana cost includes color.",

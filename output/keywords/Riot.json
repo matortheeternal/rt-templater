@@ -1,6 +1,6 @@
 {
-  "name": "riot",
-  "expr": "riot",
+  "name": "Riot",
+  "expr": "Riot",
   "variations": [
     {
       "template": "<target_it> enters with your choice of a +1/+1 counter or haste.",

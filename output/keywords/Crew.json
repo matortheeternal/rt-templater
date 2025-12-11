@@ -1,7 +1,13 @@
 {
-  "name": "crew",
-  "expr": "crew",
+  "name": "Crew",
+  "expr": "Crew",
   "variations": [
+    {
+      "template": "It's not a creature unless it's crewed.",
+      "rts": [
+        "It's not a creature unless it's crewed."
+      ]
+    },
     {
       "template": "Tap any number of creatures you control with total power <number> or more: This token becomes an artifact creature until end of turn.",
       "rts": [

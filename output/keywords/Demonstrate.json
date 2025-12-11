@@ -1,6 +1,6 @@
 {
-  "name": "demonstrate",
-  "expr": "demonstrate",
+  "name": "Demonstrate",
+  "expr": "Demonstrate",
   "variations": [
     {
       "template": "When you cast this spell, you may copy it. If you do, choose an opponent to also copy it.",
@@ -12,6 +12,12 @@
       "template": "Whenever you cast a creature spell, you may copy it. If you do, choose an opponent to also copy it. Each copy becomes a token.",
       "rts": [
         "Whenever you cast a creature spell, you may copy it. If you do, choose an opponent to also copy it. Each copy becomes a token."
+      ]
+    },
+    {
+      "template": "When you cast that spell, you may copy it. If you do, choose an opponent to also copy it. A copy of a permanent spell becomes a token.",
+      "rts": [
+        "When you cast that spell, you may copy it. If you do, choose an opponent to also copy it. A copy of a permanent spell becomes a token."
       ]
     },
     {

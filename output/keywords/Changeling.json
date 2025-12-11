@@ -1,6 +1,6 @@
 {
-  "name": "changeling",
-  "expr": "changeling",
+  "name": "Changeling",
+  "expr": "Changeling",
   "variations": [
     {
       "template": "<target_it> is every creature type.",

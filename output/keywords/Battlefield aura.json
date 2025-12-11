@@ -1,9 +1,0 @@
-{
-  "name": "battlefield aura",
-  "expr": "battlefield aura",
-  "variations": [
-    {
-      "template": "If the Auras can't enchant that creature, they remain in your graveyard."
-    }
-  ]
-}

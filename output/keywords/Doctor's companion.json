@@ -1,9 +1,0 @@
-{
-  "name": "doctor's companion",
-  "expr": "doctor's companion",
-  "variations": [
-    {
-      "template": "You can have two commanders if the other is the Doctor."
-    }
-  ]
-}

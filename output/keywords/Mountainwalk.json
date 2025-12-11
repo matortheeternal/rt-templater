@@ -1,6 +1,6 @@
 {
-  "name": "mountainwalk",
-  "expr": "mountainwalk",
+  "name": "Mountainwalk",
+  "expr": "Mountainwalk",
   "variations": [
     {
       "template": "<target> can't be blocked as long as defending player controls a Mountain.",

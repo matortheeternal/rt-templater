@@ -1,9 +1,9 @@
 {
-  "name": "impending",
-  "expr": "impending",
+  "name": "Impending",
+  "expr": "Impending",
   "variations": [
     {
-      "template": "If you cast this spell for its impending cost, it enters with <number:a_or_word> time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.",
+      "template": "If you cast this spell for its impending cost, it enters with <number:word> time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.",
       "rts": [
         "If you cast this spell for its impending cost, it enters with five time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.",
         "If you cast this spell for its impending cost, it enters with four time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it."

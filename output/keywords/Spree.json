@@ -1,6 +1,6 @@
 {
-  "name": "spree",
-  "expr": "spree",
+  "name": "Spree",
+  "expr": "Spree",
   "variations": [
     {
       "template": "Choose one or more additional costs."

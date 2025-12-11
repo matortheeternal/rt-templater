@@ -1,6 +1,6 @@
 {
-  "name": "outlast",
-  "expr": "outlast",
+  "name": "Outlast",
+  "expr": "Outlast",
   "variations": [
     {
       "template": "<mana>, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.",

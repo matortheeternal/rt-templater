@@ -1,6 +1,6 @@
 {
-  "name": "fateseal",
-  "expr": "fateseal",
+  "name": "Fateseal",
+  "expr": "Fateseal",
   "variations": [
     {
       "template": "To fateseal 1, its controller looks at the top card of an opponent's library, then they may put that card on the bottom of that library.",

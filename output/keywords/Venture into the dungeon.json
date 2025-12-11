@@ -1,0 +1,9 @@
+{
+  "name": "Venture into the dungeon",
+  "expr": "Venture into the dungeon",
+  "variations": [
+    {
+      "template": "Enter the first room or advance to the next room."
+    }
+  ]
+}

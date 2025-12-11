@@ -1,9 +1,18 @@
 {
-  "name": "umbra armor",
-  "expr": "umbra armor",
+  "name": "Umbra armor",
+  "expr": "Umbra armor",
   "variations": [
     {
-      "template": "If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura."
+      "template": "If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.",
+      "rts": [
+        "If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura."
+      ]
+    },
+    {
+      "template": "If an enchanted permanent you control would be destroyed, instead remove all damage from it and destroy an Aura attached to it.",
+      "rts": [
+        "If an enchanted permanent you control would be destroyed, instead remove all damage from it and destroy an Aura attached to it."
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "bushido",
-  "expr": "bushido",
+  "name": "Bushido",
+  "expr": "Bushido",
   "variations": [
     {
       "template": "Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.",
@@ -18,6 +18,12 @@
       "template": "Whenever this creature blocks or becomes blocked, it gets +5/+5 until end of turn.",
       "rts": [
         "Whenever this creature blocks or becomes blocked, it gets +5/+5 until end of turn."
+      ]
+    },
+    {
+      "template": "Whenever this creature blocks or becomes blocked, it gets +X/+X until end of turn.",
+      "rts": [
+        "Whenever this creature blocks or becomes blocked, it gets +X/+X until end of turn."
       ]
     }
   ]

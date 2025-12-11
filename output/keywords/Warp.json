@@ -1,6 +1,6 @@
 {
-  "name": "warp",
-  "expr": "warp",
+  "name": "Warp",
+  "expr": "Warp",
   "variations": [
     {
       "template": "You may cast a card from your hand for its warp cost. Exile that permanent at the beginning of the next end step, then you may cast it from exile on a later turn.",
@@ -18,6 +18,12 @@
       "template": "You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn.",
       "rts": [
         "You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn."
+      ]
+    },
+    {
+      "template": "You may cast this card from your hand or graveyard for its warp cost. If you do, exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.",
+      "rts": [
+        "You may cast this card from your hand or graveyard for its warp cost. If you do, exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn."
       ]
     }
   ]

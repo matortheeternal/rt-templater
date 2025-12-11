@@ -1,6 +1,6 @@
 {
-  "name": "protection",
-  "expr": "protection",
+  "name": "Protection",
+  "expr": "Protection",
   "variations": [
     {
       "template": "They can't be blocked, targeted, or dealt damage by Rats.",
@@ -15,6 +15,12 @@
       ]
     },
     {
+      "template": "You can't be targeted, dealt damage, or enchanted by anything of the chosen color.",
+      "rts": [
+        "You can't be targeted, dealt damage, or enchanted by anything of the chosen color."
+      ]
+    },
+    {
       "template": "This creature can't be blocked, targeted, dealt damage, or enchanted by anything <color>.",
       "rts": [
         "This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue.",
@@ -23,9 +29,27 @@
       ]
     },
     {
+      "template": "You can't be targeted, dealt damage, or enchanted by anything controlled by that player.",
+      "rts": [
+        "You can't be targeted, dealt damage, or enchanted by anything controlled by that player."
+      ]
+    },
+    {
       "template": "You can't be dealt damage, enchanted, or targeted by anything controlled by your opponents.",
       "rts": [
         "You can't be dealt damage, enchanted, or targeted by anything controlled by your opponents."
+      ]
+    },
+    {
+      "template": "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that type.",
+      "rts": [
+        "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that type."
+      ]
+    },
+    {
+      "template": "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.",
+      "rts": [
+        "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color."
       ]
     },
     {
@@ -45,6 +69,18 @@
       ]
     },
     {
+      "template": "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with that quality.",
+      "rts": [
+        "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with that quality."
+      ]
+    },
+    {
+      "template": "It can't be blocked, targeted, or dealt damage by anything that's white, blue, black, red, or green.",
+      "rts": [
+        "It can't be blocked, targeted, or dealt damage by anything that's white, blue, black, red, or green."
+      ]
+    },
+    {
       "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored.",
       "rts": [
         "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored."
@@ -54,6 +90,18 @@
       "template": "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything controlled by those players.",
       "rts": [
         "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything controlled by those players."
+      ]
+    },
+    {
+      "template": "You and planeswalkers you control can't be targeted, dealt damage, or enchanted by anything controlled by that player.",
+      "rts": [
+        "You and planeswalkers you control can't be targeted, dealt damage, or enchanted by anything controlled by that player."
+      ]
+    },
+    {
+      "template": "While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.",
+      "rts": [
+        "While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step."
       ]
     }
   ]

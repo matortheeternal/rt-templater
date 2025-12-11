@@ -1,6 +1,6 @@
 {
-  "name": "plainswalk",
-  "expr": "plainswalk",
+  "name": "Plainswalk",
+  "expr": "Plainswalk",
   "variations": [
     {
       "template": "<target> can't be blocked as long as defending player controls a Plains.",

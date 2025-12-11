@@ -1,7 +1,13 @@
 {
-  "name": "hexproof",
-  "expr": "hexproof",
+  "name": "Hexproof",
+  "expr": "Hexproof",
   "variations": [
+    {
+      "template": "He can't be the target of spells or abilities your opponents control.",
+      "rts": [
+        "He can't be the target of spells or abilities your opponents control."
+      ]
+    },
     {
       "template": "<target> can't be the target<number:plural:s> of spells or abilities your opponents control.",
       "rts": [
@@ -13,16 +19,9 @@
       ]
     },
     {
-      "template": "This creature can't be the target of <color> spells or abilities your opponents control.",
+      "template": "You and they can't be the targets of spells or abilities your opponents control.",
       "rts": [
-        "This creature can't be the target of black spells or abilities your opponents control.",
-        "This creature can't be the target of white spells or abilities your opponents control."
-      ]
-    },
-    {
-      "template": "This creature can't be the target of monocolored spells or abilities your opponents control.",
-      "rts": [
-        "This creature can't be the target of monocolored spells or abilities your opponents control."
+        "You and they can't be the targets of spells or abilities your opponents control."
       ]
     },
     {

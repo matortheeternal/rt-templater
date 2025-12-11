@@ -1,6 +1,6 @@
 {
-  "name": "time travel",
-  "expr": "time travel",
+  "name": "Time Travel",
+  "expr": "Time Travel",
   "variations": [
     {
       "template": "For each suspended card you own and each permanent you control with a time counter on it, you may add or remove a time counter."

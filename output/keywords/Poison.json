@@ -1,9 +1,0 @@
-{
-  "name": "poison",
-  "expr": "poison",
-  "variations": [
-    {
-      "template": "A player with ten or more poison counters loses the game."
-    }
-  ]
-}

@@ -55,7 +55,7 @@ export default [
     TargetSpellReplacer,
     TargetCreatureReplacer,
     TargetCardReplacer,
-    TargetItReplacer,
     TargetReplacer,
+    TargetItReplacer,
     TargetDeals,
 ]

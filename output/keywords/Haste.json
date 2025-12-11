@@ -1,11 +1,17 @@
 {
-  "name": "haste",
-  "expr": "haste",
+  "name": "Haste",
+  "expr": "Haste",
   "variations": [
     {
       "template": "It can attack this turn.",
       "rts": [
         "It can attack this turn."
+      ]
+    },
+    {
+      "template": "Do both if {B}{R} was spent.",
+      "rts": [
+        "Do both if {B}{R} was spent."
       ]
     },
     {

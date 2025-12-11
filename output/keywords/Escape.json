@@ -1,6 +1,6 @@
 {
-  "name": "escape",
-  "expr": "escape",
+  "name": "Escape",
+  "expr": "Escape",
   "variations": [
     {
       "template": "You may cast cards from your graveyard for their escape cost.",

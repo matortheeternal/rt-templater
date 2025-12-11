@@ -1,9 +1,0 @@
-{
-  "name": "islandcycling swampcycling",
-  "expr": "islandcycling swampcycling",
-  "variations": [
-    {
-      "template": "{2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle."
-    }
-  ]
-}

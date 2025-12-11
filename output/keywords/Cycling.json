@@ -1,6 +1,6 @@
 {
-  "name": "cycling",
-  "expr": "cycling",
+  "name": "Cycling",
+  "expr": "Cycling",
   "variations": [
     {
       "template": "<mana>, Discard this card: Draw a card.",
@@ -63,9 +63,16 @@
       ]
     },
     {
-      "template": "{1}{U}, Discard that card: Draw a card.",
+      "template": "<mana>, Discard that card: Draw a card.",
       "rts": [
-        "{1}{U}, Discard that card: Draw a card."
+        "{1}{U}, Discard that card: Draw a card.",
+        "{2}{W}, Discard that card: Draw a card."
+      ]
+    },
+    {
+      "template": "Pay 2 life, Discard this card: Draw a card.",
+      "rts": [
+        "Pay 2 life, Discard this card: Draw a card."
       ]
     },
     {

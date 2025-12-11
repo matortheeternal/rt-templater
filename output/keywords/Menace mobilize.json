@@ -1,9 +1,0 @@
-{
-  "name": "menace mobilize",
-  "expr": "menace mobilize",
-  "variations": [
-    {
-      "template": "Whenever it attacks, create X tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step."
-    }
-  ]
-}

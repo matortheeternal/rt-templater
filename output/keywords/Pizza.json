@@ -1,0 +1,9 @@
+{
+  "name": "Pizza",
+  "expr": "Pizza",
+  "variations": [
+    {
+      "template": "It's a Food artifact with \"{3}, {T}, Sacrifice this token: You gain 3 life and draw a card.\""
+    }
+  ]
+}

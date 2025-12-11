@@ -1,6 +1,6 @@
 {
-  "name": "extort",
-  "expr": "extort",
+  "name": "Extort",
+  "expr": "Extort",
   "variations": [
     {
       "template": "If a creature has multiple instances of extort, each triggers separately.",

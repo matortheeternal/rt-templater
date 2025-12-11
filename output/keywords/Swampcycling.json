@@ -1,6 +1,6 @@
 {
-  "name": "swampcycling",
-  "expr": "swampcycling",
+  "name": "Swampcycling",
+  "expr": "Swampcycling",
   "variations": [
     {
       "template": "<mana>, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.",

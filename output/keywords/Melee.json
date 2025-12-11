@@ -1,6 +1,6 @@
 {
-  "name": "melee",
-  "expr": "melee",
+  "name": "Melee",
+  "expr": "Melee",
   "variations": [
     {
       "template": "If a creature has multiple instances of melee, each triggers separately.",

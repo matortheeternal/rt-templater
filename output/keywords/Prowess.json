@@ -1,7 +1,13 @@
 {
-  "name": "prowess",
-  "expr": "prowess",
+  "name": "Prowess",
+  "expr": "Prowess",
   "variations": [
+    {
+      "template": "Whenever you cast a noncreature spell, they get +1/+1 until end of turn.",
+      "rts": [
+        "Whenever you cast a noncreature spell, they get +1/+1 until end of turn."
+      ]
+    },
     {
       "template": "If a creature has multiple instances of prowess, each triggers separately.",
       "rts": [
@@ -12,6 +18,12 @@
       "template": "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.",
       "rts": [
         "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn."
+      ]
+    },
+    {
+      "template": "Whenever you cast a noncreature spell, a creature with prowess gets +1/+1 until end of turn.",
+      "rts": [
+        "Whenever you cast a noncreature spell, a creature with prowess gets +1/+1 until end of turn."
       ]
     }
   ]

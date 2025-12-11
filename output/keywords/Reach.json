@@ -1,6 +1,6 @@
 {
-  "name": "reach",
-  "expr": "reach",
+  "name": "Reach",
+  "expr": "Reach",
   "variations": [
     {
       "template": "<target> can block creatures with flying.",

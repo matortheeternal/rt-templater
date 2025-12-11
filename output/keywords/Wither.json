@@ -1,6 +1,6 @@
 {
-  "name": "wither",
-  "expr": "wither",
+  "name": "Wither",
+  "expr": "Wither",
   "variations": [
     {
       "template": "<target_deals> damage to creatures in the form of -1/-1 counters.",
@@ -8,6 +8,12 @@
         "It deals damage to creatures in the form of -1/-1 counters.",
         "They deal damage to creatures in the form of -1/-1 counters.",
         "This deals damage to creatures in the form of -1/-1 counters."
+      ]
+    },
+    {
+      "template": "A source with wither deals damage to creatures in the form of -1/-1 counters.",
+      "rts": [
+        "A source with wither deals damage to creatures in the form of -1/-1 counters."
       ]
     }
   ]

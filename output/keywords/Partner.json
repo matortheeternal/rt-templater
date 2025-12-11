@@ -1,6 +1,6 @@
 {
-  "name": "partner",
-  "expr": "partner",
+  "name": "Partner",
+  "expr": "Partner",
   "variations": [
     {
       "template": "You can have two commanders if both have partner.",

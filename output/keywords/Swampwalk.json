@@ -1,6 +1,6 @@
 {
-  "name": "swampwalk",
-  "expr": "swampwalk",
+  "name": "Swampwalk",
+  "expr": "Swampwalk",
   "variations": [
     {
       "template": "<target> can't be blocked as long as defending player controls a Swamp.",

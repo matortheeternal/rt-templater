@@ -1,9 +1,0 @@
-{
-  "name": "convoke delve",
-  "expr": "convoke delve",
-  "variations": [
-    {
-      "template": "Each creature you tap while casting this spell pays for {1} or one mana of that creature's color. Each card you exile from your graveyard pays for {1}."
-    }
-  ]
-}

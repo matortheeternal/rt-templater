@@ -1,9 +1,0 @@
-{
-  "name": "mirrodin!",
-  "expr": "mirrodin!",
-  "variations": [
-    {
-      "template": "When this Equipment enters, create a 2/2 red Rebel creature token, then attach this to it."
-    }
-  ]
-}

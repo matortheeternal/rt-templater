@@ -1,6 +1,6 @@
 {
-  "name": "companion",
-  "expr": "companion",
+  "name": "Companion",
+  "expr": "Companion",
   "variations": [
     {
       "template": "If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery."

@@ -1,9 +1,0 @@
-{
-  "name": "nashi copy",
-  "expr": "nashi copy",
-  "variations": [
-    {
-      "template": "You still pay its costs. A copy of a permanent spell becomes a token."
-    }
-  ]
-}

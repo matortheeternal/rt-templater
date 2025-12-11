@@ -1,6 +1,6 @@
 {
-  "name": "bloodthirst",
-  "expr": "bloodthirst",
+  "name": "Bloodthirst",
+  "expr": "Bloodthirst",
   "variations": [
     {
       "template": "If an opponent was dealt damage this turn, this creature enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it.",

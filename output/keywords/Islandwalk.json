@@ -1,6 +1,6 @@
 {
-  "name": "islandwalk",
-  "expr": "islandwalk",
+  "name": "Islandwalk",
+  "expr": "Islandwalk",
   "variations": [
     {
       "template": "<target> can't be blocked as long as defending player controls an Island.",

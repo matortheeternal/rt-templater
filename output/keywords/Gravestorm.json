@@ -1,6 +1,6 @@
 {
-  "name": "gravestorm",
-  "expr": "gravestorm",
+  "name": "Gravestorm",
+  "expr": "Gravestorm",
   "variations": [
     {
       "template": "When you cast this spell, copy it for each permanent put into a graveyard from the battlefield this turn.",

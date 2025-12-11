@@ -1,6 +1,6 @@
 {
-  "name": "decayed",
-  "expr": "decayed",
+  "name": "Decayed",
+  "expr": "Decayed",
   "variations": [
     {
       "template": "<target> can't block. When it attacks, sacrifice it at end of combat.",

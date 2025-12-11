@@ -1,6 +1,6 @@
 {
-  "name": "food",
-  "expr": "food",
+  "name": "Food",
+  "expr": "Food",
   "variations": [
     {
       "template": "It has \"{2},{T}, Sacrifice this token: You gain 3 life.\"",

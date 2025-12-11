@@ -1,9 +1,0 @@
-{
-  "name": "even",
-  "expr": "even",
-  "variations": [
-    {
-      "template": "Zero is even."
-    }
-  ]
-}

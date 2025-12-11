@@ -1,6 +1,6 @@
 {
-  "name": "affinity",
-  "expr": "affinity",
+  "name": "Affinity",
+  "expr": "Affinity",
   "variations": [
     {
       "template": "They cost {1} less to cast for each Aura you control.",
@@ -129,6 +129,12 @@
       "template": "This spell costs {1} less to cast for each artifact creature you control.",
       "rts": [
         "This spell costs {1} less to cast for each artifact creature you control."
+      ]
+    },
+    {
+      "template": "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control.",
+      "rts": [
+        "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control."
       ]
     },
     {

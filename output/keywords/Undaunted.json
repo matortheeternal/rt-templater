@@ -1,9 +1,18 @@
 {
-  "name": "undaunted",
-  "expr": "undaunted",
+  "name": "Undaunted",
+  "expr": "Undaunted",
   "variations": [
     {
-      "template": "This spell costs {1} less to cast for each opponent."
+      "template": "It costs {1} less to cast for each opponent.",
+      "rts": [
+        "It costs {1} less to cast for each opponent."
+      ]
+    },
+    {
+      "template": "This spell costs {1} less to cast for each opponent.",
+      "rts": [
+        "This spell costs {1} less to cast for each opponent."
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "forecast",
-  "expr": "forecast",
+  "name": "Forecast",
+  "expr": "Forecast",
   "variations": [
     {
       "template": "Activate only during your upkeep and only once each turn.",

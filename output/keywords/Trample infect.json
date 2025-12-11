@@ -1,9 +1,0 @@
-{
-  "name": "trample infect",
-  "expr": "trample infect",
-  "variations": [
-    {
-      "template": "Creatures with infect deal damage to creatures in the form of -1/-1 counters and to players in the form of poison counters."
-    }
-  ]
-}

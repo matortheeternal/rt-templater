@@ -1,6 +1,6 @@
 {
-  "name": "gift",
-  "expr": "gift",
+  "name": "Gift",
+  "expr": "Gift",
   "variations": [
     {
       "template": "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.",
@@ -9,9 +9,33 @@
       ]
     },
     {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, they take an extra turn after this one.",
+      "rts": [
+        "You may promise an opponent a gift as you cast this spell. If you do, they take an extra turn after this one."
+      ]
+    },
+    {
       "template": "You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.",
       "rts": [
         "You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects."
+      ]
+    },
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they create an 8/8 blue Octopus creature token.",
+      "rts": [
+        "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they create an 8/8 blue Octopus creature token."
+      ]
+    },
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they create a tapped 1/1 blue Fish creature token.",
+      "rts": [
+        "You may promise an opponent a gift as you cast this spell. If you do, when it enters, they create a tapped 1/1 blue Fish creature token."
+      ]
+    },
+    {
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects.",
+      "rts": [
+        "You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects."
       ]
     }
   ]

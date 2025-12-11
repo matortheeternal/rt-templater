@@ -1,6 +1,6 @@
 {
-  "name": "prototype",
-  "expr": "prototype",
+  "name": "Prototype",
+  "expr": "Prototype",
   "variations": [
     {
       "template": "You may cast this spell with different mana cost, color, and size. It keeps its abilities and types."

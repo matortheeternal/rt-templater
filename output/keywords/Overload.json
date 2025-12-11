@@ -1,6 +1,6 @@
 {
-  "name": "overload",
-  "expr": "overload",
+  "name": "Overload",
+  "expr": "Overload",
   "variations": [
     {
       "template": "You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\"",

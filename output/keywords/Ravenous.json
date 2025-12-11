@@ -1,6 +1,6 @@
 {
-  "name": "ravenous",
-  "expr": "ravenous",
+  "name": "Ravenous",
+  "expr": "Ravenous",
   "variations": [
     {
       "template": "This creature enters with X +1/+1 counters on it. If X is 5 or more, draw a card when it enters."

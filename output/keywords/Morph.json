@@ -1,9 +1,30 @@
 {
-  "name": "morph",
-  "expr": "morph",
+  "name": "Morph",
+  "expr": "Morph",
   "variations": [
     {
-      "template": "You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost."
+      "template": "",
+      "rts": [
+        ""
+      ]
+    },
+    {
+      "template": "A megamorph cost is a morph cost.",
+      "rts": [
+        "A megamorph cost is a morph cost."
+      ]
+    },
+    {
+      "template": "This doesn't affect the cost to cast creature spells face down.",
+      "rts": [
+        "This doesn't affect the cost to cast creature spells face down."
+      ]
+    },
+    {
+      "template": "You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.",
+      "rts": [
+        "You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost."
+      ]
     }
   ]
 }

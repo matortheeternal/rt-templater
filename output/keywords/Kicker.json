@@ -1,6 +1,6 @@
 {
-  "name": "kicker",
-  "expr": "kicker",
+  "name": "Kicker",
+  "expr": "Kicker",
   "variations": [
     {
       "template": "You may pay an additional <mana> as you cast this spell.",
@@ -66,6 +66,12 @@
         "You may pay an additional {2}{R} and/or {3}{U} as you cast this spell.",
         "You may pay an additional {2}{U} and/or {1}{B} as you cast this spell.",
         "You may pay an additional {2}{U} and/or {2}{R} as you cast this spell."
+      ]
+    },
+    {
+      "template": "You may pay 3 life in addition to any other costs as you cast this spell.",
+      "rts": [
+        "You may pay 3 life in addition to any other costs as you cast this spell."
       ]
     },
     {

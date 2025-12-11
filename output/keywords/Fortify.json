@@ -1,6 +1,6 @@
 {
-  "name": "fortify",
-  "expr": "fortify",
+  "name": "Fortify",
+  "expr": "Fortify",
   "variations": [
     {
       "template": "{3}: Attach to target land you control. Fortify only as a sorcery.",

@@ -1,0 +1,9 @@
+{
+  "name": "Connive",
+  "expr": "Connive",
+  "variations": [
+    {
+      "template": "To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature. Treat phased-out permanents and anything attached to them as though they don't exist until their controller's next turn."
+    }
+  ]
+}

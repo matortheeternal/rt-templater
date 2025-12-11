@@ -1,9 +1,18 @@
 {
-  "name": "cloak",
-  "expr": "cloak",
+  "name": "Cloak",
+  "expr": "Cloak",
   "variations": [
     {
-      "template": "Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card."
+      "template": "Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
+      "rts": [
+        "Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card."
+      ]
+    },
+    {
+      "template": "To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
+      "rts": [
+        "To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card."
+      ]
     }
   ]
 }

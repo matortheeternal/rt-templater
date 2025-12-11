@@ -2,10 +2,19 @@ import fs from 'fs';
 import { compileTemplate } from './templateCompiler.js';
 import { findBest } from './findBest.js';
 
+function getKeywordKey(value) {
+    if (value.matchedKeywords?.length === 1)
+        return value.matchedKeywords[0];
+    if (value.matchedKeywords?.length > 1)
+        console.log('Multiple keywords matches: ', value.matchedKeywords);
+    const tokens = Object.keys(value.bestBeforeTokens);
+    return tokens.join(' ');
+}
+
 export function buildReminderTextMap(out) {
     const rtMap = {};
     Object.entries(out).forEach(([key, value]) => {
-        const tokenKey = Object.keys(value.bestBeforeTokens).join(' ');
+        const tokenKey = getKeywordKey(value);
         if (!rtMap.hasOwnProperty(tokenKey))
             rtMap[tokenKey] = {
                 label: tokenKey,
@@ -28,7 +37,7 @@ export function mergeTwoOrLess(twoOrLess, rtMap) {
         const tokens = Object.keys(value.bestBeforeTokens);
         if (tokens.length === 0) return;
         if (tokens.length > 2) return;
-        const tokenKey = tokens.join(' ');
+        const tokenKey = getKeywordKey(value);
         if (!rtMap.hasOwnProperty(tokenKey)) {
             rtMap[tokenKey] = { label: tokenKey, count: 0, rts: [] };
         }
@@ -39,6 +48,17 @@ export function mergeTwoOrLess(twoOrLess, rtMap) {
             count: value.count
         });
         delete twoOrLess[key];
+    });
+}
+
+export function removeDoubleKeywords(rtMap) {
+    Object.keys(rtMap).forEach(key => {
+        if (!key.includes(' ')) return;
+        const tokens = key.split(' ');
+        const allTokensInMap = tokens.every(token => rtMap.hasOwnProperty(token));
+        if (!allTokensInMap) return;
+        console.log(`Removed ${key}, all tokens in map`);
+        delete rtMap[key];
     });
 }
 
@@ -57,7 +77,7 @@ export function sortReminderTexts(rtMap) {
 export function createMergedTemplates(rtMap) {
     Object.values(rtMap).forEach(entry => {
         if (entry.rts.length === 1) return;
-        console.log(`Finding template for ${entry.label}`);
+        // console.log(`Creating templates for ${entry.label}`);
         const rtTexts = entry.rts.map(rt => rt.text);
         entry.merged = {
             template: compileTemplate(rtTexts, entry.label),

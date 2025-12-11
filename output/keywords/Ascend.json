@@ -1,6 +1,6 @@
 {
-  "name": "ascend",
-  "expr": "ascend",
+  "name": "Ascend",
+  "expr": "Ascend",
   "variations": [
     {
       "template": "If you control ten or more permanents, you get the city's blessing for the rest of the game."

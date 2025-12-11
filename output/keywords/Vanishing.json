@@ -1,16 +1,12 @@
 {
-  "name": "vanishing",
-  "expr": "vanishing",
+  "name": "Vanishing",
+  "expr": "Vanishing",
   "variations": [
     {
-      "template": "At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.",
+      "template": "At the beginning of your upkeep, remove a time counter from <target_it>. When the last is removed, sacrifice it.",
       "rts": [
-        "At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it."
-      ]
-    },
-    {
-      "template": "At the beginning of your upkeep, remove a time counter from this enchantment. When the last is removed, sacrifice it.",
-      "rts": [
+        "At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+        "At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.",
         "At the beginning of your upkeep, remove a time counter from this enchantment. When the last is removed, sacrifice it."
       ]
     },
@@ -30,11 +26,17 @@
       ]
     },
     {
-      "template": "This enchantment enters with <number:a_or_word> time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+      "template": "This enchantment enters with <number:word> time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
       "rts": [
         "This enchantment enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "This enchantment enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "This enchantment enters with twelve time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
+      ]
+    },
+    {
+      "template": "A permanent with vanishing 3 enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+      "rts": [
+        "A permanent with vanishing 3 enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
       ]
     }
   ]

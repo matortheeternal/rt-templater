@@ -1,6 +1,6 @@
 {
-  "name": "battle cry",
-  "expr": "battle cry",
+  "name": "Battle Cry",
+  "expr": "Battle Cry",
   "variations": [
     {
       "template": "Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn."

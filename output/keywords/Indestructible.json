@@ -1,7 +1,13 @@
 {
-  "name": "indestructible",
-  "expr": "indestructible",
+  "name": "Indestructible",
+  "expr": "Indestructible",
   "variations": [
+    {
+      "template": "The copies become tokens.",
+      "rts": [
+        "The copies become tokens."
+      ]
+    },
     {
       "template": "Damage and effects that say \"destroy\" don't destroy <target_it>.",
       "rts": [
@@ -29,9 +35,16 @@
       ]
     },
     {
-      "template": "Damage and effects that say \"destroy\" don't destroy the creature.",
+      "template": "Damage and effects that say \"destroy\" don't destroy <target_creature>.",
       "rts": [
-        "Damage and effects that say \"destroy\" don't destroy the creature."
+        "Damage and effects that say \"destroy\" don't destroy the creature.",
+        "Damage and effects that say \"destroy\" don't destroy those creatures."
+      ]
+    },
+    {
+      "template": "Damage and effects that say \"destroy\" don't destroy it. {S} can be paid with one mana from a snow source.",
+      "rts": [
+        "Damage and effects that say \"destroy\" don't destroy it. {S} can be paid with one mana from a snow source."
       ]
     },
     {
@@ -63,6 +76,18 @@
       "rts": [
         "Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.",
         "Damage and effects that say \"destroy\" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard."
+      ]
+    },
+    {
+      "template": "Effects that say \"destroy\" don't destroy a permanent with indestructible, and if it's a creature, it can't be destroyed by damage.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy a permanent with indestructible, and if it's a creature, it can't be destroyed by damage."
+      ]
+    },
+    {
+      "template": "Targeting opponents, anything they control, and/or cards in their graveyards is a crime. Damage and effects that say \"destroy\" don't destroy a creature with indestructible.",
+      "rts": [
+        "Targeting opponents, anything they control, and/or cards in their graveyards is a crime. Damage and effects that say \"destroy\" don't destroy a creature with indestructible."
       ]
     }
   ]

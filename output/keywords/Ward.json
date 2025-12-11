@@ -1,12 +1,13 @@
 {
-  "name": "ward",
-  "expr": "ward",
+  "name": "Ward",
+  "expr": "Ward",
   "variations": [
     {
       "template": "Whenever <target_it> becomes the target of a spell or ability an opponent controls, counter it unless that player pays <mana>.",
       "rts": [
         "Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
         "Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
+        "Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.",
         "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
         "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
         "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.",
@@ -14,13 +15,27 @@
         "Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
         "Whenever this enchantment becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
         "Whenever this enchantment becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.",
-        "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
+        "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
+        "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}."
+      ]
+    },
+    {
+      "template": "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays <number> life.",
+      "rts": [
+        "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.",
+        "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life."
       ]
     },
     {
       "template": "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
       "rts": [
         "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
+      ]
+    },
+    {
+      "template": "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
+      "rts": [
+        "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
       ]
     },
     {

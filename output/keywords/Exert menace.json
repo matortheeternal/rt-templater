@@ -1,9 +1,0 @@
-{
-  "name": "exert menace",
-  "expr": "exert menace",
-  "variations": [
-    {
-      "template": "An exerted creature won't untap during your next untap step. A creature with menace can't be blocked except by two or more creatures."
-    }
-  ]
-}

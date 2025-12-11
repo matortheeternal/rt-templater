@@ -1,6 +1,6 @@
 {
-  "name": "slivercycling",
-  "expr": "slivercycling",
+  "name": "Slivercycling",
+  "expr": "Slivercycling",
   "variations": [
     {
       "template": "{3}, Discard this card: Search your library for a Sliver card, reveal it, put it into your hand, then shuffle."

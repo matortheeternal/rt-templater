@@ -1,9 +1,0 @@
-{
-  "name": "sliver provoke",
-  "expr": "sliver provoke",
-  "variations": [
-    {
-      "template": "Whenever a Sliver attacks, its controller may have target creature defending player controls untap and block it if able."
-    }
-  ]
-}

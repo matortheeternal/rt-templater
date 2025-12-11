@@ -1,9 +1,0 @@
-{
-  "name": "{s}{s} shroud",
-  "expr": "{s}{s} shroud",
-  "variations": [
-    {
-      "template": "{S} can be paid with one mana from a snow source. A creature with shroud can't be the target of spells or abilities."
-    }
-  ]
-}

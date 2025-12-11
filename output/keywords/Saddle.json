@@ -1,6 +1,6 @@
 {
-  "name": "saddle",
-  "expr": "saddle",
+  "name": "Saddle",
+  "expr": "Saddle",
   "variations": [
     {
       "template": "Tap any number of other creatures you control with total power <number> or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.",

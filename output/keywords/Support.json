@@ -1,16 +1,16 @@
 {
-  "name": "support",
-  "expr": "support",
+  "name": "Support",
+  "expr": "Support",
   "variations": [
     {
-      "template": "Put a +1/+1 counter on each of up to <number:a_or_word> target creatures.",
+      "template": "Put a +1/+1 counter on each of up to <number:word> target creatures.",
       "rts": [
         "Put a +1/+1 counter on each of up to X target creatures.",
         "Put a +1/+1 counter on each of up to two target creatures."
       ]
     },
     {
-      "template": "Put a +1/+1 counter on each of up to <number:a_or_word> other target creatures.",
+      "template": "Put a +1/+1 counter on each of up to <number:word> other target creatures.",
       "rts": [
         "Put a +1/+1 counter on each of up to six other target creatures.",
         "Put a +1/+1 counter on each of up to two other target creatures.",

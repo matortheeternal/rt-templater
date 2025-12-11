@@ -1,9 +1,0 @@
-{
-  "name": "defender flying",
-  "expr": "defender flying",
-  "variations": [
-    {
-      "template": "This creature can't attack, and it can block creatures with flying."
-    }
-  ]
-}

@@ -1,6 +1,6 @@
 {
-  "name": "mentor",
-  "expr": "mentor",
+  "name": "Mentor",
+  "expr": "Mentor",
   "variations": [
     {
       "template": "Whenever <target_it> attacks, put a +1/+1 counter on target attacking creature with lesser power.",

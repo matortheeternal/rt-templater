@@ -1,9 +1,0 @@
-{
-  "name": "hexproof haste",
-  "expr": "hexproof haste",
-  "variations": [
-    {
-      "template": "It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control."
-    }
-  ]
-}

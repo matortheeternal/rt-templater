@@ -1,6 +1,6 @@
 {
-  "name": "fabricate",
-  "expr": "fabricate",
+  "name": "Fabricate",
+  "expr": "Fabricate",
   "variations": [
     {
       "template": "When this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on it or create <number:a_or_word> 1/1 colorless Servo artifact creature token<number:plural:s>.",

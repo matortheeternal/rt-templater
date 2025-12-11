@@ -1,9 +1,18 @@
 {
-  "name": "madness",
-  "expr": "madness",
+  "name": "Madness",
+  "expr": "Madness",
   "variations": [
     {
-      "template": "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard."
+      "template": "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.",
+      "rts": [
+        "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard."
+      ]
+    },
+    {
+      "template": "If you discard a card with madness, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.",
+      "rts": [
+        "If you discard a card with madness, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard."
+      ]
     }
   ]
 }

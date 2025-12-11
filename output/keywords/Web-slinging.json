@@ -1,6 +1,6 @@
 {
-  "name": "web-slinging",
-  "expr": "web-slinging",
+  "name": "Web-slinging",
+  "expr": "Web-slinging",
   "variations": [
     {
       "template": "You may cast this spell for <mana> if you also return a tapped creature you control to its owner's hand.",

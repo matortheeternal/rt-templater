@@ -1,6 +1,6 @@
 {
-  "name": "backup",
-  "expr": "backup",
+  "name": "Backup",
+  "expr": "Backup",
   "variations": [
     {
       "template": "When this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on target creature. If that's another creature, it gains the following ability until end of turn.",

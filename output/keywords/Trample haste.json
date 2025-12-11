@@ -1,9 +1,0 @@
-{
-  "name": "trample haste",
-  "expr": "trample haste",
-  "variations": [
-    {
-      "template": "This creature can deal excess combat damage to the player or planeswalker it's attacking. This creature can attack and {T} as soon as it comes under your control."
-    }
-  ]
-}

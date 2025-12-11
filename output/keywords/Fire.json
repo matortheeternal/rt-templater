@@ -1,0 +1,9 @@
+{
+  "name": "Fire",
+  "expr": "Fire",
+  "variations": [
+    {
+      "template": "Whenever this creature attacks, add X {R}. This mana lasts until end of combat."
+    }
+  ]
+}

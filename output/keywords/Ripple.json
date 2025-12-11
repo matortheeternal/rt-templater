@@ -1,6 +1,6 @@
 {
-  "name": "ripple",
-  "expr": "ripple",
+  "name": "Ripple",
+  "expr": "Ripple",
   "variations": [
     {
       "template": "When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.",
