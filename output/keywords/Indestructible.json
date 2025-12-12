@@ -18,13 +18,6 @@
       ]
     },
     {
-      "template": "Effects that say \"destroy\" don't destroy this <type>.",
-      "rts": [
-        "Effects that say \"destroy\" don't destroy this artifact.",
-        "Effects that say \"destroy\" don't destroy this Equipment."
-      ]
-    },
-    {
       "template": "Effects that say \"destroy\" don't destroy <target_card>. A creature with indestructible can't be destroyed by damage.",
       "rts": [
         "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.",
@@ -42,6 +35,18 @@
       "template": "The copies become tokens.",
       "rts": [
         "The copies become tokens."
+      ]
+    },
+    {
+      "template": "Effects that say \"destroy\" don't destroy this artifact.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy this artifact."
+      ]
+    },
+    {
+      "template": "Effects that say \"destroy\" don't destroy this Equipment.",
+      "rts": [
+        "Effects that say \"destroy\" don't destroy this Equipment."
       ]
     },
     {

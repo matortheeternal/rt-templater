@@ -11,9 +11,10 @@
       ]
     },
     {
-      "template": "Damage dealt by the creature also causes its controller to gain that much life.",
+      "template": "Damage dealt by <target_creature> also causes its controller to gain that much life.",
       "rts": [
-        "Damage dealt by the creature also causes its controller to gain that much life."
+        "Damage dealt by the creature also causes its controller to gain that much life.",
+        "Damage dealt by a creature with lifelink also causes its controller to gain that much life."
       ]
     },
     {
@@ -26,12 +27,6 @@
       "template": "Damage dealt by a Sliver creature you control also causes you to gain that much life.",
       "rts": [
         "Damage dealt by a Sliver creature you control also causes you to gain that much life."
-      ]
-    },
-    {
-      "template": "Damage dealt by a creature with lifelink also causes its controller to gain that much life.",
-      "rts": [
-        "Damage dealt by a creature with lifelink also causes its controller to gain that much life."
       ]
     }
   ]

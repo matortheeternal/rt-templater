@@ -178,37 +178,60 @@ function cleanupVariantSuffixes(template) {
     });
 }
 
-const PREFIXES = [
-    'This ',
-    'That ',
-];
+const PUNCT_RE = /[.,;:!?]+$/;
 
-function absorbVariantPrefixes(template) {
-    return template.replace(/\b([A-Za-z]+?\s+)?\(([^()]+)\)/g, (full, prefix, inner) => {
-        if (!prefix) return full;
+const PREFIXES = ['this', 'that'];
+const SUFFIXES = ['spell', 'creature', 'card', 'that'];
 
-        const opts = inner.split('|');
-        if (opts.length < 2) return full;
-        if (!PREFIXES.includes(prefix)) return full;
+const norm = s => (s || '').trim().toLowerCase();
 
-        const absorbed = opts.map(o => prefix + o);
-        return '(' + absorbed.join('|') + ')';
-    });
+function stripTrailingPunct(s) {
+    const m = (s || '').match(PUNCT_RE);
+    if (!m) return { core: s, punct: '' };
+    const punct = m[0];
+    return { core: s.slice(0, -punct.length), punct };
 }
 
-const SUFFIXES = [' spell', ' creature', ' card', ' that'];
+export function absorbColumnPrefixes(columns) {
+    for (let i = 0; i < columns.length - 1; i++) {
+        const colA = columns[i];
+        const colB = columns[i + 1];
 
-function absorbVariantSuffixes(template) {
-    return template.replace(/\(([^()]+)\)(\s+[A-Za-z]+?)?\b/g, (full, inner, suffix) => {
-        if (!suffix) return full;
-        if (!SUFFIXES.includes(suffix)) return full;
+        const a0 = colA.values[0] || '';
+        const isConstA = colA.values.every(v => sameText(v, a0));
+        const isVarB = !colB.values.every(v => sameText(v, colB.values[0]));
 
-        const opts = inner.split('|');
-        if (opts.length < 2) return full;
+        if (!isConstA || !isVarB) continue;
 
-        const absorbed = opts.map(o => o + suffix);
-        return '(' + absorbed.join('|') + ')';
-    });
+        const { core: aCore, punct: aPunct } = stripTrailingPunct(a0);
+        if (!PREFIXES.includes(norm(aCore))) continue;
+
+        colB.values = colB.values.map(v => `${aCore} ${v}`.trim() + aPunct);
+        columns.splice(i, 1);
+        i--;
+    }
+    return columns;
+}
+
+export function absorbColumnSuffixes(columns) {
+    for (let i = 0; i < columns.length - 1; i++) {
+        const colA = columns[i];
+        const colB = columns[i + 1];
+
+        const isVarA = !colA.values.every(v => sameText(v, colA.values[0]));
+        const b0 = colB.values[0] || '';
+        const isConstB = colB.values.every(v => sameText(v, b0));
+
+        if (!isVarA || !isConstB) continue;
+
+        const { core: bCore, punct: bPunct } = stripTrailingPunct(b0);
+        if (!SUFFIXES.includes(norm(bCore))) continue;
+
+        colA.values = colA.values.map(v => `${(v || '').trim()} ${bCore}`.trim() + bPunct);
+        columns.splice(i + 1, 1);
+        i--;
+    }
+    return columns;
 }
 
 export function createAlternationTemplate(strings) {
@@ -225,12 +248,10 @@ export function createAlternationTemplate(strings) {
     }
 
     let columns = buildColumns(baseTokens, rowAlignments);
+    columns = absorbColumnPrefixes(columns);
+    columns = absorbColumnSuffixes(columns);
     columns = compressColumns(columns);
 
     let template = renderTemplate(columns);
-    template = absorbVariantPrefixes(template);
-    template = absorbVariantSuffixes(template);
-    template = cleanupVariantSuffixes(template);
-
-    return template;
+    return cleanupVariantSuffixes(template);
 }
