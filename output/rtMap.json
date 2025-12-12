@@ -2903,19 +2903,14 @@
       }
     ],
     "merged": {
-      "template": "You may cast this spell by sacrificing <type:a> and paying the emerge cost reduced by (that creature's|that artifact's) mana value.",
+      "template": "You may cast this spell by sacrificing <type:a> and paying the emerge cost reduced by that <type:>'s mana value.",
       "count": 15
     },
     "best": [
       {
-        "template": "You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.",
+        "template": "You may cast this spell by sacrificing <type:a> and paying the emerge cost reduced by that <type:>'s mana value.",
         "rts": [
-          "You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value."
-        ]
-      },
-      {
-        "template": "You may cast this spell by sacrificing an artifact and paying the emerge cost reduced by that artifact's mana value.",
-        "rts": [
+          "You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.",
           "You may cast this spell by sacrificing an artifact and paying the emerge cost reduced by that artifact's mana value."
         ]
       }
@@ -2923,15 +2918,11 @@
   },
   {
     "label": "Enchant",
-    "count": 18,
+    "count": 17,
     "rts": [
       {
         "text": "Target a land as you cast this. This card enters attached to that land.",
         "count": 2
-      },
-      {
-        "text": "Equipment, Auras its controller controls, and counters are modifications.",
-        "count": 1
       },
       {
         "text": "Target a creature as you cast this. This card enters attached to that creature.",
@@ -2939,25 +2930,14 @@
       }
     ],
     "merged": {
-      "template": "(Target a land as you cast this. This card enters attached to that land|Equipment, Auras its controller controls, and counters are modifications|Target a creature as you cast this. This card enters attached to that creature).",
-      "count": 18
+      "template": "Target a <type> as you cast this. This card enters attached to that <type>.",
+      "count": 17
     },
     "best": [
       {
-        "template": "Target a land as you cast this. This card enters attached to that land.",
+        "template": "Target a <type> as you cast this. This card enters attached to that <type>.",
         "rts": [
-          "Target a land as you cast this. This card enters attached to that land."
-        ]
-      },
-      {
-        "template": "Equipment, Auras its controller controls, and counters are modifications.",
-        "rts": [
-          "Equipment, Auras its controller controls, and counters are modifications."
-        ]
-      },
-      {
-        "template": "Target a creature as you cast this. This card enters attached to that creature.",
-        "rts": [
+          "Target a land as you cast this. This card enters attached to that land.",
           "Target a creature as you cast this. This card enters attached to that creature."
         ]
       }

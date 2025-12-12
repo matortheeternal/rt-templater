@@ -38,9 +38,15 @@ export const blacklist = [
     // NOTE: This reminder text was never printed on a card, it comes from oracle text.
     // Because it's a weird edge case, I excluded it.
     "It costs {1} less to cast for each artifact you control as you cast it.",
-    
+
     // CARD: Eldrazi Token
     // KEYWORD: Annihilator 1
     // NOTE: Removed because all other instances of the keyword say "of their choice."
-    "Whenever this creature attacks, defending player sacrifices a permanent."
+    "Whenever this creature attacks, defending player sacrifices a permanent.",
+
+    // CARD: Lion Umbra
+    // KEYWORD: Enchant modified creature
+    // NOTE: This is the modified reminder text, but it gets mis-recognized as the
+    // Enchant reminder text.
+    "Equipment, Auras its controller controls, and counters are modifications."
 ];

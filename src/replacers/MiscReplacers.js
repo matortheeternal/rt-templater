@@ -75,6 +75,11 @@ const allTypes = [
     'noncreature', 'multicolored', 'land'
 ].concat(subtypes);
 
+class ThatTypeReplacer extends Replacer {
+    id = 'that <type>'
+    expr = new RegExp(`^that (${allTypes.join('|')}|${subtypesGroup} or ${subtypesGroup})$`, 'i');
+}
+
 class TypeReplacer extends Replacer {
     id = '<type>'
     expr = new RegExp(`^(${allTypes.join('|')}|${subtypesGroup} or ${subtypesGroup})$`, 'i');
@@ -83,6 +88,11 @@ class TypeReplacer extends Replacer {
 class TypesReplacer extends Replacer {
     id = '<type:s>'
     expr = new RegExp(`^(?:${allTypes.join('|')})s$`, 'i');
+}
+
+class TypeApostrophesReplacer extends Replacer {
+    id = `that <type:>'s`
+    expr = new RegExp(`^that (?:${allTypes.join('|')})'s$`, 'i');
 }
 
 class SubTypeAndOrReplacer extends Replacer {
@@ -111,8 +121,10 @@ export default [
     ColorReplacer,
     ATypeReplacer,
     ATypeSpellReplacer,
+    ThatTypeReplacer,
     TypeReplacer,
     TypesReplacer,
+    TypeApostrophesReplacer,
     CardSubtypeReplacer,
     SubTypeAndOrReplacer
 ]

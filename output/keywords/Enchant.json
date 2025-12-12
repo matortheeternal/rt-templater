@@ -3,20 +3,9 @@
   "expr": "Enchant",
   "variations": [
     {
-      "template": "Target a land as you cast this. This card enters attached to that land.",
+      "template": "Target a <type> as you cast this. This card enters attached to that <type>.",
       "rts": [
-        "Target a land as you cast this. This card enters attached to that land."
-      ]
-    },
-    {
-      "template": "Equipment, Auras its controller controls, and counters are modifications.",
-      "rts": [
-        "Equipment, Auras its controller controls, and counters are modifications."
-      ]
-    },
-    {
-      "template": "Target a creature as you cast this. This card enters attached to that creature.",
-      "rts": [
+        "Target a land as you cast this. This card enters attached to that land.",
         "Target a creature as you cast this. This card enters attached to that creature."
       ]
     }
