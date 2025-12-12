@@ -82,7 +82,7 @@ class ThatTypeReplacer extends Replacer {
 
 class TypeReplacer extends Replacer {
     id = '<type>'
-    expr = new RegExp(`^(${allTypes.join('|')}|${subtypesGroup} or ${subtypesGroup})$`, 'i');
+    expr = new RegExp(`^(${allTypes.join('|')}|${subtypesGroup} (?:or )?${subtypesGroup})$`, 'i');
 }
 
 class TypesReplacer extends Replacer {

@@ -3,7 +3,7 @@
   "expr": "Eternalize",
   "variations": [
     {
-      "template": "<extcost>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <card_sub_type> with no mana cost. Eternalize only as a sorcery.",
+      "template": "<extcost>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <type> with no mana cost. Eternalize only as a sorcery.",
       "rts": [
         "{3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Cat with no mana cost. Eternalize only as a sorcery.",
         "{2}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Dragon with no mana cost. Eternalize only as a sorcery.",

@@ -3,7 +3,7 @@
   "expr": "Embalm",
   "variations": [
     {
-      "template": "<mana>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie <card_sub_type> with no mana cost. Embalm only as a sorcery.",
+      "template": "<mana>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie <type> with no mana cost. Embalm only as a sorcery.",
       "rts": [
         "{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Cat with no mana cost. Embalm only as a sorcery.",
         "{5}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Angel with no mana cost. Embalm only as a sorcery.",

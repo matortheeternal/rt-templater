@@ -48,5 +48,20 @@ export const blacklist = [
     // KEYWORD: Enchant modified creature
     // NOTE: This is the modified reminder text, but it gets mis-recognized as the
     // Enchant reminder text.
-    "Equipment, Auras its controller controls, and counters are modifications."
+    "Equipment, Auras its controller controls, and counters are modifications.",
+
+    // CARD: Sublime Archangel
+    // KEYWORD: Other creatures you control have exalted.
+    // NOTE: This is a special reminder text. It doesn't describe what the keyword does.
+    "If a creature has multiple instances of exalted, each triggers separately.",
+
+    // CARD: Pontiff of Blight
+    // KEYWORD: Other creatures you control have extort.
+    // NOTE: This is a special reminder text. It doesn't describe what the keyword does.
+    "If a creature has multiple instances of extort, each triggers separately.",
+
+    // CARD: Rebellious Captives
+    // KEYWORD: Exhaust, Earthbend
+    // NOTE: Two keywords combined reminder text.
+    "Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Activate each exhaust ability only once.",
 ];

@@ -2857,7 +2857,7 @@
     },
     "best": [
       {
-        "template": "<mana>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie <card_sub_type> with no mana cost. Embalm only as a sorcery.",
+        "template": "<mana>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie <type> with no mana cost. Embalm only as a sorcery.",
         "rts": [
           "{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Cat with no mana cost. Embalm only as a sorcery.",
           "{5}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Angel with no mana cost. Embalm only as a sorcery.",
@@ -3037,6 +3037,7 @@
         "template": "<mana>, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
         "rts": [
           "{5}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
+          "{12}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
           "{2}{W}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
           "{3}{B}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
           "{3}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
@@ -3064,12 +3065,6 @@
         "template": "Exile it and pay its encore cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
         "rts": [
           "Exile it and pay its encore cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
-        ]
-      },
-      {
-        "template": "{12}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
-        "rts": [
-          "{12}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
         ]
       },
       {
@@ -3397,12 +3392,12 @@
       }
     ],
     "merged": {
-      "template": "<extcost>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <card_sub_type> with no mana cost. Eternalize only as a sorcery.",
+      "template": "<extcost>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <type> with no mana cost. Eternalize only as a sorcery.",
       "count": 12
     },
     "best": [
       {
-        "template": "<extcost>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <card_sub_type> with no mana cost. Eternalize only as a sorcery.",
+        "template": "<extcost>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <type> with no mana cost. Eternalize only as a sorcery.",
         "rts": [
           "{3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Cat with no mana cost. Eternalize only as a sorcery.",
           "{2}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Dragon with no mana cost. Eternalize only as a sorcery.",
@@ -3464,12 +3459,8 @@
   },
   {
     "label": "Exalted",
-    "count": 42,
+    "count": 41,
     "rts": [
-      {
-        "text": "If a creature has multiple instances of exalted, each triggers separately.",
-        "count": 1
-      },
       {
         "text": "Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.",
         "count": 34
@@ -3488,16 +3479,10 @@
       }
     ],
     "merged": {
-      "template": "(If|Whenever|Whenever|Whenever|Whenever) a creature (has multiple instances|you control attacks alone, that creature gets +1/+1 until end|attacks alone, it gets +1/+1 until end|you control attacks alone, it gets +1/+1 until end|you control attacks alone, that creature gets +1/+1 until end) of (exalted, each triggers separately|turn|turn for each instance of exalted among permanents its controller controls|turn for each instance of exalted among permanents you control|turn for each instance of exalted among permanents you control).",
-      "count": 42
+      "template": "Whenever a creature (you control||you control|you control) attacks alone, (that creature|it|it|that creature) gets +1/+1 until end of (turn|turn for each instance of exalted among permanents its controller controls|turn for each instance of exalted among permanents you control|turn for each instance of exalted among permanents you control).",
+      "count": 41
     },
     "best": [
-      {
-        "template": "If a creature has multiple instances of exalted, each triggers separately.",
-        "rts": [
-          "If a creature has multiple instances of exalted, each triggers separately."
-        ]
-      },
       {
         "template": "Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.",
         "rts": [
@@ -3558,33 +3543,11 @@
   },
   {
     "label": "Exhaust",
-    "count": 30,
+    "count": 29,
     "rts": [
       {
         "text": "Activate each exhaust ability only once.",
         "count": 29
-      },
-      {
-        "text": "Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Activate each exhaust ability only once.",
-        "count": 1
-      }
-    ],
-    "merged": {
-      "template": "(|Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) Activate each exhaust ability only once.",
-      "count": 30
-    },
-    "best": [
-      {
-        "template": "Activate each exhaust ability only once.",
-        "rts": [
-          "Activate each exhaust ability only once."
-        ]
-      },
-      {
-        "template": "Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Activate each exhaust ability only once.",
-        "rts": [
-          "Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Activate each exhaust ability only once."
-        ]
       }
     ]
   },
@@ -3617,33 +3580,11 @@
   },
   {
     "label": "Extort",
-    "count": 16,
+    "count": 15,
     "rts": [
-      {
-        "text": "If a creature has multiple instances of extort, each triggers separately.",
-        "count": 1
-      },
       {
         "text": "Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.",
         "count": 15
-      }
-    ],
-    "merged": {
-      "template": "(If|Whenever you cast) a (creature has multiple instances of extort|spell, you may pay {W/B}. If you do), each (triggers separately|opponent loses 1 life and you gain that much life).",
-      "count": 16
-    },
-    "best": [
-      {
-        "template": "If a creature has multiple instances of extort, each triggers separately.",
-        "rts": [
-          "If a creature has multiple instances of extort, each triggers separately."
-        ]
-      },
-      {
-        "template": "Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.",
-        "rts": [
-          "Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life."
-        ]
       }
     ]
   },

@@ -1,6 +1,6 @@
 import Replacer from './Replacer.js';
 
-const manaSymbol = '{[0-9wubrgcsx]}';
+const manaSymbol = '{(?:[0-9wubrgcsx]|1[0-9])}';
 const hybridManaSymbol = '{[2wubrgc]\\/[2wubrgc]}';
 const mana = `(?:${manaSymbol}|${hybridManaSymbol})+`;
 
