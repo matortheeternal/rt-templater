@@ -166,7 +166,7 @@
       }
     ],
     "merged": {
-      "template": "<target_spell_costs> {1} less to cast for each <type> you (control|control as you cast it).",
+      "template": "<target_spell_costs> {1} less to cast for each <type> you (control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control as you cast it|control|control|control).",
       "count": 70
     },
     "best": [
@@ -291,27 +291,17 @@
       }
     ],
     "merged": {
-      "template": "When (a|(this) creature (with afterlife 1) dies,|this permanent is put into a graveyard from the battlefield,) create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
+      "template": "When <target_dies>, create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
       "count": 12
     },
     "best": [
       {
-        "template": "When this creature dies, create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
+        "template": "When <target_dies>, create <number:a_or_word> 1/1 white and black Spirit creature token<number:plural:s> with flying.",
         "rts": [
           "When this creature dies, create a 1/1 white and black Spirit creature token with flying.",
           "When this creature dies, create two 1/1 white and black Spirit creature tokens with flying.",
-          "When this creature dies, create three 1/1 white and black Spirit creature tokens with flying."
-        ]
-      },
-      {
-        "template": "When a creature with afterlife 1 dies, create a 1/1 white and black Spirit creature token with flying.",
-        "rts": [
-          "When a creature with afterlife 1 dies, create a 1/1 white and black Spirit creature token with flying."
-        ]
-      },
-      {
-        "template": "When this permanent is put into a graveyard from the battlefield, create a 1/1 white and black Spirit creature token with flying.",
-        "rts": [
+          "When this creature dies, create three 1/1 white and black Spirit creature tokens with flying.",
+          "When a creature with afterlife 1 dies, create a 1/1 white and black Spirit creature token with flying.",
           "When this permanent is put into a graveyard from the battlefield, create a 1/1 white and black Spirit creature token with flying."
         ]
       }
@@ -383,7 +373,7 @@
       }
     ],
     "merged": {
-      "template": "(Put (a|X|two|three|four)|To amass Orcs X, put X|To amass Orcs 2, put two|To amass Orcs 3, put three|To amass Zombies 2, put two|Control of the Equipment doesn't change. To amass Orcs X, put X) +1/+1 counter<number:plural:s> on an Army you control. It's also (an Orc|a Zombie|a Sliver). If you don't control an Army, create a 0/0 black <card_sub_type> Army creature token first.",
+      "template": "(||||||||||To amass Orcs X,|To amass Orcs 2,|To amass Orcs 3,|To amass Zombies 2,|Control of the Equipment doesn't change. To amass Orcs X,) Put <number:a_or_word> +1/+1 counter<number:plural:s> on an Army you control. It's also (an Orc|an Orc|an Orc|a Zombie|an Orc|a Zombie|a Sliver|a Zombie|a Zombie|a Zombie|an Orc|an Orc|an Orc|a Zombie|an Orc). If you don't control an Army, create a 0/0 black <card_sub_type> Army creature token first.",
       "count": 50
     },
     "best": [
@@ -464,23 +454,18 @@
       }
     ],
     "merged": {
-      "template": "As this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on it for each (Beast|Zombie|Soldier|Dragon|Bird and/or Soldier) card you reveal in your hand.",
+      "template": "As this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on it for each <subtype_and_or> card you reveal in your hand.",
       "count": 9
     },
     "best": [
       {
-        "template": "As this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on it for each <card_sub_type> card you reveal in your hand.",
+        "template": "As this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on it for each <subtype_and_or> card you reveal in your hand.",
         "rts": [
           "As this creature enters, put a +1/+1 counter on it for each Beast card you reveal in your hand.",
           "As this creature enters, put a +1/+1 counter on it for each Zombie card you reveal in your hand.",
           "As this creature enters, put a +1/+1 counter on it for each Soldier card you reveal in your hand.",
           "As this creature enters, put two +1/+1 counters on it for each Beast card you reveal in your hand.",
-          "As this creature enters, put three +1/+1 counters on it for each Dragon card you reveal in your hand."
-        ]
-      },
-      {
-        "template": "As this creature enters, put a +1/+1 counter on it for each Bird and/or Soldier card you reveal in your hand.",
-        "rts": [
+          "As this creature enters, put three +1/+1 counters on it for each Dragon card you reveal in your hand.",
           "As this creature enters, put a +1/+1 counter on it for each Bird and/or Soldier card you reveal in your hand."
         ]
       }
@@ -516,7 +501,7 @@
       }
     ],
     "merged": {
-      "template": "Whenever <target_it> attacks, defending player sacrifices (a (permanent|permanent of their choice).|two permanents of their choice.|four permanents of their choice.|three permanents of their choice.)",
+      "template": "Whenever <target_it> attacks, defending player sacrifices (a permanent|a permanent of their choice|a permanent of their choice|two permanents of their choice|four permanents of their choice|three permanents of their choice).",
       "count": 15
     },
     "best": [
@@ -587,7 +572,7 @@
       }
     ],
     "merged": {
-      "template": "Another player can pay up to <mana> of this spell's cost. (You choose the value of X.)",
+      "template": "Another player can pay up to <mana> of this spell's cost. (||||||You choose the value of X.)",
       "count": 16
     },
     "best": [
@@ -628,7 +613,7 @@
       }
     ],
     "merged": {
-      "template": "(This cost is paid as attackers (or blockers) are declared.|If a creature with a shield counter on it would be dealt damage or destroyed, remove a shield counter from it instead.)",
+      "template": "(This cost is paid as attackers are declared|This cost is paid as attackers or blockers are declared|If a creature with a shield counter on it would be dealt damage or destroyed, remove a shield counter from it instead).",
       "count": 7
     },
     "best": [
@@ -775,7 +760,7 @@
       }
     ],
     "merged": {
-      "template": "When this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on target creature. If that's another creature, it gains the following (ability|abilities) until end of turn. (Each backup ability triggers separately.)",
+      "template": "When this creature enters, put <number:a_or_word> +1/+1 counter<number:plural:s> on target creature. If that's another creature, it gains the following (ability|abilities|ability|ability|abilities) until end of turn. (||||Each backup ability triggers separately.)",
       "count": 24
     },
     "best": [
@@ -823,7 +808,7 @@
       }
     ],
     "merged": {
-      "template": "(Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.) If any creatures with banding (you control|a player controls) are (blocking|being blocked by|blocking or being blocked by) a creature, (you divide) that (player divides that) creature's combat damage, not its controller, among any of the creatures it's (being blocked by|blocking|being blocked by or is blocking).",
+      "template": "(|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.) If any creatures with banding (you control|you control|you control|a player controls) are (blocking|being blocked by|blocking or being blocked by|blocking or being blocked by) a creature, (you divide|you divide|you divide|) that (|||player divides that) creature's combat damage, not its controller, among any of the creatures it's (being blocked by|blocking|being blocked by or is blocking|being blocked by or is blocking).",
       "count": 37
     },
     "best": [
@@ -955,7 +940,7 @@
       }
     ],
     "merged": {
-      "template": "(If you|You may choose to) cast (a|this|that) spell for its blitz (cost|cost. If you do), it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.",
+      "template": "(If|If|) you (||may choose to) cast (a|this|that) spell for its blitz (cost|cost|cost. If you do), it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.",
       "count": 20
     },
     "best": [
@@ -1009,7 +994,7 @@
       }
     ],
     "merged": {
-      "template": "(that|If an opponent was dealt damage this turn, (this)|This) creature enters with (a|six|two|three|two additional|X) +1/+1 counter<number:plural:s> on (it|it, where X is the damage dealt to your opponents this turn).",
+      "template": "(If an opponent was dealt damage|If an opponent was dealt damage|If an opponent was dealt damage|If an opponent was dealt damage|If an opponent was dealt damage|) this (turn, this|turn, this|turn, this|turn, this|turn, that|) creature enters with (a|six|two|three|two additional|X) +1/+1 counter<number:plural:s> on (it|it|it|it|it|it, where X is the damage dealt to your opponents this turn).",
       "count": 24
     },
     "best": [
@@ -1102,7 +1087,7 @@
       }
     ],
     "merged": {
-      "template": "(Choose|To bolster 1, choose) a creature with the least toughness among creatures you control and put <number:a_or_word> +1/+1 counter<number:plural:s> on it.",
+      "template": "(||||||To bolster 1,) Choose a creature with the least toughness among creatures you control and put <number:a_or_word> +1/+1 counter<number:plural:s> on it.",
       "count": 22
     },
     "best": [
@@ -1235,7 +1220,7 @@
       }
     ],
     "merged": {
-      "template": "You may (pay (an additional ({2}|{3}|{4}|{5}|{2}{G}|{2}{U}|{2}{B}{B}|{2}{W}{W})|4 life in addition to any other costs)|sacrifice a land in addition to any other costs|discard two cards in addition to any other costs|sacrifice three Islands in addition to any other costs|pay 3 life and discard a card at random in addition to any other costs) as you cast this spell. If you do, put this card into your hand as it resolves.",
+      "template": "You may (pay an additional {2}|pay an additional {3}|pay an additional {4}|pay an additional {5}|pay an additional {2}{G}|pay an additional {2}{U}|pay an additional {2}{B}{B}|pay an additional {2}{W}{W}|pay 4 life in addition to any other costs|sacrifice a land in addition to any other costs|discard two cards in addition to any other costs|sacrifice three Islands in addition to any other costs|pay 3 life and discard a card at random in addition to any other costs) as you cast this spell. If you do, put this card into your hand as it resolves.",
       "count": 39
     },
     "best": [
@@ -1346,7 +1331,7 @@
       }
     ],
     "merged": {
-      "template": "(Do this after|When you cast|When you cast that spell, exile cards from|When you cast this spell, exile cards from|When you cast your first spell, exile cards from|When you cast one, exile cards from|Whenever you cast a commander, exile cards from|When you cast your first spell from exile, exile cards from|When they cast their next spell, they exile cards from|Whenever you cast an enchantment spell from your hand, exile cards from) the (last|spell, exile cards from the top of your library until you exile a nonland|top of your library until you exile a nonland|top of their library until they exile a nonland) card (is exiled but before deciding whether to|that costs less. You may|with lesser mana value. You may|that costs less. They may) cast (it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. They put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom of your library in) a (nonland card|random order|random order. Then do it again|random order. Multiple instances of cascade each trigger separately).",
+      "template": "(Do this after|When you cast|When you cast that spell, exile cards from|When you cast this spell, exile cards from|When you cast your first spell, exile cards from|When you cast this spell, exile cards from|When you cast one, exile cards from|Whenever you cast a commander, exile cards from|When you cast your first spell from exile, exile cards from|When you cast this spell, exile cards from|When they cast their next spell, they exile cards from|Whenever you cast an enchantment spell from your hand, exile cards from|When you cast this spell, exile cards from|When you cast this spell, exile cards from) the (last|spell, exile cards from the top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of their library until they exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland) card (is exiled but before deciding whether to|that costs less. You may|that costs less. You may|that costs less. You may|that costs less. You may|with lesser mana value. You may|that costs less. You may|with lesser mana value. You may|that costs less. You may|that costs less. You may|that costs less. They may|that costs less. You may|that costs less. You may|that costs less. You may) cast (|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. They put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom of your library in|it without paying its mana cost. Put the exiled cards on the bottom in) a (nonland card|random order|random order|random order|random order|random order|random order. Then do it again|random order|random order|random order. Then do it again|random order|random order|random order. Then do it again|random order. Multiple instances of cascade each trigger separately).",
       "count": 46
     },
     "best": [
@@ -1478,7 +1463,7 @@
       }
     ],
     "merged": {
-      "template": "As you cast <target_spell>, you may sacrifice a creature with power ((1|2|3) or greater.|X.|2 or greater.|1 or greater.|3 or greater.) When you do, copy (this spell. (The copy becomes a token.)|it. A copy of an artifact spell becomes a token.|the spell and you may choose new targets for the copy.|this spell and you may choose a new target for the copy.)",
+      "template": "As you cast <target_spell>, you may sacrifice a creature with power (1 or greater|2 or greater|3 or greater|X|2 or greater|2 or greater|1 or greater|2 or greater|3 or greater). When you do, copy (this spell|this spell|this spell|this spell. The copy becomes a token|it. A copy of an artifact spell becomes a token|the spell and you may choose new targets for the copy|this spell and you may choose a new target for the copy|this spell and you may choose a new target for the copy|this spell and you may choose a new target for the copy).",
       "count": 19
     },
     "best": [
@@ -1560,7 +1545,7 @@
       }
     ],
     "merged": {
-      "template": "When this (creature) enters, sacrifice it unless you exile another (Faerie|Goblin|Kithkin|Merfolk|creature|Elemental|Goblin or Shaman|Treefolk or Warrior|Elf) you control. When this (creature) leaves the battlefield, that card returns to the battlefield.",
+      "template": "When this (||||||||creature) enters, sacrifice it unless you exile another (Faerie|Goblin|Kithkin|Merfolk|creature|Elemental|Goblin or Shaman|Treefolk or Warrior|Elf) you control. When this (||||||||creature) leaves the battlefield, that card returns to the battlefield.",
       "count": 12
     },
     "best": [
@@ -1708,7 +1693,7 @@
       }
     ],
     "merged": {
-      "template": "(Put|To cloak a card, put) it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
+      "template": "(|To cloak a card,) Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
       "count": 6
     },
     "best": [
@@ -1764,7 +1749,7 @@
       }
     ],
     "merged": {
-      "template": "(Exile|To collect evidence 3, exile|To collect evidence 4, exile|To collect evidence 6, exile|To collect evidence X, exile|To collect evidence 10, exile) cards with total mana value (4|6|8|3|X|10) or greater from your graveyard.",
+      "template": "(|||To collect evidence 3,|To collect evidence 4,|To collect evidence 6,|To collect evidence X,|To collect evidence 10,) Exile cards with total mana value (4|6|8|3|4|6|X|10) or greater from your graveyard.",
       "count": 16
     },
     "best": [
@@ -1837,7 +1822,7 @@
       }
     ],
     "merged": {
-      "template": "<compleated_mana> can be paid with <compleated_options> or 2 life. (If life was paid|For each {G/P} paid with life), this planeswalker enters with two fewer loyalty counters.",
+      "template": "<compleated_mana> can be paid with <compleated_options> or 2 life. (If life was paid|If life was paid|If life was paid|If life was paid|If life was paid|If life was paid|For each {G/P} paid with life), this planeswalker enters with two fewer loyalty counters.",
       "count": 7
     },
     "best": [
@@ -1902,7 +1887,7 @@
       }
     ],
     "merged": {
-      "template": "As you cast (this|the|that) spell, you may tap two untapped creatures you control that share a color with it. When you do, copy (it|it and you may choose new targets for the copy|it and you may choose a new target for the copy).",
+      "template": "As you cast (this|the|that|this) spell, you may tap two untapped creatures you control that share a color with it. When you do, copy (it|it and you may choose new targets for the copy|it and you may choose new targets for the copy|it and you may choose a new target for the copy).",
       "count": 13
     },
     "best": [
@@ -1962,7 +1947,7 @@
       }
     ],
     "merged": {
-      "template": "(Your creatures can help cast it|Your creatures can help cast this spell|Your creatures can help cast those spells). Each creature you tap while casting (a noncreature spell from exile|it|this spell|an artifact spell|a multicolored spell|a legendary creature spell) pays for {1} or one mana of (a color) that <type>.",
+      "template": "(|Your creatures can help cast it.|Your creatures can help cast this spell.|Your creatures can help cast those spells.|Your creatures can help cast those spells.|Your creatures can help cast those spells.) Each creature you tap while casting (a noncreature spell from exile|it|this spell|an artifact spell|a multicolored spell|a legendary creature spell) pays for {1} or one mana of (||||a color|) that <type>.",
       "count": 90
     },
     "best": [
@@ -2053,7 +2038,7 @@
       }
     ],
     "merged": {
-      "template": "(It's not a|Tap any number of creatures you control with total power 1 or more: This token becomes an artifact|Tap any number of creatures you control with total power 2 or more: This token becomes an artifact|Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 5 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact) creature (unless it's crewed|until end of turn|until end of turn. Creatures can't be attached to other permanents).",
+      "template": "(It's not a|Tap any number of creatures you control with total power 1 or more: This token becomes an artifact|Tap any number of creatures you control with total power 2 or more: This token becomes an artifact|Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 5 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact|Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact) creature (unless it's crewed|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn. Creatures can't be attached to other permanents).",
       "count": 93
     },
     "best": [
@@ -2118,7 +2103,7 @@
       }
     ],
     "merged": {
-      "template": "At the beginning of (your|its controller's) upkeep, (put|that player puts) an age counter on <target_it>, then sacrifice<number:plural:s> it unless <target> pay ({2}|its upkeep cost) for each age counter on it. ({S} can be paid with one mana from a snow source.)",
+      "template": "At the beginning of (your|your|its controller's|your) upkeep, (put|put|that player puts|put) an age counter on <target_it>, then sacrifice<number:plural:s> it unless <target> pay ({2}|its upkeep cost|its upkeep cost|its upkeep cost) for each age counter on it. (|||{S} can be paid with one mana from a snow source.)",
       "count": 84
     },
     "best": [
@@ -2390,7 +2375,7 @@
       }
     ],
     "merged": {
-      "template": "({1}|{2}|{3}|{B}|{G}|{R}|{U}|{W}|{B/R}|{G/W}|{R/G}|{U/B}|{W/U}|{1}{B}|{1}{G}|{1}{R}|{1}{U}|{1}{W}|{2}{B}|{2}{G}|{2}{R}|{2}{U}|{2}{W}|{3}{B}|{3}{G}|{3}{R}|{B}{B}|{W}{U}|{1}{B}{B}|{1}{R}{R}|{2}{G}{G}|{3}{B}{B}|{4}{G}{G}|{4}{U}{U}|{5}{R}{R}|{6}{W}{W}|{B}{G}{U}|{B}{R}{G}|{G}{U}{R}|{G}{W}{U}|{R}{G}{W}|{R}{W}{B}|{U}{B}{R}|{U}{R}{W}|{W}{B}{G}|{W}{U}{B}|{X}{1}{U}|{X}{2}{R}|{X}{2}{W}|{X}{G}{G}|Pay 2 life|{5}{B}{R}{G}|{5}{G}{W}{U}|{5}{R}{G}{W}|{5}{U}{B}{R}|{5}{W}{U}{B}|Sacrifice a land), Discard (this|that) card: Draw a card.",
+      "template": "({1}|{2}|{3}|{B}|{G}|{R}|{U}|{W}|{B/R}|{G/W}|{R/G}|{U/B}|{W/U}|{1}{B}|{1}{G}|{1}{R}|{1}{U}|{1}{U}|{1}{W}|{2}{B}|{2}{G}|{2}{R}|{2}{U}|{2}{W}|{2}{W}|{3}{B}|{3}{G}|{3}{R}|{B}{B}|{W}{U}|{1}{B}{B}|{1}{R}{R}|{2}{G}{G}|{3}{B}{B}|{4}{G}{G}|{4}{U}{U}|{5}{R}{R}|{6}{W}{W}|{B}{G}{U}|{B}{R}{G}|{G}{U}{R}|{G}{W}{U}|{R}{G}{W}|{R}{W}{B}|{U}{B}{R}|{U}{R}{W}|{W}{B}{G}|{W}{U}{B}|{X}{1}{U}|{X}{2}{R}|{X}{2}{W}|{X}{G}{G}|Pay 2 life|{5}{B}{R}{G}|{5}{G}{W}{U}|{5}{R}{G}{W}|{5}{U}{B}{R}|{5}{W}{U}{B}|Sacrifice a land), Discard (this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|that|this|this|this|this|this|this|that|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this) card: Draw a card.",
       "count": 297
     },
     "best": [
@@ -2515,7 +2500,7 @@
       }
     ],
     "merged": {
-      "template": "Any amount of damage <target_deals> to a creature is enough to destroy (it|that creature|it. {C} represents colorless mana).",
+      "template": "Any amount of damage <target_deals> to a creature is enough to destroy (it|it|it|that creature|it|it. {C} represents colorless mana).",
       "count": 81
     },
     "best": [
@@ -2600,7 +2585,7 @@
       }
     ],
     "merged": {
-      "template": "((This creature|Those creatures|A creature with defender) can't attack.|It also loses all other creature types.|It's no longer a Wall. This effect lasts indefinitely.)",
+      "template": "(This creature can't attack|Those creatures can't attack|A creature with defender can't attack|It also loses all other creature types|It's no longer a Wall. This effect lasts indefinitely).",
       "count": 121
     },
     "best": [
@@ -2689,7 +2674,7 @@
       }
     ],
     "merged": {
-      "template": "(When|Whenever) you cast (this|a creature|that|Whenever a player casts an instant or sorcery) spell, <target> may copy it. If <target> do, (they) choose an opponent to also copy it. (Each copy becomes a token|A copy of a permanent spell becomes a token|Players may choose new targets for their copies).",
+      "template": "(When you cast this|Whenever you cast a creature|When you cast that|When you cast this|Whenever a player casts an instant or sorcery) spell, <target> may copy it. If <target> do, (||||they) choose an opponent to also copy it. (|Each copy becomes a token.|A copy of a permanent spell becomes a token.|Players may choose new targets for their copies.|Players may choose new targets for their copies.)",
       "count": 9
     },
     "best": [
@@ -2757,7 +2742,7 @@
       }
     ],
     "merged": {
-      "template": "Until your next turn, (permanent|that (creature)|those creatures|those permanents) can't attack or block and (its|their) activated abilities can't be activated.",
+      "template": "Until your next turn, (that creature|that permanent|those creatures|those permanents) can't attack or block and (its|its|their|their) activated abilities can't be activated.",
       "count": 13
     },
     "best": [
@@ -2801,7 +2786,7 @@
       }
     ],
     "merged": {
-      "template": "Whenever this creature attacks the player with the most life or tied for (the) most life, put a +1/+1 counter on it.",
+      "template": "Whenever this creature attacks the player with the most life or tied for (|the) most life, put a +1/+1 counter on it.",
       "count": 9
     },
     "best": [
@@ -2863,7 +2848,7 @@
       }
     ],
     "merged": {
-      "template": "As (this|that) creature enters, you may sacrifice any number of (artifacts|creatures|lands). It enters with ((twice|three times|five times) that many|X) +1/+1 counters on (it|it for each of those creatures).",
+      "template": "As (this|this|this|this|that|this|this) creature enters, you may sacrifice any number of (artifacts|creatures|creatures|lands|creatures|creatures|creatures). It enters with (that many|that many|twice that many|three times that many|five times that many|three times that many|X) +1/+1 counters on (it|it|it|it|it|it|it for each of those creatures).",
       "count": 22
     },
     "best": [
@@ -2928,7 +2913,7 @@
       }
     ],
     "merged": {
-      "template": "Exile cards from the top of your library until you exile a nonland card with (that) mana value <number> or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
+      "template": "Exile cards from the top of your library until you exile a nonland card with (|||that) mana value (3|4|5|) or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
       "count": 22
     },
     "best": [
@@ -3024,7 +3009,7 @@
       }
     ],
     "merged": {
-      "template": "When (a|this) creature (with double team) attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.",
+      "template": "When (this|a) creature (|with double team) attacks, conjure a duplicate into your hand, then both of them perpetually lose double team.",
       "count": 9
     },
     "best": [
@@ -3076,7 +3061,7 @@
       }
     ],
     "merged": {
-      "template": "(You|If you would draw a card, you) may (return|mill|If you would draw) a (land|card, you may mill six cards instead. If you do, return this|card, you may mill two cards instead. If you do, return this|card, you may mill five cards instead. If you do, return this|card, you may mill four cards instead. If you do, return this|card, you may mill three cards instead. If you do, return this) card (instead. If you do, return this card) from your graveyard to your (hand|hand and mill two cards instead of drawing a card).",
+      "template": "(|If|If|If|If|If|If) You (|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you) may (return a land|mill a|mill six cards instead. If you do, return this|mill two cards instead. If you do, return this|mill five cards instead. If you do, return this|mill four cards instead. If you do, return this|mill three cards instead. If you do, return this) card (|instead. If you do, return this card|||||) from your graveyard to your (hand and mill two cards instead of drawing a card|hand|hand|hand|hand|hand|hand).",
       "count": 15
     },
     "best": [
@@ -3184,7 +3169,7 @@
       }
     ],
     "merged": {
-      "template": "<mana>, Exile (this|that|a creature) card (from your graveyard|and pay its embalm cost|from your graveyard and pay its embalm cost): Create a token that's a copy of it, except it's a white Zombie ((Cat|Angel|Manticore|Sphinx|Snake Hydra|Human Cleric|Bird Warrior|Human Warrior|Snake Warrior|Bird Soldier|Illusion Warrior) with|in addition to its other types and has|in addition to its other types with) no mana cost. Embalm only as a sorcery.",
+      "template": "({W},|{5}{W},|{5}{R},|{5}{U}{U},|{3}{G},|{3}{W},|{6}{U},|{2}{W},|{3}{U},|{4}{W},|{3}{W}{U},|{3}{W}{W},|{4}{W}{U},|{3}{U},||) Exile (this|this|this|this|this|this|this|this|this|this|this|this|this|this|that|a creature) card (from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|and pay its embalm cost|from your graveyard and pay its embalm cost): Create a token that's a copy of it, except it's a white Zombie (Cat with|Angel with|Manticore with|Sphinx with|Snake Hydra with|Human Cleric with|Bird Warrior with|Human Warrior with|Snake Warrior with|Human Warrior with|Human Cleric with|Bird Soldier with|Bird Warrior with|Illusion Warrior with|in addition to its other types and has|in addition to its other types with) no mana cost. Embalm only as a sorcery.",
       "count": 16
     },
     "best": [
@@ -3381,7 +3366,7 @@
       }
     ],
     "merged": {
-      "template": "({5}|{12}|{2}{W}|{3}{B}|{3}{R}|{4}{B}|{4}{G}|{4}{U}|{5}{R}|{5}{W}|{4}{R}{R}|{4}{U}{U}|{5}{B}{B}|{5}{U}{U}|{6}{B}{B}|{6}{W}{W}|{7}{W}{W}), Exile (encore|it and pay its (mana) cost:|this card from your graveyard:|the creature card and pay its mana cost:) For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
+      "template": "(||{5},|{12},|{2}{W},|{3}{B},|{3}{R},|{4}{B},|{4}{G},|{4}{U},|{5}{R},|{5}{W},||{4}{R}{R},|{4}{U}{U},|{5}{B}{B},|{5}{U}{U},|{6}{B}{B},|{6}{W}{W},|{7}{W}{W},) Exile (it and pay its mana cost|it and pay its encore cost|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|the creature card and pay its mana cost|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard): For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
       "count": 23
     },
     "best": [
@@ -3488,7 +3473,7 @@
       }
     ],
     "merged": {
-      "template": "For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. (You may choose a new target for the copy.)",
+      "template": "For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. (|You may choose a new target for the copy.)",
       "count": 5
     },
     "best": [
@@ -3596,7 +3581,7 @@
       }
     ],
     "merged": {
-      "template": "({0}|{1}|{2}|{3}|{4}|{5}|{6}|{8}|{W}|{1}{B}|{1}{W}|{2}{G}|{2}{R}|{3}{W}|Pay 3 life): Attach to target (creature|Halfling) you control. Equip only as a sorcery. (This card enters unattached and stays on the battlefield if the creature leaves.)",
+      "template": "({0}|{1}|{1}|{2}|{3}|{4}|{5}|{6}|{8}|{W}|{1}{B}|{1}{W}|{2}{G}|{2}{R}|{3}{W}|{1}|{2}|{3}|{4}|{5}|Pay 3 life): Attach to target (creature|Halfling|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature) you control. Equip only as a sorcery. (|||||||||||||||This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.)",
       "count": 221
     },
     "best": [
@@ -3675,7 +3660,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast (cards|this card|it|a card with escape) from your graveyard for (its|their) escape (cost|cost this turn).",
+      "template": "You may cast (cards|this card|it|a card with escape) from your graveyard for (their|its|its|its) escape (cost|cost|cost this turn|cost).",
       "count": 36
     },
     "best": [
@@ -3811,7 +3796,7 @@
       }
     ],
     "merged": {
-      "template": "(Whenever|They have \"Whenever) a creature you control enters, if (it|that creature) has greater power or toughness than this <type>, put a +1/+1 counter on this <type>.",
+      "template": "(Whenever|They have \"Whenever) a creature you control enters, if (that creature|it) has greater power or toughness than this <type>, put a +1/+1 counter on this <type>.",
       "count": 21
     },
     "best": [
@@ -3855,7 +3840,7 @@
       }
     ],
     "merged": {
-      "template": "(If|Whenever) a creature (has multiple instances|you control attacks alone, that creature gets +1/+1 until end|attacks alone, it gets +1/+1 until end|you control attacks alone, it gets +1/+1 until end) of (exalted, each triggers separately|turn|turn for each instance of exalted among permanents its controller controls|turn for each instance of exalted among permanents you control).",
+      "template": "(If|Whenever|Whenever|Whenever|Whenever) a creature (has multiple instances|you control attacks alone, that creature gets +1/+1 until end|attacks alone, it gets +1/+1 until end|you control attacks alone, it gets +1/+1 until end|you control attacks alone, that creature gets +1/+1 until end) of (exalted, each triggers separately|turn|turn for each instance of exalted among permanents its controller controls|turn for each instance of exalted among permanents you control|turn for each instance of exalted among permanents you control).",
       "count": 42
     },
     "best": [
@@ -3937,7 +3922,7 @@
       }
     ],
     "merged": {
-      "template": "(Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) Activate each exhaust ability only once.",
+      "template": "(|Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.) Activate each exhaust ability only once.",
       "count": 30
     },
     "best": [
@@ -3969,7 +3954,7 @@
       }
     ],
     "merged": {
-      "template": "When (a|this) creature (with exploit) enters, you may sacrifice a creature.",
+      "template": "When (this|a) creature (|with exploit) enters, you may sacrifice a creature.",
       "count": 25
     },
     "best": [
@@ -4001,7 +3986,7 @@
       }
     ],
     "merged": {
-      "template": "(If|Whenever you cast) a (spell, you may pay {W/B}. If you do|creature has multiple instances of extort), each (triggers separately|opponent loses 1 life and you gain that much life).",
+      "template": "(If|Whenever you cast) a (creature has multiple instances of extort|spell, you may pay {W/B}. If you do), each (triggers separately|opponent loses 1 life and you gain that much life).",
       "count": 16
     },
     "best": [
@@ -4127,7 +4112,7 @@
       }
     ],
     "merged": {
-      "template": "To fateseal (2, look|1, its controller looks) at the top (card|two cards) of an opponent's library, then (they may) put (that card|any number of them) on the bottom of that (library|player's library and the rest on top in any order).",
+      "template": "To fateseal (1, its controller looks|2, look) at the top (card|two cards) of an opponent's library, then (they may|) put (that card|any number of them) on the bottom of that (library|player's library and the rest on top in any order).",
       "count": 2
     },
     "best": [
@@ -4220,7 +4205,7 @@
       }
     ],
     "merged": {
-      "template": "(Each instance of|Whenever a creature without) flanking (triggers separately|blocks a Sliver, the blocking creature gets -1/-1 until end of turn|blocks this creature, the blocking creature gets -1/-1 until end of turn).",
+      "template": "(Each instance of|Whenever a creature without|Whenever a creature without) flanking (triggers separately|blocks a Sliver, the blocking creature gets -1/-1 until end of turn|blocks this creature, the blocking creature gets -1/-1 until end of turn).",
       "count": 34
     },
     "best": [
@@ -4270,7 +4255,7 @@
       }
     ],
     "merged": {
-      "template": "(You may|It can be) cast (it|them|this card|this spell) any time you could cast an instant.",
+      "template": "(It can be|You may|You may|You may|You may) cast (|it|them|this card|this spell) any time you could cast an instant.",
       "count": 108
     },
     "best": [
@@ -4331,7 +4316,7 @@
       }
     ],
     "merged": {
-      "template": "(Mana cost includes color|You may cast that card from your graveyard for its flashback cost. Then exile it|You may cast this card from your graveyard for its flashback cost. Then exile it|Its owner may cast the card from their graveyard for its mana cost. Then they exile it|You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it|You may cast this card from your graveyard for its flashback cost, then exile it. You can't exile Flash of Insight to pay for its own flashback cost).",
+      "template": "(Mana cost includes color|You may cast that card from your graveyard for its flashback cost. Then exile it|You may cast this card from your graveyard for its flashback cost. Then exile it|Its owner may cast the card from their graveyard for its Mana cost. Then they exile it|You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it|You may cast this card from your graveyard for its flashback cost, then exile it. You can't exile Flash of Insight to pay for its own flashback cost).",
       "count": 196
     },
     "best": [
@@ -4399,7 +4384,7 @@
       }
     ],
     "merged": {
-      "template": "({R}{G}|Do both if ({G}{U}) was spent.|It can't be blocked except by creatures with flying or reach.|This creature can't be blocked except by creatures with flying or reach.|A creature with flying can't be blocked except by creatures with flying or reach.)",
+      "template": "(Do both if {G}{U} was spent|Do both if {R}{G} was spent|It can't be blocked except by creatures with flying or reach|This creature can't be blocked except by creatures with flying or reach|A creature with flying can't be blocked except by creatures with flying or reach).",
       "count": 78
     },
     "best": [
@@ -4506,7 +4491,7 @@
       }
     ],
     "merged": {
-      "template": "(Exile|To forage, exile) three cards from your graveyard or sacrifice a Food.",
+      "template": "(|To forage,) Exile three cards from your graveyard or sacrifice a Food.",
       "count": 7
     },
     "best": [
@@ -4538,7 +4523,7 @@
       }
     ],
     "merged": {
-      "template": "Activate (this ability) only during your upkeep and only once each turn.",
+      "template": "Activate (|this ability) only during your upkeep and only once each turn.",
       "count": 11
     },
     "best": [
@@ -4605,7 +4590,7 @@
       }
     ],
     "merged": {
-      "template": "<target> can't be blocked as long as defending player controls a (snow) Forest.",
+      "template": "<target> can't be blocked as long as defending player controls a (|||snow) Forest.",
       "count": 44
     },
     "best": [
@@ -4643,7 +4628,7 @@
       }
     ],
     "merged": {
-      "template": "(On a later|During your) turn, you may (cast|pay {2} and exile|pay {2} and exile this card from your hand face down. Cast) it (on a later turn|from your hand face down. Cast it on a later turn) for its foretell (cost|cost, even if this creature has left the battlefield).",
+      "template": "(On a later|During your|During your) turn, you may (|pay {2} and exile it from your hand face down.|pay {2} and exile this card from your hand face down.) cast it (|on a later turn|on a later turn) for its foretell (cost, even if this creature has left the battlefield|cost|cost).",
       "count": 52
     },
     "best": [
@@ -4681,7 +4666,7 @@
       }
     ],
     "merged": {
-      "template": "{3}: Attach to target land you control. Fortify only as a sorcery. (This card enters unattached and stays on the battlefield if the land leaves.)",
+      "template": "{3}: Attach to target land you control. Fortify only as a sorcery. (|This card enters unattached and stays on the battlefield if the land leaves.)",
       "count": 2
     },
     "best": [
@@ -4771,7 +4756,7 @@
       }
     ],
     "merged": {
-      "template": "You may promise an opponent a gift as you cast this spell. If you do, (when it enters,) they (draw a card|take an extra turn after this one|draw a card before its other effects|create an 8/8 blue Octopus creature token|create a tapped 1/1 blue Fish creature token|create a tapped 1/1 blue Fish creature token before its other effects).",
+      "template": "You may promise an opponent a gift as you cast this spell. If you do, (when it enters,|||when it enters,|when it enters,|) they (draw a card|take an extra turn after this one|draw a card before its other effects|create an 8/8 blue Octopus creature token|create a tapped 1/1 blue Fish creature token|create a tapped 1/1 blue Fish creature token before its other effects).",
       "count": 20
     },
     "best": [
@@ -4843,7 +4828,7 @@
       }
     ],
     "merged": {
-      "template": "(Until your next turn, (it attacks|they attack|that creature attacks|those creatures attack)|A goaded creature attacks|Until your next turn, the goaded creatures attack) each combat if able and attack<number:plural:s> a player other than you if (able|able, until your next turn).",
+      "template": "(Until your next turn, it attacks|Until your next turn, they attack|Until your next turn, that creature attacks|Until your next turn, those creatures attack|A goaded creature attacks|Until your next turn, the goaded creatures attack) each combat if able and attack<number:plural:s> a player other than you if (able|able|able|able|able, until your next turn|able).",
       "count": 36
     },
     "best": [
@@ -4919,7 +4904,7 @@
       }
     ],
     "merged": {
-      "template": "<target> enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. Whenever (a|another) creature enters, you may move a +1/+1 counter from this (land|creature) onto it.",
+      "template": "<target> enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. Whenever (a|another|another|another|another|another|another) creature enters, you may move a +1/+1 counter from this (land|creature|creature|creature|creature|creature|creature) onto it.",
       "count": 13
     },
     "best": [
@@ -4956,7 +4941,7 @@
       }
     ],
     "merged": {
-      "template": "When you cast this spell, copy it for each permanent put into a graveyard (from the battlefield) this turn. (You may choose new targets for the copies.)",
+      "template": "When you cast this spell, copy it for each permanent put into a graveyard (from the battlefield|) this turn. (|You may choose new targets for the copies.)",
       "count": 2
     },
     "best": [
@@ -4992,7 +4977,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast (that|this) card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by ({X}, where X is|an amount of generic mana equal to) its power. Then exile (the|this) spell.",
+      "template": "You may cast (that|this|this) card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by ({X}, where X is|{X}, where X is|an amount of generic mana equal to) its power. Then exile (the|this|this) spell.",
       "count": 12
     },
     "best": [
@@ -5074,7 +5059,7 @@
       }
     ],
     "merged": {
-      "template": "(It can attack this turn|Do both if {B}{R} was spent|It can attack and {T} this turn|They can attack and {T} this turn|The creature can attack and {T} this turn|It can attack and {T} as soon as it comes under your control|It can attack and {T} no matter when it came under your control|They can attack and {T} as soon as they come under your control|This creature can attack as soon as it comes under your control|They can attack and {T} even if they just came under your control|This effect lasts as long as that land remains on the battlefield|That creature can attack and {T} as soon as it comes under your control|This creature can attack and {T} as soon as it comes under your control).",
+      "template": "(It can attack this turn|Do both if {B}{R} was spent|It can attack and {T} this turn|They can attack and {T} this turn|The creature can attack and {T} this turn|It can attack and {T} as soon as it comes under your control|It can attack and {T} no matter when it came under your control|They can attack and {T} as soon as they come under your control|This creature can attack as soon as it comes under your control|They can attack and {T} even if they just came under your control|this effect lasts as long as that land remains on the battlefield|That creature can attack and {T} as soon as it comes under your control|This creature can attack and {T} as soon as it comes under your control).",
       "count": 71
     },
     "best": [
@@ -5218,7 +5203,7 @@
       }
     ],
     "merged": {
-      "template": "(He|It|You|They|This creature|You and they|A creature with hexproof) can't be the target<number:plural:s> of spells or abilities your opponents (control|control, including Aura spells).",
+      "template": "(He|It|You|They|This creature|You and they|A creature with hexproof|You) can't be the target<number:plural:s> of spells or abilities your opponents (control|control|control|control|control|control|control|control, including Aura spells).",
       "count": 101
     },
     "best": [
@@ -5292,7 +5277,7 @@
       }
     ],
     "merged": {
-      "template": "When this (land|artifact|creature|enchantment) enters, look at the top <number:word> cards of your library, exile one face down, then put the rest on the bottom in a random order. (Then do it again.)",
+      "template": "When this (land|artifact|artifact|creature|enchantment|creature) enters, look at the top <number:word> cards of your library, exile one face down, then put the rest on the bottom in a random order. (|||||Then do it again.)",
       "count": 15
     },
     "best": [
@@ -5341,7 +5326,7 @@
       }
     ],
     "merged": {
-      "template": "<target> can't be blocked except by creatures with horsemanship. (This effect lasts indefinitely.)",
+      "template": "<target> can't be blocked except by creatures with horsemanship. (|||This effect lasts indefinitely.)",
       "count": 33
     },
     "best": [
@@ -5410,7 +5395,7 @@
       }
     ],
     "merged": {
-      "template": "(Your artifacts can help cast that spell|Your artifacts can help cast this spell|Your artifacts can help cast those spells). Each artifact you tap after you're done activating mana abilities pays for {1}.",
+      "template": "(|Your artifacts can help cast that spell.|Your artifacts can help cast this spell.|Your artifacts can help cast those spells.) Each artifact you tap after you're done activating mana abilities pays for {1}.",
       "count": 24
     },
     "best": [
@@ -5477,20 +5462,30 @@
       }
     ],
     "merged": {
-      "template": "<create> an Incubator token with <number:a_or_word> +1/+1 counter<number:plural:s> on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
+      "template": "(||||||To incubate X,|To incubate 2,|To incubate 3,) Create an Incubator token with <number:a_or_word> +1/+1 counter<number:plural:s> on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
       "count": 31
     },
     "best": [
       {
-        "template": "<create> an Incubator token with <number:a_or_word> +1/+1 counter<number:plural:s> on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
+        "template": "Create an Incubator token with <number:a_or_word> +1/+1 counter<number:plural:s> on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
         "rts": [
           "Create an Incubator token with a +1/+1 counter on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "Create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "Create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "Create an Incubator token with five +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "Create an Incubator token with four +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
-          "Create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
-          "To incubate X, create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
+          "Create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature."
+        ]
+      },
+      {
+        "template": "To incubate X, create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
+        "rts": [
+          "To incubate X, create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature."
+        ]
+      },
+      {
+        "template": "To incubate <number>, create an Incubator token with <number:word> +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
+        "rts": [
           "To incubate 2, create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "To incubate 3, create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature."
         ]
@@ -5575,7 +5570,7 @@
       }
     ],
     "merged": {
-      "template": "(The copies become tokens|Damage and effects that say \"destroy\" don't destroy it|Effects that say \"destroy\" don't destroy this artifact|Effects that say \"destroy\" don't destroy this Equipment|Damage and effects that say \"destroy\" don't destroy them|Damage and effects that say \"destroy\" don't destroy the creature|Damage and effects that say \"destroy\" don't destroy this artifact|Damage and effects that say \"destroy\" don't destroy this creature|Damage and effects that say \"destroy\" don't destroy those creatures|Damage and effects that say \"destroy\" don't destroy it. {S} can be paid with one mana from a snow source|Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage|Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage|Effects that say \"destroy\" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage|Effects that say \"destroy\" don't destroy that permanent. A creature with indestructible can't be destroyed by damage|Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard|Effects that say \"destroy\" don't destroy a permanent with indestructible, and if it's a creature, it can't be destroyed by damage|Damage and effects that say \"destroy\" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard|Targeting opponents, anything they control, and/or cards in their graveyards is a crime. Damage and effects that say \"destroy\" don't destroy a creature with indestructible).",
+      "template": "(The copies become tokens|Damage and effects that say \"destroy\" don't destroy it|Effects that say \"destroy\" don't destroy this artifact|Effects that say \"destroy\" don't destroy this Equipment|Damage and effects that say \"destroy\" don't destroy them|Damage and effects that say \"destroy\" don't destroy The creature|Damage and effects that say \"destroy\" don't destroy this artifact|Damage and effects that say \"destroy\" don't destroy this creature|Damage and effects that say \"destroy\" don't destroy those creatures|Damage and effects that say \"destroy\" don't destroy it. {S} can be paid with one mana from a snow source|Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage|Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage|Effects that say \"destroy\" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage|Effects that say \"destroy\" don't destroy that permanent. A creature with indestructible can't be destroyed by damage|Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard|Effects that say \"destroy\" don't destroy a permanent with indestructible, and if it's a creature, it can't be destroyed by damage|Damage and effects that say \"destroy\" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard|Targeting opponents, anything they control, and/or cards in their graveyards is a crime. Damage and effects that say \"destroy\" don't destroy a creature with indestructible).",
       "count": 90
     },
     "best": [
@@ -5690,7 +5685,7 @@
       }
     ],
     "merged": {
-      "template": "(Damage is dealt|It deals damage|They deal damage|This creature deals damage|{B/P} can be paid with either {B} or 2 life. A creature with infect deals damage) to (you|creatures) in the form of (-1/-1 counters and to players in the form of) poison counters.",
+      "template": "(|It deals|They deal|This creature deals|{B/P} can be paid with either {B} or 2 life. A creature with infect deals) Damage (is dealt||||) to (you|creatures|creatures|creatures|creatures) in the form of (|-1/-1 counters and to players in the form of|-1/-1 counters and to players in the form of|-1/-1 counters and to players in the form of|-1/-1 counters and to players in the form of) poison counters.",
       "count": 56
     },
     "best": [
@@ -5798,7 +5793,7 @@
       }
     ],
     "merged": {
-      "template": "<create> a (colorless) Clue (token. It's an) artifact (token) with \"{2}, Sacrifice this <type>: Draw a card.\"",
+      "template": "(|||To investigate,|To investigate,|Artifacts, legendaries, and Sagas are historic. To investigate,) Create a (||colorless|||) Clue (|token. It's an||token. It's an|token. It's an|token. It's an) artifact (token||token|||) with \"{2}, Sacrifice this <type>: Draw a card.\"",
       "count": 102
     },
     "best": [
@@ -5809,18 +5804,28 @@
         ]
       },
       {
-        "template": "<create> a Clue token. It's an artifact with \"{2}, Sacrifice this <type>: Draw a card.\"",
+        "template": "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
         "rts": [
-          "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
-          "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
-          "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\"",
-          "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
+          "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
         ]
       },
       {
         "template": "Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\"",
         "rts": [
           "Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\""
+        ]
+      },
+      {
+        "template": "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this <type>: Draw a card.\"",
+        "rts": [
+          "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+          "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\""
+        ]
+      },
+      {
+        "template": "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
+        "rts": [
+          "Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\""
         ]
       }
     ]
@@ -6205,7 +6210,7 @@
       }
     ],
     "merged": {
-      "template": "You may (pay (an additional ({1}|{2}|{3}|{4}|{5}|{6}|{7}|{8}|{B}|{C}|{G}|{R}|{U}|{W}|{X}|{1}{B}|{1}{C}|{1}{G}|{1}{R}|{1}{U}|{1}{W}|{2}{B}|{2}{C}|{2}{G}|{2}{R}|{2}{U}|{2}{W}|{3}{B}|{3}{G}|{3}{R}|{3}{U}|{3}{W}|{4}{G}|{4}{U}|{5}{B}|{5}{R}|{8}{R}|{B}{B}|{W}{W}|{X}{2}|{B} and/or {R}|{G} and/or {W}|{R} and/or {W}|{U} and/or {B}|{1}{B} and/or {G}|{1}{B} and/or {R}|{1}{G} and/or {W}|{1}{R} and/or {G}|{1}{U} and/or {B}|{1}{W} and/or {U}|{W} and/or {2}{B}|{1}{G} and/or {2}{U}|{1}{W} and/or {1}{U}|{2}{R} and/or {3}{U}|{2}{U} and/or {1}{B}|{2}{U} and/or {2}{R})|3 life in addition to any other costs)|sacrifice a land in addition to any other costs|sacrifice two lands in addition to any other costs|sacrifice a creature in addition to any other costs|tap a Vampire you control in addition to any other costs|pay {2}{R} and sacrifice a land in addition to any other costs|sacrifice an artifact or Goblin in addition to any other costs|sacrifice an artifact or creature in addition to any other costs|pay {2}{B} and discard a creature card in addition to any other costs|return a land you control to its owner's hand in addition to any other costs|return a creature you control to its owner's hand in addition to any other costs) as you cast this spell.",
+      "template": "You may (pay an additional {1}|pay an additional {2}|pay an additional {3}|pay an additional {4}|pay an additional {5}|pay an additional {6}|pay an additional {7}|pay an additional {8}|pay an additional {B}|pay an additional {C}|pay an additional {G}|pay an additional {R}|pay an additional {U}|pay an additional {W}|pay an additional {X}|pay an additional {1}{B}|pay an additional {1}{C}|pay an additional {1}{G}|pay an additional {1}{R}|pay an additional {1}{U}|pay an additional {1}{W}|pay an additional {2}{B}|pay an additional {2}{C}|pay an additional {2}{G}|pay an additional {2}{R}|pay an additional {2}{U}|pay an additional {2}{W}|pay an additional {3}{B}|pay an additional {3}{G}|pay an additional {3}{R}|pay an additional {3}{U}|pay an additional {3}{W}|pay an additional {4}{G}|pay an additional {4}{U}|pay an additional {5}{B}|pay an additional {5}{R}|pay an additional {8}{R}|pay an additional {B}{B}|pay an additional {W}{W}|pay an additional {X}{2}|pay an additional {B} and/or {R}|pay an additional {G} and/or {W}|pay an additional {R} and/or {W}|pay an additional {U} and/or {B}|pay an additional {1}{B} and/or {G}|pay an additional {1}{B} and/or {R}|pay an additional {1}{G} and/or {W}|pay an additional {1}{R} and/or {G}|pay an additional {1}{U} and/or {B}|pay an additional {1}{W} and/or {U}|pay an additional {W} and/or {2}{B}|pay an additional {1}{G} and/or {2}{U}|pay an additional {1}{W} and/or {1}{U}|pay an additional {2}{R} and/or {3}{U}|pay an additional {2}{U} and/or {1}{B}|pay an additional {2}{U} and/or {2}{R}|pay 3 life in addition to any other costs|sacrifice a land in addition to any other costs|sacrifice two lands in addition to any other costs|sacrifice a creature in addition to any other costs|tap a Vampire you control in addition to any other costs|pay {2}{R} and sacrifice a land in addition to any other costs|sacrifice an artifact or Goblin in addition to any other costs|sacrifice an artifact or creature in addition to any other costs|pay {2}{B} and discard a creature card in addition to any other costs|return a land you control to its owner's hand in addition to any other costs|return a creature you control to its owner's hand in addition to any other costs) as you cast this spell.",
       "count": 208
     },
     "best": [
@@ -6259,7 +6264,6 @@
         "rts": [
           "You may pay an additional {B} and/or {R} as you cast this spell.",
           "You may pay an additional {G} and/or {W} as you cast this spell.",
-          "You may pay an additional {R} and/or {W} as you cast this spell.",
           "You may pay an additional {U} and/or {B} as you cast this spell.",
           "You may pay an additional {1}{B} and/or {G} as you cast this spell.",
           "You may pay an additional {1}{B} and/or {R} as you cast this spell.",
@@ -6273,6 +6277,12 @@
           "You may pay an additional {2}{R} and/or {3}{U} as you cast this spell.",
           "You may pay an additional {2}{U} and/or {1}{B} as you cast this spell.",
           "You may pay an additional {2}{U} and/or {2}{R} as you cast this spell."
+        ]
+      },
+      {
+        "template": "You may pay an additional {R} and/or {W} as you cast this spell.",
+        "rts": [
+          "You may pay an additional {R} and/or {W} as you cast this spell."
         ]
       },
       {
@@ -6556,7 +6566,7 @@
       }
     ],
     "merged": {
-      "template": "Damage dealt by ((the|this) creature|those creatures|the creature|those Warriors|a Sliver creature you control|a creature with lifelink) also causes (you|its controller|their controller) to gain that much life.",
+      "template": "Damage dealt by (the creature|this creature|those creatures|the creature|those Warriors|a Sliver creature you control|a creature with lifelink) also causes (you|you|you|its controller|their controller|you|its controller) to gain that much life.",
       "count": 87
     },
     "best": [
@@ -6673,7 +6683,7 @@
       }
     ],
     "merged": {
-      "template": "(Put (it|that card)|To manifest a card, put it|Equipment, Auras you control, and counters are modifications. To manifest a card, put the top card of your library) onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
+      "template": "(||To manifest a card,|Equipment, Auras you control, and counters are modifications. To manifest a card,) Put (it|that card|it|the top card of your library) onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
       "count": 26
     },
     "best": [
@@ -6751,7 +6761,7 @@
       }
     ],
     "merged": {
-      "template": "You may (play|cast) this card from your graveyard (for {B}|for {B/R}|for {1}{R}|for {2}{R}|for {2}{U}|for {3}{B}|for {2}{B/R}) if you discarded it this turn. Timing rules still apply.",
+      "template": "You may (play|cast|cast|cast|cast|cast|cast|cast) this card from your graveyard (|for {B}|for {B/R}|for {1}{R}|for {2}{R}|for {2}{U}|for {3}{B}|for {2}{B/R}) if you discarded it this turn. Timing rules still apply.",
       "count": 10
     },
     "best": [
@@ -6847,7 +6857,7 @@
       }
     ],
     "merged": {
-      "template": "<target> can't be blocked except by two or more creatures. ({C} represents colorless mana|{S} can be paid with one mana from a snow source).",
+      "template": "<target> can't be blocked except by two or more creatures. (||||{C} represents colorless mana.|{S} can be paid with one mana from a snow source.)",
       "count": 192
     },
     "best": [
@@ -6967,7 +6977,7 @@
       }
     ],
     "merged": {
-      "template": "(Put|You may put|To mill a card, put|For example, if|Each of them puts|To mill two cards, put|To mill four cards, put|To mill three cards, put|To mill four cards, a player puts) the (top (card|two cards|four cards|three cards) of your library into your graveyard.|card's mana cost is {3}{U}{U}{B}, you add {U}{U}{B}.|top two cards of their library into their graveyard.|top two cards of your library into your graveyard.|top four cards of your library into your graveyard.|top three cards of your library into your graveyard.|top four cards of their library into their graveyard.)",
+      "template": "(Put|Put|Put|Put|You may Put|You may Put|You may Put|You may Put|To mill a card, Put|For example, if|Each of them puts|To mill two cards, Put|To mill four cards, Put|To mill three cards, Put|To mill four cards, a player puts) the (top card of your library into your graveyard|top two cards of your library into your graveyard|top four cards of your library into your graveyard|top three cards of your library into your graveyard|top card of your library into your graveyard|top two cards of your library into your graveyard|top four cards of your library into your graveyard|top three cards of your library into your graveyard|top card of your library into your graveyard|card's mana cost is {3}{U}{U}{B}, you add {U}{U}{B}|top two cards of their library into their graveyard|top two cards of your library into your graveyard|top four cards of your library into your graveyard|top three cards of your library into your graveyard|top four cards of their library into their graveyard).",
       "count": 80
     },
     "best": [
@@ -7087,7 +7097,7 @@
       }
     ],
     "merged": {
-      "template": "Whenever this creature attacks, create <number:a_or_word> tapped and attacking 1/1 red Warrior creature token<number:plural:s>. Sacrifice (it|them) at the beginning of the next end step.",
+      "template": "Whenever this creature attacks, create <number:a_or_word> tapped and attacking 1/1 red Warrior creature token<number:plural:s>. Sacrifice (it|them|them|them) at the beginning of the next end step.",
       "count": 13
     },
     "best": [
@@ -7187,7 +7197,7 @@
       }
     ],
     "merged": {
-      "template": "If this creature isn't monstrous, put <number:a_or_word> +1/+1 counter<number:plural:s> on it and it becomes monstrous. ({S} can be paid with one mana from a snow source.)",
+      "template": "If this creature isn't monstrous, put <number:a_or_word> +1/+1 counter<number:plural:s> on it and it becomes monstrous. (|||||||{S} can be paid with one mana from a snow source.)",
       "count": 36
     },
     "best": [
@@ -7233,7 +7243,7 @@
       }
     ],
     "merged": {
-      "template": "(A megamorph cost is a morph cost|This doesn't affect the cost to cast creature spells face down|You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost).",
+      "template": "(|A megamorph cost is a morph cost.|This doesn't affect the cost to cast creature spells face down.|You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
       "count": 154
     },
     "best": [
@@ -7431,7 +7441,7 @@
       }
     ],
     "merged": {
-      "template": "Whenever <target_it> attacks, for each opponent other than defending player, you may create a token (that's a) copy (of this creature) that's tapped and attacking that player or a planeswalker they control. (Then do it again.) Exile the tokens at end of combat.",
+      "template": "Whenever <target_it> attacks, for each opponent other than defending player, you may create a token (|||that's a) copy (|||of this creature) that's tapped and attacking that player or a planeswalker they control. (|||Then do it again.) Exile the tokens at end of combat.",
       "count": 28
     },
     "best": [
@@ -7588,7 +7598,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast this spell (as though it had flash|any time you could cast an instant) by sacrificing (an artifact|a Fox|a Rat|a Snake|a Goblin|a Moonfolk) and paying the difference in mana costs between this and the sacrificed (artifact|Fox|Rat|Snake|Goblin|Moonfolk). Mana cost includes color.",
+      "template": "You may cast this spell (as though it had flash|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant) by sacrificing (an artifact|a Fox|a Rat|a Snake|a Goblin|a Moonfolk) and paying the difference in mana costs between this and the sacrificed (artifact|Fox|Rat|Snake|Goblin|Moonfolk). Mana cost includes color.",
       "count": 6
     },
     "best": [
@@ -7656,7 +7666,7 @@
       }
     ],
     "merged": {
-      "template": "You may pay an additional <mana> as you cast (this|a creature) spell. If you do, when (this|that) creature enters, create a 1/1 token copy of it.",
+      "template": "You may pay an additional <mana> as you cast (this|this|this|this|this|this|this|this|this|a creature) spell. If you do, when (this|this|this|this|this|this|this|this|this|that) creature enters, create a 1/1 token copy of it.",
       "count": 21
     },
     "best": [
@@ -7758,7 +7768,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast this spell for its overload cost. If you do, change (\"target\" in) its text (to|by replacing all instances of \"target\" with) \"each.\"",
+      "template": "You may cast this spell for its overload cost. If you do, change (\"target\" in|) its text (to|by replacing all instances of \"target\" with) \"each.\"",
       "count": 27
     },
     "best": [
@@ -7863,7 +7873,7 @@
       }
     ],
     "merged": {
-      "template": "(It|This) phases in or out before (you untap|its controller untaps) during each of (your|their) untap steps. While it's phased out, it's treated as though it doesn't exist.",
+      "template": "(It|This|It) phases in or out before (you untap|you untap|its controller untaps) during each of (your|your|their) untap steps. While it's phased out, it's treated as though it doesn't exist.",
       "count": 16
     },
     "best": [
@@ -8071,14 +8081,19 @@
       }
     ],
     "merged": {
-      "template": "<create> a token that's a copy of a creature token you control. (Do this X times.)",
+      "template": "(|To populate,|To populate,) Create a token that's a copy of a creature token you control. (||Do this X times.)",
       "count": 24
     },
     "best": [
       {
-        "template": "<create> a token that's a copy of a creature token you control.",
+        "template": "Create a token that's a copy of a creature token you control.",
         "rts": [
-          "Create a token that's a copy of a creature token you control.",
+          "Create a token that's a copy of a creature token you control."
+        ]
+      },
+      {
+        "template": "To populate, create a token that's a copy of a creature token you control.",
+        "rts": [
           "To populate, create a token that's a copy of a creature token you control."
         ]
       },
@@ -8116,7 +8131,7 @@
       }
     ],
     "merged": {
-      "template": "(Choose|To proliferate, choose|They commit a crime if they target an opponent, anything an opponent controls, and/or cards in an opponent's graveyard. To proliferate, you choose) any number of permanents and/or players, then give each another counter of each kind already there. (Then do it again|Treat phased-out permanents and anything attached to them as though they don't exist until their controller's next turn).",
+      "template": "(|To proliferate,||To proliferate,|They commit a crime if they target an opponent, anything an opponent controls, and/or cards in an opponent's graveyard. To proliferate, you) Choose any number of permanents and/or players, then give each another counter of each kind already there. (||Then do it again.|Treat phased-out permanents and anything attached to them as though they don't exist until their controller's next turn.|)",
       "count": 77
     },
     "best": [
@@ -8246,7 +8261,7 @@
       }
     ],
     "merged": {
-      "template": "(They|You|This creature|It|You and planeswalkers you control) can't be (blocked,) targeted, (or|blocked, targeted,|blocked, targeted, or|targeted,) dealt (damage|damage, or enchanted|damage, enchanted, or targeted|damage, enchanted, or equipped) by (Rats|anything with that name|anything of the chosen color|anything blue|anything black|anything white|anything controlled by that player|anything controlled by your opponents|anything of that type|anything of that color|anything red|anything blue or black|anything green|anything with that quality|anything that's white, blue, black, red, or green|anything multicolored|anything controlled by those players|While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step).",
+      "template": "(They can't be blocked, targeted, or dealt damage by Rats|You can't be targeted, dealt damage, or enchanted by anything with that name|You can't be targeted, dealt damage, or enchanted by anything of the chosen color|This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue|This creature can't be blocked, targeted, dealt damage, or enchanted by anything black|This creature can't be blocked, targeted, dealt damage, or enchanted by anything white|You can't be targeted, dealt damage, or enchanted by anything controlled by that player|You can't be dealt damage, enchanted, or targeted by anything controlled by your opponents|It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that type|It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color|This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything red|This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue or black|This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything blue|This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything black|This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything green|This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything white|It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with that quality|It can't be blocked, targeted, or dealt damage by anything that's white, blue, black, red, or green|This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored|It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything controlled by those players|You and planeswalkers you control can't be targeted, dealt damage, or enchanted by anything controlled by that player|While they're phased out, they're treated as though They don't exist. They phase in before you untap during your untap step).",
       "count": 27
     },
     "best": [
@@ -8382,7 +8397,7 @@
       }
     ],
     "merged": {
-      "template": "Whenever (this creature|a Cat|a Sliver) attacks, (you|its controller) may have target creature defending player controls untap and block it if able.",
+      "template": "Whenever (this creature|a Cat|a Sliver) attacks, (you|its controller|its controller) may have target creature defending player controls untap and block it if able.",
       "count": 10
     },
     "best": [
@@ -8423,7 +8438,7 @@
       }
     ],
     "merged": {
-      "template": "(If|Whenever you cast) a (noncreature spell, they get +1/+1 until end|creature has multiple instances|noncreature spell, this creature gets +1/+1 until end|noncreature spell, a creature with prowess gets +1/+1 until end) of (turn|prowess, each triggers separately).",
+      "template": "(Whenever you cast|If|Whenever you cast|Whenever you cast) a (noncreature spell, they get +1/+1 until end|creature has multiple instances|noncreature spell, this creature gets +1/+1 until end|noncreature spell, a creature with prowess gets +1/+1 until end) of (turn|prowess, each triggers separately|turn|turn).",
       "count": 69
     },
     "best": [
@@ -8479,7 +8494,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast (this (spell)|a spell) for its prowl cost if you dealt combat damage to a player this turn with a ((Faerie or|Goblin or|Sphinx or) Rogue.|creature with any of its creature types.)",
+      "template": "You may cast (this|this|this|this spell|a spell) for its prowl cost if you dealt combat damage to a player this turn with a (Rogue|Faerie or Rogue|Goblin or Rogue|Sphinx or Rogue|creature with any of its creature types).",
       "count": 11
     },
     "best": [
@@ -8651,7 +8666,7 @@
       }
     ],
     "merged": {
-      "template": "(Exile the|If you cast this|The spell's controller exiles the) spell (from your hand, exile it) as it (resolves|resolves if you cast it from your hand|resolves if they cast it from their hand). At the beginning of (your|that player's) next upkeep, <target> may cast (that|this) card from exile without paying its mana cost.",
+      "template": "(Exile the|Exile the|If you cast this|the spell's controller exiles the) spell (||from your hand, exile it|) as it (resolves|resolves if you cast it from your hand|resolves|resolves if they cast it from their hand). At the beginning of (your|your|your|that player's) next upkeep, <target> may cast (that|that|this|that) card from exile without paying its mana cost.",
       "count": 34
     },
     "best": [
@@ -8782,7 +8797,7 @@
       }
     ],
     "merged": {
-      "template": "When (a|another) creature is put into your graveyard from the battlefield, you may pay ({1}{G}|{1}{W}|{2}{B}|{R}{R}|{1}{B}{B}|{2}{U}{U}|half your life, rounded up). If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
+      "template": "When (a|a|a|a|a|a|another) creature is put into your graveyard from the battlefield, you may pay ({1}{G}|{1}{W}|{2}{B}|{R}{R}|{1}{B}{B}|{2}{U}{U}|half your life, rounded up). If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
       "count": 7
     },
     "best": [
@@ -8926,7 +8941,7 @@
       }
     ],
     "merged": {
-      "template": "When you cast <target_spell>, copy it for each time you paid its replicate cost. (You may choose new targets for the copies|You may choose new targets for the copies. A copy of a permanent spell becomes a token).",
+      "template": "When you cast <target_spell>, copy it for each time you paid its replicate cost. (|You may choose new targets for the copies.|You may choose new targets for the copies.|You may choose new targets for the copies. A copy of a permanent spell becomes a token.)",
       "count": 19
     },
     "best": [
@@ -8973,7 +8988,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast (this card|permanent cards|cards with retrace|instant and sorcery cards) from your graveyard by discarding a land card in addition to paying (its|their) other costs.",
+      "template": "You may cast (this card|permanent cards|cards with retrace|instant and sorcery cards) from your graveyard by discarding a land card in addition to paying (its|their|their|their) other costs.",
       "count": 21
     },
     "best": [
@@ -9025,7 +9040,7 @@
       }
     ],
     "merged": {
-      "template": "(It enters|They enter|This creature enters) with your choice of (a|an additional) +1/+1 counter or haste.",
+      "template": "(It enters|They enter|This creature enters|This creature enters) with your choice of (a|a|a|an additional) +1/+1 counter or haste.",
       "count": 16
     },
     "best": [
@@ -9064,7 +9079,7 @@
       }
     ],
     "merged": {
-      "template": "(When|Whenever) you cast (a|this) spell, you may reveal the top four cards of your library. You may cast spells with the same name as (this|that) spell from among (those|the revealed) cards without paying their mana costs. Put the rest on the bottom of your library.",
+      "template": "(When|Whenever) you cast (this|a) spell, you may reveal the top four cards of your library. You may cast spells with the same name as (this|that) spell from among (those|the revealed) cards without paying their mana costs. Put the rest on the bottom of your library.",
       "count": 6
     },
     "best": [
@@ -9140,7 +9155,7 @@
       }
     ],
     "merged": {
-      "template": "(If you control another Role on it, put that one into the graveyard.) Enchanted creature (is 1/1.|gets +1/+1 and has trample.|gets +1/+1 and has \"Whenever this creature attacks, scry 1.\"|gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.|gets +1/+1 and has ward {1}.|gets +1/+1 for each enchantment you control.|has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\"|gets +1/+1 and has trample. Creatures that fight each deal damage equal to their power to the other.|has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\" If you put another Role on the creature later, put this one into the graveyard.)",
+      "template": "(|||If you control another Role on it, put that one into the graveyard.||If you control another Role on it, put that one into the graveyard.|If you control another Role on it, put that one into the graveyard.|If you control another Role on it, put that one into the graveyard.|If you control another Role on it, put that one into the graveyard.|If you control another Role on it, put that one into the graveyard.|If you control another Role on it, put that one into the graveyard.|If you control another Role on it, put that one into the graveyard.|) Enchanted creature (is 1/1.|gets +1/+1 and has trample.|gets +1/+1 and has \"Whenever this creature attacks, scry 1.\"|is 1/1.|gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.|gets +1/+1 and has trample.|gets +1/+1 and has ward {1}.|gets +1/+1 for each enchantment you control.|gets +1/+1 and has \"Whenever this creature attacks, scry 1.\"|gets +1/+1. When this token is put into a graveyard, each opponent loses 1 life.|has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\"|gets +1/+1 and has trample. Creatures that fight each deal damage equal to their power to the other.|has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\" If you put another Role on the creature later, put this one into the graveyard.)",
       "count": 31
     },
     "best": [
@@ -9324,7 +9339,7 @@
       }
     ],
     "merged": {
-      "template": "<mana>, Exile (this|a creature) card from your (graveyard|graveyard and pay its mana cost): Put a number of +1/+1 counters equal to (this|that) card's power on target creature. Scavenge only as a sorcery.",
+      "template": "({0},|{2}{B},|{2}{G},|{4}{B},|{5}{G},|{6}{B},|{1}{B}{G},|{2}{B}{B},|{3}{B}{G},|{3}{G}{G},|{4}{G}{G},|{5}{G}{G},|) Exile (this|this|this|this|this|this|this|this|this|this|this|this|a creature) card from your (graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard and pay its mana cost): Put a number of +1/+1 counters equal to (this|this|this|this|this|this|this|this|this|this|this|this|that) card's power on target creature. Scavenge only as a sorcery.",
       "count": 17
     },
     "best": [
@@ -9427,7 +9442,7 @@
       }
     ],
     "merged": {
-      "template": "(Leads to: (Mad Wizard's Lair|Goblin Lair, Mine Tunnels|Goblin Bazaar, Twisted Caverns|Runestone Caverns, Muiral's Graveyard)|Look at the top card of your library. You may put it on the bottom.|Look at the top card of your library. You may put that card on the bottom.|To scry 1, look at the top card of your library, then you may put that card on the bottom.|To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.|Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.|Look at the top four cards of your library, then put any number of them on the bottom and the rest on top in any order.|Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.|To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.|To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.|To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.|Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom.|To scry X, a player looks at the top X cards of their library, then puts any number of them on the bottom and the rest on top in any order.|You get two energy counters. To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+      "template": "(Leads to: Mad Wizard's Lair|Leads to: Goblin Lair, Mine Tunnels|Leads to: Goblin Bazaar, Twisted Caverns|Leads to: Runestone Caverns, Muiral's Graveyard|Look at the top card of your library. You may put it on the bottom.|Look at the top card of your library. You may put that card on the bottom.|To scry 1, look at the top card of your library, then you may put that card on the bottom.|To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.|Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.|Look at the top four cards of your library, then put any number of them on the bottom and the rest on top in any order.|Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.|To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.|To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.|To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.|Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom.|To scry X, a player looks at the top X cards of their library, then puts any number of them on the bottom and the rest on top in any order.|You get two energy counters. To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
       "count": 149
     },
     "best": [
@@ -9556,7 +9571,7 @@
       }
     ],
     "merged": {
-      "template": "<target> can block (or|and) be blocked (by) only (by) creatures with shadow.",
+      "template": "<target> can block (or|or|and|or|or) be blocked (by|by||by|by) only (||by||) creatures with shadow.",
       "count": 50
     },
     "best": [
@@ -9742,7 +9757,7 @@
       }
     ],
     "merged": {
-      "template": "When this creature dies, you may return (up to two) target Spirit card<number:plural:s> with mana value (1|2|3|4|5|6|7|8|X) or less from your graveyard to your hand.",
+      "template": "When this creature dies, you may return (|||||||||up to two) target Spirit card<number:plural:s> with mana value (1|2|3|4|5|6|7|8|X|4) or less from your graveyard to your hand.",
       "count": 27
     },
     "best": [
@@ -9963,7 +9978,7 @@
       }
     ],
     "merged": {
-      "template": "Tap another creature you control: Put charge counters equal to its power on this <card_sub_type>. Station only as a sorcery. <this_token_is>.",
+      "template": "Tap another creature you control: Put charge counters equal to its power on this <card_sub_type>. Station only as a sorcery. (||It's an artifact creature at 3+.|It's an artifact creature at 4+.|It's an artifact creature at 5+.|It's an artifact creature at 6+.|It's an artifact creature at 7+.|It's an artifact creature at 8+.|It's an artifact creature at 9+.|It's an artifact creature at 10+.|It's an artifact creature at 12+.|It's an artifact creature at 20+.)",
       "count": 31
     },
     "best": [
@@ -10066,7 +10081,7 @@
       }
     ],
     "merged": {
-      "template": "(When|Whenever) you cast (this|an instant or sorcery|that) spell, copy it for each spell cast before it this turn. (Copies become tokens|You may choose new targets for the copies|You may choose new targets for the copies. Copies become tokens).",
+      "template": "(When|Whenever|When|When|When|When) you cast (this|an instant or sorcery|this|that|this|this) spell, copy it for each spell cast before it this turn. (||Copies become tokens.|You may choose new targets for the copies.|You may choose new targets for the copies.|You may choose new targets for the copies. Copies become tokens.)",
       "count": 34
     },
     "best": [
@@ -10130,7 +10145,7 @@
       }
     ],
     "merged": {
-      "template": "(It|This|If it's a creature, it) enters with a (+1/+1|charge) counter on it for each color of mana spent to cast it. (Otherwise, it enters with that many charge counters on it.)",
+      "template": "(It|This|This|If it's a creature, It) enters with a (+1/+1|+1/+1|charge|+1/+1) counter on it for each color of mana spent to cast it. (|||Otherwise, it enters with that many charge counters on it.)",
       "count": 17
     },
     "best": [
@@ -10271,7 +10286,7 @@
       }
     ],
     "merged": {
-      "template": "(Look|To surveil 1, look|To surveil X, look|To surveil 2, look|To surveil 4, look|To surveil 3, look) at the top (card|X cards|two cards|five cards|three cards|four cards) of your (library, then|library. You may) put (it|that card|any number of them) into your (graveyard|graveyard and the rest on top of your library in any order).",
+      "template": "(||To surveil 1,|To surveil 1,|||||To surveil X,|To surveil 2,|To surveil 4,|To surveil 3,) Look at the top (card|card|card|card|X cards|two cards|five cards|three cards|X cards|two cards|four cards|three cards) of your (library. You may|library. You may|library. You may|library. You may|library, then|library, then|library, then|library, then|library, then|library, then|library, then|library, then) put (it|that card|it|that card|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them) into your (graveyard|graveyard|graveyard|graveyard|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order).",
       "count": 140
     },
     "best": [
@@ -10574,7 +10589,7 @@
       }
     ],
     "merged": {
-      "template": "(At|For each card with suspend, its owner removes a time counter from it at|Rather than cast this card from your hand, pay {G} and exile it with four time counters on it. At|Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At|Rather than cast this card from your hand, pay {0} and exile it with three time counters on it. At|Rather than cast this card from your hand, pay {1} and exile it with three time counters on it. At|Rather than cast this card from your hand, pay {1}{B} and exile it with two time counters on it. At|Rather than cast this card from your hand, pay {1}{W} and exile it with two time counters on it. At|Rather than cast this card from your hand, pay {1}{R} and exile it with four time counters on it. At|Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At|Rather than cast this card from your hand, pay {1}{U}{U} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At|Rather than cast this card from your hand, you may pay {W} and exile it with ten time counters on it. At|Rather than cast this card from your hand, you may pay {B} and exile it with four time counters on it. At|Rather than cast this card from your hand, you may pay {1}{B} and exile it with five time counters on it. At|Rather than cast this card from your hand, you may pay {1}{R} and exile it with four time counters on it. At|Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it. At|Rather than cast this card from your hand, you may pay {1}{B} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {1}{R} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {2}{B} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {2}{G} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {2}{R} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {2}{U} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {2}{W} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {1}{R}{R} and exile it with two time counters on it. At|Rather than cast this card from your hand, you may pay {2}{B}{B} and exile it with two time counters on it. At|Rather than cast this card from your hand, you may pay {1}{U}{U} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {B} and exile it with five time counters on it. At|Rather than cast this card from your hand, you may pay {G} and exile it with five time counters on it. At|Rather than cast this card from your hand, you may pay {R} and exile it with four time counters on it. At|Rather than cast this card from your hand, you may pay {U} and exile it with four time counters on it. At|Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it. At|Rather than cast this card from your hand, you may pay {W} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {1}{U} and exile it with six time counters on it. At|Rather than cast this card from your hand, you may pay {1}{U} and exile it with two time counters on it. At|Rather than cast this card from your hand, you may pay {2}{G}{G} and exile it with a time counter on it. At|Rather than cast this card from your hand, you may pay {1}{G} and exile it with four time counters on it. At|Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At|Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At|Rather than cast this card from your hand, you may pay {X}{3}{R} and exile it with X time counters on it. At|Rather than cast this card from your hand, you may pay {X}{G}{G} and exile it with X time counters on it. At|Rather than cast this card from your hand, you may pay {1}{B} and exile it with seven time counters on it. At|Rather than cast this card from your hand, you may pay {1}{U} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {1}{W} and exile it with three time counters on it. At|Rather than cast this card from your hand, you may pay {1}{R}{W} and exile it with six time counters on it. At|Rather than cast this card from your hand, you may pay {X}{B}{B}{B} and exile it with X time counters on it. At) the beginning of ((your|its owner's) upkeep, (they) remove a time counter.|their upkeep.|your upkeep, remove a time counter.) When the last is removed, (you|they|the player) may (play it|cast this card|cast it) without paying its mana cost. (It has haste|If it's a creature, it has haste|Those creature spells have haste).",
+      "template": "(|||||For each card with suspend, its owner removes a time counter from it|Rather than cast this card from your hand, pay {G} and exile it with four time counters on it.|Rather than cast this card from your hand, pay {U} and exile it with four time counters on it.|Rather than cast this card from your hand, pay {0} and exile it with three time counters on it.|Rather than cast this card from your hand, pay {1} and exile it with three time counters on it.|Rather than cast this card from your hand, pay {1}{B} and exile it with two time counters on it.|Rather than cast this card from your hand, pay {1}{W} and exile it with two time counters on it.|Rather than cast this card from your hand, pay {1}{R} and exile it with four time counters on it.|Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it.|Rather than cast this card from your hand, pay {1}{U}{U} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it.|Rather than cast this card from your hand, you may pay {W} and exile it with ten time counters on it.|Rather than cast this card from your hand, you may pay {B} and exile it with four time counters on it.|Rather than cast this card from your hand, you may pay {1}{B} and exile it with five time counters on it.|Rather than cast this card from your hand, you may pay {1}{R} and exile it with four time counters on it.|Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it.|Rather than cast this card from your hand, you may pay {1}{B} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {1}{R} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {2}{B} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {2}{G} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {2}{R} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {2}{U} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {2}{W} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {1}{R}{R} and exile it with two time counters on it.|Rather than cast this card from your hand, you may pay {2}{B}{B} and exile it with two time counters on it.|Rather than cast this card from your hand, you may pay {1}{U}{U} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it.|Rather than cast this card from your hand, you may pay {B} and exile it with five time counters on it.|Rather than cast this card from your hand, you may pay {G} and exile it with five time counters on it.|Rather than cast this card from your hand, you may pay {R} and exile it with four time counters on it.|Rather than cast this card from your hand, you may pay {U} and exile it with four time counters on it.|Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it.|Rather than cast this card from your hand, you may pay {W} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {1}{U} and exile it with six time counters on it.|Rather than cast this card from your hand, you may pay {1}{U} and exile it with two time counters on it.|Rather than cast this card from your hand, you may pay {2}{G}{G} and exile it with a time counter on it.|Rather than cast this card from your hand, you may pay {1}{G} and exile it with four time counters on it.|Rather than cast this card from your hand, you may pay {1}{R} and exile it with four time counters on it.|Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it.|Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it.|Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it.|Rather than cast this card from your hand, you may pay {X}{3}{R} and exile it with X time counters on it.|Rather than cast this card from your hand, you may pay {X}{G}{G} and exile it with X time counters on it.|Rather than cast this card from your hand, you may pay {1}{B} and exile it with seven time counters on it.|Rather than cast this card from your hand, you may pay {1}{U} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {1}{W} and exile it with three time counters on it.|Rather than cast this card from your hand, you may pay {1}{R}{W} and exile it with six time counters on it.|Rather than cast this card from your hand, you may pay {X}{B}{B}{B} and exile it with X time counters on it.) At the beginning of (your upkeep, remove a time counter|its owner's upkeep, they remove a time counter|your upkeep, remove a time counter|its owner's upkeep, they remove a time counter|its owner's upkeep, they remove a time counter|their upkeep|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter|your upkeep, remove a time counter). When the last is removed, (you|they|you|they|the player|they|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you|you) may (play it|cast this card|cast it|play it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it|cast it) without paying its mana cost. (|It has haste.|If it's a creature, it has haste.|If it's a creature, it has haste.|If it's a creature, it has haste.|Those creature spells have haste.||||||||||||||||||||||||||It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.|It has haste.)",
       "count": 63
     },
     "best": [
@@ -10727,7 +10742,7 @@
       }
     ],
     "merged": {
-      "template": "<target> can't be blocked as long as defending player controls a (snow) Swamp.",
+      "template": "<target> can't be blocked as long as defending player controls a (|||snow) Swamp.",
       "count": 49
     },
     "best": [
@@ -10825,7 +10840,7 @@
       }
     ],
     "merged": {
-      "template": "(Players|A player) dealt combat damage by (it|them|this creature|equipped creature|a creature with toxic 1|a creature with toxic) also (get (a|two|six|four|three)|gets|get two) poison (counter|counters|counter. {W/P} can be paid with either {W} or 2 life|counters equal to that creature's total toxic value|counters. A player with ten or more poison counters loses the game).",
+      "template": "(Players|Players|Players|Players|Players|Players|Players|Players|Players|Players|Players|A player|Players) dealt combat damage by (it also get a|them also get a|it also get two|this creature also get a|this creature also get six|this creature also get two|equipped creature also get a|this creature also get four|this creature also get three|a creature with toxic 1 also get a|it also get a|a creature with toxic also gets|this creature also get two poison counters. a player with ten or more) poison (counter|counter|counters|counter|counters|counters|counter|counters|counters|counter|counter. {W/P} can be paid with either {W} or 2 life|counters equal to that creature's total toxic value|counters loses the game).",
       "count": 48
     },
     "best": [
@@ -10887,7 +10902,7 @@
       }
     ],
     "merged": {
-      "template": "Whenever (a|this) creature (you control|token you control) attacks with another creature with greater power, put a +1/+1 counter on (this creature|that token|the creature with lesser power).",
+      "template": "Whenever (this|a|a) creature (|token you control|you control) attacks with another creature with greater power, put a +1/+1 counter on (this creature|that token|the creature with lesser power).",
       "count": 14
     },
     "best": [
@@ -10949,7 +10964,7 @@
       }
     ],
     "merged": {
-      "template": "(It|This creature|Each of those creature|A creature with trample|Each of those creatures) can deal excess (combat) damage to the (player (or planeswalker)|controller of the planeswalker|player or planeswalker) it's attacking.",
+      "template": "(It|This creature|It|This creature|This creature|Each of those creature|A creature with trample|Each of those creatures) can deal excess (|combat|combat|combat|combat|combat|combat|combat) damage to the (player or planeswalker|player|player or planeswalker|player or planeswalker|controller of the planeswalker|player or planeswalker|player or planeswalker|player or planeswalker) it's attacking.",
       "count": 96
     },
     "best": [
@@ -11030,7 +11045,7 @@
       }
     ],
     "merged": {
-      "template": "<mana>, Discard this card: Search your library for a card with (the same) mana value (0|as this card), reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",
+      "template": "<mana>, Discard this card: Search your library for a card with (|the same|the same|the same) mana value (0|as this card|as this card|as this card), reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",
       "count": 14
     },
     "best": [
@@ -11103,9 +11118,14 @@
         ]
       },
       {
-        "template": "<this_token_is>",
+        "template": "If it was a creature, it's no longer a creature.",
         "rts": [
-          "If it was a creature, it's no longer a creature.",
+          "If it was a creature, it's no longer a creature."
+        ]
+      },
+      {
+        "template": "It's an artifact with \"{T}, Sacrifice this <type>: Add one mana of any color.\"",
+        "rts": [
           "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
           "It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
         ]
@@ -11188,7 +11208,7 @@
       }
     ],
     "merged": {
-      "template": "If (an) enchanted (creature|permanent you control) would be destroyed, instead remove all damage from it and destroy (this Aura|an Aura attached to it).",
+      "template": "If (|an) enchanted (creature|permanent you control) would be destroyed, instead remove all damage from it and destroy (this Aura|an Aura attached to it).",
       "count": 17
     },
     "best": [
@@ -11432,7 +11452,7 @@
       }
     ],
     "merged": {
-      "template": "({1}{R}|{2}{G}|{1}{B}|{2}{B}|{2}|{7}|{B}|{R}|{U}|{W}|{2}{R}|{2}{U}|{2}{W}|{3}{B}|{3}{W}|{4}{B}|{4}{R}|{5}{R}|{6}{U}|{B}{R}|{G}{G}|Pay the card's mana cost|{1}{B}{R}|{1}{U}{B}|{2}{G}{G}|{3}{B}{B}|{3}{B}{R}|{3}{R}{R}|{3}{W}{B}|{4}{B}{B}|{5}{B}{R}|{6}{R}{R}|{U}{B}{R}|{1}{U}{U}{U}|{5}{B}{B}{B}|Pay eight energy counters): Return (the|this) card (from your graveyard|it|the card from your graveyard|this card from your graveyard) to the battlefield. (It gains haste|The creature gains haste). Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
+      "template": "({1}{R}|{2}{G}|{1}{B}|{2}{B}|{2}|{7}|{B}|{R}|{U}|{W}|{1}{B}|{1}{R}|{2}{B}|{2}{R}|{2}{U}|{2}{W}|{3}{B}|{3}{W}|{4}{B}|{4}{R}|{5}{R}|{6}{U}|{B}{R}|{G}{G}|Pay the card's mana cost|{1}{B}{R}|{1}{U}{B}|{2}{G}{G}|{3}{B}{B}|{3}{B}{R}|{3}{R}{R}|{3}{W}{B}|{4}{B}{B}|{5}{B}{R}|{6}{R}{R}|{U}{B}{R}|{1}{U}{U}{U}|{5}{B}{B}{B}|Pay eight energy counters): Return (this card from your graveyard|this card from your graveyard|the card|the card|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|it|the card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard|this card from your graveyard) to the battlefield. (||The creature gains haste.|The creature gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|The creature gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.|It gains haste.) Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
       "count": 55
     },
     "best": [
@@ -11571,7 +11591,7 @@
       }
     ],
     "merged": {
-      "template": "(This creature enters with a time counter on it|This Aura enters with three time counters on it|This creature enters with two time counters on it|This creature enters with four time counters on it|This creature enters with three time counters on it|This enchantment enters with four time counters on it|This enchantment enters with three time counters on it|This enchantment enters with twelve time counters on it|A permanent with vanishing 3 enters with three time counters on it). At the beginning of your upkeep, remove a time counter from <target_it>. When the last is removed, sacrifice it.",
+      "template": "(|||This creature enters with a time counter on it.|This Aura enters with three time counters on it.|This creature enters with two time counters on it.|This creature enters with four time counters on it.|This creature enters with three time counters on it.|This enchantment enters with four time counters on it.|This enchantment enters with three time counters on it.|This enchantment enters with twelve time counters on it.|A permanent with vanishing 3 enters with three time counters on it.) At the beginning of your upkeep, remove a time counter from <target_it>. When the last is removed, sacrifice it.",
       "count": 21
     },
     "best": [
@@ -11623,7 +11643,7 @@
       }
     ],
     "merged": {
-      "template": "(Enter|To venture into) the (dungeon, enter the) first room or advance to the next room.",
+      "template": "(|To venture into the dungeon,) Enter the first room or advance to the next room.",
       "count": 40
     },
     "best": [
@@ -11760,12 +11780,12 @@
       }
     ],
     "merged": {
-      "template": "Whenever (it|this creature|this permanent|this enchantment|equipped creature|enchanted creature|a Dragon you control|an artifact you control|another Merfolk you control) becomes the target of a spell or ability an opponent controls, counter it unless that player (pays ({1}|{2}|{3}|{4}|2 life|3 life).|discards a card.|pays {1}.)",
+      "template": "Whenever (it|it|it|this creature|this creature|this creature|this creature|this permanent|this creature|this creature|this enchantment|this enchantment|equipped creature|equipped creature|enchanted creature|a Dragon you control|this creature|an artifact you control|another Merfolk you control) becomes the target of a spell or ability an opponent controls, counter it unless that player (pays {1}|pays {2}|pays {3}|pays {1}|pays {2}|pays {3}|pays {4}|pays {2}|pays 2 life|pays 3 life|pays {2}|pays {3}|pays {1}|pays {2}|pays {1}|pays {1}|discards a card|pays {1}|pays {1}).",
       "count": 60
     },
     "best": [
       {
-        "template": "Whenever <target_it> becomes the target of a spell or ability an opponent controls, counter it unless that player pays <mana>.",
+        "template": "Whenever <target_it> becomes the target of a spell or ability an opponent controls, counter it unless that player <paycost>.",
         "rts": [
           "Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
           "Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
@@ -11778,7 +11798,8 @@
           "Whenever this enchantment becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
           "Whenever this enchantment becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.",
           "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
-          "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}."
+          "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
+          "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card."
         ]
       },
       {
@@ -11798,12 +11819,6 @@
         "template": "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
         "rts": [
           "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
-        ]
-      },
-      {
-        "template": "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card.",
-        "rts": [
-          "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card."
         ]
       },
       {
@@ -11842,7 +11857,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast (a|this) card from your hand (or graveyard) for its warp cost. (Exile (that permanent|this creature|this enchantment)|If you do, exile this creature) at the beginning of the next end step, then you may cast it from exile on a later turn.",
+      "template": "You may cast (a|this|this|this) card from your hand (|||or graveyard) for its warp cost. (|||If you do,) Exile (that permanent|this creature|this enchantment|this creature) at the beginning of the next end step, then you may cast it from exile on a later turn.",
       "count": 31
     },
     "best": [

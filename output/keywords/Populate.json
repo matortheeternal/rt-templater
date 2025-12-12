@@ -3,9 +3,14 @@
   "expr": "Populate",
   "variations": [
     {
-      "template": "<create> a token that's a copy of a creature token you control.",
+      "template": "Create a token that's a copy of a creature token you control.",
       "rts": [
-        "Create a token that's a copy of a creature token you control.",
+        "Create a token that's a copy of a creature token you control."
+      ]
+    },
+    {
+      "template": "To populate, create a token that's a copy of a creature token you control.",
+      "rts": [
         "To populate, create a token that's a copy of a creature token you control."
       ]
     },

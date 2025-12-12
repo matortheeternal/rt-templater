@@ -83,10 +83,16 @@ export function createMergedTemplates(rtMap) {
             template: compileTemplate(rtTexts, entry.label),
             count: entry.rts.reduce((c, rt) => c + rt.count, 0)
         };
-        entry.best = findBest(rtTexts, entry.label).map(rts => ({
-            template: compileTemplate(rts, entry.label),
-            rts
-        }));
+        const mergedImperfect = entry.merged.template.includes('(');
+        entry.best = mergedImperfect
+            ? findBest(rtTexts, entry.label).map(rts => ({
+                template: compileTemplate(rts, entry.label),
+                rts
+            }))
+            : [{
+                template: entry.merged.template,
+                rts: rtTexts
+            }];
     });
 }
 

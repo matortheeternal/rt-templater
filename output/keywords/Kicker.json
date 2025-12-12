@@ -52,7 +52,6 @@
       "rts": [
         "You may pay an additional {B} and/or {R} as you cast this spell.",
         "You may pay an additional {G} and/or {W} as you cast this spell.",
-        "You may pay an additional {R} and/or {W} as you cast this spell.",
         "You may pay an additional {U} and/or {B} as you cast this spell.",
         "You may pay an additional {1}{B} and/or {G} as you cast this spell.",
         "You may pay an additional {1}{B} and/or {R} as you cast this spell.",
@@ -66,6 +65,12 @@
         "You may pay an additional {2}{R} and/or {3}{U} as you cast this spell.",
         "You may pay an additional {2}{U} and/or {1}{B} as you cast this spell.",
         "You may pay an additional {2}{U} and/or {2}{R} as you cast this spell."
+      ]
+    },
+    {
+      "template": "You may pay an additional {R} and/or {W} as you cast this spell.",
+      "rts": [
+        "You may pay an additional {R} and/or {W} as you cast this spell."
       ]
     },
     {

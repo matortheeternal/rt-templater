@@ -3,7 +3,7 @@
   "expr": "Ward",
   "variations": [
     {
-      "template": "Whenever <target_it> becomes the target of a spell or ability an opponent controls, counter it unless that player pays <mana>.",
+      "template": "Whenever <target_it> becomes the target of a spell or ability an opponent controls, counter it unless that player <paycost>.",
       "rts": [
         "Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
         "Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
@@ -16,7 +16,8 @@
         "Whenever this enchantment becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
         "Whenever this enchantment becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.",
         "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
-        "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}."
+        "Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.",
+        "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card."
       ]
     },
     {
@@ -36,12 +37,6 @@
       "template": "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
       "rts": [
         "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
-      ]
-    },
-    {
-      "template": "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card.",
-      "rts": [
-        "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card."
       ]
     },
     {

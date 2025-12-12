@@ -35,8 +35,9 @@ class NumberPluralSReplacer extends Replacer {
     id = '<number:plural:s>';
 
     replace(parts) {
-        if (parts.length !== 2) return false;
-        const [p1, p2] = parts.sort((a, b) => a.length - b.length);
+        const uniqueParts = [...new Set(parts)];
+        if (uniqueParts.length !== 2) return false;
+        const [p1, p2] = uniqueParts.sort((a, b) => a.length - b.length);
         if (isPlural(p1, p2))
             return p1 + this.id;
     }

@@ -9,9 +9,14 @@
       ]
     },
     {
-      "template": "<this_token_is>",
+      "template": "If it was a creature, it's no longer a creature.",
       "rts": [
-        "If it was a creature, it's no longer a creature.",
+        "If it was a creature, it's no longer a creature."
+      ]
+    },
+    {
+      "template": "It's an artifact with \"{T}, Sacrifice this <type>: Add one mana of any color.\"",
+      "rts": [
         "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
         "It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
       ]

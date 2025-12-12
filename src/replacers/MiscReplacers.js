@@ -52,6 +52,11 @@ const allTypes = [
     'Assassin, Mercenary, Pirate, Rogue, and/or Warlock'
 ];
 
+class SubTypeAndOrReplacer extends Replacer {
+    id = '<subtype_and_or>';
+    expr = new RegExp(`^${subtypesGroup}(?: and/or ${subtypesGroup})?$`)
+}
+
 class TypeReplacer extends Replacer {
     id = '<type>'
     expr = new RegExp(`^(${allTypes.join('|')})`, 'i')
@@ -65,5 +70,6 @@ export default [
     GenericManaPartReplacer,
     CardSubtypeReplacer,
     ColorReplacer,
+    SubTypeAndOrReplacer,
     TypeReplacer
 ]
