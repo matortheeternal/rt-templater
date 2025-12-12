@@ -34,7 +34,7 @@ class TargetCreatureReplacer extends Replacer {
             'those creatures',
             `a creature with ${label.toLowerCase()}`
         ];
-        this.expr = new RegExp(`^(?:${options.join('|')})$`);
+        this.expr = new RegExp(`^(?:${options.join('|')})$`, 'i');
     }
 }
 

@@ -3,33 +3,11 @@
   "expr": "Defender",
   "variations": [
     {
-      "template": "This creature can't attack.",
+      "template": "<target_creature> can't attack.",
       "rts": [
-        "This creature can't attack."
-      ]
-    },
-    {
-      "template": "Those creatures can't attack.",
-      "rts": [
-        "Those creatures can't attack."
-      ]
-    },
-    {
-      "template": "A creature with defender can't attack.",
-      "rts": [
+        "This creature can't attack.",
+        "Those creatures can't attack.",
         "A creature with defender can't attack."
-      ]
-    },
-    {
-      "template": "It also loses all other creature types.",
-      "rts": [
-        "It also loses all other creature types."
-      ]
-    },
-    {
-      "template": "It's no longer a Wall. This effect lasts indefinitely.",
-      "rts": [
-        "It's no longer a Wall. This effect lasts indefinitely."
       ]
     }
   ]

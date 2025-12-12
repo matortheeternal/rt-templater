@@ -196,7 +196,7 @@ function absorbVariantPrefixes(template) {
     });
 }
 
-const SUFFIXES = [' spell', ' creature'];
+const SUFFIXES = [' spell', ' creature', ' card'];
 
 function absorbVariantSuffixes(template) {
     return template.replace(/\(([^()]+)\)(\s+[A-Za-z]+?)?\b/g, (full, inner, suffix) => {

@@ -86,8 +86,8 @@ class TypesReplacer extends Replacer {
 }
 
 class SubTypeAndOrReplacer extends Replacer {
-    id = '<subtype_and_or>';
-    expr = new RegExp(`^${subtypesGroup}(?: and/or ${subtypesGroup})?$`)
+    id = '<subtype_and_or> card';
+    expr = new RegExp(`^${subtypesGroup}(?: and/or ${subtypesGroup})? card$`)
 }
 
 class ATypeReplacer extends Replacer {

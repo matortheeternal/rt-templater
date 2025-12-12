@@ -1209,7 +1209,7 @@
       }
     ],
     "merged": {
-      "template": "(Do this after|When you cast|When you cast that spell, exile cards from|When you cast this spell, exile cards from|When you cast your first spell, exile cards from|When you cast this spell, exile cards from|When you cast one, exile cards from|Whenever you cast a commander, exile cards from|When you cast your first spell from exile, exile cards from|When you cast this spell, exile cards from|When they cast their next spell, they exile cards from|Whenever you cast an enchantment spell from your hand, exile cards from|When you cast this spell, exile cards from|When you cast this spell, exile cards from) the (last|spell, exile cards from the top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of their library until they exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland|top of your library until you exile a nonland) card (is exiled but before deciding whether to|that costs less. You may|that costs less. You may|that costs less. You may|that costs less. You may|with lesser mana value. You may|that costs less. You may|with lesser mana value. You may|that costs less. You may|that costs less. You may|that costs less. They may|that costs less. You may|that costs less. You may|that costs less. You may) cast (|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. They put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom of your library in|it without paying its mana cost. Put the exiled cards on the bottom in) a (nonland card|random order|random order|random order|random order|random order|random order. Then do it again|random order|random order|random order. Then do it again|random order|random order|random order. Then do it again|random order. Multiple instances of cascade each trigger separately).",
+      "template": "(Do this after|When you cast|When you cast that spell, exile cards from|When you cast this spell, exile cards from|When you cast your first spell, exile cards from|When you cast this spell, exile cards from|When you cast one, exile cards from|Whenever you cast a commander, exile cards from|When you cast your first spell from exile, exile cards from|When you cast this spell, exile cards from|When they cast their next spell, they exile cards from|Whenever you cast an enchantment spell from your hand, exile cards from|When you cast this spell, exile cards from|When you cast this spell, exile cards from) the (last card|spell, exile cards from the top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of their library until they exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card|top of your library until you exile a nonland card) (is exiled but before deciding whether to|that costs less. You may|that costs less. You may|that costs less. You may|that costs less. You may|with lesser mana value. You may|that costs less. You may|with lesser mana value. You may|that costs less. You may|that costs less. You may|that costs less. They may|that costs less. You may|that costs less. You may|that costs less. You may) cast (|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. They put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom in|it without paying its mana cost. Put the exiled cards on the bottom of your library in|it without paying its mana cost. Put the exiled cards on the bottom in) a (nonland card|random order|random order|random order|random order|random order|random order. Then do it again|random order|random order|random order. Then do it again|random order|random order|random order. Then do it again|random order. Multiple instances of cascade each trigger separately).",
       "count": 46
     },
     "best": [
@@ -2188,12 +2188,12 @@
       }
     ],
     "merged": {
-      "template": "<extcost>, Discard (this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|that|this|this|this|this|this|this|that|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this|this) card: Draw a card.",
+      "template": "<extcost>, Discard <target_card>: Draw a card.",
       "count": 297
     },
     "best": [
       {
-        "template": "<extcost>, Discard this card: Draw a card.",
+        "template": "<extcost>, Discard <target_card>: Draw a card.",
         "rts": [
           "{1}, Discard this card: Draw a card.",
           "{2}, Discard this card: Draw a card.",
@@ -2211,12 +2211,14 @@
           "{1}{B}, Discard this card: Draw a card.",
           "{1}{G}, Discard this card: Draw a card.",
           "{1}{R}, Discard this card: Draw a card.",
+          "{1}{U}, Discard that card: Draw a card.",
           "{1}{U}, Discard this card: Draw a card.",
           "{1}{W}, Discard this card: Draw a card.",
           "{2}{B}, Discard this card: Draw a card.",
           "{2}{G}, Discard this card: Draw a card.",
           "{2}{R}, Discard this card: Draw a card.",
           "{2}{U}, Discard this card: Draw a card.",
+          "{2}{W}, Discard that card: Draw a card.",
           "{2}{W}, Discard this card: Draw a card.",
           "{3}{B}, Discard this card: Draw a card.",
           "{3}{G}, Discard this card: Draw a card.",
@@ -2253,13 +2255,6 @@
           "{5}{W}{U}{B}, Discard this card: Draw a card.",
           "Sacrifice a land, Discard this card: Draw a card."
         ]
-      },
-      {
-        "template": "<mana>, Discard that card: Draw a card.",
-        "rts": [
-          "{1}{U}, Discard that card: Draw a card.",
-          "{2}{W}, Discard that card: Draw a card."
-        ]
       }
     ]
   },
@@ -2275,7 +2270,7 @@
   },
   {
     "label": "Deathtouch",
-    "count": 81,
+    "count": 80,
     "rts": [
       {
         "text": "Any amount of damage it deals to a creature is enough to destroy it.",
@@ -2296,15 +2291,11 @@
       {
         "text": "Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.",
         "count": 4
-      },
-      {
-        "text": "Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana.",
-        "count": 1
       }
     ],
     "merged": {
-      "template": "Any amount of damage <target_deals> to a creature is enough to destroy (it|it|it|that creature|it|it. {C} represents colorless mana).",
-      "count": 81
+      "template": "Any amount of damage <target_deals> to a creature is enough to destroy (it|it|it|that creature|it).",
+      "count": 80
     },
     "best": [
       {
@@ -2320,12 +2311,6 @@
         "template": "Any amount of damage it deals to a creature is enough to destroy that creature.",
         "rts": [
           "Any amount of damage it deals to a creature is enough to destroy that creature."
-        ]
-      },
-      {
-        "template": "Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana.",
-        "rts": [
-          "Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana."
         ]
       }
     ]
@@ -2364,7 +2349,7 @@
   },
   {
     "label": "Defender",
-    "count": 121,
+    "count": 119,
     "rts": [
       {
         "text": "This creature can't attack.",
@@ -2377,49 +2362,19 @@
       {
         "text": "A creature with defender can't attack.",
         "count": 2
-      },
-      {
-        "text": "It also loses all other creature types.",
-        "count": 1
-      },
-      {
-        "text": "It's no longer a Wall. This effect lasts indefinitely.",
-        "count": 1
       }
     ],
     "merged": {
-      "template": "(This creature can't attack|Those creatures can't attack|A creature with defender can't attack|It also loses all other creature types|It's no longer a Wall. This effect lasts indefinitely).",
-      "count": 121
+      "template": "<target_creature> can't attack.",
+      "count": 119
     },
     "best": [
       {
-        "template": "This creature can't attack.",
+        "template": "<target_creature> can't attack.",
         "rts": [
-          "This creature can't attack."
-        ]
-      },
-      {
-        "template": "Those creatures can't attack.",
-        "rts": [
-          "Those creatures can't attack."
-        ]
-      },
-      {
-        "template": "A creature with defender can't attack.",
-        "rts": [
+          "This creature can't attack.",
+          "Those creatures can't attack.",
           "A creature with defender can't attack."
-        ]
-      },
-      {
-        "template": "It also loses all other creature types.",
-        "rts": [
-          "It also loses all other creature types."
-        ]
-      },
-      {
-        "template": "It's no longer a Wall. This effect lasts indefinitely.",
-        "rts": [
-          "It's no longer a Wall. This effect lasts indefinitely."
         ]
       }
     ]
@@ -2859,7 +2814,7 @@
       }
     ],
     "merged": {
-      "template": "(|If|If|If|If|If|If) You (|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you) may (return a land|mill a|mill six cards instead. If you do, return this|mill two cards instead. If you do, return this|mill five cards instead. If you do, return this|mill four cards instead. If you do, return this|mill three cards instead. If you do, return this) card (|instead. If you do, return this card|||||) from your graveyard to your (hand and mill two cards instead of drawing a card|hand|hand|hand|hand|hand|hand).",
+      "template": "(|If|If|If|If|If|If) You (|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you|would draw a card, you) may (return a land card|mill a card|mill six cards instead. If you do, return this card|mill two cards instead. If you do, return this card|mill five cards instead. If you do, return this card|mill four cards instead. If you do, return this card|mill three cards instead. If you do, return this card) (|instead. If you do, return this card|||||) from your graveyard to your (hand and mill two cards instead of drawing a card|hand|hand|hand|hand|hand|hand).",
       "count": 15
     },
     "best": [
@@ -2967,7 +2922,7 @@
       }
     ],
     "merged": {
-      "template": "({W},|{5}{W},|{5}{R},|{5}{U}{U},|{3}{G},|{3}{W},|{6}{U},|{2}{W},|{3}{U},|{4}{W},|{3}{W}{U},|{3}{W}{W},|{4}{W}{U},|{3}{U},||) Exile (this|this|this|this|this|this|this|this|this|this|this|this|this|this|that|a creature) card (from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|and pay its embalm cost|from your graveyard and pay its embalm cost): Create a token that's a copy of it, except it's a white Zombie (Cat with|Angel with|Manticore with|Sphinx with|Snake Hydra with|Human Cleric with|Bird Warrior with|Human Warrior with|Snake Warrior with|Human Warrior with|Human Cleric with|Bird Soldier with|Bird Warrior with|Illusion Warrior with|in addition to its other types and has|in addition to its other types with) no mana cost. Embalm only as a sorcery.",
+      "template": "({W},|{5}{W},|{5}{R},|{5}{U}{U},|{3}{G},|{3}{W},|{6}{U},|{2}{W},|{3}{U},|{4}{W},|{3}{W}{U},|{3}{W}{W},|{4}{W}{U},|{3}{U},||) Exile (this card|this card|this card|this card|this card|this card|this card|this card|this card|this card|this card|this card|this card|this card|that card|a creature card) (from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|from your graveyard|and pay its embalm cost|from your graveyard and pay its embalm cost): Create a token that's a copy of it, except it's a white Zombie (Cat with|Angel with|Manticore with|Sphinx with|Snake Hydra with|Human Cleric with|Bird Warrior with|Human Warrior with|Snake Warrior with|Human Warrior with|Human Cleric with|Bird Soldier with|Bird Warrior with|Illusion Warrior with|in addition to its other types and has|in addition to its other types with) no mana cost. Embalm only as a sorcery.",
       "count": 16
     },
     "best": [
@@ -4099,21 +4054,16 @@
     },
     "best": [
       {
+        "template": "You may cast <target_card> from your graveyard for its flashback cost. Then exile it.",
+        "rts": [
+          "You may cast that card from your graveyard for its flashback cost. Then exile it.",
+          "You may cast this card from your graveyard for its flashback cost. Then exile it."
+        ]
+      },
+      {
         "template": "Mana cost includes color.",
         "rts": [
           "Mana cost includes color."
-        ]
-      },
-      {
-        "template": "You may cast that card from your graveyard for its flashback cost. Then exile it.",
-        "rts": [
-          "You may cast that card from your graveyard for its flashback cost. Then exile it."
-        ]
-      },
-      {
-        "template": "You may cast this card from your graveyard for its flashback cost. Then exile it.",
-        "rts": [
-          "You may cast this card from your graveyard for its flashback cost. Then exile it."
         ]
       },
       {
@@ -4740,19 +4690,14 @@
       }
     ],
     "merged": {
-      "template": "You may cast (that|this|this) card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by ({X}, where X is|{X}, where X is|an amount of generic mana equal to) its power. Then exile <target_spell>.",
+      "template": "You may cast <target_card> from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by ({X}, where X is|{X}, where X is|an amount of generic mana equal to) its power. Then exile <target_spell>.",
       "count": 12
     },
     "best": [
       {
-        "template": "You may cast that card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile the spell.",
+        "template": "You may cast <target_card> from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile <target_spell>.",
         "rts": [
-          "You may cast that card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile the spell."
-        ]
-      },
-      {
-        "template": "You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.",
-        "rts": [
+          "You may cast that card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile the spell.",
           "You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell."
         ]
       },
@@ -5656,19 +5601,14 @@
       }
     ],
     "merged": {
-      "template": "You may cast (that|this) card from your graveyard by discarding a card in addition to paying its other costs. Then exile <target_card>.",
+      "template": "You may cast <target_card> from your graveyard by discarding a card in addition to paying its other costs. Then exile <target_card>.",
       "count": 14
     },
     "best": [
       {
-        "template": "You may cast that card from your graveyard by discarding a card in addition to paying its other costs. Then exile it.",
+        "template": "You may cast <target_card> from your graveyard by discarding a card in addition to paying its other costs. Then exile <target_card>.",
         "rts": [
-          "You may cast that card from your graveyard by discarding a card in addition to paying its other costs. Then exile it."
-        ]
-      },
-      {
-        "template": "You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.",
-        "rts": [
+          "You may cast that card from your graveyard by discarding a card in addition to paying its other costs. Then exile it.",
           "You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card."
         ]
       }
@@ -6750,7 +6690,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast (a|this) card for its miracle cost when you draw it if it's the first card you drew this turn.",
+      "template": "You may cast (a card|this card) for its miracle cost when you draw it if it's the first card you drew this turn.",
       "count": 18
     },
     "best": [
@@ -8329,7 +8269,7 @@
       }
     ],
     "merged": {
-      "template": "(Exile the spell|Exile the spell|If you cast this spell|the spell's controller exiles the spell) (||from your hand, exile it|) as it (resolves|resolves if you cast it from your hand|resolves|resolves if they cast it from their hand). At the beginning of (your|your|your|that player's) next upkeep, <target> may cast (that|that|this|that) card from exile without paying its mana cost.",
+      "template": "(Exile the spell|Exile the spell|If you cast this spell|the spell's controller exiles the spell) (||from your hand, exile it|) as it (resolves|resolves if you cast it from your hand|resolves|resolves if they cast it from their hand). At the beginning of (your|your|your|that player's) next upkeep, <target> may cast <target_card> from exile without paying its mana cost.",
       "count": 34
     },
     "best": [
@@ -9002,7 +8942,7 @@
       }
     ],
     "merged": {
-      "template": "({0},|{2}{B},|{2}{G},|{4}{B},|{5}{G},|{6}{B},|{1}{B}{G},|{2}{B}{B},|{3}{B}{G},|{3}{G}{G},|{4}{G}{G},|{5}{G}{G},|) Exile (this|this|this|this|this|this|this|this|this|this|this|this|a creature) card from your (graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard and pay its mana cost): Put a number of +1/+1 counters equal to (this|this|this|this|this|this|this|this|this|this|this|this|that) card's power on target creature. Scavenge only as a sorcery.",
+      "template": "({0},|{2}{B},|{2}{G},|{4}{B},|{5}{G},|{6}{B},|{1}{B}{G},|{2}{B}{B},|{3}{B}{G},|{3}{G}{G},|{4}{G}{G},|{5}{G}{G},|) Exile (this card|this card|this card|this card|this card|this card|this card|this card|this card|this card|this card|this card|a creature card) from your (graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard|graveyard and pay its mana cost): Put a number of +1/+1 counters equal to <target_card>'s power on target creature. Scavenge only as a sorcery.",
       "count": 17
     },
     "best": [
@@ -11465,7 +11405,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast (a|this|this|this) card from your hand (|||or graveyard) for its warp cost. (|||If you do,) Exile (that permanent|this creature|this enchantment|this creature) at the beginning of the next end step, then you may cast it from exile on a later turn.",
+      "template": "You may cast (a card|this card|this card|this card) from your hand (|||or graveyard) for its warp cost. (|||If you do,) Exile (that permanent|this creature|this enchantment|this creature) at the beginning of the next end step, then you may cast it from exile on a later turn.",
       "count": 31
     },
     "best": [

@@ -16,12 +16,6 @@
       "rts": [
         "Any amount of damage it deals to a creature is enough to destroy that creature."
       ]
-    },
-    {
-      "template": "Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana.",
-      "rts": [
-        "Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana."
-      ]
     }
   ]
 }
