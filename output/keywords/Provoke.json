@@ -9,7 +9,7 @@
       ]
     },
     {
-      "template": "Whenever a <card_sub_type> attacks, its controller may have target creature defending player controls untap and block it if able.",
+      "template": "Whenever a <type> attacks, its controller may have target creature defending player controls untap and block it if able.",
       "rts": [
         "Whenever a Cat attacks, its controller may have target creature defending player controls untap and block it if able.",
         "Whenever a Sliver attacks, its controller may have target creature defending player controls untap and block it if able."

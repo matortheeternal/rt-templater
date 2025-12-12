@@ -15,24 +15,39 @@ function pairExpr(options) {
     return `(?:${optionsWithArticles.join('|')}|${single} or ${single})`;
 }
 
-const payAdditionalMana = `pay an additional <mana>`;
+function pluralExpr(options) {
+    const makePlural = opt => {
+        return /s$/.test(opt) ? opt : `${opt}s`;
+    };
+
+    const pluralOptions = options.map(makePlural);
+    return `(?:${pluralOptions.join('|')})`;
+}
+
+const payAdditionalMana = `pay an additional ${mana}`;
 const inAddition = `in addition to any other costs`;
 
-const permanentTypes = ['land', 'creature', 'artifact', 'enchantment'];
+const landTypes = ['island', 'forest', 'mountain', 'swamp', 'plains'];
+const permanentTypes = ['land', 'creature', 'artifact', 'enchantment', ...landTypes];
 const allTypes = permanentTypes.concat(['instant', 'sorcery', '']);
 
-const sac = `sacrifice ${pairExpr(permanentTypes)}`;
-const payThenSac = `pay ${mana} and ${sac}`;
+const payLife = `pay [1-9] life`;
+const pay = `(?:pay ${mana}|${payLife})`;
 
-const discard = `discard ${pairExpr(allTypes)} card`;
+const sacMultiple = `sacrifice (?:two|three) ${pluralExpr(landTypes)}`;
+const sac = `(?:sacrifice ${pairExpr(permanentTypes)}|${sacMultiple})`;
+const payThenSac = `${pay} and ${sac}`;
+
+const discard = `(?:discard ${pairExpr(allTypes)} card|discard two cards|discard a card at random)`;
 const discards = `discards ${pairExpr(allTypes)} card`;
-const payThenDiscard = `pay ${mana} and ${discard}`;
+const payThenDiscard = `${pay} and ${discard}`;
 
 class AdditionalCostReplacer extends Replacer {
     id = '<addcost>';
     expr = new RegExp(
         `^(?:` +
         `${payAdditionalMana}` +
+        `|${payLife} ${inAddition}` +
         `|${sac} ${inAddition}` +
         `|${discard} ${inAddition}` +
         `|${payThenSac} ${inAddition}` +
@@ -59,7 +74,7 @@ class ManaReplacer extends Replacer {
 
 export default [
     ManaReplacer,
-    //AdditionalCostReplacer,
     ExtCostReplacer,
     PayCostReplacer,
+    AdditionalCostReplacer,
 ];

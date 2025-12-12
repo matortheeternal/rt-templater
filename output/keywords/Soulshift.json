@@ -12,12 +12,7 @@
         "When this creature dies, you may return target Spirit card with mana value 5 or less from your graveyard to your hand.",
         "When this creature dies, you may return target Spirit card with mana value 6 or less from your graveyard to your hand.",
         "When this creature dies, you may return target Spirit card with mana value 7 or less from your graveyard to your hand.",
-        "When this creature dies, you may return target Spirit card with mana value 8 or less from your graveyard to your hand."
-      ]
-    },
-    {
-      "template": "When this creature dies, you may return target Spirit card with mana value X or less from your graveyard to your hand.",
-      "rts": [
+        "When this creature dies, you may return target Spirit card with mana value 8 or less from your graveyard to your hand.",
         "When this creature dies, you may return target Spirit card with mana value X or less from your graveyard to your hand."
       ]
     },

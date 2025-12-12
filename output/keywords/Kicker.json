@@ -3,7 +3,7 @@
   "expr": "Kicker",
   "variations": [
     {
-      "template": "You may pay an additional <mana> as you cast this spell.",
+      "template": "You may <addcost> as you cast this spell.",
       "rts": [
         "You may pay an additional {1} as you cast this spell.",
         "You may pay an additional {2} as you cast this spell.",
@@ -44,7 +44,11 @@
         "You may pay an additional {8}{R} as you cast this spell.",
         "You may pay an additional {B}{B} as you cast this spell.",
         "You may pay an additional {W}{W} as you cast this spell.",
-        "You may pay an additional {X}{2} as you cast this spell."
+        "You may pay an additional {X}{2} as you cast this spell.",
+        "You may sacrifice a land in addition to any other costs as you cast this spell.",
+        "You may sacrifice a creature in addition to any other costs as you cast this spell.",
+        "You may pay {2}{R} and sacrifice a land in addition to any other costs as you cast this spell.",
+        "You may pay {2}{B} and discard a creature card in addition to any other costs as you cast this spell."
       ]
     },
     {
@@ -80,33 +84,15 @@
       ]
     },
     {
-      "template": "You may sacrifice a land in addition to any other costs as you cast this spell.",
-      "rts": [
-        "You may sacrifice a land in addition to any other costs as you cast this spell."
-      ]
-    },
-    {
       "template": "You may sacrifice two lands in addition to any other costs as you cast this spell.",
       "rts": [
         "You may sacrifice two lands in addition to any other costs as you cast this spell."
       ]
     },
     {
-      "template": "You may sacrifice a creature in addition to any other costs as you cast this spell.",
-      "rts": [
-        "You may sacrifice a creature in addition to any other costs as you cast this spell."
-      ]
-    },
-    {
       "template": "You may tap a Vampire you control in addition to any other costs as you cast this spell.",
       "rts": [
         "You may tap a Vampire you control in addition to any other costs as you cast this spell."
-      ]
-    },
-    {
-      "template": "You may pay {2}{R} and sacrifice a land in addition to any other costs as you cast this spell.",
-      "rts": [
-        "You may pay {2}{R} and sacrifice a land in addition to any other costs as you cast this spell."
       ]
     },
     {
@@ -119,12 +105,6 @@
       "template": "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.",
       "rts": [
         "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell."
-      ]
-    },
-    {
-      "template": "You may pay {2}{B} and discard a creature card in addition to any other costs as you cast this spell.",
-      "rts": [
-        "You may pay {2}{B} and discard a creature card in addition to any other costs as you cast this spell."
       ]
     },
     {

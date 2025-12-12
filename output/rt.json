@@ -4360,6 +4360,53 @@
     "bestKeywords": {},
     "matchedKeywords": []
   },
+  "This cost is paid as attackers are declared.": {
+    "count": 5,
+    "beforeTokens": {
+      "this": 3,
+      "creature": 5,
+      "can't": 5,
+      "attack": 5,
+      "unless": 5,
+      "you": 4,
+      "return": 1,
+      "an": 1,
+      "enchantment": 1,
+      "control": 3,
+      "to": 1,
+      "its": 1,
+      "owner's": 1,
+      "hand": 1,
+      "green": 2,
+      "creatures": 2,
+      "their": 4,
+      "controller": 2,
+      "sacrifices": 2,
+      "a": 3,
+      "land": 3,
+      "of": 2,
+      "choice": 2,
+      "for": 2,
+      "each": 2,
+      "they": 2,
+      "that's": 2,
+      "attacking": 2,
+      "sacrifice": 2,
+      "two": 1,
+      "islands": 1,
+      "black": 2
+    },
+    "keywords": {
+      "flying": 1,
+      "trample": 1
+    },
+    "bestBeforeTokens": {
+      "attack": "100.00%",
+      "unless": "100.00%"
+    },
+    "bestKeywords": {},
+    "matchedKeywords": []
+  },
   "This creature deals combat damage before creatures without first strike.": {
     "count": 34,
     "beforeTokens": {

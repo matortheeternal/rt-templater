@@ -5,7 +5,7 @@ const thisTypesGroup = `(?:creature|land|enchantment|permanent|artifact|token)`;
 
 class TargetSpellReplacer extends Replacer {
     id = '<target_spell>';
-    expr = /^(?:it|the spell|that spell|this spell|those spells)$/;
+    expr = /^(?:it|a spell|the spell|that spell|this spell|those spells)$/;
 }
 
 class TargetSpellCostsReplacer extends Replacer {

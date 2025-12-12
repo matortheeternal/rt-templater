@@ -23,14 +23,9 @@
       ]
     },
     {
-      "template": "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.",
+      "template": "As you cast <target_spell>, you may sacrifice a creature with power <number> or greater. When you do, copy <target_spell> and you may choose <number:a_or_word> new target<number:plural:s> for the copy.",
       "rts": [
-        "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy."
-      ]
-    },
-    {
-      "template": "As you cast this spell, you may sacrifice a creature with power <number> or greater. When you do, copy this spell and you may choose a new target for the copy.",
-      "rts": [
+        "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.",
         "As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.",
         "As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.",
         "As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell and you may choose a new target for the copy."

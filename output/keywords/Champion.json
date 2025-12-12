@@ -3,13 +3,14 @@
   "expr": "Champion",
   "variations": [
     {
-      "template": "When this enters, sacrifice it unless you exile another <card_sub_type> you control. When this leaves the battlefield, that card returns to the battlefield.",
+      "template": "When this <type> enters, sacrifice it unless you exile another <card_sub_type> you control. When this <type> leaves the battlefield, that card returns to the battlefield.",
       "rts": [
         "When this enters, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.",
         "When this enters, sacrifice it unless you exile another Goblin you control. When this leaves the battlefield, that card returns to the battlefield.",
         "When this enters, sacrifice it unless you exile another Kithkin you control. When this leaves the battlefield, that card returns to the battlefield.",
         "When this enters, sacrifice it unless you exile another Merfolk you control. When this leaves the battlefield, that card returns to the battlefield.",
-        "When this enters, sacrifice it unless you exile another Elemental you control. When this leaves the battlefield, that card returns to the battlefield."
+        "When this enters, sacrifice it unless you exile another Elemental you control. When this leaves the battlefield, that card returns to the battlefield.",
+        "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield."
       ]
     },
     {
@@ -23,12 +24,6 @@
       "rts": [
         "When this enters, sacrifice it unless you exile another Goblin or Shaman you control. When this leaves the battlefield, that card returns to the battlefield.",
         "When this enters, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield."
-      ]
-    },
-    {
-      "template": "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield.",
-      "rts": [
-        "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield."
       ]
     }
   ]

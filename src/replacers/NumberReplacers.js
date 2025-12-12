@@ -2,12 +2,17 @@ import Replacer from './Replacer.js';
 
 class NumberReplacer extends Replacer {
     id = '<number>';
-    expr = /^(?:0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16)$/i;
+    expr = /^(?:X|[0-9]|1[0-9])$/i;
 }
 
 class NumberNumberReplacer extends Replacer {
     id = '<number>/<number>';
-    expr = /^(?:1\/1|2\/2|3\/3|4\/4|5\/5|6\/6|7\/7|8\/8|9\/9)$/i;
+    expr = /^([1-9]|1[0-9]|X)\/\1$/i;
+}
+
+class PPReplacer extends Replacer {
+    id = '+<number>/+<number>';
+    expr = /^\+([1-9]|1[0-9]|X)\/\+\1$/i;
 }
 
 class NumberMultiReplacer extends Replacer {
@@ -15,14 +20,25 @@ class NumberMultiReplacer extends Replacer {
     expr = /^(?:twice|three times|four times) that$/
 }
 
+const numberWords = [
+    'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+    'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen'
+];
+const aOrWordGroup = `(?:a|${numberWords.join('|')}|X)`;
+
+class NumberPermanentsReplacer extends Replacer {
+    id = '<number:permanents>';
+    expr = new RegExp(`^${aOrWordGroup} permanents?$`, 'i');
+}
+
 class NumberWordReplacer extends Replacer {
     id = '<number:word>';
-    expr = /^(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|X)$/i;
+    expr = new RegExp(`^(?:one|${numberWords.join('|')}|X)$`, 'i');
 }
 
 class NumberAOrWordReplacer extends Replacer {
     id = '<number:a_or_word>';
-    expr = /^(?:a|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|X)$/i;
+    expr = new RegExp(`^${aOrWordGroup}$`, 'i');
 }
 
 function isPlural(p1, p2) {
@@ -46,8 +62,10 @@ class NumberPluralSReplacer extends Replacer {
 export default [
     NumberReplacer,
     NumberNumberReplacer,
+    PPReplacer,
     NumberMultiReplacer,
     NumberWordReplacer,
+    NumberPermanentsReplacer,
     NumberAOrWordReplacer,
     NumberPluralSReplacer
 ];

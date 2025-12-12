@@ -22,14 +22,9 @@
       ]
     },
     {
-      "template": "As that creature enters, you may sacrifice any number of creatures. It enters with five times that many +1/+1 counters on it.",
+      "template": "As <target_creature> enters, you may sacrifice any number of creatures. It enters with <number:word> times that many +1/+1 counters on it.",
       "rts": [
-        "As that creature enters, you may sacrifice any number of creatures. It enters with five times that many +1/+1 counters on it."
-      ]
-    },
-    {
-      "template": "As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it.",
-      "rts": [
+        "As that creature enters, you may sacrifice any number of creatures. It enters with five times that many +1/+1 counters on it.",
         "As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it."
       ]
     },

@@ -9,20 +9,10 @@
       ]
     },
     {
-      "template": "As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
+      "template": "As you cast <target_spell>, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose <number:a_or_word> new target<number:plural:s> for the copy.",
       "rts": [
-        "As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy."
-      ]
-    },
-    {
-      "template": "As you cast that spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
-      "rts": [
-        "As you cast that spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy."
-      ]
-    },
-    {
-      "template": "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.",
-      "rts": [
+        "As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
+        "As you cast that spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
         "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy."
       ]
     }

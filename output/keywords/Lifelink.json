@@ -6,13 +6,8 @@
       "template": "Damage dealt by <target_creature> also causes you to gain that much life.",
       "rts": [
         "Damage dealt by the creature also causes you to gain that much life.",
+        "Damage dealt by this creature also causes you to gain that much life.",
         "Damage dealt by those creatures also causes you to gain that much life."
-      ]
-    },
-    {
-      "template": "Damage dealt by this creature also causes you to gain that much life.",
-      "rts": [
-        "Damage dealt by this creature also causes you to gain that much life."
       ]
     },
     {

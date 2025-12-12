@@ -3,14 +3,9 @@
   "expr": "Boast",
   "variations": [
     {
-      "template": "Activate only if that creature attacked this turn and only once each turn.",
+      "template": "Activate only if <target_creature> attacked this turn and only once each turn.",
       "rts": [
-        "Activate only if that creature attacked this turn and only once each turn."
-      ]
-    },
-    {
-      "template": "Activate only if this creature attacked this turn and only once each turn.",
-      "rts": [
+        "Activate only if that creature attacked this turn and only once each turn.",
         "Activate only if this creature attacked this turn and only once each turn."
       ]
     }

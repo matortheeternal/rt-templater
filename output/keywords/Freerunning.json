@@ -3,14 +3,9 @@
   "expr": "Freerunning",
   "variations": [
     {
-      "template": "You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.",
+      "template": "You may cast <target_spell> for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.",
       "rts": [
-        "You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander."
-      ]
-    },
-    {
-      "template": "You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.",
-      "rts": [
+        "You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.",
         "You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander."
       ]
     }

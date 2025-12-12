@@ -6,7 +6,16 @@ class CreateReplacer extends Replacer {
 
     constructor(label) {
         super();
-        this.expr = new RegExp(`(?:Create|To ${label}, create)`, 'i');
+        this.expr = new RegExp(`^(?:Create|To ${label.toLowerCase()}, create)$`, 'i');
+    }
+}
+
+class ToDoThisReplacer extends Replacer {
+    id = '<to_do_this>';
+
+    constructor(label) {
+        super();
+        this.expr = new RegExp(`^(?:To ${label.toLowerCase()}(?: [1-9])?,|)$`, 'i');
     }
 }
 
@@ -15,7 +24,7 @@ class ThisTokenIsReplacer extends Replacer {
 
     constructor(label) {
         super();
-        this.expr = new RegExp(`(?:It's|A ${label} is)`, 'i');
+        this.expr = new RegExp(`^(?:It's|A ${label.toLowerCase()} is)$`, 'i');
     }
 }
 
@@ -47,6 +56,7 @@ class ColorReplacer extends Replacer {
 const allTypes = [
     'Aura', 'artifact', 'Cat', 'Bird', 'Food', 'Frog', 'Gate', 'Town', 'Dalek', 'Human',
     'Swamp', 'token', 'Forest', 'Island', 'Knight', 'Lizard', 'Plains', 'Sliver',
+    'Orc', 'Zombie',
     'Spirit', 'Citizen', 'Mountain', 'creature', 'Equipment', 'snow land', 'enchantment',
     'planeswalker', 'artifact creature', 'artifact, legendary, and/or Saga permanent',
     'Assassin, Mercenary, Pirate, Rogue, and/or Warlock'
@@ -57,6 +67,16 @@ class SubTypeAndOrReplacer extends Replacer {
     expr = new RegExp(`^${subtypesGroup}(?: and/or ${subtypesGroup})?$`)
 }
 
+class ATypeReplacer extends Replacer {
+    id = '<type:a>'
+    expr = new RegExp(`^(?:a|an) ${subtypesGroup}$`, 'i')
+}
+
+class TypesReplacer extends Replacer {
+    id = '<type:s>'
+    expr = new RegExp(`^(${allTypes.join('|')})s`, 'i')
+}
+
 class TypeReplacer extends Replacer {
     id = '<type>'
     expr = new RegExp(`^(${allTypes.join('|')})`, 'i')
@@ -64,12 +84,15 @@ class TypeReplacer extends Replacer {
 
 export default [
     CreateReplacer,
+    ToDoThisReplacer,
     ThisTokenIsReplacer,
     CompleatedManaReplacer,
     CompleatedManaOptionsReplacer,
     GenericManaPartReplacer,
-    CardSubtypeReplacer,
     ColorReplacer,
-    SubTypeAndOrReplacer,
-    TypeReplacer
+    ATypeReplacer,
+    TypeReplacer,
+    TypesReplacer,
+    CardSubtypeReplacer,
+    SubTypeAndOrReplacer
 ]

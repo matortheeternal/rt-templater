@@ -3,14 +3,9 @@
   "expr": "Forage",
   "variations": [
     {
-      "template": "Exile three cards from your graveyard or sacrifice a Food.",
+      "template": "<to_do_this> Exile three cards from your graveyard or sacrifice a Food.",
       "rts": [
-        "Exile three cards from your graveyard or sacrifice a Food."
-      ]
-    },
-    {
-      "template": "To forage, exile three cards from your graveyard or sacrifice a Food.",
-      "rts": [
+        "Exile three cards from your graveyard or sacrifice a Food.",
         "To forage, exile three cards from your graveyard or sacrifice a Food."
       ]
     }

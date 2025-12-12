@@ -3,18 +3,13 @@
   "expr": "Amass",
   "variations": [
     {
-      "template": "Put <number:a_or_word> +1/+1 counter<number:plural:s> on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
+      "template": "Put <number:a_or_word> +1/+1 counter<number:plural:s> on an Army you control. It's also <type:a>. If you don't control an Army, create a 0/0 black <type> Army creature token first.",
       "rts": [
         "Put a +1/+1 counter on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
         "Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
         "Put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
-        "Put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
-      ]
-    },
-    {
-      "template": "Put <number:a_or_word> +1/+1 counter<number:plural:s> on an Army you control. It's also a <card_sub_type>. If you don't control an Army, create a 0/0 black <card_sub_type> Army creature token first.",
-      "rts": [
         "Put a +1/+1 counter on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
+        "Put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
         "Put X +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
         "Put two +1/+1 counters on an Army you control. It's also a Sliver. If you don't control an Army, create a 0/0 black Sliver Army creature token first.",
         "Put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
@@ -23,21 +18,11 @@
       ]
     },
     {
-      "template": "To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
+      "template": "To amass <type>, put <number:word> +1/+1 counters on an Army you control. It's also <type:a>. If you don't control an Army, create a 0/0 black <type> Army creature token first.",
       "rts": [
-        "To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
-      ]
-    },
-    {
-      "template": "To amass Orcs <number>, put <number:word> +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
-      "rts": [
+        "To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
         "To amass Orcs 2, put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
-        "To amass Orcs 3, put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
-      ]
-    },
-    {
-      "template": "To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
-      "rts": [
+        "To amass Orcs 3, put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
         "To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first."
       ]
     },

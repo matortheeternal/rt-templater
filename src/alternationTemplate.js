@@ -196,6 +196,21 @@ function absorbVariantPrefixes(template) {
     });
 }
 
+const SUFFIXES = [' spell', ' creature'];
+
+function absorbVariantSuffixes(template) {
+    return template.replace(/\(([^()]+)\)(\s+[A-Za-z]+?)?\b/g, (full, inner, suffix) => {
+        if (!suffix) return full;
+        if (!SUFFIXES.includes(suffix)) return full;
+
+        const opts = inner.split('|');
+        if (opts.length < 2) return full;
+
+        const absorbed = opts.map(o => o + suffix);
+        return '(' + absorbed.join('|') + ')';
+    });
+}
+
 export function createAlternationTemplate(strings) {
     if (!strings || strings.length === 0) return '';
     if (strings.length === 1) return strings[0];
@@ -214,6 +229,7 @@ export function createAlternationTemplate(strings) {
 
     let template = renderTemplate(columns);
     template = absorbVariantPrefixes(template);
+    template = absorbVariantSuffixes(template);
     template = cleanupVariantSuffixes(template);
 
     return template;

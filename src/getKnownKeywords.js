@@ -2,7 +2,7 @@ import fs from 'fs';
 
 const dictionary = new Map();
 
-const exclude = ['Ability'];
+const exclude = ['Ability', 'Attack'];
 
 function buildKeywordTokensDictionary(keywords) {
     keywords.forEach(kw => {
