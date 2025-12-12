@@ -3,7 +3,7 @@
   "expr": "Station",
   "variations": [
     {
-      "template": "Tap another creature you control: Put charge counters equal to its power on this <card_sub_type>. Station only as a sorcery.",
+      "template": "Tap another creature you control: Put charge counters equal to its power on this <type>. Station only as a sorcery.",
       "rts": [
         "Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.",
         "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery."

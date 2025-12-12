@@ -3,16 +3,11 @@
   "expr": "Surveil",
   "variations": [
     {
-      "template": "<to_do_this> Look at the top card of your library. You may put it into your graveyard.",
+      "template": "<to_do_this> Look at the top card of your library. You may put <target_card> into your graveyard.",
       "rts": [
         "Look at the top card of your library. You may put it into your graveyard.",
-        "To surveil 1, look at the top card of your library. You may put it into your graveyard."
-      ]
-    },
-    {
-      "template": "<to_do_this> Look at the top card of your library. You may put that card into your graveyard.",
-      "rts": [
         "Look at the top card of your library. You may put that card into your graveyard.",
+        "To surveil 1, look at the top card of your library. You may put it into your graveyard.",
         "To surveil 1, look at the top card of your library. You may put that card into your graveyard."
       ]
     },

@@ -96,14 +96,9 @@
       ]
     },
     {
-      "template": "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.",
+      "template": "You may sacrifice an artifact or <type> in addition to any other costs as you cast this spell.",
       "rts": [
-        "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell."
-      ]
-    },
-    {
-      "template": "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.",
-      "rts": [
+        "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.",
         "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell."
       ]
     },

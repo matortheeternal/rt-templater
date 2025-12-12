@@ -16,7 +16,7 @@
       ]
     },
     {
-      "template": "Tap any number of creatures you control with total power <number> or more: This Vehicle becomes an artifact creature until end of turn. <type>",
+      "template": "Tap any number of creatures you control with total power <number> or more: This Vehicle becomes an artifact creature until end of turn.",
       "rts": [
         "Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.",
         "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.",
@@ -24,14 +24,19 @@
         "Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.",
         "Tap any number of creatures you control with total power 5 or more: This Vehicle becomes an artifact creature until end of turn.",
         "Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature until end of turn.",
-        "Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.",
-        "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn. Creatures can't be attached to other permanents."
+        "Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn."
       ]
     },
     {
       "template": "Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.",
       "rts": [
         "Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn."
+      ]
+    },
+    {
+      "template": "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn. Creatures can't be attached to other permanents.",
+      "rts": [
+        "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn. Creatures can't be attached to other permanents."
       ]
     }
   ]

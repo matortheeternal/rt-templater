@@ -393,11 +393,16 @@
         ]
       },
       {
-        "template": "To amass <type>, put <number:word> +1/+1 counters on an Army you control. It's also <type:a>. If you don't control an Army, create a 0/0 black <type> Army creature token first.",
+        "template": "To amass Orcs <number>, put <number:word> +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
         "rts": [
           "To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
           "To amass Orcs 2, put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
-          "To amass Orcs 3, put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
+          "To amass Orcs 3, put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
+        ]
+      },
+      {
+        "template": "To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
+        "rts": [
           "To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first."
         ]
       },
@@ -1413,32 +1418,22 @@
       }
     ],
     "merged": {
-      "template": "When this <type> enters, sacrifice it unless you exile another (Faerie|Goblin|Kithkin|Merfolk|creature|Elemental|Goblin or Shaman|Treefolk or Warrior|Elf) you control. When this <type> leaves the battlefield, that card returns to the battlefield.",
+      "template": "When this <type> enters, sacrifice it unless you exile another <type> you control. When this <type> leaves the battlefield, that card returns to the battlefield.",
       "count": 12
     },
     "best": [
       {
-        "template": "When this <type> enters, sacrifice it unless you exile another <card_sub_type> you control. When this <type> leaves the battlefield, that card returns to the battlefield.",
+        "template": "When this <type> enters, sacrifice it unless you exile another <type> you control. When this <type> leaves the battlefield, that card returns to the battlefield.",
         "rts": [
           "When this enters, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Goblin you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Kithkin you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Merfolk you control. When this leaves the battlefield, that card returns to the battlefield.",
+          "When this enters, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Elemental you control. When this leaves the battlefield, that card returns to the battlefield.",
-          "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield."
-        ]
-      },
-      {
-        "template": "When this enters, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield.",
-        "rts": [
-          "When this enters, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield."
-        ]
-      },
-      {
-        "template": "When this enters, sacrifice it unless you exile another <card_sub_type> or <card_sub_type> you control. When this leaves the battlefield, that card returns to the battlefield.",
-        "rts": [
           "When this enters, sacrifice it unless you exile another Goblin or Shaman you control. When this leaves the battlefield, that card returns to the battlefield.",
-          "When this enters, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield."
+          "When this enters, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield.",
+          "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield."
         ]
       }
     ]
@@ -1461,21 +1456,16 @@
       }
     ],
     "merged": {
-      "template": "(It|This card|This token) is every creature type.",
+      "template": "<target_card> is every creature type.",
       "count": 56
     },
     "best": [
       {
-        "template": "<target> is every creature type.",
+        "template": "<target_card> is every creature type.",
         "rts": [
           "It is every creature type.",
+          "This card is every creature type.",
           "This token is every creature type."
-        ]
-      },
-      {
-        "template": "This card is every creature type.",
-        "rts": [
-          "This card is every creature type."
         ]
       }
     ]
@@ -1795,7 +1785,7 @@
       }
     ],
     "merged": {
-      "template": "(|Your creatures can help cast it.|Your creatures can help cast this spell.|Your creatures can help cast those spells.|Your creatures can help cast those spells.|Your creatures can help cast those spells.) Each creature you tap while casting (a noncreature spell from exile|it|this spell|an artifact spell|a multicolored spell|a legendary creature spell) pays for {1} or one mana of (||||a color|) that <type>.",
+      "template": "(|Your creatures can help cast it.|Your creatures can help cast this spell.|Your creatures can help cast those spells.|Your creatures can help cast those spells.|Your creatures can help cast those spells.) Each creature you tap while casting (a noncreature spell from exile|it|this spell|an artifact spell|a multicolored spell|a legendary creature spell) pays for {1} or one mana of (||||a color|) that (creature's color|creature's color|creature's color|creature's color|creature is|creature's color).",
       "count": 90
     },
     "best": [
@@ -1904,7 +1894,7 @@
         ]
       },
       {
-        "template": "Tap any number of creatures you control with total power <number> or more: This Vehicle becomes an artifact creature until end of turn. <type>",
+        "template": "Tap any number of creatures you control with total power <number> or more: This Vehicle becomes an artifact creature until end of turn.",
         "rts": [
           "Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.",
           "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.",
@@ -1912,14 +1902,19 @@
           "Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.",
           "Tap any number of creatures you control with total power 5 or more: This Vehicle becomes an artifact creature until end of turn.",
           "Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature until end of turn.",
-          "Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.",
-          "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn. Creatures can't be attached to other permanents."
+          "Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn."
         ]
       },
       {
         "template": "Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.",
         "rts": [
           "Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn."
+        ]
+      },
+      {
+        "template": "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn. Creatures can't be attached to other permanents.",
+        "rts": [
+          "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn. Creatures can't be attached to other permanents."
         ]
       }
     ]
@@ -2696,7 +2691,7 @@
     },
     "best": [
       {
-        "template": "As this creature enters, you may sacrifice any number of <type>. It enters with that many +1/+1 counters on it.",
+        "template": "As this creature enters, you may sacrifice any number of <type:s>. It enters with that many +1/+1 counters on it.",
         "rts": [
           "As this creature enters, you may sacrifice any number of artifacts. It enters with that many +1/+1 counters on it.",
           "As this creature enters, you may sacrifice any number of creatures. It enters with that many +1/+1 counters on it."
@@ -3058,7 +3053,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast this spell by sacrificing (a creature|an artifact) and paying the emerge cost reduced by that <type> mana value.",
+      "template": "You may cast this spell by sacrificing (a creature|an artifact) and paying the emerge cost reduced by that (creature's|artifact's) mana value.",
       "count": 15
     },
     "best": [
@@ -3419,14 +3414,15 @@
       }
     ],
     "merged": {
-      "template": "({0}|{1}|{1}|{2}|{3}|{4}|{5}|{6}|{8}|{W}|{1}{B}|{1}{W}|{2}{G}|{2}{R}|{3}{W}|{1}|{2}|{3}|{4}|{5}|Pay 3 life): Attach to target (creature|Halfling|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature|creature) you control. Equip only as a sorcery. (|||||||||||||||This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.)",
+      "template": "({0}|{1}|{1}|{2}|{3}|{4}|{5}|{6}|{8}|{W}|{1}{B}|{1}{W}|{2}{G}|{2}{R}|{3}{W}|{1}|{2}|{3}|{4}|{5}|Pay 3 life): Attach to target <type> you control. Equip only as a sorcery. (|||||||||||||||This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.|This card enters unattached and stays on the battlefield if the creature leaves.)",
       "count": 221
     },
     "best": [
       {
-        "template": "<mana>: Attach to target creature you control. Equip only as a sorcery.",
+        "template": "<mana>: Attach to target <type> you control. Equip only as a sorcery.",
         "rts": [
           "{0}: Attach to target creature you control. Equip only as a sorcery.",
+          "{1}: Attach to target Halfling you control. Equip only as a sorcery.",
           "{1}: Attach to target creature you control. Equip only as a sorcery.",
           "{2}: Attach to target creature you control. Equip only as a sorcery.",
           "{3}: Attach to target creature you control. Equip only as a sorcery.",
@@ -3440,12 +3436,6 @@
           "{2}{G}: Attach to target creature you control. Equip only as a sorcery.",
           "{2}{R}: Attach to target creature you control. Equip only as a sorcery.",
           "{3}{W}: Attach to target creature you control. Equip only as a sorcery."
-        ]
-      },
-      {
-        "template": "{1}: Attach to target Halfling you control. Equip only as a sorcery.",
-        "rts": [
-          "{1}: Attach to target Halfling you control. Equip only as a sorcery."
         ]
       },
       {
@@ -3634,7 +3624,7 @@
       }
     ],
     "merged": {
-      "template": "(Whenever|They have \"Whenever) a creature you control enters, if (that creature|it) has greater power or toughness than this <type>, put a +1/+1 counter on this <type>.",
+      "template": "(Whenever|They have \"Whenever) a creature you control enters, if (that creature|it) has greater power or toughness than this <type>, put a +1/+1 counter on this (creature|token.\" They see this creature enter).",
       "count": 21
     },
     "best": [
@@ -4104,22 +4094,17 @@
         ]
       },
       {
-        "template": "You may cast <target_spell> any time you could cast an instant.",
+        "template": "You may cast <target_card> any time you could cast an instant.",
         "rts": [
           "You may cast it any time you could cast an instant.",
-          "You may cast this spell any time you could cast an instant."
-        ]
-      },
-      {
-        "template": "You may cast them any time you could cast an instant.",
-        "rts": [
-          "You may cast them any time you could cast an instant."
-        ]
-      },
-      {
-        "template": "You may cast this card any time you could cast an instant.",
-        "rts": [
+          "You may cast them any time you could cast an instant.",
           "You may cast this card any time you could cast an instant."
+        ]
+      },
+      {
+        "template": "You may cast this spell any time you could cast an instant.",
+        "rts": [
+          "You may cast this spell any time you could cast an instant."
         ]
       }
     ]
@@ -4292,9 +4277,14 @@
         ]
       },
       {
-        "template": "<number:a_or_word> Food <type> with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
+        "template": "Food tokens are artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
         "rts": [
-          "Food tokens are artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
+          "Food tokens are artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\""
+        ]
+      },
+      {
+        "template": "A Food token is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
+        "rts": [
           "A Food token is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\""
         ]
       }
@@ -4467,14 +4457,9 @@
         ]
       },
       {
-        "template": "During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.",
+        "template": "During your turn, you may pay {2} and exile <target_card> from your hand face down. Cast it on a later turn for its foretell cost.",
         "rts": [
-          "During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost."
-        ]
-      },
-      {
-        "template": "During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.",
-        "rts": [
+          "During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.",
           "During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost."
         ]
       }
@@ -5394,11 +5379,10 @@
         ]
       },
       {
-        "template": "Damage and effects that say \"destroy\" don't destroy <target_it>.",
+        "template": "Damage and effects that say \"destroy\" don't destroy <target_card>.",
         "rts": [
           "Damage and effects that say \"destroy\" don't destroy it.",
-          "Damage and effects that say \"destroy\" don't destroy this artifact.",
-          "Damage and effects that say \"destroy\" don't destroy this creature."
+          "Damage and effects that say \"destroy\" don't destroy them."
         ]
       },
       {
@@ -5409,16 +5393,17 @@
         ]
       },
       {
-        "template": "Damage and effects that say \"destroy\" don't destroy them.",
-        "rts": [
-          "Damage and effects that say \"destroy\" don't destroy them."
-        ]
-      },
-      {
         "template": "Damage and effects that say \"destroy\" don't destroy <target_creature>.",
         "rts": [
           "Damage and effects that say \"destroy\" don't destroy the creature.",
+          "Damage and effects that say \"destroy\" don't destroy this creature.",
           "Damage and effects that say \"destroy\" don't destroy those creatures."
+        ]
+      },
+      {
+        "template": "Damage and effects that say \"destroy\" don't destroy this artifact.",
+        "rts": [
+          "Damage and effects that say \"destroy\" don't destroy this artifact."
         ]
       },
       {
@@ -5428,14 +5413,9 @@
         ]
       },
       {
-        "template": "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.",
+        "template": "Effects that say \"destroy\" don't destroy <target_card>. A creature with indestructible can't be destroyed by damage.",
         "rts": [
-          "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage."
-        ]
-      },
-      {
-        "template": "Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage.",
-        "rts": [
+          "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.",
           "Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage."
         ]
       },
@@ -5606,14 +5586,19 @@
       }
     ],
     "merged": {
-      "template": "(|||To investigate,|To investigate,|Artifacts, legendaries, and Sagas are historic. To investigate,) Create a (||colorless|||) Clue <type> artifact <type> with \"{2}, Sacrifice this <type>: Draw a card.\"",
+      "template": "(|||To investigate,|To investigate,|Artifacts, legendaries, and Sagas are historic. To investigate,) Create a (||colorless|||) Clue (|token. It's an||token. It's an|token. It's an|token. It's an) artifact <type> with \"{2}, Sacrifice this <type>: Draw a card.\"",
       "count": 102
     },
     "best": [
       {
-        "template": "<to_do_this> Create a Clue <type> artifact <type> with \"{2}, Sacrifice this <type>: Draw a card.\"",
+        "template": "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\"",
         "rts": [
-          "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\"",
+          "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\""
+        ]
+      },
+      {
+        "template": "<to_do_this> Create a Clue token. It's an artifact with \"{2}, Sacrifice this <type>: Draw a card.\"",
+        "rts": [
           "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
           "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
           "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\""
@@ -5721,7 +5706,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast (that|this) card from your graveyard by discarding a card in addition to paying its other costs. Then exile (it|this card).",
+      "template": "You may cast (that|this) card from your graveyard by discarding a card in addition to paying its other costs. Then exile <target_card>.",
       "count": 14
     },
     "best": [
@@ -6111,14 +6096,9 @@
         ]
       },
       {
-        "template": "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.",
+        "template": "You may sacrifice an artifact or <type> in addition to any other costs as you cast this spell.",
         "rts": [
-          "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell."
-        ]
-      },
-      {
-        "template": "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.",
-        "rts": [
+          "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.",
           "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell."
         ]
       },
@@ -6466,14 +6446,9 @@
     },
     "best": [
       {
-        "template": "Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
+        "template": "Put <target_card> onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
         "rts": [
-          "Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card."
-        ]
-      },
-      {
-        "template": "Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
-        "rts": [
+          "Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
           "Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card."
         ]
       },
@@ -6875,19 +6850,14 @@
       }
     ],
     "merged": {
-      "template": "Whenever this creature attacks, create <number:a_or_word> tapped and attacking 1/1 red Warrior creature token<number:plural:s>. Sacrifice (it|them|them|them) at the beginning of the next end step.",
+      "template": "Whenever this creature attacks, create <number:a_or_word> tapped and attacking 1/1 red Warrior creature token<number:plural:s>. Sacrifice <target_card> at the beginning of the next end step.",
       "count": 13
     },
     "best": [
       {
-        "template": "Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.",
+        "template": "Whenever this creature attacks, create <number:a_or_word> tapped and attacking 1/1 red Warrior creature token<number:plural:s>. Sacrifice <target_card> at the beginning of the next end step.",
         "rts": [
-          "Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step."
-        ]
-      },
-      {
-        "template": "Whenever this creature attacks, create <number:word> tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.",
-        "rts": [
+          "Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.",
           "Whenever this creature attacks, create X tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.",
           "Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.",
           "Whenever this creature attacks, create three tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step."
@@ -7376,7 +7346,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast this spell (as though it had flash|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant) by sacrificing (an artifact|a Fox|a Rat|a Snake|a Goblin|a Moonfolk) and paying the difference in mana costs between this and the sacrificed (artifact|Fox|Rat|Snake|Goblin|Moonfolk). Mana cost includes color.",
+      "template": "You may cast this spell (as though it had flash|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant) by sacrificing (an artifact|a Fox|a Rat|a Snake|a Goblin|a Moonfolk) and paying the difference in mana costs between this and the sacrificed <type>. Mana cost includes color.",
       "count": 6
     },
     "best": [
@@ -7387,7 +7357,7 @@
         ]
       },
       {
-        "template": "You may cast this spell any time you could cast an instant by sacrificing a <card_sub_type> and paying the difference in mana costs between this and the sacrificed <card_sub_type>. Mana cost includes color.",
+        "template": "You may cast this spell any time you could cast an instant by sacrificing a <type> and paying the difference in mana costs between this and the sacrificed <type>. Mana cost includes color.",
         "rts": [
           "You may cast this spell any time you could cast an instant by sacrificing a Fox and paying the difference in mana costs between this and the sacrificed Fox. Mana cost includes color.",
           "You may cast this spell any time you could cast an instant by sacrificing a Rat and paying the difference in mana costs between this and the sacrificed Rat. Mana cost includes color.",
@@ -8273,7 +8243,7 @@
         ]
       },
       {
-        "template": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a <card_sub_type> or Rogue.",
+        "template": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a <type> or Rogue.",
         "rts": [
           "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Faerie or Rogue.",
           "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Goblin or Rogue."
@@ -8943,10 +8913,9 @@
         ]
       },
       {
-        "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample. <type>",
+        "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample.",
         "rts": [
-          "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample.",
-          "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample. Creatures that fight each deal damage equal to their power to the other."
+          "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample."
         ]
       },
       {
@@ -8977,6 +8946,12 @@
         "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\"",
         "rts": [
           "If you control another Role on it, put that one into the graveyard. Enchanted creature has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\""
+        ]
+      },
+      {
+        "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample. Creatures that fight each deal damage equal to their power to the other.",
+        "rts": [
+          "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample. Creatures that fight each deal damage equal to their power to the other."
         ]
       },
       {
@@ -9219,22 +9194,16 @@
         ]
       },
       {
-        "template": "Look at the top card of your library. You may put it on the bottom.",
+        "template": "Look at the top card of your library. You may put <target_card> on the bottom.",
         "rts": [
-          "Look at the top card of your library. You may put it on the bottom."
-        ]
-      },
-      {
-        "template": "Look at the top card of your library. You may put that card on the bottom.",
-        "rts": [
+          "Look at the top card of your library. You may put it on the bottom.",
           "Look at the top card of your library. You may put that card on the bottom."
         ]
       },
       {
-        "template": "<type> To scry 1, look at the top card of your library, then you may put that card on the bottom.",
+        "template": "To scry 1, look at the top card of your library, then you may put that card on the bottom.",
         "rts": [
-          "To scry 1, look at the top card of your library, then you may put that card on the bottom.",
-          "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom."
+          "To scry 1, look at the top card of your library, then you may put that card on the bottom."
         ]
       },
       {
@@ -9257,6 +9226,12 @@
         "template": "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.",
         "rts": [
           "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order."
+        ]
+      },
+      {
+        "template": "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom.",
+        "rts": [
+          "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom."
         ]
       },
       {
@@ -9711,12 +9686,12 @@
       }
     ],
     "merged": {
-      "template": "Tap another creature you control: Put charge counters equal to its power on this <card_sub_type>. Station only as a sorcery. (||It's an artifact creature at 3+.|It's an artifact creature at 4+.|It's an artifact creature at 5+.|It's an artifact creature at 6+.|It's an artifact creature at 7+.|It's an artifact creature at 8+.|It's an artifact creature at 9+.|It's an artifact creature at 10+.|It's an artifact creature at 12+.|It's an artifact creature at 20+.)",
+      "template": "Tap another creature you control: Put charge counters equal to its power on this <type>. Station only as a sorcery. (||It's an artifact creature at 3+.|It's an artifact creature at 4+.|It's an artifact creature at 5+.|It's an artifact creature at 6+.|It's an artifact creature at 7+.|It's an artifact creature at 8+.|It's an artifact creature at 9+.|It's an artifact creature at 10+.|It's an artifact creature at 12+.|It's an artifact creature at 20+.)",
       "count": 31
     },
     "best": [
       {
-        "template": "Tap another creature you control: Put charge counters equal to its power on this <card_sub_type>. Station only as a sorcery.",
+        "template": "Tap another creature you control: Put charge counters equal to its power on this <type>. Station only as a sorcery.",
         "rts": [
           "Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.",
           "Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery."
@@ -10019,16 +9994,11 @@
     },
     "best": [
       {
-        "template": "<to_do_this> Look at the top card of your library. You may put it into your graveyard.",
+        "template": "<to_do_this> Look at the top card of your library. You may put <target_card> into your graveyard.",
         "rts": [
           "Look at the top card of your library. You may put it into your graveyard.",
-          "To surveil 1, look at the top card of your library. You may put it into your graveyard."
-        ]
-      },
-      {
-        "template": "<to_do_this> Look at the top card of your library. You may put that card into your graveyard.",
-        "rts": [
           "Look at the top card of your library. You may put that card into your graveyard.",
+          "To surveil 1, look at the top card of your library. You may put it into your graveyard.",
           "To surveil 1, look at the top card of your library. You may put that card into your graveyard."
         ]
       },
@@ -10558,23 +10528,28 @@
     },
     "best": [
       {
-        "template": "Players dealt combat damage by <target_it> also get <number:a_or_word> poison counter<number:plural:s>.",
+        "template": "Players dealt combat damage by <target_card> also get <number:a_or_word> poison counter<number:plural:s>.",
         "rts": [
           "Players dealt combat damage by it also get a poison counter.",
-          "Players dealt combat damage by it also get two poison counters.",
+          "Players dealt combat damage by them also get a poison counter.",
+          "Players dealt combat damage by it also get two poison counters."
+        ]
+      },
+      {
+        "template": "Players dealt combat damage by <target_it> also get <number:a_or_word> poison counter<number:plural:s>.",
+        "rts": [
           "Players dealt combat damage by this creature also get a poison counter.",
           "Players dealt combat damage by this creature also get six poison counters.",
           "Players dealt combat damage by this creature also get two poison counters.",
           "Players dealt combat damage by equipped creature also get a poison counter.",
           "Players dealt combat damage by this creature also get four poison counters.",
-          "Players dealt combat damage by this creature also get three poison counters.",
-          "Players dealt combat damage by a creature with toxic 1 also get a poison counter."
+          "Players dealt combat damage by this creature also get three poison counters."
         ]
       },
       {
-        "template": "Players dealt combat damage by them also get a poison counter.",
+        "template": "Players dealt combat damage by a creature with toxic 1 also get a poison counter.",
         "rts": [
-          "Players dealt combat damage by them also get a poison counter."
+          "Players dealt combat damage by a creature with toxic 1 also get a poison counter."
         ]
       },
       {
@@ -10851,9 +10826,14 @@
         ]
       },
       {
-        "template": "<number:a_or_word> Treasure <type> with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+        "template": "Treasure tokens are artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
         "rts": [
-          "Treasure tokens are artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+          "Treasure tokens are artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\""
+        ]
+      },
+      {
+        "template": "A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
+        "rts": [
           "A Treasure token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\""
         ]
       },
@@ -11387,16 +11367,16 @@
     },
     "best": [
       {
-        "template": "Attacking doesn't cause <target_it> to tap.",
+        "template": "Attacking doesn't cause <target_card> to tap.",
         "rts": [
           "Attacking doesn't cause it to tap.",
-          "Attacking doesn't cause this creature to tap."
+          "Attacking doesn't cause them to tap."
         ]
       },
       {
-        "template": "Attacking doesn't cause them to tap.",
+        "template": "Attacking doesn't cause this creature to tap.",
         "rts": [
-          "Attacking doesn't cause them to tap."
+          "Attacking doesn't cause this creature to tap."
         ]
       }
     ]

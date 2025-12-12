@@ -9,11 +9,10 @@
       ]
     },
     {
-      "template": "Damage and effects that say \"destroy\" don't destroy <target_it>.",
+      "template": "Damage and effects that say \"destroy\" don't destroy <target_card>.",
       "rts": [
         "Damage and effects that say \"destroy\" don't destroy it.",
-        "Damage and effects that say \"destroy\" don't destroy this artifact.",
-        "Damage and effects that say \"destroy\" don't destroy this creature."
+        "Damage and effects that say \"destroy\" don't destroy them."
       ]
     },
     {
@@ -24,16 +23,17 @@
       ]
     },
     {
-      "template": "Damage and effects that say \"destroy\" don't destroy them.",
-      "rts": [
-        "Damage and effects that say \"destroy\" don't destroy them."
-      ]
-    },
-    {
       "template": "Damage and effects that say \"destroy\" don't destroy <target_creature>.",
       "rts": [
         "Damage and effects that say \"destroy\" don't destroy the creature.",
+        "Damage and effects that say \"destroy\" don't destroy this creature.",
         "Damage and effects that say \"destroy\" don't destroy those creatures."
+      ]
+    },
+    {
+      "template": "Damage and effects that say \"destroy\" don't destroy this artifact.",
+      "rts": [
+        "Damage and effects that say \"destroy\" don't destroy this artifact."
       ]
     },
     {
@@ -43,14 +43,9 @@
       ]
     },
     {
-      "template": "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.",
+      "template": "Effects that say \"destroy\" don't destroy <target_card>. A creature with indestructible can't be destroyed by damage.",
       "rts": [
-        "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage."
-      ]
-    },
-    {
-      "template": "Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage.",
-      "rts": [
+        "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.",
         "Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage."
       ]
     },

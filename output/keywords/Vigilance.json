@@ -3,16 +3,16 @@
   "expr": "Vigilance",
   "variations": [
     {
-      "template": "Attacking doesn't cause <target_it> to tap.",
+      "template": "Attacking doesn't cause <target_card> to tap.",
       "rts": [
         "Attacking doesn't cause it to tap.",
-        "Attacking doesn't cause this creature to tap."
+        "Attacking doesn't cause them to tap."
       ]
     },
     {
-      "template": "Attacking doesn't cause them to tap.",
+      "template": "Attacking doesn't cause this creature to tap.",
       "rts": [
-        "Attacking doesn't cause them to tap."
+        "Attacking doesn't cause this creature to tap."
       ]
     }
   ]

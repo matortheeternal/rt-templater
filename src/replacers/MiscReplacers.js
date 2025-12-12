@@ -1,5 +1,5 @@
 import Replacer from './Replacer.js';
-import { subtypesGroup } from './subtypes.js';
+import { subtypes, subtypesGroup } from './subtypes.js';
 
 class CreateReplacer extends Replacer {
     id = '<create>';
@@ -54,13 +54,21 @@ class ColorReplacer extends Replacer {
 }
 
 const allTypes = [
-    'Aura', 'artifact', 'Cat', 'Bird', 'Food', 'Frog', 'Gate', 'Town', 'Dalek', 'Human',
-    'Swamp', 'token', 'Forest', 'Island', 'Knight', 'Lizard', 'Plains', 'Sliver',
-    'Orc', 'Zombie',
-    'Spirit', 'Citizen', 'Mountain', 'creature', 'Equipment', 'snow land', 'enchantment',
+    'Aura', 'artifact', 'Food', 'Gate', 'Town', 'Swamp', 'token', 'Forest', 'Island',
+    'Plains', 'Mountain', 'creature', 'Equipment', 'snow land', 'enchantment',
     'planeswalker', 'artifact creature', 'artifact, legendary, and/or Saga permanent',
-    'Assassin, Mercenary, Pirate, Rogue, and/or Warlock'
-];
+    'Assassin, Mercenary, Pirate, Rogue, and/or Warlock', 'Orc',
+].concat(subtypes);
+
+class TypeReplacer extends Replacer {
+    id = '<type>'
+    expr = new RegExp(`^(${allTypes.join('|')}|${subtypesGroup} or ${subtypesGroup})$`, 'i')
+}
+
+class TypesReplacer extends Replacer {
+    id = '<type:s>'
+    expr = new RegExp(`^(${allTypes.join('|')})s$`, 'i')
+}
 
 class SubTypeAndOrReplacer extends Replacer {
     id = '<subtype_and_or>';
@@ -70,16 +78,6 @@ class SubTypeAndOrReplacer extends Replacer {
 class ATypeReplacer extends Replacer {
     id = '<type:a>'
     expr = new RegExp(`^(?:a|an) ${subtypesGroup}$`, 'i')
-}
-
-class TypesReplacer extends Replacer {
-    id = '<type:s>'
-    expr = new RegExp(`^(${allTypes.join('|')})s`, 'i')
-}
-
-class TypeReplacer extends Replacer {
-    id = '<type>'
-    expr = new RegExp(`^(${allTypes.join('|')})`, 'i')
 }
 
 export default [

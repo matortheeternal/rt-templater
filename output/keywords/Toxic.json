@@ -3,23 +3,28 @@
   "expr": "Toxic",
   "variations": [
     {
-      "template": "Players dealt combat damage by <target_it> also get <number:a_or_word> poison counter<number:plural:s>.",
+      "template": "Players dealt combat damage by <target_card> also get <number:a_or_word> poison counter<number:plural:s>.",
       "rts": [
         "Players dealt combat damage by it also get a poison counter.",
-        "Players dealt combat damage by it also get two poison counters.",
+        "Players dealt combat damage by them also get a poison counter.",
+        "Players dealt combat damage by it also get two poison counters."
+      ]
+    },
+    {
+      "template": "Players dealt combat damage by <target_it> also get <number:a_or_word> poison counter<number:plural:s>.",
+      "rts": [
         "Players dealt combat damage by this creature also get a poison counter.",
         "Players dealt combat damage by this creature also get six poison counters.",
         "Players dealt combat damage by this creature also get two poison counters.",
         "Players dealt combat damage by equipped creature also get a poison counter.",
         "Players dealt combat damage by this creature also get four poison counters.",
-        "Players dealt combat damage by this creature also get three poison counters.",
-        "Players dealt combat damage by a creature with toxic 1 also get a poison counter."
+        "Players dealt combat damage by this creature also get three poison counters."
       ]
     },
     {
-      "template": "Players dealt combat damage by them also get a poison counter.",
+      "template": "Players dealt combat damage by a creature with toxic 1 also get a poison counter.",
       "rts": [
-        "Players dealt combat damage by them also get a poison counter."
+        "Players dealt combat damage by a creature with toxic 1 also get a poison counter."
       ]
     },
     {

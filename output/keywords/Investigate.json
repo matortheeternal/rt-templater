@@ -3,9 +3,14 @@
   "expr": "Investigate",
   "variations": [
     {
-      "template": "<to_do_this> Create a Clue <type> artifact <type> with \"{2}, Sacrifice this <type>: Draw a card.\"",
+      "template": "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\"",
       "rts": [
-        "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\"",
+        "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\""
+      ]
+    },
+    {
+      "template": "<to_do_this> Create a Clue token. It's an artifact with \"{2}, Sacrifice this <type>: Draw a card.\"",
+      "rts": [
         "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
         "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
         "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\""

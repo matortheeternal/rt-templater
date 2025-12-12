@@ -27,22 +27,16 @@
       ]
     },
     {
-      "template": "Look at the top card of your library. You may put it on the bottom.",
+      "template": "Look at the top card of your library. You may put <target_card> on the bottom.",
       "rts": [
-        "Look at the top card of your library. You may put it on the bottom."
-      ]
-    },
-    {
-      "template": "Look at the top card of your library. You may put that card on the bottom.",
-      "rts": [
+        "Look at the top card of your library. You may put it on the bottom.",
         "Look at the top card of your library. You may put that card on the bottom."
       ]
     },
     {
-      "template": "<type> To scry 1, look at the top card of your library, then you may put that card on the bottom.",
+      "template": "To scry 1, look at the top card of your library, then you may put that card on the bottom.",
       "rts": [
-        "To scry 1, look at the top card of your library, then you may put that card on the bottom.",
-        "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom."
+        "To scry 1, look at the top card of your library, then you may put that card on the bottom."
       ]
     },
     {
@@ -65,6 +59,12 @@
       "template": "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.",
       "rts": [
         "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order."
+      ]
+    },
+    {
+      "template": "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom.",
+      "rts": [
+        "Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom."
       ]
     },
     {

@@ -21,9 +21,14 @@
       ]
     },
     {
-      "template": "<number:a_or_word> Food <type> with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
+      "template": "Food tokens are artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
       "rts": [
-        "Food tokens are artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
+        "Food tokens are artifacts with \"{2}, {T}, Sacrifice this token: You gain 3 life.\""
+      ]
+    },
+    {
+      "template": "A Food token is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\"",
+      "rts": [
         "A Food token is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\""
       ]
     }

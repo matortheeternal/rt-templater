@@ -33,10 +33,9 @@
       ]
     },
     {
-      "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample. <type>",
+      "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample.",
       "rts": [
-        "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample.",
-        "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample. Creatures that fight each deal damage equal to their power to the other."
+        "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample."
       ]
     },
     {
@@ -67,6 +66,12 @@
       "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\"",
       "rts": [
         "If you control another Role on it, put that one into the graveyard. Enchanted creature has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\""
+      ]
+    },
+    {
+      "template": "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample. Creatures that fight each deal damage equal to their power to the other.",
+      "rts": [
+        "If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample. Creatures that fight each deal damage equal to their power to the other."
       ]
     },
     {

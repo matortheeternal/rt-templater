@@ -69,7 +69,7 @@ class TargetReplacer extends Replacer {
 
 class TargetCardReplacer extends Replacer {
     id = '<target_card>';
-    expr = /^(?:This card|This token|That card)$/i;
+    expr = /^(?:It|This card|This token|That card|Them)$/i;
 }
 
 class TargetDeals extends Replacer {
