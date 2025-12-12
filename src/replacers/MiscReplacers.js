@@ -15,7 +15,11 @@ class ToDoThisReplacer extends Replacer {
 
     constructor(label) {
         super();
-        this.expr = new RegExp(`^(?:To ${label.toLowerCase()}(?: [a-z]+)?(?: [1-9X])?,|)$`, 'i');
+        const type = `(?: [a-z]+)?`;
+        const num = `(?: [1-9]| X| 1[0-9])?`;
+        this.expr = new RegExp(
+            `^(?:To ${label.toLowerCase()}${type}${num},|)$`, 'i'
+        );
     }
 }
 
