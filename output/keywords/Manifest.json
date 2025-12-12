@@ -3,15 +3,10 @@
   "expr": "Manifest",
   "variations": [
     {
-      "template": "Put <target_card> onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
+      "template": "<to_kw_a_card> Put <target_card> onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
       "rts": [
         "Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
-        "Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card."
-      ]
-    },
-    {
-      "template": "To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
-      "rts": [
+        "Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
         "To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card."
       ]
     },

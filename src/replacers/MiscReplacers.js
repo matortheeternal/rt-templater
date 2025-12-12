@@ -19,6 +19,16 @@ class ToDoThisReplacer extends Replacer {
     }
 }
 
+
+class ToKwACardReplacer extends Replacer {
+    id = '<to_kw_a_card>';
+
+    constructor(label) {
+        super();
+        this.expr = new RegExp(`^(?:To ${label.toLowerCase()} a card,|)$`, 'i');
+    }
+}
+
 class ThisTokenIsReplacer extends Replacer {
     id = '<this_token_is>';
 
@@ -83,6 +93,7 @@ class ATypeReplacer extends Replacer {
 export default [
     CreateReplacer,
     ToDoThisReplacer,
+    ToKwACardReplacer,
     ThisTokenIsReplacer,
     CompleatedManaReplacer,
     CompleatedManaOptionsReplacer,

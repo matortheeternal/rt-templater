@@ -1536,19 +1536,14 @@
       }
     ],
     "merged": {
-      "template": "(|To cloak a card,) Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
+      "template": "<to_kw_a_card> Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
       "count": 6
     },
     "best": [
       {
-        "template": "Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
+        "template": "<to_kw_a_card> Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
         "rts": [
-          "Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card."
-        ]
-      },
-      {
-        "template": "To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
-        "rts": [
+          "Put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card.",
           "To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card."
         ]
       }
@@ -6431,15 +6426,10 @@
     },
     "best": [
       {
-        "template": "Put <target_card> onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
+        "template": "<to_kw_a_card> Put <target_card> onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
         "rts": [
           "Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
-          "Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card."
-        ]
-      },
-      {
-        "template": "To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
-        "rts": [
+          "Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
           "To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card."
         ]
       },
@@ -6720,9 +6710,10 @@
     },
     "best": [
       {
-        "template": "Put the top card of your library into your graveyard.",
+        "template": "<to_kw_a_card> Put the top card of your library into your graveyard.",
         "rts": [
-          "Put the top card of your library into your graveyard."
+          "Put the top card of your library into your graveyard.",
+          "To mill a card, put the top card of your library into your graveyard."
         ]
       },
       {
@@ -6745,12 +6736,6 @@
           "You may put the top two cards of your library into your graveyard.",
           "You may put the top four cards of your library into your graveyard.",
           "You may put the top three cards of your library into your graveyard."
-        ]
-      },
-      {
-        "template": "To mill a card, put the top card of your library into your graveyard.",
-        "rts": [
-          "To mill a card, put the top card of your library into your graveyard."
         ]
       },
       {

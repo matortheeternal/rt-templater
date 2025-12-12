@@ -3,9 +3,10 @@
   "expr": "Mill",
   "variations": [
     {
-      "template": "Put the top card of your library into your graveyard.",
+      "template": "<to_kw_a_card> Put the top card of your library into your graveyard.",
       "rts": [
-        "Put the top card of your library into your graveyard."
+        "Put the top card of your library into your graveyard.",
+        "To mill a card, put the top card of your library into your graveyard."
       ]
     },
     {
@@ -28,12 +29,6 @@
         "You may put the top two cards of your library into your graveyard.",
         "You may put the top four cards of your library into your graveyard.",
         "You may put the top three cards of your library into your graveyard."
-      ]
-    },
-    {
-      "template": "To mill a card, put the top card of your library into your graveyard.",
-      "rts": [
-        "To mill a card, put the top card of your library into your graveyard."
       ]
     },
     {
