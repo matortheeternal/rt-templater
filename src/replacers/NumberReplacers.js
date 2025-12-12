@@ -38,6 +38,11 @@ class NumberWordReplacer extends Replacer {
     expr = new RegExp(`^(?:one|${numberWords.join('|')}|X)$`, 'i');
 }
 
+class NumberAOrWordCardsReplacer extends Replacer {
+    id = '<number:a_or_word> card<number:plural:s>';
+    expr = new RegExp(`^${aOrWordGroup} cards?$`, 'i');
+}
+
 class NumberAOrWordReplacer extends Replacer {
     id = '<number:a_or_word>';
     expr = new RegExp(`^${aOrWordGroup}$`, 'i');
@@ -69,5 +74,6 @@ export default [
     NumberWordReplacer,
     NumberPermanentsReplacer,
     NumberAOrWordReplacer,
+    NumberAOrWordCardsReplacer,
     NumberPluralSReplacer
 ];

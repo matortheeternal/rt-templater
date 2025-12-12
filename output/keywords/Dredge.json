@@ -3,8 +3,9 @@
   "expr": "Dredge",
   "variations": [
     {
-      "template": "If you would draw a card, you may mill <number:word> cards instead. If you do, return this card from your graveyard to your hand.",
+      "template": "If you would draw a card, you may mill <number:a_or_word> card<number:plural:s> instead. If you do, return this card from your graveyard to your hand.",
       "rts": [
+        "If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand.",
         "If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.",
         "If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.",
         "If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.",
@@ -16,12 +17,6 @@
       "template": "You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card.",
       "rts": [
         "You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card."
-      ]
-    },
-    {
-      "template": "If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand.",
-      "rts": [
-        "If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand."
       ]
     }
   ]
