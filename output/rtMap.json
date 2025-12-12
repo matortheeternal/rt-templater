@@ -38,7 +38,7 @@
   },
   {
     "label": "Affinity",
-    "count": 70,
+    "count": 69,
     "rts": [
       {
         "text": "They cost {1} less to cast for each Aura you control.",
@@ -149,10 +149,6 @@
         "count": 1
       },
       {
-        "text": "It costs {1} less to cast for each artifact you control as you cast it.",
-        "count": 1
-      },
-      {
         "text": "This spell costs {1} less to cast for each artifact creature you control.",
         "count": 1
       },
@@ -166,8 +162,8 @@
       }
     ],
     "merged": {
-      "template": "<target_spell_costs> {1} less to cast for each <type> you (control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control|control as you cast it|control|control|control).",
-      "count": 70
+      "template": "<target_spell_costs> {1} less to cast for each <type> you control.",
+      "count": 69
     },
     "best": [
       {
@@ -203,12 +199,6 @@
           "This spell costs {1} less to cast for each artifact creature you control.",
           "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control.",
           "This spell costs {1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control."
-        ]
-      },
-      {
-        "template": "It costs {1} less to cast for each artifact you control as you cast it.",
-        "rts": [
-          "It costs {1} less to cast for each artifact you control as you cast it."
         ]
       }
     ]
@@ -443,12 +433,8 @@
   },
   {
     "label": "Annihilator",
-    "count": 15,
+    "count": 14,
     "rts": [
-      {
-        "text": "Whenever this creature attacks, defending player sacrifices a permanent.",
-        "count": 1
-      },
       {
         "text": "Whenever it attacks, defending player sacrifices a permanent of their choice.",
         "count": 1
@@ -471,8 +457,8 @@
       }
     ],
     "merged": {
-      "template": "Whenever <target_it> attacks, defending player sacrifices (a permanent|a permanent of their choice|a permanent of their choice|two permanents of their choice|four permanents of their choice|three permanents of their choice).",
-      "count": 15
+      "template": "Whenever <target_it> attacks, defending player sacrifices <number:permanents> of their choice.",
+      "count": 14
     },
     "best": [
       {
@@ -483,12 +469,6 @@
           "Whenever this creature attacks, defending player sacrifices two permanents of their choice.",
           "Whenever this creature attacks, defending player sacrifices four permanents of their choice.",
           "Whenever this creature attacks, defending player sacrifices three permanents of their choice."
-        ]
-      },
-      {
-        "template": "Whenever this creature attacks, defending player sacrifices a permanent.",
-        "rts": [
-          "Whenever this creature attacks, defending player sacrifices a permanent."
         ]
       }
     ]
@@ -1363,7 +1343,7 @@
   },
   {
     "label": "Champion",
-    "count": 12,
+    "count": 11,
     "rts": [
       {
         "text": "When this enters, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.",
@@ -1396,15 +1376,11 @@
       {
         "text": "When this enters, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield.",
         "count": 1
-      },
-      {
-        "text": "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield.",
-        "count": 1
       }
     ],
     "merged": {
-      "template": "When (this|this|this|this|this|this|this|this|this creature) enters, sacrifice it unless you exile another <type> you control. When (this|this|this|this|this|this|this|this|this creature) leaves the battlefield, that card returns to the battlefield.",
-      "count": 12
+      "template": "When this enters, sacrifice it unless you exile another <type> you control. When this leaves the battlefield, that card returns to the battlefield.",
+      "count": 11
     },
     "best": [
       {
@@ -1418,12 +1394,6 @@
           "When this enters, sacrifice it unless you exile another Elemental you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Goblin or Shaman you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield."
-        ]
-      },
-      {
-        "template": "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield.",
-        "rts": [
-          "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield."
         ]
       }
     ]

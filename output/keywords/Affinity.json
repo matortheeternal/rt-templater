@@ -36,12 +36,6 @@
         "This spell costs {1} less to cast for each artifact, legendary, and/or Saga permanent you control.",
         "This spell costs {1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control."
       ]
-    },
-    {
-      "template": "It costs {1} less to cast for each artifact you control as you cast it.",
-      "rts": [
-        "It costs {1} less to cast for each artifact you control as you cast it."
-      ]
     }
   ]
 }

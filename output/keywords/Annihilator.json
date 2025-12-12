@@ -11,12 +11,6 @@
         "Whenever this creature attacks, defending player sacrifices four permanents of their choice.",
         "Whenever this creature attacks, defending player sacrifices three permanents of their choice."
       ]
-    },
-    {
-      "template": "Whenever this creature attacks, defending player sacrifices a permanent.",
-      "rts": [
-        "Whenever this creature attacks, defending player sacrifices a permanent."
-      ]
     }
   ]
 }
