@@ -72,17 +72,17 @@ const allTypes = [
     'Plains', 'Mountain', 'creature', 'Equipment', 'snow land', 'enchantment',
     'planeswalker', 'artifact creature', 'artifact, legendary, and/or Saga permanent',
     'Assassin, Mercenary, Pirate, Rogue, and/or Warlock', 'Orc', 'legendary creature',
-    'noncreature', 'multicolored'
+    'noncreature', 'multicolored', 'land'
 ].concat(subtypes);
 
 class TypeReplacer extends Replacer {
     id = '<type>'
-    expr = new RegExp(`^(${allTypes.join('|')}|${subtypesGroup} or ${subtypesGroup})$`, 'i')
+    expr = new RegExp(`^(${allTypes.join('|')}|${subtypesGroup} or ${subtypesGroup})$`, 'i');
 }
 
 class TypesReplacer extends Replacer {
     id = '<type:s>'
-    expr = new RegExp(`^(${allTypes.join('|')})s$`, 'i')
+    expr = new RegExp(`^(?:${allTypes.join('|')})s$`, 'i');
 }
 
 class SubTypeAndOrReplacer extends Replacer {

@@ -15,9 +15,11 @@ class PPReplacer extends Replacer {
     expr = /^\+([1-9]|1[0-9]|X)\/\+\1$/i;
 }
 
+const numTimes = `(?:three|four|five|six|seven|eight|nine) times `;
+
 class NumberMultiReplacer extends Replacer {
     id = '<number:multi>';
-    expr = /^(?:twice|three times|four times) that$/
+    expr = new RegExp(`^(?:twice |${numTimes})? ?that$`, 'i');
 }
 
 const numberWords = [

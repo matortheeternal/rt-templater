@@ -85,7 +85,7 @@ export function createMergedTemplates(rtMap) {
         };
         const mergedImperfect = entry.merged.template.includes('(');
         entry.best = mergedImperfect
-            ? findBest(rtTexts, entry.label).map(rts => ({
+            ? findBest(entry.merged.template, rtTexts, entry.label).map(rts => ({
                 template: compileTemplate(rts, entry.label),
                 rts
             })).sort((a, b) => b.rts.length - a.rts.length)

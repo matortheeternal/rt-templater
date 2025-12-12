@@ -7,13 +7,8 @@
       "rts": [
         "It deals both first-strike and regular combat damage.",
         "They deal both first-strike and regular combat damage.",
+        "This creature deals both first-strike and regular combat damage.",
         "A creature with double strike deals both first-strike and regular combat damage."
-      ]
-    },
-    {
-      "template": "This creature deals both first-strike and regular combat damage.",
-      "rts": [
-        "This creature deals both first-strike and regular combat damage."
       ]
     }
   ]

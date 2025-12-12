@@ -80,7 +80,7 @@ class TargetDeals extends Replacer {
     constructor(label) {
         super();
         this.expr = new RegExp(
-            `(?:it deals|they deal|this deals|a creature with ${label} deals)`, 'i'
+            `(?:it deals|they deal|this (?:creature )?deals|a creature with ${label} deals)`, 'i'
         );
     }
 }

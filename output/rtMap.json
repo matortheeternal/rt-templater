@@ -309,7 +309,7 @@
   },
   {
     "label": "Amass",
-    "count": 50,
+    "count": 49,
     "rts": [
       {
         "text": "Put a +1/+1 counter on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
@@ -366,15 +366,11 @@
       {
         "text": "To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
         "count": 1
-      },
-      {
-        "text": "Control of the Equipment doesn't change. To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
-        "count": 1
       }
     ],
     "merged": {
-      "template": "(||||||||||To amass Orcs X,|To amass Orcs 2,|To amass Orcs 3,|To amass Zombies 2,|Control of the Equipment doesn't change. To amass Orcs X,) Put <number:a_or_word> +1/+1 counter<number:plural:s> on an Army you control. It's also <type:a>. If you don't control an Army, create a 0/0 black <type> Army creature token first.",
-      "count": 50
+      "template": "<to_do_this> Put <number:a_or_word> +1/+1 counter<number:plural:s> on an Army you control. It's also <type:a>. If you don't control an Army, create a 0/0 black <type> Army creature token first.",
+      "count": 49
     },
     "best": [
       {
@@ -394,12 +390,6 @@
           "To amass Orcs 2, put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
           "To amass Orcs 3, put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
           "To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first."
-        ]
-      },
-      {
-        "template": "Control of the Equipment doesn't change. To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
-        "rts": [
-          "Control of the Equipment doesn't change. To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
         ]
       }
     ]
@@ -741,7 +731,7 @@
       }
     ],
     "merged": {
-      "template": "(|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.) If any creatures with banding (you control|you control|you control|a player controls) are (blocking|being blocked by|blocking or being blocked by|blocking or being blocked by) a creature, (you divide|you divide|you divide|) that ( creature| creature| creature|player divides that creature)'s combat damage, not its controller, among any of the creatures it's (being blocked by|blocking|being blocked by or is blocking|being blocked by or is blocking).",
+      "template": "(|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.|Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.) If any creatures with banding (you control|you control|you control|a player controls) are (blocking|being blocked by|blocking or being blocked by|blocking or being blocked by) a creature, (you divide that|you divide that|you divide that| that) ( creature| creature| creature|player divides that creature)'s combat damage, not its controller, among any of the creatures it's (being blocked by|blocking|being blocked by or is blocking|being blocked by or is blocking).",
       "count": 37
     },
     "best": [
@@ -1780,7 +1770,7 @@
       }
     ],
     "merged": {
-      "template": "(|Your creatures can help cast it.|Your creatures can help cast this spell.|Your creatures can help cast those spells.|Your creatures can help cast those spells.|Your creatures can help cast those spells.) Each creature you tap while casting (a noncreature spell from exile|it|this spell|an artifact spell|a multicolored spell|a legendary creature spell) pays for {1} or one mana of (||||a color|) that (creature's color|creature's color|creature's color|creature's color|creature is|creature's color).",
+      "template": "(|Your creatures can help cast it.|Your creatures can help cast this spell.|Your creatures can help cast those spells.|Your creatures can help cast those spells.|Your creatures can help cast those spells.) Each creature you tap while casting (a noncreature spell from exile|it|this spell|an artifact spell|a multicolored spell|a legendary creature spell) pays for {1} or one mana of ( that| that| that| that|a color that| that) (creature's color|creature's color|creature's color|creature's color|creature is|creature's color).",
       "count": 90
     },
     "best": [
@@ -2606,34 +2596,19 @@
       }
     ],
     "merged": {
-      "template": "As <target_creature> enters, you may sacrifice any number of (artifacts|creatures|creatures|lands|creatures|creatures|creatures). It enters with (that many|that many|twice that many|three times that many|five times that many|three times that many|X) +1/+1 counters on (it|it|it|it|it|it|it for each of those creatures).",
+      "template": "As <target_creature> enters, you may sacrifice any number of <type:s>. It enters with (that many|that many|twice that many|three times that many|five times that many|three times that many|X) +1/+1 counters on (it|it|it|it|it|it|it for each of those creatures).",
       "count": 22
     },
     "best": [
       {
-        "template": "As this creature enters, you may sacrifice any number of <type:s>. It enters with that many +1/+1 counters on it.",
+        "template": "As <target_creature> enters, you may sacrifice any number of <type:s>. It enters with <number:multi> many +1/+1 counters on it.",
         "rts": [
           "As this creature enters, you may sacrifice any number of artifacts. It enters with that many +1/+1 counters on it.",
-          "As this creature enters, you may sacrifice any number of creatures. It enters with that many +1/+1 counters on it."
-        ]
-      },
-      {
-        "template": "As <target_creature> enters, you may sacrifice any number of creatures. It enters with <number:word> times that many +1/+1 counters on it.",
-        "rts": [
+          "As this creature enters, you may sacrifice any number of creatures. It enters with that many +1/+1 counters on it.",
+          "As this creature enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it.",
+          "As this creature enters, you may sacrifice any number of lands. It enters with three times that many +1/+1 counters on it.",
           "As that creature enters, you may sacrifice any number of creatures. It enters with five times that many +1/+1 counters on it.",
           "As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it."
-        ]
-      },
-      {
-        "template": "As this creature enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it.",
-        "rts": [
-          "As this creature enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it."
-        ]
-      },
-      {
-        "template": "As this creature enters, you may sacrifice any number of lands. It enters with three times that many +1/+1 counters on it.",
-        "rts": [
-          "As this creature enters, you may sacrifice any number of lands. It enters with three times that many +1/+1 counters on it."
         ]
       },
       {
@@ -2728,7 +2703,7 @@
       }
     ],
     "merged": {
-      "template": "(It deals|They deal|This creature deals|A creature with double strike deals) both first-strike and regular combat damage.",
+      "template": "<target_deals> both first-strike and regular combat damage.",
       "count": 35
     },
     "best": [
@@ -2737,13 +2712,8 @@
         "rts": [
           "It deals both first-strike and regular combat damage.",
           "They deal both first-strike and regular combat damage.",
+          "This creature deals both first-strike and regular combat damage.",
           "A creature with double strike deals both first-strike and regular combat damage."
-        ]
-      },
-      {
-        "template": "This creature deals both first-strike and regular combat damage.",
-        "rts": [
-          "This creature deals both first-strike and regular combat damage."
         ]
       }
     ]
@@ -3014,21 +2984,16 @@
     },
     "best": [
       {
-        "template": "Target a land as you cast this. This card enters attached to that land.",
+        "template": "Target a <type> as you cast this. This card enters attached to that <type>.",
         "rts": [
-          "Target a land as you cast this. This card enters attached to that land."
+          "Target a land as you cast this. This card enters attached to that land.",
+          "Target a creature as you cast this. This card enters attached to that creature."
         ]
       },
       {
         "template": "Equipment, Auras its controller controls, and counters are modifications.",
         "rts": [
           "Equipment, Auras its controller controls, and counters are modifications."
-        ]
-      },
-      {
-        "template": "Target a creature as you cast this. This card enters attached to that creature.",
-        "rts": [
-          "Target a creature as you cast this. This card enters attached to that creature."
         ]
       }
     ]
@@ -4617,7 +4582,7 @@
       }
     ],
     "merged": {
-      "template": "<target> enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. Whenever (a creature|another creature|another creature|another creature|another creature|another creature|another creature) enters, you may move a +1/+1 counter from this (land|creature|creature|creature|creature|creature|creature) onto it.",
+      "template": "<target> enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. Whenever (a creature|another creature|another creature|another creature|another creature|another creature|another creature) enters, you may move a +1/+1 counter from this <type> onto it.",
       "count": 13
     },
     "best": [
@@ -4985,23 +4950,18 @@
       }
     ],
     "merged": {
-      "template": "When this (land|artifact|artifact|creature|enchantment|creature) enters, look at the top <number:word> cards of your library, exile one face down, then put the rest on the bottom in a random order. (|||||Then do it again.)",
+      "template": "When this <type> enters, look at the top <number:word> cards of your library, exile one face down, then put the rest on the bottom in a random order. (|||||Then do it again.)",
       "count": 15
     },
     "best": [
       {
         "template": "When this <type> enters, look at the top <number:word> cards of your library, exile one face down, then put the rest on the bottom in a random order.",
         "rts": [
+          "When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
           "When this artifact enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.",
           "When this artifact enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
           "When this creature enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
           "When this enchantment enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order."
-        ]
-      },
-      {
-        "template": "When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
-        "rts": [
-          "When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order."
         ]
       },
       {
@@ -5382,6 +5342,7 @@
         "rts": [
           "It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
           "They deal damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
+          "This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
           "{B/P} can be paid with either {B} or 2 life. A creature with infect deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters."
         ]
       },
@@ -5389,12 +5350,6 @@
         "template": "Damage is dealt to you in the form of poison counters.",
         "rts": [
           "Damage is dealt to you in the form of poison counters."
-        ]
-      },
-      {
-        "template": "This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
-        "rts": [
-          "This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters."
         ]
       }
     ]
@@ -5895,6 +5850,7 @@
       {
         "template": "You may <addcost> as you cast this spell.",
         "rts": [
+          "You may pay 3 life in addition to any other costs as you cast this spell.",
           "You may pay an additional {1} as you cast this spell.",
           "You may pay an additional {2} as you cast this spell.",
           "You may pay an additional {3} as you cast this spell.",
@@ -5969,15 +5925,16 @@
         ]
       },
       {
-        "template": "You may pay an additional {R} and/or {W} as you cast this spell.",
+        "template": "You may return a <type> you control to its owner's hand in addition to any other costs as you cast this spell.",
         "rts": [
-          "You may pay an additional {R} and/or {W} as you cast this spell."
+          "You may return a land you control to its owner's hand in addition to any other costs as you cast this spell.",
+          "You may return a creature you control to its owner's hand in addition to any other costs as you cast this spell."
         ]
       },
       {
-        "template": "You may pay 3 life in addition to any other costs as you cast this spell.",
+        "template": "You may pay an additional {R} and/or {W} as you cast this spell.",
         "rts": [
-          "You may pay 3 life in addition to any other costs as you cast this spell."
+          "You may pay an additional {R} and/or {W} as you cast this spell."
         ]
       },
       {
@@ -5990,18 +5947,6 @@
         "template": "You may tap a Vampire you control in addition to any other costs as you cast this spell.",
         "rts": [
           "You may tap a Vampire you control in addition to any other costs as you cast this spell."
-        ]
-      },
-      {
-        "template": "You may return a land you control to its owner's hand in addition to any other costs as you cast this spell.",
-        "rts": [
-          "You may return a land you control to its owner's hand in addition to any other costs as you cast this spell."
-        ]
-      },
-      {
-        "template": "You may return a creature you control to its owner's hand in addition to any other costs as you cast this spell.",
-        "rts": [
-          "You may return a creature you control to its owner's hand in addition to any other costs as you cast this spell."
         ]
       }
     ]
@@ -7069,7 +7014,7 @@
       }
     ],
     "merged": {
-      "template": "Whenever <target_it> attacks, for each opponent other than defending player, you may create a token (|||that's a) copy (|||of this creature) that's tapped and attacking that player or a planeswalker they control. (|||Then do it again.) Exile the tokens at end of combat.",
+      "template": "Whenever <target_it> attacks, for each opponent other than defending player, you may create a token (|||that's a) copy ( that| that| that|of this creature that)'s tapped and attacking that player or a planeswalker they control. (|||Then do it again.) Exile the tokens at end of combat.",
       "count": 28
     },
     "best": [

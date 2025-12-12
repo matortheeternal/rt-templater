@@ -5,6 +5,7 @@
     {
       "template": "You may <addcost> as you cast this spell.",
       "rts": [
+        "You may pay 3 life in addition to any other costs as you cast this spell.",
         "You may pay an additional {1} as you cast this spell.",
         "You may pay an additional {2} as you cast this spell.",
         "You may pay an additional {3} as you cast this spell.",
@@ -79,15 +80,16 @@
       ]
     },
     {
-      "template": "You may pay an additional {R} and/or {W} as you cast this spell.",
+      "template": "You may return a <type> you control to its owner's hand in addition to any other costs as you cast this spell.",
       "rts": [
-        "You may pay an additional {R} and/or {W} as you cast this spell."
+        "You may return a land you control to its owner's hand in addition to any other costs as you cast this spell.",
+        "You may return a creature you control to its owner's hand in addition to any other costs as you cast this spell."
       ]
     },
     {
-      "template": "You may pay 3 life in addition to any other costs as you cast this spell.",
+      "template": "You may pay an additional {R} and/or {W} as you cast this spell.",
       "rts": [
-        "You may pay 3 life in addition to any other costs as you cast this spell."
+        "You may pay an additional {R} and/or {W} as you cast this spell."
       ]
     },
     {
@@ -100,18 +102,6 @@
       "template": "You may tap a Vampire you control in addition to any other costs as you cast this spell.",
       "rts": [
         "You may tap a Vampire you control in addition to any other costs as you cast this spell."
-      ]
-    },
-    {
-      "template": "You may return a land you control to its owner's hand in addition to any other costs as you cast this spell.",
-      "rts": [
-        "You may return a land you control to its owner's hand in addition to any other costs as you cast this spell."
-      ]
-    },
-    {
-      "template": "You may return a creature you control to its owner's hand in addition to any other costs as you cast this spell.",
-      "rts": [
-        "You may return a creature you control to its owner's hand in addition to any other costs as you cast this spell."
       ]
     }
   ]
