@@ -378,7 +378,7 @@
     },
     "best": [
       {
-        "template": "Put <number:a_or_word> +1/+1 counter<number:plural:s> on an Army you control. It's also <type:a>. If you don't control an Army, create a 0/0 black <type> Army creature token first.",
+        "template": "<to_do_this> Put <number:a_or_word> +1/+1 counter<number:plural:s> on an Army you control. It's also <type:a>. If you don't control an Army, create a 0/0 black <type> Army creature token first.",
         "rts": [
           "Put a +1/+1 counter on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
           "Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
@@ -389,20 +389,10 @@
           "Put two +1/+1 counters on an Army you control. It's also a Sliver. If you don't control an Army, create a 0/0 black Sliver Army creature token first.",
           "Put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
           "Put four +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
-          "Put three +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first."
-        ]
-      },
-      {
-        "template": "To amass Orcs <number>, put <number:word> +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
-        "rts": [
+          "Put three +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
           "To amass Orcs X, put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
           "To amass Orcs 2, put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
-          "To amass Orcs 3, put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
-        ]
-      },
-      {
-        "template": "To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.",
-        "rts": [
+          "To amass Orcs 3, put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
           "To amass Zombies 2, put two +1/+1 counters on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first."
         ]
       },
@@ -1614,13 +1604,13 @@
           "Exile cards with total mana value 8 or greater from your graveyard.",
           "To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.",
           "To collect evidence 4, exile cards with total mana value 4 or greater from your graveyard.",
-          "To collect evidence 6, exile cards with total mana value 6 or greater from your graveyard."
+          "To collect evidence 6, exile cards with total mana value 6 or greater from your graveyard.",
+          "To collect evidence X, exile cards with total mana value X or greater from your graveyard."
         ]
       },
       {
-        "template": "To collect evidence <number>, exile cards with total mana value <number> or greater from your graveyard.",
+        "template": "To collect evidence 10, exile cards with total mana value 10 or greater from your graveyard.",
         "rts": [
-          "To collect evidence X, exile cards with total mana value X or greater from your graveyard.",
           "To collect evidence 10, exile cards with total mana value 10 or greater from your graveyard."
         ]
       }
@@ -5265,7 +5255,7 @@
       }
     ],
     "merged": {
-      "template": "(||||||To incubate X,|To incubate 2,|To incubate 3,) Create an Incubator token with <number:a_or_word> +1/+1 counter<number:plural:s> on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
+      "template": "<to_do_this> Create an Incubator token with <number:a_or_word> +1/+1 counter<number:plural:s> on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
       "count": 31
     },
     "best": [
@@ -5278,14 +5268,9 @@
           "Create an Incubator token with five +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "Create an Incubator token with four +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "Create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
+          "To incubate X, create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "To incubate 2, create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
           "To incubate 3, create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature."
-        ]
-      },
-      {
-        "template": "To incubate X, create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.",
-        "rts": [
-          "To incubate X, create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature."
         ]
       }
     ]
@@ -9218,14 +9203,9 @@
           "Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
           "Look at the top four cards of your library, then put any number of them on the bottom and the rest on top in any order.",
           "Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+          "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.",
           "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
           "To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order."
-        ]
-      },
-      {
-        "template": "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-        "rts": [
-          "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order."
         ]
       },
       {
@@ -9989,7 +9969,7 @@
       }
     ],
     "merged": {
-      "template": "(||To surveil 1,|To surveil 1,|||||To surveil X,|To surveil 2,|To surveil 4,|To surveil 3,) Look at the top (card|card|card|card|X cards|two cards|five cards|three cards|X cards|two cards|four cards|three cards) of your (library. You may|library. You may|library. You may|library. You may|library, then|library, then|library, then|library, then|library, then|library, then|library, then|library, then) put (it|that card|it|that card|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them) into your (graveyard|graveyard|graveyard|graveyard|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order).",
+      "template": "<to_do_this> Look at the top (card|card|card|card|X cards|two cards|five cards|three cards|X cards|two cards|four cards|three cards) of your (library. You may|library. You may|library. You may|library. You may|library, then|library, then|library, then|library, then|library, then|library, then|library, then|library, then) put (it|that card|it|that card|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them|any number of them) into your (graveyard|graveyard|graveyard|graveyard|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order|graveyard and the rest on top of your library in any order).",
       "count": 140
     },
     "best": [
@@ -10009,15 +9989,10 @@
           "Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
           "Look at the top five cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
           "Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
+          "To surveil X, look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
           "To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
           "To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
           "To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order."
-        ]
-      },
-      {
-        "template": "To surveil X, look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
-        "rts": [
-          "To surveil X, look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order."
         ]
       }
     ]

@@ -15,7 +15,7 @@ class ToDoThisReplacer extends Replacer {
 
     constructor(label) {
         super();
-        this.expr = new RegExp(`^(?:To ${label.toLowerCase()}(?: [1-9])?,|)$`, 'i');
+        this.expr = new RegExp(`^(?:To ${label.toLowerCase()}(?: [a-z]+)?(?: [1-9X])?,|)$`, 'i');
     }
 }
 

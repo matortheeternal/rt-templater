@@ -10,13 +10,13 @@
         "Exile cards with total mana value 8 or greater from your graveyard.",
         "To collect evidence 3, exile cards with total mana value 3 or greater from your graveyard.",
         "To collect evidence 4, exile cards with total mana value 4 or greater from your graveyard.",
-        "To collect evidence 6, exile cards with total mana value 6 or greater from your graveyard."
+        "To collect evidence 6, exile cards with total mana value 6 or greater from your graveyard.",
+        "To collect evidence X, exile cards with total mana value X or greater from your graveyard."
       ]
     },
     {
-      "template": "To collect evidence <number>, exile cards with total mana value <number> or greater from your graveyard.",
+      "template": "To collect evidence 10, exile cards with total mana value 10 or greater from your graveyard.",
       "rts": [
-        "To collect evidence X, exile cards with total mana value X or greater from your graveyard.",
         "To collect evidence 10, exile cards with total mana value 10 or greater from your graveyard."
       ]
     }
