@@ -3,7 +3,7 @@
   "expr": "Eternalize",
   "variations": [
     {
-      "template": "<mana>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <card_sub_type> with no mana cost. Eternalize only as a sorcery.",
+      "template": "<extcost>, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <card_sub_type> with no mana cost. Eternalize only as a sorcery.",
       "rts": [
         "{3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Cat with no mana cost. Eternalize only as a sorcery.",
         "{2}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Dragon with no mana cost. Eternalize only as a sorcery.",
@@ -14,12 +14,7 @@
         "{5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Snake Wizard with no mana cost. Eternalize only as a sorcery.",
         "{4}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Wizard with no mana cost. Eternalize only as a sorcery.",
         "{4}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Warrior with no mana cost. Eternalize only as a sorcery.",
-        "{4}{R}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery."
-      ]
-    },
-    {
-      "template": "<mana>, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie <card_sub_type> with no mana cost. Eternalize only as a sorcery.",
-      "rts": [
+        "{4}{R}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.",
         "{2}{W}{W}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.",
         "{3}{U}{U}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Snake Warrior with no mana cost. Eternalize only as a sorcery."
       ]

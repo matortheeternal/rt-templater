@@ -3,7 +3,7 @@
   "expr": "Cycling",
   "variations": [
     {
-      "template": "<mana>, Discard this card: Draw a card.",
+      "template": "<extcost>, Discard this card: Draw a card.",
       "rts": [
         "{1}, Discard this card: Draw a card.",
         "{2}, Discard this card: Draw a card.",
@@ -55,11 +55,13 @@
         "{X}{2}{R}, Discard this card: Draw a card.",
         "{X}{2}{W}, Discard this card: Draw a card.",
         "{X}{G}{G}, Discard this card: Draw a card.",
+        "Pay 2 life, Discard this card: Draw a card.",
         "{5}{B}{R}{G}, Discard this card: Draw a card.",
         "{5}{G}{W}{U}, Discard this card: Draw a card.",
         "{5}{R}{G}{W}, Discard this card: Draw a card.",
         "{5}{U}{B}{R}, Discard this card: Draw a card.",
-        "{5}{W}{U}{B}, Discard this card: Draw a card."
+        "{5}{W}{U}{B}, Discard this card: Draw a card.",
+        "Sacrifice a land, Discard this card: Draw a card."
       ]
     },
     {
@@ -67,18 +69,6 @@
       "rts": [
         "{1}{U}, Discard that card: Draw a card.",
         "{2}{W}, Discard that card: Draw a card."
-      ]
-    },
-    {
-      "template": "Pay 2 life, Discard this card: Draw a card.",
-      "rts": [
-        "Pay 2 life, Discard this card: Draw a card."
-      ]
-    },
-    {
-      "template": "Sacrifice a land, Discard this card: Draw a card.",
-      "rts": [
-        "Sacrifice a land, Discard this card: Draw a card."
       ]
     }
   ]

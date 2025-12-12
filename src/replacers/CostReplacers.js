@@ -29,7 +29,7 @@ const inAddition = `in addition to any other costs`;
 
 const landTypes = ['island', 'forest', 'mountain', 'swamp', 'plains'];
 const permanentTypes = ['land', 'creature', 'artifact', 'enchantment', ...landTypes];
-const allTypes = permanentTypes.concat(['instant', 'sorcery', '']);
+const allTypes = permanentTypes.concat(['instant', 'sorcery']);
 
 const payLife = `pay [1-9] life`;
 const pay = `(?:pay ${mana}|${payLife})`;
@@ -38,8 +38,8 @@ const sacMultiple = `sacrifice (?:two|three) ${pluralExpr(landTypes)}`;
 const sac = `(?:sacrifice ${pairExpr(permanentTypes)}|${sacMultiple})`;
 const payThenSac = `${pay} and ${sac}`;
 
-const discard = `(?:discard ${pairExpr(allTypes)} card|discard two cards|discard a card at random)`;
-const discards = `discards ${pairExpr(allTypes)} card`;
+const discard = `(?:discard (?:${pairExpr(allTypes)}|a) card(?: at random)?|discard two cards)`;
+const discards = `discards (?:${pairExpr(allTypes)}|a) card`;
 const payThenDiscard = `${pay} and ${discard}`;
 
 class AdditionalCostReplacer extends Replacer {
@@ -59,7 +59,7 @@ class AdditionalCostReplacer extends Replacer {
 
 class ExtCostReplacer extends Replacer {
     id = '<extcost>';
-    expr = new RegExp(`^(?:${mana}(?:, ${discard}|, ${sac})|${discard}|${sac})`, 'i');
+    expr = new RegExp(`^(?:${mana}(?:, ${discard}|, ${sac})?|${discard}|${sac}|${payLife})$`, 'i');
 }
 
 class PayCostReplacer extends Replacer {
