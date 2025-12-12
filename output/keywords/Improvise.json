@@ -3,17 +3,17 @@
   "expr": "Improvise",
   "variations": [
     {
-      "template": "Each artifact you tap after you're done activating mana abilities pays for {1}.",
-      "rts": [
-        "Each artifact you tap after you're done activating mana abilities pays for {1}."
-      ]
-    },
-    {
       "template": "Your artifacts can help cast <target_spell>. Each artifact you tap after you're done activating mana abilities pays for {1}.",
       "rts": [
         "Your artifacts can help cast that spell. Each artifact you tap after you're done activating mana abilities pays for {1}.",
         "Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.",
         "Your artifacts can help cast those spells. Each artifact you tap after you're done activating mana abilities pays for {1}."
+      ]
+    },
+    {
+      "template": "Each artifact you tap after you're done activating mana abilities pays for {1}.",
+      "rts": [
+        "Each artifact you tap after you're done activating mana abilities pays for {1}."
       ]
     }
   ]

@@ -3,6 +3,24 @@
   "expr": "Scry",
   "variations": [
     {
+      "template": "<to_do_this> Look at the top <number:word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+      "rts": [
+        "Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+        "Look at the top four cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+        "Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+        "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+        "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+        "To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order."
+      ]
+    },
+    {
+      "template": "Look at the top card of your library. You may put <target_card> on the bottom.",
+      "rts": [
+        "Look at the top card of your library. You may put it on the bottom.",
+        "Look at the top card of your library. You may put that card on the bottom."
+      ]
+    },
+    {
       "template": "Leads to: Mad Wizard's Lair",
       "rts": [
         "Leads to: Mad Wizard's Lair"
@@ -27,13 +45,6 @@
       ]
     },
     {
-      "template": "Look at the top card of your library. You may put <target_card> on the bottom.",
-      "rts": [
-        "Look at the top card of your library. You may put it on the bottom.",
-        "Look at the top card of your library. You may put that card on the bottom."
-      ]
-    },
-    {
       "template": "To scry 1, look at the top card of your library, then you may put that card on the bottom.",
       "rts": [
         "To scry 1, look at the top card of your library, then you may put that card on the bottom."
@@ -43,17 +54,6 @@
       "template": "To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.",
       "rts": [
         "To scry 1, look at the top card of your library, then you may put that card on the bottom of your library."
-      ]
-    },
-    {
-      "template": "<to_do_this> Look at the top <number:word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-      "rts": [
-        "Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-        "Look at the top four cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-        "Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-        "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-        "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-        "To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order."
       ]
     },
     {

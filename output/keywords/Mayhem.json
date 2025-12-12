@@ -3,12 +3,6 @@
   "expr": "Mayhem",
   "variations": [
     {
-      "template": "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.",
-      "rts": [
-        "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply."
-      ]
-    },
-    {
       "template": "You may cast this card from your graveyard for <mana> if you discarded it this turn. Timing rules still apply.",
       "rts": [
         "You may cast this card from your graveyard for {B} if you discarded it this turn. Timing rules still apply.",
@@ -18,6 +12,12 @@
         "You may cast this card from your graveyard for {2}{U} if you discarded it this turn. Timing rules still apply.",
         "You may cast this card from your graveyard for {3}{B} if you discarded it this turn. Timing rules still apply.",
         "You may cast this card from your graveyard for {2}{B/R} if you discarded it this turn. Timing rules still apply."
+      ]
+    },
+    {
+      "template": "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.",
+      "rts": [
+        "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply."
       ]
     }
   ]

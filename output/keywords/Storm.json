@@ -3,6 +3,13 @@
   "expr": "Storm",
   "variations": [
     {
+      "template": "When you cast <target_spell>, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
+      "rts": [
+        "When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
+        "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies."
+      ]
+    },
+    {
       "template": "When you cast this spell, copy it for each spell cast before it this turn.",
       "rts": [
         "When you cast this spell, copy it for each spell cast before it this turn."
@@ -18,13 +25,6 @@
       "template": "When you cast this spell, copy it for each spell cast before it this turn. Copies become tokens.",
       "rts": [
         "When you cast this spell, copy it for each spell cast before it this turn. Copies become tokens."
-      ]
-    },
-    {
-      "template": "When you cast <target_spell>, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
-      "rts": [
-        "When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
-        "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies."
       ]
     },
     {

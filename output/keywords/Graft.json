@@ -3,12 +3,6 @@
   "expr": "Graft",
   "variations": [
     {
-      "template": "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it.",
-      "rts": [
-        "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it."
-      ]
-    },
-    {
       "template": "This creature enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.",
       "rts": [
         "This creature enters with a +1/+1 counter on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.",
@@ -17,6 +11,12 @@
         "This creature enters with five +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.",
         "This creature enters with four +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.",
         "This creature enters with three +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it."
+      ]
+    },
+    {
+      "template": "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it.",
+      "rts": [
+        "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it."
       ]
     }
   ]

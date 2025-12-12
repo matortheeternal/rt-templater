@@ -3,18 +3,18 @@
   "expr": "Fear",
   "variations": [
     {
-      "template": "Leads to: Sandfall Cell",
-      "rts": [
-        "Leads to: Sandfall Cell"
-      ]
-    },
-    {
       "template": "<target> can't be blocked except by artifact creatures and/or black creatures.",
       "rts": [
         "It can't be blocked except by artifact creatures and/or black creatures.",
         "They can't be blocked except by artifact creatures and/or black creatures.",
         "This creature can't be blocked except by artifact creatures and/or black creatures.",
         "A creature with fear can't be blocked except by artifact creatures and/or black creatures."
+      ]
+    },
+    {
+      "template": "Leads to: Sandfall Cell",
+      "rts": [
+        "Leads to: Sandfall Cell"
       ]
     }
   ]

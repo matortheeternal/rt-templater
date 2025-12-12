@@ -3,18 +3,18 @@
   "expr": "Flying",
   "variations": [
     {
-      "template": "Do both if <mana> was spent.",
-      "rts": [
-        "Do both if {G}{U} was spent.",
-        "Do both if {R}{G} was spent."
-      ]
-    },
-    {
       "template": "<target> can't be blocked except by creatures with flying or reach.",
       "rts": [
         "It can't be blocked except by creatures with flying or reach.",
         "This creature can't be blocked except by creatures with flying or reach.",
         "A creature with flying can't be blocked except by creatures with flying or reach."
+      ]
+    },
+    {
+      "template": "Do both if <mana> was spent.",
+      "rts": [
+        "Do both if {G}{U} was spent.",
+        "Do both if {R}{G} was spent."
       ]
     }
   ]

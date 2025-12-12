@@ -1,7 +1,9 @@
 import Replacer from './Replacer.js';
 
-
-const thisTypesGroup = `(?:creature|land|enchantment|permanent|artifact|token)`;
+const thisTypes = [
+    'creature', 'land', 'enchantment', 'permanent', 'artifact', 'token', 'Vehicle'
+];
+const thisTypesGroup = `(?:${thisTypes.join('|')})`;
 
 class TargetSpellReplacer extends Replacer {
     id = '<target_spell>';

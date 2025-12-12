@@ -28,16 +28,16 @@
       ]
     },
     {
-      "template": "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
-      "rts": [
-        "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
-      ]
-    },
-    {
       "template": "Whenever <type:a> you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
       "rts": [
         "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
         "Whenever an artifact you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
+      ]
+    },
+    {
+      "template": "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
+      "rts": [
+        "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
       ]
     },
     {

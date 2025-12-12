@@ -486,12 +486,6 @@
     },
     "best": [
       {
-        "template": "Whenever this creature attacks, defending player sacrifices a permanent.",
-        "rts": [
-          "Whenever this creature attacks, defending player sacrifices a permanent."
-        ]
-      },
-      {
         "template": "Whenever <target_it> attacks, defending player sacrifices <number:permanents> of their choice.",
         "rts": [
           "Whenever it attacks, defending player sacrifices a permanent of their choice.",
@@ -499,6 +493,12 @@
           "Whenever this creature attacks, defending player sacrifices two permanents of their choice.",
           "Whenever this creature attacks, defending player sacrifices four permanents of their choice.",
           "Whenever this creature attacks, defending player sacrifices three permanents of their choice."
+        ]
+      },
+      {
+        "template": "Whenever this creature attacks, defending player sacrifices a permanent.",
+        "rts": [
+          "Whenever this creature attacks, defending player sacrifices a permanent."
         ]
       }
     ]
@@ -1214,17 +1214,17 @@
     },
     "best": [
       {
-        "template": "Do this after the last card is exiled but before deciding whether to cast a nonland card.",
-        "rts": [
-          "Do this after the last card is exiled but before deciding whether to cast a nonland card."
-        ]
-      },
-      {
         "template": "When you cast <target_spell>, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.",
         "rts": [
           "When you cast the spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.",
           "When you cast that spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.",
           "When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order."
+        ]
+      },
+      {
+        "template": "Do this after the last card is exiled but before deciding whether to cast a nonland card.",
+        "rts": [
+          "Do this after the last card is exiled but before deciding whether to cast a nonland card."
         ]
       },
       {
@@ -1344,6 +1344,14 @@
         ]
       },
       {
+        "template": "As you cast this spell, you may sacrifice a creature with power <number> or greater. When you do, copy this spell and you may choose a new target for the copy.",
+        "rts": [
+          "As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.",
+          "As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.",
+          "As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell and you may choose a new target for the copy."
+        ]
+      },
+      {
         "template": "As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell. The copy becomes a token.",
         "rts": [
           "As you cast this spell, you may sacrifice a creature with power X. When you do, copy this spell. The copy becomes a token."
@@ -1359,14 +1367,6 @@
         "template": "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.",
         "rts": [
           "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy."
-        ]
-      },
-      {
-        "template": "As you cast this spell, you may sacrifice a creature with power <number> or greater. When you do, copy this spell and you may choose a new target for the copy.",
-        "rts": [
-          "As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.",
-          "As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.",
-          "As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell and you may choose a new target for the copy."
         ]
       }
     ]
@@ -1730,16 +1730,16 @@
     },
     "best": [
       {
-        "template": "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it.",
-        "rts": [
-          "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it."
-        ]
-      },
-      {
         "template": "As you cast <target_spell>, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
         "rts": [
           "As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
           "As you cast that spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy."
+        ]
+      },
+      {
+        "template": "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it.",
+        "rts": [
+          "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it."
         ]
       },
       {
@@ -1785,12 +1785,6 @@
     },
     "best": [
       {
-        "template": "Each creature you tap while casting a noncreature spell from exile pays for {1} or one mana of that creature's color.",
-        "rts": [
-          "Each creature you tap while casting a noncreature spell from exile pays for {1} or one mana of that creature's color."
-        ]
-      },
-      {
         "template": "Your creatures can help cast <target_spell>. Each creature you tap while casting <target_spell> pays for {1} or one mana of that creature's color.",
         "rts": [
           "Your creatures can help cast it. Each creature you tap while casting it pays for {1} or one mana of that creature's color.",
@@ -1805,6 +1799,12 @@
         ]
       },
       {
+        "template": "Each creature you tap while casting a noncreature spell from exile pays for {1} or one mana of that creature's color.",
+        "rts": [
+          "Each creature you tap while casting a noncreature spell from exile pays for {1} or one mana of that creature's color."
+        ]
+      },
+      {
         "template": "Your creatures can help cast those spells. Each creature you tap while casting a multicolored spell pays for {1} or one mana of a color that creature is.",
         "rts": [
           "Your creatures can help cast those spells. Each creature you tap while casting a multicolored spell pays for {1} or one mana of a color that creature is."
@@ -1814,12 +1814,8 @@
   },
   {
     "label": "Crew",
-    "count": 93,
+    "count": 92,
     "rts": [
-      {
-        "text": "It's not a creature unless it's crewed.",
-        "count": 1
-      },
       {
         "text": "Tap any number of creatures you control with total power 1 or more: This token becomes an artifact creature until end of turn.",
         "count": 1
@@ -1866,26 +1862,15 @@
       }
     ],
     "merged": {
-      "template": "(It's not a creature|Tap any number of creatures you control with total power 1 or more: This token becomes an artifact creature|Tap any number of creatures you control with total power 2 or more: This token becomes an artifact creature|Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature|Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature|Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature|Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature|Tap any number of creatures you control with total power 5 or more: This Vehicle becomes an artifact creature|Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature|Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature|Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature|Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature) (unless it's crewed|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn|until end of turn. Creatures can't be attached to other permanents).",
-      "count": 93
+      "template": "Tap any number of creatures you control with total power <number> or (more|more|more|more|more|more|more|more|more|greater|more): <target> becomes an artifact creature until end of turn. (||||||||||Creatures can't be attached to other permanents.)",
+      "count": 92
     },
     "best": [
       {
-        "template": "It's not a creature unless it's crewed.",
-        "rts": [
-          "It's not a creature unless it's crewed."
-        ]
-      },
-      {
-        "template": "Tap any number of creatures you control with total power <number> or more: This token becomes an artifact creature until end of turn.",
+        "template": "Tap any number of creatures you control with total power <number> or more: <target> becomes an artifact creature until end of turn.",
         "rts": [
           "Tap any number of creatures you control with total power 1 or more: This token becomes an artifact creature until end of turn.",
-          "Tap any number of creatures you control with total power 2 or more: This token becomes an artifact creature until end of turn."
-        ]
-      },
-      {
-        "template": "Tap any number of creatures you control with total power <number> or more: This Vehicle becomes an artifact creature until end of turn.",
-        "rts": [
+          "Tap any number of creatures you control with total power 2 or more: This token becomes an artifact creature until end of turn.",
           "Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.",
           "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.",
           "Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.",
@@ -2688,6 +2673,13 @@
         ]
       },
       {
+        "template": "As <target_creature> enters, you may sacrifice any number of creatures. It enters with <number:word> times that many +1/+1 counters on it.",
+        "rts": [
+          "As that creature enters, you may sacrifice any number of creatures. It enters with five times that many +1/+1 counters on it.",
+          "As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it."
+        ]
+      },
+      {
         "template": "As this creature enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it.",
         "rts": [
           "As this creature enters, you may sacrifice any number of creatures. It enters with twice that many +1/+1 counters on it."
@@ -2697,13 +2689,6 @@
         "template": "As this creature enters, you may sacrifice any number of lands. It enters with three times that many +1/+1 counters on it.",
         "rts": [
           "As this creature enters, you may sacrifice any number of lands. It enters with three times that many +1/+1 counters on it."
-        ]
-      },
-      {
-        "template": "As <target_creature> enters, you may sacrifice any number of creatures. It enters with <number:word> times that many +1/+1 counters on it.",
-        "rts": [
-          "As that creature enters, you may sacrifice any number of creatures. It enters with five times that many +1/+1 counters on it.",
-          "As this creature enters, you may sacrifice any number of creatures. It enters with three times that many +1/+1 counters on it."
         ]
       },
       {
@@ -2889,6 +2874,16 @@
     },
     "best": [
       {
+        "template": "If you would draw a card, you may mill <number:word> cards instead. If you do, return this card from your graveyard to your hand.",
+        "rts": [
+          "If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.",
+          "If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.",
+          "If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.",
+          "If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.",
+          "If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand."
+        ]
+      },
+      {
         "template": "You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card.",
         "rts": [
           "You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card."
@@ -2898,16 +2893,6 @@
         "template": "If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand.",
         "rts": [
           "If you would draw a card, you may mill a card instead. If you do, return this card from your graveyard to your hand."
-        ]
-      },
-      {
-        "template": "If you would draw a card, you may mill <number:word> cards instead. If you do, return this card from your graveyard to your hand.",
-        "rts": [
-          "If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.",
-          "If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.",
-          "If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.",
-          "If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.",
-          "If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand."
         ]
       }
     ]
@@ -3194,18 +3179,6 @@
     },
     "best": [
       {
-        "template": "Exile it and pay its mana cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
-        "rts": [
-          "Exile it and pay its mana cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
-        ]
-      },
-      {
-        "template": "Exile it and pay its encore cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
-        "rts": [
-          "Exile it and pay its encore cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
-        ]
-      },
-      {
         "template": "<mana>, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
         "rts": [
           "{5}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
@@ -3224,6 +3197,18 @@
           "{6}{B}{B}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
           "{6}{W}{W}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
           "{7}{W}{W}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
+        ]
+      },
+      {
+        "template": "Exile it and pay its mana cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
+        "rts": [
+          "Exile it and pay its mana cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
+        ]
+      },
+      {
+        "template": "Exile it and pay its encore cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
+        "rts": [
+          "Exile it and pay its encore cost: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
         ]
       },
       {
@@ -3979,18 +3964,18 @@
     },
     "best": [
       {
-        "template": "Leads to: Sandfall Cell",
-        "rts": [
-          "Leads to: Sandfall Cell"
-        ]
-      },
-      {
         "template": "<target> can't be blocked except by artifact creatures and/or black creatures.",
         "rts": [
           "It can't be blocked except by artifact creatures and/or black creatures.",
           "They can't be blocked except by artifact creatures and/or black creatures.",
           "This creature can't be blocked except by artifact creatures and/or black creatures.",
           "A creature with fear can't be blocked except by artifact creatures and/or black creatures."
+        ]
+      },
+      {
+        "template": "Leads to: Sandfall Cell",
+        "rts": [
+          "Leads to: Sandfall Cell"
         ]
       }
     ]
@@ -4078,17 +4063,17 @@
     },
     "best": [
       {
-        "template": "It can be cast any time you could cast an instant.",
-        "rts": [
-          "It can be cast any time you could cast an instant."
-        ]
-      },
-      {
         "template": "You may cast <target_card> any time you could cast an instant.",
         "rts": [
           "You may cast it any time you could cast an instant.",
           "You may cast them any time you could cast an instant.",
           "You may cast this card any time you could cast an instant."
+        ]
+      },
+      {
+        "template": "It can be cast any time you could cast an instant.",
+        "rts": [
+          "It can be cast any time you could cast an instant."
         ]
       },
       {
@@ -4202,18 +4187,18 @@
     },
     "best": [
       {
-        "template": "Do both if <mana> was spent.",
-        "rts": [
-          "Do both if {G}{U} was spent.",
-          "Do both if {R}{G} was spent."
-        ]
-      },
-      {
         "template": "<target> can't be blocked except by creatures with flying or reach.",
         "rts": [
           "It can't be blocked except by creatures with flying or reach.",
           "This creature can't be blocked except by creatures with flying or reach.",
           "A creature with flying can't be blocked except by creatures with flying or reach."
+        ]
+      },
+      {
+        "template": "Do both if <mana> was spent.",
+        "rts": [
+          "Do both if {G}{U} was spent.",
+          "Do both if {R}{G} was spent."
         ]
       }
     ]
@@ -4441,16 +4426,16 @@
     },
     "best": [
       {
-        "template": "On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield.",
-        "rts": [
-          "On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield."
-        ]
-      },
-      {
         "template": "During your turn, you may pay {2} and exile <target_card> from your hand face down. Cast it on a later turn for its foretell cost.",
         "rts": [
           "During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.",
           "During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost."
+        ]
+      },
+      {
+        "template": "On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield.",
+        "rts": [
+          "On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield."
         ]
       }
     ]
@@ -4707,12 +4692,6 @@
     },
     "best": [
       {
-        "template": "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it.",
-        "rts": [
-          "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it."
-        ]
-      },
-      {
         "template": "This creature enters with <number:a_or_word> +1/+1 counter<number:plural:s> on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.",
         "rts": [
           "This creature enters with a +1/+1 counter on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.",
@@ -4721,6 +4700,12 @@
           "This creature enters with five +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.",
           "This creature enters with four +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.",
           "This creature enters with three +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it."
+        ]
+      },
+      {
+        "template": "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it.",
+        "rts": [
+          "This land enters with a +1/+1 counter on it. Whenever a creature enters, you may move a +1/+1 counter from this land onto it."
         ]
       }
     ]
@@ -4862,6 +4847,20 @@
     },
     "best": [
       {
+        "template": "<target> can attack and {T} this turn.",
+        "rts": [
+          "It can attack and {T} this turn.",
+          "They can attack and {T} this turn."
+        ]
+      },
+      {
+        "template": "<target> can attack and {T} as soon as it comes under your control.",
+        "rts": [
+          "It can attack and {T} as soon as it comes under your control.",
+          "This creature can attack and {T} as soon as it comes under your control."
+        ]
+      },
+      {
         "template": "It can attack this turn.",
         "rts": [
           "It can attack this turn."
@@ -4874,23 +4873,9 @@
         ]
       },
       {
-        "template": "<target> can attack and {T} this turn.",
-        "rts": [
-          "It can attack and {T} this turn.",
-          "They can attack and {T} this turn."
-        ]
-      },
-      {
         "template": "The creature can attack and {T} this turn.",
         "rts": [
           "The creature can attack and {T} this turn."
-        ]
-      },
-      {
-        "template": "<target> can attack and {T} as soon as it comes under your control.",
-        "rts": [
-          "It can attack and {T} as soon as it comes under your control.",
-          "This creature can attack and {T} as soon as it comes under your control."
         ]
       },
       {
@@ -5006,12 +4991,6 @@
     },
     "best": [
       {
-        "template": "He can't be the target of spells or abilities your opponents control.",
-        "rts": [
-          "He can't be the target of spells or abilities your opponents control."
-        ]
-      },
-      {
         "template": "<target> can't be the target<number:plural:s> of spells or abilities your opponents control.",
         "rts": [
           "It can't be the target of spells or abilities your opponents control.",
@@ -5019,6 +4998,12 @@
           "They can't be the targets of spells or abilities your opponents control.",
           "This creature can't be the target of spells or abilities your opponents control.",
           "A creature with hexproof can't be the target of spells or abilities your opponents control."
+        ]
+      },
+      {
+        "template": "He can't be the target of spells or abilities your opponents control.",
+        "rts": [
+          "He can't be the target of spells or abilities your opponents control."
         ]
       },
       {
@@ -5080,18 +5065,18 @@
     },
     "best": [
       {
-        "template": "When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
-        "rts": [
-          "When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order."
-        ]
-      },
-      {
         "template": "When this <type> enters, look at the top <number:word> cards of your library, exile one face down, then put the rest on the bottom in a random order.",
         "rts": [
           "When this artifact enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.",
           "When this artifact enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
           "When this creature enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
           "When this enchantment enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order."
+        ]
+      },
+      {
+        "template": "When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
+        "rts": [
+          "When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order."
         ]
       },
       {
@@ -5198,17 +5183,17 @@
     },
     "best": [
       {
-        "template": "Each artifact you tap after you're done activating mana abilities pays for {1}.",
-        "rts": [
-          "Each artifact you tap after you're done activating mana abilities pays for {1}."
-        ]
-      },
-      {
         "template": "Your artifacts can help cast <target_spell>. Each artifact you tap after you're done activating mana abilities pays for {1}.",
         "rts": [
           "Your artifacts can help cast that spell. Each artifact you tap after you're done activating mana abilities pays for {1}.",
           "Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.",
           "Your artifacts can help cast those spells. Each artifact you tap after you're done activating mana abilities pays for {1}."
+        ]
+      },
+      {
+        "template": "Each artifact you tap after you're done activating mana abilities pays for {1}.",
+        "rts": [
+          "Each artifact you tap after you're done activating mana abilities pays for {1}."
         ]
       }
     ]
@@ -5358,9 +5343,11 @@
     },
     "best": [
       {
-        "template": "The copies become tokens.",
+        "template": "Damage and effects that say \"destroy\" don't destroy <target_creature>.",
         "rts": [
-          "The copies become tokens."
+          "Damage and effects that say \"destroy\" don't destroy the creature.",
+          "Damage and effects that say \"destroy\" don't destroy this creature.",
+          "Damage and effects that say \"destroy\" don't destroy those creatures."
         ]
       },
       {
@@ -5378,11 +5365,23 @@
         ]
       },
       {
-        "template": "Damage and effects that say \"destroy\" don't destroy <target_creature>.",
+        "template": "Effects that say \"destroy\" don't destroy <target_card>. A creature with indestructible can't be destroyed by damage.",
         "rts": [
-          "Damage and effects that say \"destroy\" don't destroy the creature.",
-          "Damage and effects that say \"destroy\" don't destroy this creature.",
-          "Damage and effects that say \"destroy\" don't destroy those creatures."
+          "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.",
+          "Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage."
+        ]
+      },
+      {
+        "template": "Damage and effects that say \"destroy\" don't destroy <target_it>. If its toughness is 0 or less, it's still put into its owner's graveyard.",
+        "rts": [
+          "Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.",
+          "Damage and effects that say \"destroy\" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard."
+        ]
+      },
+      {
+        "template": "The copies become tokens.",
+        "rts": [
+          "The copies become tokens."
         ]
       },
       {
@@ -5398,13 +5397,6 @@
         ]
       },
       {
-        "template": "Effects that say \"destroy\" don't destroy <target_card>. A creature with indestructible can't be destroyed by damage.",
-        "rts": [
-          "Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.",
-          "Effects that say \"destroy\" don't destroy them. A creature with indestructible can't be destroyed by damage."
-        ]
-      },
-      {
         "template": "Effects that say \"destroy\" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage.",
         "rts": [
           "Effects that say \"destroy\" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage."
@@ -5414,13 +5406,6 @@
         "template": "Effects that say \"destroy\" don't destroy that permanent. A creature with indestructible can't be destroyed by damage.",
         "rts": [
           "Effects that say \"destroy\" don't destroy that permanent. A creature with indestructible can't be destroyed by damage."
-        ]
-      },
-      {
-        "template": "Damage and effects that say \"destroy\" don't destroy <target_it>. If its toughness is 0 or less, it's still put into its owner's graveyard.",
-        "rts": [
-          "Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.",
-          "Damage and effects that say \"destroy\" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard."
         ]
       },
       {
@@ -5468,17 +5453,17 @@
     },
     "best": [
       {
-        "template": "Damage is dealt to you in the form of poison counters.",
-        "rts": [
-          "Damage is dealt to you in the form of poison counters."
-        ]
-      },
-      {
         "template": "<target_deals> damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
         "rts": [
           "It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
           "They deal damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
           "{B/P} can be paid with either {B} or 2 life. A creature with infect deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters."
+        ]
+      },
+      {
+        "template": "Damage is dealt to you in the form of poison counters.",
+        "rts": [
+          "Damage is dealt to you in the form of poison counters."
         ]
       },
       {
@@ -5576,17 +5561,17 @@
     },
     "best": [
       {
-        "template": "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\"",
-        "rts": [
-          "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\""
-        ]
-      },
-      {
         "template": "<to_do_this> Create a Clue token. It's an artifact with \"{2}, Sacrifice this <type>: Draw a card.\"",
         "rts": [
           "Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
           "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\"",
           "To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\""
+        ]
+      },
+      {
+        "template": "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\"",
+        "rts": [
+          "Create a Clue artifact token with \"{2}, Sacrifice this token: Draw a card.\""
         ]
       },
       {
@@ -6057,6 +6042,13 @@
         ]
       },
       {
+        "template": "You may sacrifice an artifact or <type> in addition to any other costs as you cast this spell.",
+        "rts": [
+          "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.",
+          "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell."
+        ]
+      },
+      {
         "template": "You may pay an additional {R} and/or {W} as you cast this spell.",
         "rts": [
           "You may pay an additional {R} and/or {W} as you cast this spell."
@@ -6078,13 +6070,6 @@
         "template": "You may tap a Vampire you control in addition to any other costs as you cast this spell.",
         "rts": [
           "You may tap a Vampire you control in addition to any other costs as you cast this spell."
-        ]
-      },
-      {
-        "template": "You may sacrifice an artifact or <type> in addition to any other costs as you cast this spell.",
-        "rts": [
-          "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.",
-          "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell."
         ]
       },
       {
@@ -6499,12 +6484,6 @@
     },
     "best": [
       {
-        "template": "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.",
-        "rts": [
-          "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply."
-        ]
-      },
-      {
         "template": "You may cast this card from your graveyard for <mana> if you discarded it this turn. Timing rules still apply.",
         "rts": [
           "You may cast this card from your graveyard for {B} if you discarded it this turn. Timing rules still apply.",
@@ -6514,6 +6493,12 @@
           "You may cast this card from your graveyard for {2}{U} if you discarded it this turn. Timing rules still apply.",
           "You may cast this card from your graveyard for {3}{B} if you discarded it this turn. Timing rules still apply.",
           "You may cast this card from your graveyard for {2}{B/R} if you discarded it this turn. Timing rules still apply."
+        ]
+      },
+      {
+        "template": "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.",
+        "rts": [
+          "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply."
         ]
       }
     ]
@@ -6715,13 +6700,6 @@
     },
     "best": [
       {
-        "template": "<to_kw_a_card> Put the top card of your library into your graveyard.",
-        "rts": [
-          "Put the top card of your library into your graveyard.",
-          "To mill a card, put the top card of your library into your graveyard."
-        ]
-      },
-      {
         "template": "Put the top <number:word> cards of your library into your graveyard.",
         "rts": [
           "Put the top two cards of your library into your graveyard.",
@@ -6730,17 +6708,32 @@
         ]
       },
       {
-        "template": "You may put the top card of your library into your graveyard.",
-        "rts": [
-          "You may put the top card of your library into your graveyard."
-        ]
-      },
-      {
         "template": "You may put the top <number:word> cards of your library into your graveyard.",
         "rts": [
           "You may put the top two cards of your library into your graveyard.",
           "You may put the top four cards of your library into your graveyard.",
           "You may put the top three cards of your library into your graveyard."
+        ]
+      },
+      {
+        "template": "To mill <number:word> cards, put the top <number:word> cards of your library into your graveyard.",
+        "rts": [
+          "To mill two cards, put the top two cards of your library into your graveyard.",
+          "To mill four cards, put the top four cards of your library into your graveyard.",
+          "To mill three cards, put the top three cards of your library into your graveyard."
+        ]
+      },
+      {
+        "template": "<to_kw_a_card> Put the top card of your library into your graveyard.",
+        "rts": [
+          "Put the top card of your library into your graveyard.",
+          "To mill a card, put the top card of your library into your graveyard."
+        ]
+      },
+      {
+        "template": "You may put the top card of your library into your graveyard.",
+        "rts": [
+          "You may put the top card of your library into your graveyard."
         ]
       },
       {
@@ -6753,14 +6746,6 @@
         "template": "Each of them puts the top two cards of their library into their graveyard.",
         "rts": [
           "Each of them puts the top two cards of their library into their graveyard."
-        ]
-      },
-      {
-        "template": "To mill <number:word> cards, put the top <number:word> cards of your library into your graveyard.",
-        "rts": [
-          "To mill two cards, put the top two cards of your library into your graveyard.",
-          "To mill four cards, put the top four cards of your library into your graveyard.",
-          "To mill three cards, put the top three cards of your library into your graveyard."
         ]
       },
       {
@@ -7326,12 +7311,6 @@
     },
     "best": [
       {
-        "template": "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color.",
-        "rts": [
-          "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color."
-        ]
-      },
-      {
         "template": "You may cast this spell any time you could cast an instant by sacrificing a <type> and paying the difference in mana costs between this and the sacrificed <type>. Mana cost includes color.",
         "rts": [
           "You may cast this spell any time you could cast an instant by sacrificing a Fox and paying the difference in mana costs between this and the sacrificed Fox. Mana cost includes color.",
@@ -7339,6 +7318,12 @@
           "You may cast this spell any time you could cast an instant by sacrificing a Snake and paying the difference in mana costs between this and the sacrificed Snake. Mana cost includes color.",
           "You may cast this spell any time you could cast an instant by sacrificing a Goblin and paying the difference in mana costs between this and the sacrificed Goblin. Mana cost includes color.",
           "You may cast this spell any time you could cast an instant by sacrificing a Moonfolk and paying the difference in mana costs between this and the sacrificed Moonfolk. Mana cost includes color."
+        ]
+      },
+      {
+        "template": "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color.",
+        "rts": [
+          "You may cast this spell as though it had flash by sacrificing an artifact and paying the difference in mana costs between this and the sacrificed artifact. Mana cost includes color."
         ]
       }
     ]
@@ -7979,6 +7964,24 @@
     },
     "best": [
       {
+        "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything <color>.",
+        "rts": [
+          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything red.",
+          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything blue.",
+          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything black.",
+          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything green.",
+          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything white."
+        ]
+      },
+      {
+        "template": "This creature can't be blocked, targeted, dealt damage, or enchanted by anything <color>.",
+        "rts": [
+          "This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue.",
+          "This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.",
+          "This creature can't be blocked, targeted, dealt damage, or enchanted by anything white."
+        ]
+      },
+      {
         "template": "They can't be blocked, targeted, or dealt damage by Rats.",
         "rts": [
           "They can't be blocked, targeted, or dealt damage by Rats."
@@ -7994,14 +7997,6 @@
         "template": "You can't be targeted, dealt damage, or enchanted by anything of the chosen color.",
         "rts": [
           "You can't be targeted, dealt damage, or enchanted by anything of the chosen color."
-        ]
-      },
-      {
-        "template": "This creature can't be blocked, targeted, dealt damage, or enchanted by anything <color>.",
-        "rts": [
-          "This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue.",
-          "This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.",
-          "This creature can't be blocked, targeted, dealt damage, or enchanted by anything white."
         ]
       },
       {
@@ -8026,16 +8021,6 @@
         "template": "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.",
         "rts": [
           "It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color."
-        ]
-      },
-      {
-        "template": "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything <color>.",
-        "rts": [
-          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything red.",
-          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything blue.",
-          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything black.",
-          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything green.",
-          "This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by anything white."
         ]
       },
       {
@@ -8115,16 +8100,16 @@
     },
     "best": [
       {
-        "template": "Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.",
-        "rts": [
-          "Whenever this creature attacks, you may have target creature defending player controls untap and block it if able."
-        ]
-      },
-      {
         "template": "Whenever a <type> attacks, its controller may have target creature defending player controls untap and block it if able.",
         "rts": [
           "Whenever a Cat attacks, its controller may have target creature defending player controls untap and block it if able.",
           "Whenever a Sliver attacks, its controller may have target creature defending player controls untap and block it if able."
+        ]
+      },
+      {
+        "template": "Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.",
+        "rts": [
+          "Whenever this creature attacks, you may have target creature defending player controls untap and block it if able."
         ]
       }
     ]
@@ -8212,16 +8197,16 @@
     },
     "best": [
       {
-        "template": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue.",
-        "rts": [
-          "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue."
-        ]
-      },
-      {
         "template": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a <type> or Rogue.",
         "rts": [
           "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Faerie or Rogue.",
           "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Goblin or Rogue."
+        ]
+      },
+      {
+        "template": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue.",
+        "rts": [
+          "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue."
         ]
       },
       {
@@ -8644,16 +8629,16 @@
     },
     "best": [
       {
-        "template": "When you cast this spell, copy it for each time you paid its replicate cost.",
-        "rts": [
-          "When you cast this spell, copy it for each time you paid its replicate cost."
-        ]
-      },
-      {
         "template": "When you cast <target_spell>, copy it for each time you paid its replicate cost. You may choose new targets for the copies.",
         "rts": [
           "When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.",
           "When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies."
+        ]
+      },
+      {
+        "template": "When you cast this spell, copy it for each time you paid its replicate cost.",
+        "rts": [
+          "When you cast this spell, copy it for each time you paid its replicate cost."
         ]
       },
       {
@@ -9145,6 +9130,24 @@
     },
     "best": [
       {
+        "template": "<to_do_this> Look at the top <number:word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+        "rts": [
+          "Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+          "Look at the top four cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+          "Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+          "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+          "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
+          "To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order."
+        ]
+      },
+      {
+        "template": "Look at the top card of your library. You may put <target_card> on the bottom.",
+        "rts": [
+          "Look at the top card of your library. You may put it on the bottom.",
+          "Look at the top card of your library. You may put that card on the bottom."
+        ]
+      },
+      {
         "template": "Leads to: Mad Wizard's Lair",
         "rts": [
           "Leads to: Mad Wizard's Lair"
@@ -9169,13 +9172,6 @@
         ]
       },
       {
-        "template": "Look at the top card of your library. You may put <target_card> on the bottom.",
-        "rts": [
-          "Look at the top card of your library. You may put it on the bottom.",
-          "Look at the top card of your library. You may put that card on the bottom."
-        ]
-      },
-      {
         "template": "To scry 1, look at the top card of your library, then you may put that card on the bottom.",
         "rts": [
           "To scry 1, look at the top card of your library, then you may put that card on the bottom."
@@ -9185,17 +9181,6 @@
         "template": "To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.",
         "rts": [
           "To scry 1, look at the top card of your library, then you may put that card on the bottom of your library."
-        ]
-      },
-      {
-        "template": "<to_do_this> Look at the top <number:word> cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-        "rts": [
-          "Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-          "Look at the top four cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-          "Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-          "To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-          "To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.",
-          "To scry 3, look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order."
         ]
       },
       {
@@ -9764,6 +9749,13 @@
     },
     "best": [
       {
+        "template": "When you cast <target_spell>, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
+        "rts": [
+          "When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
+          "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies."
+        ]
+      },
+      {
         "template": "When you cast this spell, copy it for each spell cast before it this turn.",
         "rts": [
           "When you cast this spell, copy it for each spell cast before it this turn."
@@ -9779,13 +9771,6 @@
         "template": "When you cast this spell, copy it for each spell cast before it this turn. Copies become tokens.",
         "rts": [
           "When you cast this spell, copy it for each spell cast before it this turn. Copies become tokens."
-        ]
-      },
-      {
-        "template": "When you cast <target_spell>, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
-        "rts": [
-          "When you cast that spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
-          "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies."
         ]
       },
       {
@@ -9879,18 +9864,18 @@
     },
     "best": [
       {
-        "template": "Put a +1/+1 counter on each of up to <number:word> target creatures.",
-        "rts": [
-          "Put a +1/+1 counter on each of up to X target creatures.",
-          "Put a +1/+1 counter on each of up to two target creatures."
-        ]
-      },
-      {
         "template": "Put a +1/+1 counter on each of up to <number:word> other target creatures.",
         "rts": [
           "Put a +1/+1 counter on each of up to six other target creatures.",
           "Put a +1/+1 counter on each of up to two other target creatures.",
           "Put a +1/+1 counter on each of up to three other target creatures."
+        ]
+      },
+      {
+        "template": "Put a +1/+1 counter on each of up to <number:word> target creatures.",
+        "rts": [
+          "Put a +1/+1 counter on each of up to X target creatures.",
+          "Put a +1/+1 counter on each of up to two target creatures."
         ]
       }
     ]
@@ -9964,15 +9949,6 @@
     },
     "best": [
       {
-        "template": "<to_do_this> Look at the top card of your library. You may put <target_card> into your graveyard.",
-        "rts": [
-          "Look at the top card of your library. You may put it into your graveyard.",
-          "Look at the top card of your library. You may put that card into your graveyard.",
-          "To surveil 1, look at the top card of your library. You may put it into your graveyard.",
-          "To surveil 1, look at the top card of your library. You may put that card into your graveyard."
-        ]
-      },
-      {
         "template": "<to_do_this> Look at the top <number:word> cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
         "rts": [
           "Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
@@ -9983,6 +9959,15 @@
           "To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
           "To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
           "To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order."
+        ]
+      },
+      {
+        "template": "<to_do_this> Look at the top card of your library. You may put <target_card> into your graveyard.",
+        "rts": [
+          "Look at the top card of your library. You may put it into your graveyard.",
+          "Look at the top card of your library. You may put that card into your graveyard.",
+          "To surveil 1, look at the top card of your library. You may put it into your graveyard.",
+          "To surveil 1, look at the top card of your library. You may put that card into your graveyard."
         ]
       }
     ]
@@ -10242,6 +10227,68 @@
     },
     "best": [
       {
+        "template": "Rather than cast this card from your hand, you may pay <mana> and exile it with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+        "rts": [
+          "Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {G} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{U} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{U} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {2}{G}{G} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {X}{3}{R} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {X}{G}{G} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{B} and exile it with seven time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {1}{R}{W} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
+          "Rather than cast this card from your hand, you may pay {X}{B}{B}{B} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste."
+        ]
+      },
+      {
+        "template": "Rather than cast this card from your hand, you may pay <mana> and exile it with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+        "rts": [
+          "Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {W} and exile it with ten time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {B} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {1}{B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {1}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {1}{R} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {2}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {2}{G} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {2}{R} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {2}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {2}{W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {1}{R}{R} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {2}{B}{B} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, you may pay {1}{U}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost."
+        ]
+      },
+      {
+        "template": "Rather than cast this card from your hand, pay <mana> and exile it with <number:word> time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+        "rts": [
+          "Rather than cast this card from your hand, pay {G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, pay {0} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, pay {1} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, pay {1}{B} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, pay {1}{W} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
+          "Rather than cast this card from your hand, pay {1}{U}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost."
+        ]
+      },
+      {
         "template": "At the beginning of your upkeep, remove a time counter. When the last is removed, you may play it without paying its mana cost.",
         "rts": [
           "At the beginning of your upkeep, remove a time counter. When the last is removed, you may play it without paying its mana cost."
@@ -10275,68 +10322,6 @@
         "template": "For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they may cast it without paying its mana cost. Those creature spells have haste.",
         "rts": [
           "For each card with suspend, its owner removes a time counter from it at the beginning of their upkeep. When the last is removed, they may cast it without paying its mana cost. Those creature spells have haste."
-        ]
-      },
-      {
-        "template": "Rather than cast this card from your hand, pay <mana> and exile it with <number:word> time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-        "rts": [
-          "Rather than cast this card from your hand, pay {G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, pay {0} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, pay {1} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, pay {1}{B} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, pay {1}{W} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, pay {1}{U}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost."
-        ]
-      },
-      {
-        "template": "Rather than cast this card from your hand, you may pay <mana> and exile it with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-        "rts": [
-          "Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {W} and exile it with ten time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {B} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {1}{B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {1}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {1}{R} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {2}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {2}{G} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {2}{R} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {2}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {2}{W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {1}{R}{R} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {2}{B}{B} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.",
-          "Rather than cast this card from your hand, you may pay {1}{U}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost."
-        ]
-      },
-      {
-        "template": "Rather than cast this card from your hand, you may pay <mana> and exile it with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-        "rts": [
-          "Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {G} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{U} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{U} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {2}{G}{G} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {X}{3}{R} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {X}{G}{G} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{B} and exile it with seven time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {1}{R}{W} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.",
-          "Rather than cast this card from your hand, you may pay {X}{B}{B}{B} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste."
         ]
       }
     ]
@@ -10493,14 +10478,6 @@
     },
     "best": [
       {
-        "template": "Players dealt combat damage by <target_card> also get <number:a_or_word> poison counter<number:plural:s>.",
-        "rts": [
-          "Players dealt combat damage by it also get a poison counter.",
-          "Players dealt combat damage by them also get a poison counter.",
-          "Players dealt combat damage by it also get two poison counters."
-        ]
-      },
-      {
         "template": "Players dealt combat damage by <target_it> also get <number:a_or_word> poison counter<number:plural:s>.",
         "rts": [
           "Players dealt combat damage by this creature also get a poison counter.",
@@ -10509,6 +10486,14 @@
           "Players dealt combat damage by equipped creature also get a poison counter.",
           "Players dealt combat damage by this creature also get four poison counters.",
           "Players dealt combat damage by this creature also get three poison counters."
+        ]
+      },
+      {
+        "template": "Players dealt combat damage by <target_card> also get <number:a_or_word> poison counter<number:plural:s>.",
+        "rts": [
+          "Players dealt combat damage by it also get a poison counter.",
+          "Players dealt combat damage by them also get a poison counter.",
+          "Players dealt combat damage by it also get two poison counters."
         ]
       },
       {
@@ -10622,6 +10607,21 @@
     },
     "best": [
       {
+        "template": "<target> can deal excess combat damage to the player or planeswalker it's attacking.",
+        "rts": [
+          "It can deal excess combat damage to the player or planeswalker it's attacking.",
+          "This creature can deal excess combat damage to the player or planeswalker it's attacking.",
+          "A creature with trample can deal excess combat damage to the player or planeswalker it's attacking."
+        ]
+      },
+      {
+        "template": "Each of those creature<number:plural:s> can deal excess combat damage to the player or planeswalker it's attacking.",
+        "rts": [
+          "Each of those creature can deal excess combat damage to the player or planeswalker it's attacking.",
+          "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking."
+        ]
+      },
+      {
         "template": "It can deal excess damage to the player or planeswalker it's attacking.",
         "rts": [
           "It can deal excess damage to the player or planeswalker it's attacking."
@@ -10634,24 +10634,9 @@
         ]
       },
       {
-        "template": "<target> can deal excess combat damage to the player or planeswalker it's attacking.",
-        "rts": [
-          "It can deal excess combat damage to the player or planeswalker it's attacking.",
-          "This creature can deal excess combat damage to the player or planeswalker it's attacking.",
-          "A creature with trample can deal excess combat damage to the player or planeswalker it's attacking."
-        ]
-      },
-      {
         "template": "This creature can deal excess combat damage to the controller of the planeswalker it's attacking.",
         "rts": [
           "This creature can deal excess combat damage to the controller of the planeswalker it's attacking."
-        ]
-      },
-      {
-        "template": "Each of those creature<number:plural:s> can deal excess combat damage to the player or planeswalker it's attacking.",
-        "rts": [
-          "Each of those creature can deal excess combat damage to the player or planeswalker it's attacking.",
-          "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking."
         ]
       }
     ]
@@ -10703,17 +10688,17 @@
     },
     "best": [
       {
-        "template": "{1}{U}{U}, Discard this card: Search your library for a card with mana value 0, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",
-        "rts": [
-          "{1}{U}{U}, Discard this card: Search your library for a card with mana value 0, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery."
-        ]
-      },
-      {
         "template": "<mana>, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",
         "rts": [
           "{1}{B}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",
           "{1}{U}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",
           "{1}{U}{U}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery."
+        ]
+      },
+      {
+        "template": "{1}{U}{U}, Discard this card: Search your library for a card with mana value 0, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",
+        "rts": [
+          "{1}{U}{U}, Discard this card: Search your library for a card with mana value 0, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery."
         ]
       }
     ]
@@ -10765,18 +10750,6 @@
     },
     "best": [
       {
-        "template": "Leads to: Dark Pool, Fungi Cavern",
-        "rts": [
-          "Leads to: Dark Pool, Fungi Cavern"
-        ]
-      },
-      {
-        "template": "If it was a creature, it's no longer a creature.",
-        "rts": [
-          "If it was a creature, it's no longer a creature."
-        ]
-      },
-      {
         "template": "It's an artifact with \"{T}, Sacrifice this <type>: Add one mana of any color.\"",
         "rts": [
           "It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\"",
@@ -10788,6 +10761,18 @@
         "rts": [
           "They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\"",
           "They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+        ]
+      },
+      {
+        "template": "Leads to: Dark Pool, Fungi Cavern",
+        "rts": [
+          "Leads to: Dark Pool, Fungi Cavern"
+        ]
+      },
+      {
+        "template": "If it was a creature, it's no longer a creature.",
+        "rts": [
+          "If it was a creature, it's no longer a creature."
         ]
       },
       {
@@ -11110,20 +11095,6 @@
     },
     "best": [
       {
-        "template": "<mana>: Return this card from your graveyard to the battlefield. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
-        "rts": [
-          "{1}{R}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
-          "{2}{G}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery."
-        ]
-      },
-      {
-        "template": "<mana>: Return the card to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
-        "rts": [
-          "{1}{B}: Return the card to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
-          "{2}{B}: Return the card to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery."
-        ]
-      },
-      {
         "template": "<mana>: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
         "rts": [
           "{2}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
@@ -11158,6 +11129,20 @@
           "{U}{B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
           "{1}{U}{U}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
           "{5}{B}{B}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery."
+        ]
+      },
+      {
+        "template": "<mana>: Return this card from your graveyard to the battlefield. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
+        "rts": [
+          "{1}{R}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
+          "{2}{G}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery."
+        ]
+      },
+      {
+        "template": "<mana>: Return the card to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
+        "rts": [
+          "{1}{B}: Return the card to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
+          "{2}{B}: Return the card to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery."
         ]
       },
       {
@@ -11249,14 +11234,6 @@
     },
     "best": [
       {
-        "template": "At the beginning of your upkeep, remove a time counter from <target_it>. When the last is removed, sacrifice it.",
-        "rts": [
-          "At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-          "At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.",
-          "At the beginning of your upkeep, remove a time counter from this enchantment. When the last is removed, sacrifice it."
-        ]
-      },
-      {
         "template": "<target> enters with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "rts": [
           "This creature enters with a time counter on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
@@ -11266,6 +11243,14 @@
           "This enchantment enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
           "This enchantment enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
           "This enchantment enters with twelve time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
+        ]
+      },
+      {
+        "template": "At the beginning of your upkeep, remove a time counter from <target_it>. When the last is removed, sacrifice it.",
+        "rts": [
+          "At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+          "At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.",
+          "At the beginning of your upkeep, remove a time counter from this enchantment. When the last is removed, sacrifice it."
         ]
       },
       {
@@ -11458,16 +11443,16 @@
         ]
       },
       {
-        "template": "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
-        "rts": [
-          "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
-        ]
-      },
-      {
         "template": "Whenever <type:a> you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
         "rts": [
           "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
           "Whenever an artifact you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
+        ]
+      },
+      {
+        "template": "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
+        "rts": [
+          "Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
         ]
       },
       {
@@ -11505,16 +11490,16 @@
     },
     "best": [
       {
-        "template": "You may cast a card from your hand for its warp cost. Exile that permanent at the beginning of the next end step, then you may cast it from exile on a later turn.",
-        "rts": [
-          "You may cast a card from your hand for its warp cost. Exile that permanent at the beginning of the next end step, then you may cast it from exile on a later turn."
-        ]
-      },
-      {
         "template": "You may cast this card from your hand for its warp cost. Exile this <type> at the beginning of the next end step, then you may cast it from exile on a later turn.",
         "rts": [
           "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.",
           "You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn."
+        ]
+      },
+      {
+        "template": "You may cast a card from your hand for its warp cost. Exile that permanent at the beginning of the next end step, then you may cast it from exile on a later turn.",
+        "rts": [
+          "You may cast a card from your hand for its warp cost. Exile that permanent at the beginning of the next end step, then you may cast it from exile on a later turn."
         ]
       },
       {

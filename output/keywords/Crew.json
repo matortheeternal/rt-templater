@@ -3,21 +3,10 @@
   "expr": "Crew",
   "variations": [
     {
-      "template": "It's not a creature unless it's crewed.",
-      "rts": [
-        "It's not a creature unless it's crewed."
-      ]
-    },
-    {
-      "template": "Tap any number of creatures you control with total power <number> or more: This token becomes an artifact creature until end of turn.",
+      "template": "Tap any number of creatures you control with total power <number> or more: <target> becomes an artifact creature until end of turn.",
       "rts": [
         "Tap any number of creatures you control with total power 1 or more: This token becomes an artifact creature until end of turn.",
-        "Tap any number of creatures you control with total power 2 or more: This token becomes an artifact creature until end of turn."
-      ]
-    },
-    {
-      "template": "Tap any number of creatures you control with total power <number> or more: This Vehicle becomes an artifact creature until end of turn.",
-      "rts": [
+        "Tap any number of creatures you control with total power 2 or more: This token becomes an artifact creature until end of turn.",
         "Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.",
         "Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.",
         "Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.",

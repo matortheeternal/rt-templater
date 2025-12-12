@@ -3,15 +3,6 @@
   "expr": "Surveil",
   "variations": [
     {
-      "template": "<to_do_this> Look at the top card of your library. You may put <target_card> into your graveyard.",
-      "rts": [
-        "Look at the top card of your library. You may put it into your graveyard.",
-        "Look at the top card of your library. You may put that card into your graveyard.",
-        "To surveil 1, look at the top card of your library. You may put it into your graveyard.",
-        "To surveil 1, look at the top card of your library. You may put that card into your graveyard."
-      ]
-    },
-    {
       "template": "<to_do_this> Look at the top <number:word> cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
       "rts": [
         "Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
@@ -22,6 +13,15 @@
         "To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
         "To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
         "To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order."
+      ]
+    },
+    {
+      "template": "<to_do_this> Look at the top card of your library. You may put <target_card> into your graveyard.",
+      "rts": [
+        "Look at the top card of your library. You may put it into your graveyard.",
+        "Look at the top card of your library. You may put that card into your graveyard.",
+        "To surveil 1, look at the top card of your library. You may put it into your graveyard.",
+        "To surveil 1, look at the top card of your library. You may put that card into your graveyard."
       ]
     }
   ]

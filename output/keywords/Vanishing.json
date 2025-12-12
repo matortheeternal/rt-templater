@@ -3,14 +3,6 @@
   "expr": "Vanishing",
   "variations": [
     {
-      "template": "At the beginning of your upkeep, remove a time counter from <target_it>. When the last is removed, sacrifice it.",
-      "rts": [
-        "At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-        "At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.",
-        "At the beginning of your upkeep, remove a time counter from this enchantment. When the last is removed, sacrifice it."
-      ]
-    },
-    {
       "template": "<target> enters with <number:a_or_word> time counter<number:plural:s> on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
       "rts": [
         "This creature enters with a time counter on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
@@ -20,6 +12,14 @@
         "This enchantment enters with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "This enchantment enters with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
         "This enchantment enters with twelve time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
+      ]
+    },
+    {
+      "template": "At the beginning of your upkeep, remove a time counter from <target_it>. When the last is removed, sacrifice it.",
+      "rts": [
+        "At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
+        "At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.",
+        "At the beginning of your upkeep, remove a time counter from this enchantment. When the last is removed, sacrifice it."
       ]
     },
     {

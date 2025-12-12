@@ -3,16 +3,16 @@
   "expr": "Foretell",
   "variations": [
     {
-      "template": "On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield.",
-      "rts": [
-        "On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield."
-      ]
-    },
-    {
       "template": "During your turn, you may pay {2} and exile <target_card> from your hand face down. Cast it on a later turn for its foretell cost.",
       "rts": [
         "During your turn, you may pay {2} and exile it from your hand face down. Cast it on a later turn for its foretell cost.",
         "During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost."
+      ]
+    },
+    {
+      "template": "On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield.",
+      "rts": [
+        "On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield."
       ]
     }
   ]

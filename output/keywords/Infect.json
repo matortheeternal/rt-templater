@@ -3,17 +3,17 @@
   "expr": "Infect",
   "variations": [
     {
-      "template": "Damage is dealt to you in the form of poison counters.",
-      "rts": [
-        "Damage is dealt to you in the form of poison counters."
-      ]
-    },
-    {
       "template": "<target_deals> damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
       "rts": [
         "It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
         "They deal damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
         "{B/P} can be paid with either {B} or 2 life. A creature with infect deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters."
+      ]
+    },
+    {
+      "template": "Damage is dealt to you in the form of poison counters.",
+      "rts": [
+        "Damage is dealt to you in the form of poison counters."
       ]
     },
     {

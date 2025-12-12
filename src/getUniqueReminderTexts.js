@@ -1,3 +1,7 @@
+const blacklist = [
+    "It's not a creature unless it's crewed."
+];
+
 function extractLineReminders(line) {
     const results = [];
     let depth = 0;
@@ -20,6 +24,8 @@ function extractLineReminders(line) {
             current = '';
         }
     }
+
+    if (blacklist.some(b => results.some(r => r.current === b))) return [];
     return results;
 }
 

@@ -3,6 +3,21 @@
   "expr": "Trample",
   "variations": [
     {
+      "template": "<target> can deal excess combat damage to the player or planeswalker it's attacking.",
+      "rts": [
+        "It can deal excess combat damage to the player or planeswalker it's attacking.",
+        "This creature can deal excess combat damage to the player or planeswalker it's attacking.",
+        "A creature with trample can deal excess combat damage to the player or planeswalker it's attacking."
+      ]
+    },
+    {
+      "template": "Each of those creature<number:plural:s> can deal excess combat damage to the player or planeswalker it's attacking.",
+      "rts": [
+        "Each of those creature can deal excess combat damage to the player or planeswalker it's attacking.",
+        "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking."
+      ]
+    },
+    {
       "template": "It can deal excess damage to the player or planeswalker it's attacking.",
       "rts": [
         "It can deal excess damage to the player or planeswalker it's attacking."
@@ -15,24 +30,9 @@
       ]
     },
     {
-      "template": "<target> can deal excess combat damage to the player or planeswalker it's attacking.",
-      "rts": [
-        "It can deal excess combat damage to the player or planeswalker it's attacking.",
-        "This creature can deal excess combat damage to the player or planeswalker it's attacking.",
-        "A creature with trample can deal excess combat damage to the player or planeswalker it's attacking."
-      ]
-    },
-    {
       "template": "This creature can deal excess combat damage to the controller of the planeswalker it's attacking.",
       "rts": [
         "This creature can deal excess combat damage to the controller of the planeswalker it's attacking."
-      ]
-    },
-    {
-      "template": "Each of those creature<number:plural:s> can deal excess combat damage to the player or planeswalker it's attacking.",
-      "rts": [
-        "Each of those creature can deal excess combat damage to the player or planeswalker it's attacking.",
-        "Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking."
       ]
     }
   ]

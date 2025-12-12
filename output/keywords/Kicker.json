@@ -72,6 +72,13 @@
       ]
     },
     {
+      "template": "You may sacrifice an artifact or <type> in addition to any other costs as you cast this spell.",
+      "rts": [
+        "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.",
+        "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell."
+      ]
+    },
+    {
       "template": "You may pay an additional {R} and/or {W} as you cast this spell.",
       "rts": [
         "You may pay an additional {R} and/or {W} as you cast this spell."
@@ -93,13 +100,6 @@
       "template": "You may tap a Vampire you control in addition to any other costs as you cast this spell.",
       "rts": [
         "You may tap a Vampire you control in addition to any other costs as you cast this spell."
-      ]
-    },
-    {
-      "template": "You may sacrifice an artifact or <type> in addition to any other costs as you cast this spell.",
-      "rts": [
-        "You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.",
-        "You may sacrifice an artifact or creature in addition to any other costs as you cast this spell."
       ]
     },
     {
