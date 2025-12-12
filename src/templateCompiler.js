@@ -8,7 +8,7 @@ export function compileTemplate(strings, label) {
     return merged.replaceAll(variantGroupExpr, function(match, p1) {
         const parts = p1.split('|');
         if (parts.length === 1) return match;
-        const rep = getReplacement(parts.filter(Boolean), label);
+        const rep = getReplacement(parts, label);
         return rep ? rep : `(${parts.join('|')})`;
     });
 }

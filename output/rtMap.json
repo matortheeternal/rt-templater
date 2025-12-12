@@ -1356,9 +1356,14 @@
         ]
       },
       {
-        "template": "As you cast <target_spell>, you may sacrifice a creature with power <number> or greater. When you do, copy <target_spell> and you may choose <number:a_or_word> new target<number:plural:s> for the copy.",
+        "template": "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.",
         "rts": [
-          "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.",
+          "As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy."
+        ]
+      },
+      {
+        "template": "As you cast this spell, you may sacrifice a creature with power <number> or greater. When you do, copy this spell and you may choose a new target for the copy.",
+        "rts": [
           "As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.",
           "As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.",
           "As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell and you may choose a new target for the copy."
@@ -1408,12 +1413,12 @@
       }
     ],
     "merged": {
-      "template": "When this <type> enters, sacrifice it unless you exile another <type> you control. When this <type> leaves the battlefield, that card returns to the battlefield.",
+      "template": "When this (||||||||creature) enters, sacrifice it unless you exile another <type> you control. When this (||||||||creature) leaves the battlefield, that card returns to the battlefield.",
       "count": 12
     },
     "best": [
       {
-        "template": "When this <type> enters, sacrifice it unless you exile another <type> you control. When this <type> leaves the battlefield, that card returns to the battlefield.",
+        "template": "When this enters, sacrifice it unless you exile another <type> you control. When this leaves the battlefield, that card returns to the battlefield.",
         "rts": [
           "When this enters, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Goblin you control. When this leaves the battlefield, that card returns to the battlefield.",
@@ -1422,7 +1427,12 @@
           "When this enters, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Elemental you control. When this leaves the battlefield, that card returns to the battlefield.",
           "When this enters, sacrifice it unless you exile another Goblin or Shaman you control. When this leaves the battlefield, that card returns to the battlefield.",
-          "When this enters, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield.",
+          "When this enters, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield."
+        ]
+      },
+      {
+        "template": "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield.",
+        "rts": [
           "When this creature enters, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield."
         ]
       }
@@ -1726,10 +1736,15 @@
         ]
       },
       {
-        "template": "As you cast <target_spell>, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose <number:a_or_word> new target<number:plural:s> for the copy.",
+        "template": "As you cast <target_spell>, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
         "rts": [
           "As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
-          "As you cast that spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.",
+          "As you cast that spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy."
+        ]
+      },
+      {
+        "template": "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.",
+        "rts": [
           "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy."
         ]
       }
@@ -2492,7 +2507,7 @@
       }
     ],
     "merged": {
-      "template": "(When you cast this spell|Whenever you cast a creature spell|When you cast that spell|When you cast this spell|Whenever a player casts an instant or sorcery spell), <target> may copy it. If <target> do, <target> choose an opponent to also copy it. (|Each copy becomes a token.|A copy of a permanent spell becomes a token.|Players may choose new targets for their copies.|Players may choose new targets for their copies.)",
+      "template": "(When you cast this spell|Whenever you cast a creature spell|When you cast that spell|When you cast this spell|Whenever a player casts an instant or sorcery spell), <target> may copy it. If <target> do, (||||they) choose an opponent to also copy it. (|Each copy becomes a token.|A copy of a permanent spell becomes a token.|Players may choose new targets for their copies.|Players may choose new targets for their copies.)",
       "count": 9
     },
     "best": [
@@ -2726,7 +2741,7 @@
       }
     ],
     "merged": {
-      "template": "Exile cards from the top of your library until you exile a nonland card with (|||that) mana value <number> or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
+      "template": "Exile cards from the top of your library until you exile a nonland card with (|||that) mana value (3|4|5|) or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
       "count": 22
     },
     "best": [
@@ -5561,7 +5576,7 @@
       }
     ],
     "merged": {
-      "template": "(|||To investigate,|To investigate,|Artifacts, legendaries, and Sagas are historic. To investigate,) Create a (||colorless|||) Clue (|token. It's an||token. It's an|token. It's an|token. It's an) artifact <type> with \"{2}, Sacrifice this <type>: Draw a card.\"",
+      "template": "(|||To investigate,|To investigate,|Artifacts, legendaries, and Sagas are historic. To investigate,) Create a (||colorless|||) Clue (|token. It's an||token. It's an|token. It's an|token. It's an) artifact (token||token|||) with \"{2}, Sacrifice this <type>: Draw a card.\"",
       "count": 102
     },
     "best": [
