@@ -1,6 +1,4 @@
-const blacklist = [
-    "It's not a creature unless it's crewed."
-];
+import { blacklist } from './blacklist.js';
 
 function extractLineReminders(line) {
     const results = [];
@@ -25,7 +23,6 @@ function extractLineReminders(line) {
         }
     }
 
-    if (blacklist.some(b => results.some(r => r.current === b))) return [];
     return results;
 }
 
@@ -48,7 +45,12 @@ export function getUniqueReminderTexts(cards) {
         const keywords = Array.isArray(card.keywords)
             ? card.keywords.map((k) => k.toLowerCase())
             : [];
-        const lines = card.oracle_text.split('\n').filter(Boolean);
+        const faces = card.card_faces ? [card, ...card.card_faces] : [card];
+        const lines = faces
+            .map(f => f.oracle_text)
+            .filter(Boolean)
+            .flatMap(text => text.split('\n'))
+            .filter(Boolean);
         const reminders = lines.flatMap(line => extractLineReminders(line));
 
         for (const group of reminders) {
@@ -68,5 +70,9 @@ export function getUniqueReminderTexts(cards) {
             });
         }
     }
+
+    blacklist.forEach(reminderText => {
+        delete map[reminderText];
+    });
     return map;
 }
