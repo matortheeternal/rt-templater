@@ -71,7 +71,8 @@ const allTypes = [
     'Aura', 'artifact', 'Food', 'Gate', 'Town', 'Swamp', 'token', 'Forest', 'Island',
     'Plains', 'Mountain', 'creature', 'Equipment', 'snow land', 'enchantment',
     'planeswalker', 'artifact creature', 'artifact, legendary, and/or Saga permanent',
-    'Assassin, Mercenary, Pirate, Rogue, and/or Warlock', 'Orc',
+    'Assassin, Mercenary, Pirate, Rogue, and/or Warlock', 'Orc', 'legendary creature',
+    'noncreature', 'multicolored'
 ].concat(subtypes);
 
 class TypeReplacer extends Replacer {
@@ -91,7 +92,12 @@ class SubTypeAndOrReplacer extends Replacer {
 
 class ATypeReplacer extends Replacer {
     id = '<type:a>'
-    expr = new RegExp(`^(?:a|an) ${subtypesGroup}$`, 'i')
+    expr = new RegExp(`^(?:a|an) (?:${allTypes.join('|')})$`, 'i')
+}
+
+class ATypeSpellReplacer extends Replacer {
+    id = '<type:a> spell'
+    expr = new RegExp(`^(?:a|an) (?:${allTypes.join('|')}) spell$`, 'i')
 }
 
 export default [
@@ -104,6 +110,7 @@ export default [
     GenericManaPartReplacer,
     ColorReplacer,
     ATypeReplacer,
+    ATypeSpellReplacer,
     TypeReplacer,
     TypesReplacer,
     CardSubtypeReplacer,

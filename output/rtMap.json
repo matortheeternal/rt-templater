@@ -1798,21 +1798,16 @@
         ]
       },
       {
-        "template": "Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.",
+        "template": "Your creatures can help cast those spells. Each creature you tap while casting <type:a> spell pays for {1} or one mana of that creature's color.",
         "rts": [
-          "Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color."
+          "Your creatures can help cast those spells. Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.",
+          "Your creatures can help cast those spells. Each creature you tap while casting a legendary creature spell pays for {1} or one mana of that creature's color."
         ]
       },
       {
         "template": "Your creatures can help cast those spells. Each creature you tap while casting a multicolored spell pays for {1} or one mana of a color that creature is.",
         "rts": [
           "Your creatures can help cast those spells. Each creature you tap while casting a multicolored spell pays for {1} or one mana of a color that creature is."
-        ]
-      },
-      {
-        "template": "Your creatures can help cast those spells. Each creature you tap while casting a legendary creature spell pays for {1} or one mana of that creature's color.",
-        "rts": [
-          "Your creatures can help cast those spells. Each creature you tap while casting a legendary creature spell pays for {1} or one mana of that creature's color."
         ]
       }
     ]
@@ -3048,7 +3043,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast this spell by sacrificing (a creature|an artifact) and paying the emerge cost reduced by that (creature's|artifact's) mana value.",
+      "template": "You may cast this spell by sacrificing <type:a> and paying the emerge cost reduced by that (creature's|artifact's) mana value.",
       "count": 15
     },
     "best": [
@@ -7326,7 +7321,7 @@
       }
     ],
     "merged": {
-      "template": "You may cast this spell (as though it had flash|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant) by sacrificing (an artifact|a Fox|a Rat|a Snake|a Goblin|a Moonfolk) and paying the difference in mana costs between this and the sacrificed <type>. Mana cost includes color.",
+      "template": "You may cast this spell (as though it had flash|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant|any time you could cast an instant) by sacrificing <type:a> and paying the difference in mana costs between this and the sacrificed <type>. Mana cost includes color.",
       "count": 6
     },
     "best": [
@@ -11469,14 +11464,9 @@
         ]
       },
       {
-        "template": "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
+        "template": "Whenever <type:a> you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
         "rts": [
-          "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
-        ]
-      },
-      {
-        "template": "Whenever an artifact you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
-        "rts": [
+          "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.",
           "Whenever an artifact you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}."
         ]
       },
